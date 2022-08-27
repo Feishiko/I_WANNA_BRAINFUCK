@@ -130,6 +130,13 @@
       <sprite>sprites\sprSecretItem</sprite>
       <sprite>sprites\sprBossItem</sprite>
     </sprites>
+    <sprites name="OMGUY">
+      <sprites name="part1">
+        <sprite>sprites\sprSDDLboshyBig</sprite>
+        <sprite>sprites\sprSDDLboshySpike</sprite>
+        <sprite>sprites\sprSDDLboshy</sprite>
+      </sprites>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bAllTiles</background>
@@ -346,6 +353,11 @@
       <object>objects\objBossIndicator</object>
       <object>objects\objGameClear</object>
     </objects>
+    <objects name="OMGUY">
+      <object>objects\objSDDLKid</object>
+      <object>objects\objSDDL_GB</object>
+      <object>objects\objSDDLspike</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <rooms name="init">
@@ -368,6 +380,9 @@
       <room>rooms\rBetterBlockStage</room>
       <room>rooms\rBetterBlockMiku</room>
       <room>rooms\rEnd</room>
+    </rooms>
+    <rooms name="OMGUY">
+      <room>rooms\rBoshy1</room>
     </rooms>
     <room>rooms\rTemplate</room>
   </rooms>
