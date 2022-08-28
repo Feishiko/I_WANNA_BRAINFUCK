@@ -20,6 +20,9 @@
       <sound>sound\sndSpikeTrap</sound>
       <sound>sound\sndBetterBlockWheel</sound>
       <sound>sound\sndBetterBlockEnemyDie</sound>
+      <sounds name="Feishiko">
+        <sound>sound\sndEntering</sound>
+      </sounds>
     </sounds>
     <sounds name="music">
       <sound>sound\musOnDeath</sound>
@@ -30,6 +33,7 @@
       <sound>sound\musBetterBlockMiku</sound>
       <sounds name="Feishiko">
         <sound>sound\musTitleMusic</sound>
+        <sound>sound\musScaredAmi</sound>
       </sounds>
     </sounds>
     <sound>sound\musSDDL_OMGUY</sound>
@@ -213,10 +217,14 @@
       <script>scripts\scrMakeShapes.gml</script>
       <script>scripts\scrMakeCircle.gml</script>
     </scripts>
+    <scripts name="Feishiko">
+      <script>scripts\FadeInto.gml</script>
+    </scripts>
   </scripts>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\shCover.shader</shader>
     <shader type="GLSLES">shaders\shScreenTitleNoise.shader</shader>
+    <shader type="GLSLES">shaders\shTort.shader</shader>
   </shaders>
   <fonts name="fonts">
     <font>fonts\fDefault30</font>
@@ -225,6 +233,7 @@
     <font>fonts\fDefault12</font>
     <fonts name="Feishiko">
       <font>fonts\fontWarning</font>
+      <font>fonts\fontWarningSmaller</font>
       <font>fonts\fontButton</font>
     </fonts>
   </fonts>
@@ -398,6 +407,10 @@
     <objects name="Feishiko">
       <object>objects\oFade</object>
       <object>objects\oTitle</object>
+      <object>objects\oFadeIn</object>
+      <object>objects\oTort</object>
+      <object>objects\oWarpFadeIn</object>
+      <object>objects\oTeleBall</object>
     </objects>
   </objects>
   <rooms name="rooms">
@@ -428,6 +441,7 @@
       <room>rooms\rBoshy3</room>
     </rooms>
     <rooms name="Feishiko">
+      <room>rooms\rmIntro</room>
       <room>rooms\rTemplate</room>
     </rooms>
   </rooms>
