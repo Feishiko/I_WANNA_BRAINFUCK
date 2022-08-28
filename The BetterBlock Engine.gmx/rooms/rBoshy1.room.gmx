@@ -52,6 +52,7 @@
   </views>
   <instances>
     <instance objName="objSDDL_GB" x="224" y="64" name="inst_81BD63FB" locked="0" code="" scaleX="1.60669457912445" scaleY="1.7405858039856" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayMusic" x="0" y="0" name="inst_D1701AFA" locked="0" code="BGM = musSDDL_OMGUY&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
