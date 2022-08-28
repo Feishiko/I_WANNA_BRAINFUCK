@@ -150,15 +150,18 @@ for (var i = 0; i &lt; 3; i++)
 appleIndex = (appleIndex + 1/15) mod 2;
 playerIndex = (playerIndex + 1/5) mod 4;
 
+/*
 if (scrButtonCheckPressed(global.menuOptionsButton))
 {
     global.menuSelectPrev[0] = select;
     room_goto(rOptions);
 }
 else
+*/
 {
+    
     if (!difSelect)
-    {
+    {/*
         if (scrButtonCheckPressed(global.menuLeftButton))
         {
             audio_play_sound(global.menuSound,0,false);
@@ -193,8 +196,9 @@ else
                 else
                     select2 = 0;    //default to medium
             }
-        }
+        }*/
     }
+    
     else
     {
         if (!warnText)
@@ -311,7 +315,8 @@ else
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>for(var i = 0; i &lt; 3; i += 1)
+            <string>/*
+for(var i = 0; i &lt; 3; i += 1)
 {
     draw_set_color(c_black)
     draw_set_halign(fa_left)
@@ -388,6 +393,7 @@ else
 }
 
 scrDrawButtonInfo(true);
+*/
 </string>
           </argument>
         </arguments>

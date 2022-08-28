@@ -28,6 +28,9 @@
       <sound>sound\musMiku</sound>
       <sound>sound\musBetterBlockStage</sound>
       <sound>sound\musBetterBlockMiku</sound>
+      <sounds name="Feishiko">
+        <sound>sound\musTitleMusic</sound>
+      </sounds>
     </sounds>
     <sound>sound\musSDDL_OMGUY</sound>
     <sound>sound\sndDJHA</sound>
@@ -150,6 +153,11 @@
       </sprites>
     </sprites>
     <sprite>sprites\spr</sprite>
+    <sprites name="Feishiko">
+      <sprite>sprites\sTitle</sprite>
+      <sprite>sprites\sTexture</sprite>
+      <sprite>sprites\sNoise</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bAllTiles</background>
@@ -206,11 +214,19 @@
       <script>scripts\scrMakeCircle.gml</script>
     </scripts>
   </scripts>
+  <shaders name="shaders">
+    <shader type="GLSLES">shaders\shCover.shader</shader>
+    <shader type="GLSLES">shaders\shScreenTitleNoise.shader</shader>
+  </shaders>
   <fonts name="fonts">
     <font>fonts\fDefault30</font>
     <font>fonts\fDefault24</font>
     <font>fonts\fDefault18</font>
     <font>fonts\fDefault12</font>
+    <fonts name="Feishiko">
+      <font>fonts\fontWarning</font>
+      <font>fonts\fontButton</font>
+    </fonts>
   </fonts>
   <objects name="objects">
     <objects name="world">
@@ -379,6 +395,10 @@
       <object>objects\objDrawBG1</object>
       <object>objects\objDrawBG2</object>
     </objects>
+    <objects name="Feishiko">
+      <object>objects\oFade</object>
+      <object>objects\oTitle</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <rooms name="init">
@@ -407,7 +427,9 @@
       <room>rooms\rBoshy2</room>
       <room>rooms\rBoshy3</room>
     </rooms>
-    <room>rooms\rTemplate</room>
+    <rooms name="Feishiko">
+      <room>rooms\rTemplate</room>
+    </rooms>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

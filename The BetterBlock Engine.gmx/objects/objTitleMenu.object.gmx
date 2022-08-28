@@ -8,6 +8,55 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
+    <event eventtype="0" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>alpha = 0;
+toggle = false;
+
+alarm[0] = 180;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>toggle = true;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
@@ -25,8 +74,22 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (scrButtonCheckPressed(global.menuAcceptButton))
-    room_goto(rMenu);
+            <string>if(alpha &lt;= 100 &amp;&amp; !toggle){
+    alpha++;
+}
+
+if(toggle){
+    alpha--;
+    if(alpha &lt;= 0){
+        draw_set_alpha(1);
+        room_goto(rMenu);
+    }
+}
+
+if (scrButtonCheckPressed(global.menuAcceptButton)){
+    
+}
+    //room_goto(rMenu);
 </string>
           </argument>
         </arguments>
@@ -49,7 +112,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_font(fDefault30);
+            <string>/*
+draw_set_font(fDefault30);
 draw_set_color(c_dkgray);
 draw_set_valign(fa_top);
 draw_set_halign(fa_center);
@@ -57,6 +121,18 @@ draw_text(400, 204, "The BetterBlock Engine");
 draw_set_font(fDefault18);
 draw_text(400, 520, "Made by RandomFangamer");
 draw_set_color(c_white);
+*/
+
+//NEW WARNINGS HERE
+draw_set_font(fontWarning);
+draw_set_color(c_white);
+draw_set_halign(fa_center);
+draw_set_valign(fa_center);
+draw_set_alpha(alpha/100);
+draw_text(room_width/2, room_height/2, "Warning: Not for humans");
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);
+
 </string>
           </argument>
         </arguments>
