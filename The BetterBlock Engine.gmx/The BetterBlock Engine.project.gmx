@@ -151,8 +151,11 @@
         <sprite>sprites\sprSDDLboshySpikeUp</sprite>
         <sprite>sprites\sprSDDLboshySpikeright</sprite>
         <sprite>sprites\sprSDDLboshySpikeDown</sprite>
+        <sprite>sprites\sprBoshyDownBG</sprite>
+        <sprite>sprites\sprBoshyUpBG</sprite>
         <sprite>sprites\sprSDDLboshySpikeLeft</sprite>
         <sprite>sprites\sprSDDLboshy</sprite>
+        <sprite>sprites\sprite89</sprite>
         <sprite>sprites\sprBoshyQuestion</sprite>
       </sprites>
     </sprites>
@@ -162,6 +165,7 @@
       <sprite>sprites\sTexture</sprite>
       <sprite>sprites\sNoise</sprite>
     </sprites>
+    <sprite>sprites\sprite88</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bAllTiles</background>
@@ -398,11 +402,17 @@
       <object>objects\objSDDLspikeUp</object>
       <object>objects\objSDDLspikeRight</object>
       <object>objects\objSDDLspikeDown</object>
+      <object>objects\objBoshyDownBG</object>
+      <object>objects\objBoshyUpBG</object>
+      <object>objects\objBGboshycreator1</object>
+      <object>objects\objBGboshycreator2</object>
       <object>objects\objSDDLspikeLeft</object>
       <object>objects\objBaiying</object>
       <object>objects\objZoomCamera</object>
       <object>objects\objDrawBG1</object>
       <object>objects\objDrawBG2</object>
+      <object>objects\objWarpeffect1</object>
+      <object>objects\objWhite</object>
     </objects>
     <objects name="Feishiko">
       <object>objects\oFade</object>
@@ -439,6 +449,7 @@
       <room>rooms\rBoshy1</room>
       <room>rooms\rBoshy2</room>
       <room>rooms\rBoshy3</room>
+      <room>rooms\rBoshy4</room>
     </rooms>
     <rooms name="Feishiko">
       <room>rooms\rmIntro</room>
