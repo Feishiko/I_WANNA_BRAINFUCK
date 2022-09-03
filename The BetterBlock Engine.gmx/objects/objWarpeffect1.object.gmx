@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>surf = surface_create(800,1216);
+            <string>audio_play_sound(sndWarp,0,false)
+roomTO=-2
+surf = surface_create(800,1216);
 iamdelete=0
 isRedraw = false;
 alarm[0]=150
@@ -76,7 +78,7 @@ alarm[0]=150
           <argument>
             <kind>1</kind>
             <string>audio_stop_all()
-room_goto(rBoshy4)
+room_goto(roomTO)
 </string>
           </argument>
         </arguments>
@@ -126,7 +128,7 @@ surface_reset_target()
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>iamdelete+=0.05
+            <string>iamdelete+=0.005
 //draw_set_colour(c_black)
 //draw_rectangle(0,0,800,608,0)
 draw_set_blend_mode(bm_add);

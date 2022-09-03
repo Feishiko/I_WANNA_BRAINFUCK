@@ -20,6 +20,16 @@
       <sound>sound\sndSpikeTrap</sound>
       <sound>sound\sndBetterBlockWheel</sound>
       <sound>sound\sndBetterBlockEnemyDie</sound>
+      <sounds name="OMGUY">
+        <sound>sound\sndBaiying</sound>
+        <sound>sound\sndDJHA</sound>
+        <sound>sound\sndThinking</sound>
+        <sound>sound\sndAizheng</sound>
+        <sound>sound\sndXKDDX</sound>
+        <sound>sound\sndAAAA</sound>
+        <sound>sound\sndWowSound1</sound>
+        <sound>sound\sndWarp</sound>
+      </sounds>
       <sounds name="Feishiko">
         <sound>sound\sndEntering</sound>
       </sounds>
@@ -31,19 +41,17 @@
       <sound>sound\musMiku</sound>
       <sound>sound\musBetterBlockStage</sound>
       <sound>sound\musBetterBlockMiku</sound>
+      <sounds name="OMGUY">
+        <sound>sound\musAmibent</sound>
+        <sound>sound\musSDDL_OMGUY</sound>
+        <sound>sound\musBoshy</sound>
+        <sound>sound\musBoss0</sound>
+      </sounds>
       <sounds name="Feishiko">
         <sound>sound\musTitleMusic</sound>
         <sound>sound\musScaredAmi</sound>
       </sounds>
     </sounds>
-    <sound>sound\musSDDL_OMGUY</sound>
-    <sound>sound\sndDJHA</sound>
-    <sound>sound\sndXKDDX</sound>
-    <sound>sound\musBoshy</sound>
-    <sound>sound\sndBaiying</sound>
-    <sound>sound\sndAAAA</sound>
-    <sound>sound\sndThinking</sound>
-    <sound>sound\sndAizheng</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="world">
@@ -155,11 +163,15 @@
         <sprite>sprites\sprBoshyUpBG</sprite>
         <sprite>sprites\sprSDDLboshySpikeLeft</sprite>
         <sprite>sprites\sprSDDLboshy</sprite>
-        <sprite>sprites\sprite89</sprite>
+        <sprite>sprites\sprWhite</sprite>
         <sprite>sprites\sprBoshyQuestion</sprite>
+        <sprite>sprites\sprFallenSDDL</sprite>
+        <sprite>sprites\sprGoldenLight</sprite>
+        <sprite>sprites\sprBossSave_white</sprite>
+        <sprite>sprites\sprBoshyBox</sprite>
       </sprites>
     </sprites>
-    <sprite>sprites\spr</sprite>
+    <sprite>sprites\sprBlackBall</sprite>
     <sprites name="Feishiko">
       <sprite>sprites\sTitle</sprite>
       <sprite>sprites\sTexture</sprite>
@@ -169,11 +181,15 @@
   </sprites>
   <backgrounds name="background">
     <background>background\bAllTiles</background>
+    <background>background\bAllTiles_Tiled</background>
+    <background>background\bAllTiles2</background>
     <background>background\bMegaman</background>
     <background>background\bJumpThrough</background>
     <background>background\bTree</background>
     <background>background\bStars</background>
     <background>background\bgCosmo</background>
+    <background>background\bgBoshySmallblock</background>
+    <background>background\bgBoshyDot</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\pthD</path>
@@ -384,6 +400,7 @@
     <objects name="warps">
       <object>objects\objWarpStart</object>
       <object>objects\objRoomChanger</object>
+      <object>objects\objBugWarp</object>
       <object>objects\objWarp</object>
       <object>objects\objWarpNext</object>
       <object>objects\objWarpAutosaveNext</object>
@@ -409,10 +426,19 @@
       <object>objects\objSDDLspikeLeft</object>
       <object>objects\objBaiying</object>
       <object>objects\objZoomCamera</object>
+      <object>objects\objFallenSDDL</object>
       <object>objects\objDrawBG1</object>
       <object>objects\objDrawBG2</object>
       <object>objects\objWarpeffect1</object>
       <object>objects\objWhite</object>
+      <object>objects\objWhiteflash</object>
+      <object>objects\objBossSave_white</object>
+      <object>objects\objWhite2</object>
+      <object>objects\objDrawCircle</object>
+      <object>objects\objDrawCircle2</object>
+      <object>objects\objPlaymusicSpecial</object>
+      <object>objects\objGoldenlight</object>
+      <object>objects\objBoshyBox</object>
     </objects>
     <objects name="Feishiko">
       <object>objects\oFade</object>
@@ -450,6 +476,8 @@
       <room>rooms\rBoshy2</room>
       <room>rooms\rBoshy3</room>
       <room>rooms\rBoshy4</room>
+      <room>rooms\rBoshy5</room>
+      <room>rooms\rBoshy6</room>
     </rooms>
     <rooms name="Feishiko">
       <room>rooms\rmIntro</room>
