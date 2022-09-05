@@ -84,7 +84,8 @@ alarm[0] = 5;
             <string>if(trigger){
     alpha += 0.8;
 }
-if(alpha &gt;= 220){
+if(alpha &gt;= 280){
+    audio_master_gain(global.volumeLevel/100); 
     room_goto(roomTo);
 }
 </string>
@@ -134,6 +135,7 @@ instance_deactivate_object(objPlayer);
           <argument>
             <kind>1</kind>
             <string>draw_set_alpha(alpha/200);
+audio_master_gain(global.volumeLevel/100 * (1 - (alpha/200))); 
 draw_rectangle_colour(0, 0, room_width, room_height, c_black, c_black, c_black, c_black, false);
 draw_set_alpha(1);
 </string>

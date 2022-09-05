@@ -50,6 +50,7 @@
       <sounds name="Feishiko">
         <sound>sound\musTitleMusic</sound>
         <sound>sound\musScaredAmi</sound>
+        <sound>sound\musAscii</sound>
       </sounds>
     </sounds>
   </sounds>
@@ -255,6 +256,8 @@
       <font>fonts\fontWarning</font>
       <font>fonts\fontWarningSmaller</font>
       <font>fonts\fontButton</font>
+      <font>fonts\fontAscii</font>
+      <font>fonts\fontShowing</font>
     </fonts>
   </fonts>
   <objects name="objects">
@@ -447,6 +450,7 @@
       <object>objects\oTort</object>
       <object>objects\oWarpFadeIn</object>
       <object>objects\oTeleBall</object>
+      <object>objects\oAscii</object>
     </objects>
   </objects>
   <rooms name="rooms">
@@ -481,6 +485,7 @@
     </rooms>
     <rooms name="Feishiko">
       <room>rooms\rmIntro</room>
+      <room>rooms\rmAscii1</room>
       <room>rooms\rTemplate</room>
     </rooms>
   </rooms>
