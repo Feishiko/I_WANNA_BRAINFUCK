@@ -66,6 +66,11 @@ leftToOrigin = (sprite_get_xoffset(mask_index) - sprite_get_bbox_left(mask_index
 rightToOrigin = (sprite_get_bbox_right(mask_index) - sprite_get_xoffset(mask_index) + 1)*image_xscale;
 topToOrigin = (sprite_get_yoffset(mask_index) - sprite_get_bbox_top(mask_index))*image_yscale;
 bottomToOrigin = (sprite_get_bbox_bottom(mask_index) - sprite_get_yoffset(mask_index) + 1)*image_yscale;
+
+//DEBUG, FEISHIKO ADD THIS
+if(!instance_exists(oFeishikoCont)){
+    instance_create(0, 0, oFeishikoCont);
+}
 </string>
           </argument>
         </arguments>

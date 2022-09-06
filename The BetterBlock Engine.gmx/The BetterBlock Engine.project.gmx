@@ -451,6 +451,7 @@
       <object>objects\oWarpFadeIn</object>
       <object>objects\oTeleBall</object>
       <object>objects\oAscii</object>
+      <object>objects\oFeishikoCont</object>
     </objects>
   </objects>
   <rooms name="rooms">
@@ -486,6 +487,7 @@
     <rooms name="Feishiko">
       <room>rooms\rmIntro</room>
       <room>rooms\rmAscii1</room>
+      <room>rooms\rmAscii2</room>
       <room>rooms\rTemplate</room>
     </rooms>
   </rooms>
