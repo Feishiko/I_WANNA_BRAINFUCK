@@ -490,6 +490,10 @@
       <room>rooms\rmAscii2</room>
       <room>rooms\rTemplate</room>
     </rooms>
+    <rooms name="BKZN">
+      <room>rooms\rTrigger</room>
+      <room>rooms\rAllBlack1</room>
+    </rooms>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
