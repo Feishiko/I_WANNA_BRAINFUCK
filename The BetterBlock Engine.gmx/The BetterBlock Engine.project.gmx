@@ -29,6 +29,10 @@
         <sound>sound\sndAAAA</sound>
         <sound>sound\sndWowSound1</sound>
         <sound>sound\sndWarp</sound>
+        <sound>sound\sndHow</sound>
+        <sounds name="Sus">
+          <sound>sound\sndSus</sound>
+        </sounds>
       </sounds>
       <sounds name="Feishiko">
         <sound>sound\sndEntering</sound>
@@ -45,6 +49,7 @@
         <sound>sound\musAmibent</sound>
         <sound>sound\musSDDL_OMGUY</sound>
         <sound>sound\musBoshy</sound>
+        <sound>sound\musRandomMedley</sound>
         <sound>sound\musBoss0</sound>
       </sounds>
       <sounds name="Feishiko">
@@ -107,6 +112,13 @@
     </sprites>
     <sprites name="killers">
       <sprite>sprites\sprSpikeUp</sprite>
+      <sprites name="K3">
+        <sprite>sprites\sprSpikeUpK3</sprite>
+        <sprite>sprites\sprSpikeLeftK3</sprite>
+        <sprite>sprites\sprSpikeRightK3</sprite>
+        <sprite>sprites\sprSpikeDownK3</sprite>
+        <sprite>sprites\sprK3cherry</sprite>
+      </sprites>
       <sprite>sprites\sprSpikeRight</sprite>
       <sprite>sprites\sprSpikeLeft</sprite>
       <sprite>sprites\sprSpikeDown</sprite>
@@ -171,6 +183,10 @@
         <sprite>sprites\sprBossSave_white</sprite>
         <sprite>sprites\sprBoshyBox</sprite>
       </sprites>
+      <sprites name="Medley">
+        <sprite>sprites\sprTitleCard</sprite>
+        <sprite>sprites\sprite97</sprite>
+      </sprites>
     </sprites>
     <sprite>sprites\sprBlackBall</sprite>
     <sprites name="Feishiko">
@@ -191,6 +207,11 @@
     <background>background\bgCosmo</background>
     <background>background\bgBoshySmallblock</background>
     <background>background\bgBoshyDot</background>
+    <backgrounds name="Medley">
+      <background>background\bgK3Grid</background>
+      <background>background\bgRock</background>
+      <background>background\bgOne</background>
+    </backgrounds>
   </backgrounds>
   <paths name="paths">
     <path>paths\pthD</path>
@@ -344,6 +365,13 @@
       <object>objects\objSpikeUp</object>
       <object>objects\objSpikeRight</object>
       <object>objects\objSpikeLeft</object>
+      <objects name="FakeSpike">
+        <object>objects\objSpikeUpFake</object>
+        <object>objects\objSpikeLeftFake</object>
+        <object>objects\objSpikeRightFake</object>
+        <object>objects\objSpikeDownFake</object>
+        <object>objects\objCherryFake</object>
+      </objects>
       <object>objects\objSpikeDown</object>
       <object>objects\objMiniUp</object>
       <object>objects\objMiniRight</object>
@@ -417,31 +445,36 @@
       <object>objects\objGameClear</object>
     </objects>
     <objects name="OMGUY">
-      <object>objects\objSDDLKid</object>
-      <object>objects\objSDDL_GB</object>
-      <object>objects\objSDDLspikeUp</object>
-      <object>objects\objSDDLspikeRight</object>
-      <object>objects\objSDDLspikeDown</object>
-      <object>objects\objBoshyDownBG</object>
-      <object>objects\objBoshyUpBG</object>
-      <object>objects\objBGboshycreator1</object>
-      <object>objects\objBGboshycreator2</object>
-      <object>objects\objSDDLspikeLeft</object>
-      <object>objects\objBaiying</object>
-      <object>objects\objZoomCamera</object>
-      <object>objects\objFallenSDDL</object>
-      <object>objects\objDrawBG1</object>
-      <object>objects\objDrawBG2</object>
-      <object>objects\objWarpeffect1</object>
-      <object>objects\objWhite</object>
-      <object>objects\objWhiteflash</object>
-      <object>objects\objBossSave_white</object>
-      <object>objects\objWhite2</object>
-      <object>objects\objDrawCircle</object>
-      <object>objects\objDrawCircle2</object>
-      <object>objects\objPlaymusicSpecial</object>
-      <object>objects\objGoldenlight</object>
-      <object>objects\objBoshyBox</object>
+      <objects name="Boshy">
+        <object>objects\objGoldenlight</object>
+        <object>objects\objWhite</object>
+        <object>objects\objBoshyDownBG</object>
+        <object>objects\objSDDLKid</object>
+        <object>objects\objSDDL_GB</object>
+        <object>objects\objSDDLspikeUp</object>
+        <object>objects\objSDDLspikeRight</object>
+        <object>objects\objSDDLspikeDown</object>
+        <object>objects\objBGboshycreator1</object>
+        <object>objects\objBoshyUpBG</object>
+        <object>objects\objBGboshycreator2</object>
+        <object>objects\objSDDLspikeLeft</object>
+        <object>objects\objBaiying</object>
+        <object>objects\objZoomCamera</object>
+        <object>objects\objFallenSDDL</object>
+        <object>objects\objDrawBG2</object>
+        <object>objects\objDrawBG1</object>
+        <object>objects\objBossSave_white</object>
+        <object>objects\objWarpeffect1</object>
+        <object>objects\objWhiteflash</object>
+        <object>objects\objWhite2</object>
+        <object>objects\objDrawCircle2</object>
+        <object>objects\objDrawCircle</object>
+        <object>objects\objPlaymusicSpecial</object>
+        <object>objects\objBoshyBox</object>
+      </objects>
+      <objects name="Medley">
+        <object>objects\objTitleCard</object>
+      </objects>
     </objects>
     <objects name="Feishiko">
       <object>objects\oFade</object>
@@ -477,12 +510,22 @@
       <room>rooms\rEnd</room>
     </rooms>
     <rooms name="OMGUY">
-      <room>rooms\rBoshy1</room>
-      <room>rooms\rBoshy2</room>
-      <room>rooms\rBoshy3</room>
-      <room>rooms\rBoshy4</room>
-      <room>rooms\rBoshy5</room>
-      <room>rooms\rBoshy6</room>
+      <rooms name="boshy">
+        <room>rooms\rBoshy1</room>
+        <room>rooms\rBoshy2</room>
+        <room>rooms\rBoshy3</room>
+        <room>rooms\rBoshy4</room>
+        <room>rooms\rBoshy5</room>
+        <room>rooms\rBoshy6</room>
+      </rooms>
+      <rooms name="Wtf is this room">
+        <room>rooms\rIDKrooms</room>
+      </rooms>
+      <rooms name="Wow Medley">
+        <rooms name="Fuck The Cat">
+          <room>rooms\rFucktheCat</room>
+        </rooms>
+      </rooms>
     </rooms>
     <rooms name="Feishiko">
       <room>rooms\rmIntro</room>
