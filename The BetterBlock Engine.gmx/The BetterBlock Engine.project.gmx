@@ -30,6 +30,8 @@
         <sound>sound\sndWowSound1</sound>
         <sound>sound\sndWarp</sound>
         <sound>sound\sndHow</sound>
+        <sound>sound\sndZood_save</sound>
+        <sound>sound\sndNormalSave</sound>
         <sounds name="Sus">
           <sound>sound\sndSus</sound>
         </sounds>
@@ -140,6 +142,7 @@
       <sprite>sprites\sprJumpRefresher</sprite>
       <sprite>sprites\sprSign</sprite>
       <sprite>sprites\sprGravityUp</sprite>
+      <sprite>sprites\sprRandomGrav</sprite>
       <sprite>sprites\sprGravityDown</sprite>
     </sprites>
     <sprites name="triggers">
@@ -154,6 +157,7 @@
       <sprite>sprites\sprSaveMask</sprite>
       <sprite>sprites\sprSaveMedium</sprite>
       <sprite>sprites\sprSave</sprite>
+      <sprite>sprites\sprSaveWeird</sprite>
       <sprite>sprites\sprSaveVHard</sprite>
       <sprite>sprites\sprSaveMediumFlip</sprite>
       <sprite>sprites\sprSaveFlip</sprite>
@@ -418,11 +422,14 @@
       <object>objects\objJumpRefresher</object>
       <object>objects\objSign</object>
       <object>objects\objGravityUp</object>
+      <object>objects\objRandomGrav</object>
+      <object>objects\objRandomGrav2</object>
       <object>objects\objGravityDown</object>
     </objects>
     <objects name="saves">
       <object>objects\objSaveMedium</object>
       <object>objects\objSave</object>
+      <object>objects\objSaveWeird</object>
       <object>objects\objSaveVHard</object>
       <object>objects\objSaveMediumFlip</object>
       <object>objects\objSaveFlip</object>

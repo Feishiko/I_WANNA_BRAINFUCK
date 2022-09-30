@@ -119,7 +119,6 @@
     <instance objName="objSpikeDownFake" x="736" y="352" name="inst_505E1105" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUpFake" x="768" y="448" name="inst_8F4E2162" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeLeftFake" x="768" y="384" name="inst_BF79AE65" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSave" x="0" y="480" name="inst_0311338C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCherryFake" x="56" y="128" name="inst_5E0D022A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCherryFake" x="56" y="160" name="inst_3F25EDD2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCherryFake" x="88" y="160" name="inst_00E82E76" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -305,6 +304,10 @@
     <instance objName="objSpikeUpFake" x="592" y="48" name="inst_1C64E5CC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUpFake" x="608" y="48" name="inst_73301F05" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUpFake" x="624" y="48" name="inst_2304D19C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveWeird" x="0" y="480" name="inst_CA8CA2B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBlock" x="0" y="-32" name="inst_73A4D48A" locked="0" code="" scaleX="25" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBlock" x="800" y="0" name="inst_8B27DCB4" locked="0" code="" scaleX="4" scaleY="21.5" colour="4294967295" rotation="0"/>
+    <instance objName="objBlock" x="-32" y="0" name="inst_94533224" locked="0" code="" scaleX="1" scaleY="23.75" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bgRock" x="0" y="576" w="32" h="32" xo="0" yo="0" id="10004168" name="inst_2B7FB60A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

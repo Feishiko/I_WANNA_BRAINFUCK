@@ -52,7 +52,6 @@
   </views>
   <instances>
     <instance objName="objPlayerStart" x="0" y="240" name="inst_90E6498C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSave" x="32" y="224" name="inst_725BC35D" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="objSDDLKid" x="0" y="544" name="inst_FF152DB2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="0" y="288" name="inst_6EC2D8D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSDDLspikeUp" x="64" y="544" name="inst_F4D40F74" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -325,9 +324,6 @@
     <instance objName="objSDDLspikeDown" x="640" y="352" name="inst_DB5079FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSDDLspikeDown" x="672" y="352" name="inst_C6AABD94" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSDDLspikeDown" x="704" y="352" name="inst_7FE20C2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSave" x="160" y="0" name="inst_0EF5DEBF" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
-    <instance objName="objSave" x="496" y="368" name="inst_74E7A5E5" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
-    <instance objName="objSave" x="720" y="272" name="inst_D4E51462" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="objSDDLspikeUp" x="736" y="320" name="inst_AA574E11" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSDDLspikeUp" x="720" y="352" name="inst_DB7D2BCF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSDDLspikeUp" x="688" y="400" name="inst_BBADD0E7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -380,6 +376,10 @@
     <instance objName="objPlayMusic" x="304" y="208" name="inst_9F17946D" locked="0" code="BGM=musBoshy&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWarp" x="752" y="240" name="inst_D2A7352B" locked="0" code="roomTo=rBoshy3&#xA;" scaleX="1" scaleY="2.25" colour="4294967295" rotation="0"/>
     <instance objName="objSDDLspikeLeft" x="-16" y="384" name="inst_801FEAC6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveWeird" x="32" y="224" name="inst_4D65A3CA" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveWeird" x="160" y="0" name="inst_BDFA18D2" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveWeird" x="496" y="368" name="inst_BBD466E0" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveWeird" x="720" y="272" name="inst_0B56E923" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
