@@ -185,12 +185,25 @@
         <sprite>sprites\sprBoshyQuestion</sprite>
         <sprite>sprites\sprFallenSDDL</sprite>
         <sprite>sprites\sprGoldenLight</sprite>
+        <sprites name="ForBoss">
+          <sprite>sprites\sprBoshySpider</sprite>
+        </sprites>
         <sprite>sprites\sprBossSave_white</sprite>
         <sprite>sprites\sprBoshyBox</sprite>
       </sprites>
       <sprites name="Medley">
         <sprite>sprites\sprTitleCard</sprite>
+        <sprites name="creator">
+          <sprite>sprites\sprBlockCreator</sprite>
+          <sprites name="Spike">
+            <sprite>sprites\sprSpikeCreatorUp</sprite>
+          </sprites>
+        </sprites>
         <sprite>sprites\sprite97</sprite>
+        <sprite>sprites\sprite112</sprite>
+      </sprites>
+      <sprites name="Unused">
+        <sprite>sprites\sprUnusedContent1</sprite>
       </sprites>
     </sprites>
     <sprite>sprites\sprBlackBall</sprite>
@@ -219,6 +232,7 @@
       <background>background\bgRock</background>
       <background>background\bgOne</background>
     </backgrounds>
+    <background>background\bgWha</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\pthD</path>
@@ -317,6 +331,9 @@
     </objects>
     <objects name="blocks">
       <object>objects\objBlock</object>
+      <objects name="Feishiko">
+        <object>objects\oBlockWhite</object>
+      </objects>
       <object>objects\objMiniBlock</object>
       <objects name="Better Block Objects">
         <object>objects\objBetterBlockDonutBlock</object>
@@ -336,6 +353,9 @@
       </objects>
       <object>objects\objBetterBlock</object>
       <object>objects\objSlipBlock</object>
+      <objects name="OMGUY">
+        <object>objects\objCreatorBlock</object>
+      </objects>
       <object>objects\objBossBlock</object>
       <object>objects\objBlockInvis</object>
       <object>objects\objBlockFake</object>
@@ -501,11 +521,12 @@
       <object>objects\oTeleBall</object>
       <object>objects\oAscii</object>
       <object>objects\oFeishikoCont</object>
-      <object>objects\oBlockWhite</object>
       <object>objects\oMathCover</object>
       <object>objects\oTurnWhite</object>
       <object>objects\oBlockMiniWhite</object>
     </objects>
+    <object>objects\object168</object>
+    <object>objects\object169</object>
   </objects>
   <rooms name="rooms">
     <rooms name="init">
@@ -544,6 +565,9 @@
       <rooms name="Wow Medley">
         <rooms name="Fuck The Cat">
           <room>rooms\rFucktheCat</room>
+        </rooms>
+        <rooms name="Creator">
+          <room>rooms\rCreator</room>
         </rooms>
       </rooms>
     </rooms>

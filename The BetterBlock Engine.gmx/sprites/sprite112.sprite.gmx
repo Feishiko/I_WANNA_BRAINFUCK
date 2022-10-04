@@ -20,8 +20,6 @@
   <width>300</width>
   <height>200</height>
   <frames>
-    <frame index="0">images\sprTitleCard_0.png</frame>
-    <frame index="1">images\sprTitleCard_1.png</frame>
-    <frame index="2">images\sprTitleCard_2.png</frame>
+    <frame index="0">images\sprite112_0.png</frame>
   </frames>
 </sprite>
