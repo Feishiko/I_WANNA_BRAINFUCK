@@ -58,6 +58,7 @@
         <sound>sound\musTitleMusic</sound>
         <sound>sound\musScaredAmi</sound>
         <sound>sound\musAscii</sound>
+        <sound>sound\musMath</sound>
       </sounds>
     </sounds>
   </sounds>
@@ -197,6 +198,8 @@
       <sprite>sprites\sTitle</sprite>
       <sprite>sprites\sTexture</sprite>
       <sprite>sprites\sNoise</sprite>
+      <sprite>sprites\sBlockWhite</sprite>
+      <sprite>sprites\sBlockMiniWhite</sprite>
     </sprites>
     <sprite>sprites\sprite88</sprite>
   </sprites>
@@ -271,6 +274,12 @@
     <shader type="GLSLES">shaders\shCover.shader</shader>
     <shader type="GLSLES">shaders\shScreenTitleNoise.shader</shader>
     <shader type="GLSLES">shaders\shTort.shader</shader>
+    <shader type="GLSLES">shaders\shMath.shader</shader>
+    <shader type="GLSLES">shaders\shTurnWhite.shader</shader>
+    <shader type="GLSLES">shaders\shTurnH.shader</shader>
+    <shader type="GLSLES">shaders\shTurnGreen.shader</shader>
+    <shader type="GLSLES">shaders\shTurnPlat.shader</shader>
+    <shader type="GLSLES">shaders\shAlpha.shader</shader>
   </shaders>
   <fonts name="fonts">
     <font>fonts\fDefault30</font>
@@ -492,6 +501,10 @@
       <object>objects\oTeleBall</object>
       <object>objects\oAscii</object>
       <object>objects\oFeishikoCont</object>
+      <object>objects\oBlockWhite</object>
+      <object>objects\oMathCover</object>
+      <object>objects\oTurnWhite</object>
+      <object>objects\oBlockMiniWhite</object>
     </objects>
   </objects>
   <rooms name="rooms">
@@ -539,6 +552,10 @@
       <room>rooms\rmAscii1</room>
       <room>rooms\rmAscii2</room>
       <room>rooms\rTemplate</room>
+      <rooms name="MathStage">
+        <room>rooms\rmMath1</room>
+        <room>rooms\rmMath2</room>
+      </rooms>
     </rooms>
     <rooms name="BKZN">
       <room>rooms\rTrigger</room>
