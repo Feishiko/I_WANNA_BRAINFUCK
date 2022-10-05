@@ -71,6 +71,7 @@
     </sprites>
     <sprites name="player">
       <sprite>sprites\sprPlayerMask</sprite>
+      <sprite>sprites\sprPlayerMaskCreator</sprite>
       <sprite>sprites\sprPlayerMaskFlip</sprite>
       <sprite>sprites\sprPlayerIdle</sprite>
       <sprite>sprites\sprPlayerJump</sprite>
@@ -195,8 +196,12 @@
         <sprite>sprites\sprTitleCard</sprite>
         <sprites name="creator">
           <sprite>sprites\sprBlockCreator</sprite>
+          <sprite>sprites\sprBetterSign</sprite>
           <sprites name="Spike">
             <sprite>sprites\sprSpikeCreatorUp</sprite>
+            <sprite>sprites\sprSpikeCreatorRight</sprite>
+            <sprite>sprites\sprSpikeCreatorDown</sprite>
+            <sprite>sprites\sprSpikeCreatorLeft</sprite>
           </sprites>
         </sprites>
         <sprite>sprites\sprite97</sprite>
@@ -231,6 +236,9 @@
       <background>background\bgK3Grid</background>
       <background>background\bgRock</background>
       <background>background\bgOne</background>
+      <background>background\bgCreator</background>
+      <background>background\bgText1</background>
+      <background>background\bgCreatorEX</background>
     </backgrounds>
     <background>background\bgWha</background>
   </backgrounds>
@@ -323,6 +331,7 @@
     <objects name="player">
       <object>objects\objPlayerStart</object>
       <object>objects\objPlayer</object>
+      <object>objects\objCreatorPlayer</object>
       <object>objects\objBow</object>
       <object>objects\objBullet</object>
       <object>objects\objBloodEmitter</object>
@@ -333,6 +342,9 @@
       <object>objects\objBlock</object>
       <objects name="Feishiko">
         <object>objects\oBlockWhite</object>
+      </objects>
+      <objects name="OMGUY">
+        <object>objects\objCreatorBlock</object>
       </objects>
       <object>objects\objMiniBlock</object>
       <objects name="Better Block Objects">
@@ -353,9 +365,6 @@
       </objects>
       <object>objects\objBetterBlock</object>
       <object>objects\objSlipBlock</object>
-      <objects name="OMGUY">
-        <object>objects\objCreatorBlock</object>
-      </objects>
       <object>objects\objBossBlock</object>
       <object>objects\objBlockInvis</object>
       <object>objects\objBlockFake</object>
@@ -398,6 +407,12 @@
       <object>objects\objSpikeUp</object>
       <object>objects\objSpikeRight</object>
       <object>objects\objSpikeLeft</object>
+      <objects name="OMGUY">
+        <object>objects\objSpikeCreatorUp</object>
+        <object>objects\objSpikeCreatorRight</object>
+        <object>objects\objSpikeCreatorDown</object>
+        <object>objects\objSpikeCreatorLeft</object>
+      </objects>
       <objects name="FakeSpike">
         <object>objects\objSpikeUpFake</object>
         <object>objects\objSpikeLeftFake</object>
@@ -450,9 +465,13 @@
       <object>objects\objWalljumpL</object>
       <object>objects\objJumpRefresher</object>
       <object>objects\objSign</object>
+      <object>objects\objBetterSign</object>
       <object>objects\objGravityUp</object>
-      <object>objects\objRandomGrav</object>
-      <object>objects\objRandomGrav2</object>
+      <objects name="OMGUY">
+        <object>objects\objRandomGrav</object>
+        <object>objects\objXiaLuoErDuan</object>
+        <object>objects\objRandomGrav2</object>
+      </objects>
       <object>objects\objGravityDown</object>
     </objects>
     <objects name="saves">
@@ -510,7 +529,9 @@
       </objects>
       <objects name="Medley">
         <object>objects\objTitleCard</object>
+        <object>objects\objCreatorPlayerTrg</object>
       </objects>
+      <objects name="EX"/>
     </objects>
     <objects name="Feishiko">
       <object>objects\oFade</object>
@@ -525,7 +546,6 @@
       <object>objects\oTurnWhite</object>
       <object>objects\oBlockMiniWhite</object>
     </objects>
-    <object>objects\object168</object>
     <object>objects\object169</object>
   </objects>
   <rooms name="rooms">

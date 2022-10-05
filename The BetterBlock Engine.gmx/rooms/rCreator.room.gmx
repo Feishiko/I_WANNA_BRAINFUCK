@@ -3,12 +3,12 @@
   <caption></caption>
   <width>800</width>
   <height>608</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>16</vsnap>
+  <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>50</speed>
   <persistent>0</persistent>
-  <colour>16777088</colour>
+  <colour>16384</colour>
   <showcolour>-1</showcolour>
   <code></code>
   <enableViews>-1</enableViews>
@@ -31,7 +31,7 @@
     <yoffset>11010215</yoffset>
   </makerSettings>
   <backgrounds>
-    <background visible="-1" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="0" name="bgCreator" x="0" y="0" htiled="0" vtiled="0" hspeed="0" vspeed="0" stretch="-1"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="-1"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -50,8 +50,154 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
-  <instances/>
-  <tiles/>
+  <instances>
+    <instance objName="objTitleCard" x="0" y="-240" name="inst_23DF1264" locked="0" code="image_index=1&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveWeird" x="704" y="256" name="inst_7CAD0BEE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayMusic" x="-32" y="96" name="inst_B64A4036" locked="0" code="BGM=musRandomMedley&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayerStart" x="736" y="256" name="inst_0ACF9987" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="768" y="288" name="inst_5568E13C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="704" y="288" name="inst_17F02F43" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="736" y="288" name="inst_3408A139" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="672" y="288" name="inst_3D84A31E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="640" y="288" name="inst_6B1AB16A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorPlayerTrg" x="0" y="-16" name="inst_6D906AE8" locked="0" code="" scaleX="24.7741928100586" scaleY="19.5" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeCreatorUp" x="608" y="256" name="inst_359C9B7A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeCreatorUp" x="576" y="256" name="inst_C8B21EC4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeCreatorUp" x="544" y="256" name="inst_80885232" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeCreatorUp" x="512" y="256" name="inst_32217A5F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeCreatorDown" x="512" y="192" name="inst_D3D9D95E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeCreatorDown" x="544" y="192" name="inst_9E9CFD10" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeCreatorDown" x="576" y="192" name="inst_1899FF87" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeCreatorDown" x="608" y="192" name="inst_B0BFC150" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="480" y="288" name="inst_44A813BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="416" y="288" name="inst_13B694E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="448" y="288" name="inst_FB7067FA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="384" y="288" name="inst_7594FA5B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveWeird" x="448" y="256" name="inst_DB7C87ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveBlocker" x="480" y="256" name="inst_EB644458" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveBlocker" x="416" y="256" name="inst_D3EF0754" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="512" y="288" name="inst_61F4F395" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="544" y="288" name="inst_C4477C2D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="608" y="288" name="inst_80D82E34" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="576" y="288" name="inst_15CB4A1A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="608" y="160" name="inst_3FF24580" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="576" y="160" name="inst_848EB9AB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="544" y="160" name="inst_7C569C6F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="512" y="160" name="inst_4B267503" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="416" y="0" name="inst_D12930FA" locked="0" code="" scaleX="12" scaleY="5" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="288" y="288" name="inst_213A97C5" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="288" y="160" name="inst_CDA086F4" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeCreatorUp" x="288" y="256" name="inst_223B9B71" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeCreatorUp" x="320" y="256" name="inst_156FFC9B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeCreatorUp" x="224" y="256" name="inst_FF462C29" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeCreatorUp" x="192" y="256" name="inst_6EAB9439" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="192" y="288" name="inst_868A80BC" locked="0" code="" scaleX="2" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="192" y="96" name="inst_32097484" locked="0" code="" scaleX="2" scaleY="4" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeCreatorUp" x="288" y="96" name="inst_C5EC5D75" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeCreatorUp" x="192" y="32" name="inst_BEA48706" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="96" y="352" name="inst_EE96264D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="128" y="352" name="inst_7135CA30" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="160" y="416" name="inst_2DA30FF5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeCreatorUp" x="160" y="384" name="inst_1378408D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeCreatorRight" x="352" y="320" name="inst_2B304799" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeCreatorRight" x="256" y="352" name="inst_9D01AC85" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveWeird" x="128" y="320" name="inst_3CB05CF8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objXiaLuoErDuan" x="-32" y="64" name="inst_6AF747DA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveBlocker" x="96" y="320" name="inst_DB3ED126" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveBlocker" x="160" y="320" name="inst_B661E135" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="64" y="352" name="inst_290BB7F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="128" y="288" name="inst_97CB6EB3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="128" y="256" name="inst_97DCAC07" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="32" y="352" name="inst_B149A8D8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="32" y="320" name="inst_DB403973" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="32" y="288" name="inst_20F325F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="32" y="256" name="inst_F9C22318" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="32" y="224" name="inst_502E8DC6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="128" y="224" name="inst_DF949575" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="32" y="192" name="inst_529EE010" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="128" y="160" name="inst_876B72D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="32" y="160" name="inst_A498A7F2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeCreatorLeft" x="96" y="288" name="inst_2BEE64A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeCreatorRight" x="64" y="256" name="inst_166C9107" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeCreatorLeft" x="96" y="224" name="inst_AEA75B8D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeCreatorLeft" x="160" y="192" name="inst_EC69702D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveWeird" x="144" y="192" name="inst_307A4EF6" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveBlocker" x="112" y="192" name="inst_D0854F46" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveBlocker" x="160" y="192" name="inst_A522DDD1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="784" y="160" name="inst_E014E62A" locked="0" code="" scaleX="1.5" scaleY="4" colour="4294967295" rotation="0"/>
+    <instance objName="objBlock" x="368" y="64" name="inst_E098B8C2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBetterSign" x="368" y="32" name="inst_961F92D5" locked="0" code="Te=&quot;HOW&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeCreatorUp" x="32" y="128" name="inst_5CAEF77D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeCreatorDown" x="32" y="64" name="inst_61AC62BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="32" y="32" name="inst_0233B4F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="32" y="0" name="inst_01ECCD58" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeCreatorDown" x="32" y="384" name="inst_FC82AD71" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeCreatorUp" x="32" y="448" name="inst_496B23B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeCreatorUp" x="64" y="448" name="inst_94E7A901" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="32" y="480" name="inst_725E8EC3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="64" y="480" name="inst_A352F130" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="32" y="512" name="inst_66B3966D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="64" y="512" name="inst_546B8A82" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="32" y="544" name="inst_831AAE29" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="32" y="576" name="inst_7C80B361" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="64" y="576" name="inst_18DD2368" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="64" y="544" name="inst_860FE2D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="112" y="528" name="inst_B27D2076" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objMovingPlatform" x="192" y="416" name="inst_E01E88A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeCreatorUp" x="256" y="416" name="inst_2DA4146B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeCreatorUp" x="320" y="384" name="inst_F4ED510E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="256" y="448" name="inst_42A2D43D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="320" y="416" name="inst_09BC8726" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="320" y="448" name="inst_8AD1EC70" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="320" y="480" name="inst_3D2F924C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeCreatorDown" x="256" y="480" name="inst_808BCAC7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeCreatorDown" x="320" y="512" name="inst_AD69486A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWarp" x="352" y="352" name="inst_8574B28A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeCreatorUp" x="304" y="576" name="inst_930C847E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeCreatorUp" x="240" y="544" name="inst_7BCFB983" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="240" y="576" name="inst_E0700A9F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="336" y="576" name="inst_30DFA618" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveWeird" x="0" y="256" name="inst_EBBA2E1A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBlock" x="-80" y="-16" name="inst_C207AA69" locked="0" code="" scaleX="2.5" scaleY="20" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="112" y="496" name="inst_F07D67C6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeCreatorUp" x="96" y="416" name="inst_784E258E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeCreatorDown" x="96" y="448" name="inst_0A11B993" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBetterSign" x="192" y="384" name="inst_A67FF8AC" locked="0" code="Te=&quot;?&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="368" y="576" name="inst_811F37BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="400" y="576" name="inst_B0DE4B4F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBetterSign" x="384" y="544" name="inst_F7377A0E" locked="0" code="Te=&quot;Standing#ON#The#Platform#Will#not#refresh#'The Jump'&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objMovingPlatform" x="432" y="576" name="inst_FFF18186" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeCreatorRight" x="352" y="416" name="inst_3BB1FD78" locked="0" code="" scaleX="11" scaleY="1.5" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeCreatorUp" x="496" y="576" name="inst_A345460F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeCreatorUp" x="560" y="544" name="inst_BC01937B" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="496" y="480" name="inst_DDDC3CC2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="528" y="480" name="inst_40BB565B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeCreatorUp" x="496" y="448" name="inst_6DF3D450" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="592" y="576" name="inst_2AB1E7DE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="496" y="512" name="inst_F1DEEF30" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="624" y="544" name="inst_62DEA7D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="624" y="512" name="inst_E6F145B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="624" y="576" name="inst_4B290CA2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="688" y="576" name="inst_8FB9D2ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="688" y="544" name="inst_DC01F2AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCreatorBlock" x="688" y="512" name="inst_D5B84FFB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeCreatorUp" x="624" y="480" name="inst_F23218C6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeCreatorUp" x="688" y="480" name="inst_F1DDFDD0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveWeird" x="736" y="448" name="inst_C504613F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveBlocker" x="768" y="448" name="inst_048BE303" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveBlocker" x="704" y="448" name="inst_A89A8DB0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveWeird" x="640" y="336" name="inst_32D4202D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveBlocker" x="672" y="336" name="inst_603FC0A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveBlocker" x="608" y="336" name="inst_09E82847" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveBlocker" x="400" y="336" name="inst_76E0D1E4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveBlocker" x="464" y="336" name="inst_E8947074" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveWeird" x="432" y="336" name="inst_FAA6BC7E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeCreatorUp" x="224" y="448" name="inst_9A7FC5F2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+  </instances>
+  <tiles>
+    <tile bgName="bgText1" x="656" y="176" w="128" h="64" xo="0" yo="0" id="10004322" name="inst_28F28A2C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bAllTiles" x="368" y="64" w="32" h="32" xo="32" yo="0" id="10004323" name="inst_63B6AFA2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+  </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
   <PhysicsWorldLeft>0</PhysicsWorldLeft>

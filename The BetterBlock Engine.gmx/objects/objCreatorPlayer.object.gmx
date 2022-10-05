@@ -6,7 +6,7 @@
   <depth>-10</depth>
   <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
-  <maskName>sprPlayerMask</maskName>
+  <maskName>sprPlayerMaskCreator</maskName>
   <events>
     <event eventtype="0" enumb="0">
       <action>
@@ -674,17 +674,11 @@ if (!place_free(x,y+vspeed))
     if (global.grav == 1)   //normal
     {
         if(vspeed &lt;= 0){move_contact_solid(90,abs(vspeed));}
-        if(vspeed &gt; 0){move_contact_solid(270,abs(vspeed));djump=1;        if(instance_exists(objXiaLuoErDuan))
-        {
-        objXiaLuoErDuan.asdff=1
-        }}//OMGUY Change it
+        if(vspeed &gt; 0){move_contact_solid(270,abs(vspeed));djump=1;}
     }
     else    //flipped
     {
-        if(vspeed &lt;= 0){move_contact_solid(90,abs(vspeed));djump=1;        if(instance_exists(objXiaLuoErDuan))
-        {
-        objXiaLuoErDuan.asdff=1
-        }}//OMGUY Change it
+        if(vspeed &lt;= 0){move_contact_solid(90,abs(vspeed));djump=1;}
         if(vspeed &gt; 0){move_contact_solid(270,abs(vspeed));}
     }
     vspeed = 0;
