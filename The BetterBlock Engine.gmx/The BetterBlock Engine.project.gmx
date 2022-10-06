@@ -205,10 +205,18 @@
           </sprites>
         </sprites>
         <sprite>sprites\sprite97</sprite>
+        <sprite>sprites\sprite119</sprite>
         <sprite>sprites\sprite112</sprite>
+        <sprite>sprites\sprite120</sprite>
       </sprites>
       <sprites name="Unused">
         <sprite>sprites\sprUnusedContent1</sprite>
+      </sprites>
+      <sprites name="IDK">
+        <sprite>sprites\sprTheText</sprite>
+      </sprites>
+      <sprites name="Buff">
+        <sprite>sprites\sprBuffCreator</sprite>
       </sprites>
     </sprites>
     <sprite>sprites\sprBlackBall</sprite>
@@ -220,6 +228,9 @@
       <sprite>sprites\sBlockMiniWhite</sprite>
     </sprites>
     <sprite>sprites\sprite88</sprite>
+    <sprite>sprites\sprite121</sprite>
+    <sprite>sprites\sprite122</sprite>
+    <sprite>sprites\sprite123</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bAllTiles</background>
@@ -241,6 +252,7 @@
       <background>background\bgCreatorEX</background>
     </backgrounds>
     <background>background\bgWha</background>
+    <background>background\bgWhat2</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\pthD</path>
@@ -531,7 +543,13 @@
         <object>objects\objTitleCard</object>
         <object>objects\objCreatorPlayerTrg</object>
       </objects>
-      <objects name="EX"/>
+      <objects name="Buff">
+        <object>objects\objBuffCreator</object>
+        <object>objects\objBuffParents</object>
+      </objects>
+      <objects name="IDK">
+        <object>objects\objTheText</object>
+      </objects>
     </objects>
     <objects name="Feishiko">
       <object>objects\oFade</object>
@@ -588,6 +606,12 @@
         </rooms>
         <rooms name="Creator">
           <room>rooms\rCreator</room>
+        </rooms>
+        <rooms name="The Boshy Screen(Unused)">
+          <room>rooms\rBoshyScreenFuckIntro</room>
+          <room>rooms\rBoshyScreenBurn</room>
+          <room>rooms\rBoshyScreenFreeze</room>
+          <room>rooms\rBoshyScreenFuck</room>
         </rooms>
       </rooms>
     </rooms>

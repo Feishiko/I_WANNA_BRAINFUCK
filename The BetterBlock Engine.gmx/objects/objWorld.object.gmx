@@ -440,6 +440,7 @@ if (!instance_exists(objPlayMusic))  //make sure the play music object isn't in 
 
 room_speed = 50;    //make sure game is running at the correct frame rate
 scrSetRoomCaption();    //make sure window caption stays updated
+instance_create(0,0,objTheText);//OMGUY Change it
 </string>
           </argument>
         </arguments>
@@ -466,7 +467,7 @@ scrSetRoomCaption();    //make sure window caption stays updated
 
 //Create an object to kill the player if they are stuck in a block
 instance_create(0,0,objBetterBlockCtrl);
-
+instance_create(0,0,objTheText);//OMGUY Change it
 //initialize all variables
 scrInitializeGlobals();
 
