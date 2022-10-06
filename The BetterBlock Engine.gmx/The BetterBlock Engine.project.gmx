@@ -207,6 +207,9 @@
         <sprite>sprites\sprite97</sprite>
         <sprite>sprites\sprite119</sprite>
         <sprite>sprites\sprite112</sprite>
+        <sprite>sprites\sprite122</sprite>
+        <sprite>sprites\sprite121</sprite>
+        <sprite>sprites\sprite123</sprite>
         <sprite>sprites\sprite120</sprite>
       </sprites>
       <sprites name="Unused">
@@ -228,9 +231,6 @@
       <sprite>sprites\sBlockMiniWhite</sprite>
     </sprites>
     <sprite>sprites\sprite88</sprite>
-    <sprite>sprites\sprite121</sprite>
-    <sprite>sprites\sprite122</sprite>
-    <sprite>sprites\sprite123</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bAllTiles</background>
@@ -607,11 +607,20 @@
         <rooms name="Creator">
           <room>rooms\rCreator</room>
         </rooms>
+        <rooms name="Krain's game">
+          <room>rooms\room37</room>
+        </rooms>
+        <rooms name="Risk of needle">
+          <room>rooms\room38</room>
+        </rooms>
         <rooms name="The Boshy Screen(Unused)">
           <room>rooms\rBoshyScreenFuckIntro</room>
           <room>rooms\rBoshyScreenBurn</room>
           <room>rooms\rBoshyScreenFreeze</room>
           <room>rooms\rBoshyScreenFuck</room>
+        </rooms>
+        <rooms name="5B6 Wum">
+          <room>rooms\room39</room>
         </rooms>
       </rooms>
     </rooms>
