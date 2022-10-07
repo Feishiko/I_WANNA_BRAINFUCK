@@ -165,7 +165,7 @@
     <instance objName="objSpikeUp" x="128" y="320" name="inst_C244F840" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBlockBlock" x="160" y="352" name="inst_C5DC7B7F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBlockUnder" x="160" y="384" name="inst_BBA9EA1F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWarpFadeIn" x="160" y="304" name="inst_30E0CF8B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWarpAutosaveNext" x="160" y="304" name="inst_8452A66B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

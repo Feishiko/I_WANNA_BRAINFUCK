@@ -260,6 +260,9 @@
     <background>background\bgWhat2</background>
     <background>background\backUnderSea</background>
     <background>background\bgUnderWater2</background>
+    <backgrounds name="bkzn">
+      <background>background\v_r_fish</background>
+    </backgrounds>
   </backgrounds>
   <paths name="paths">
     <path>paths\pthD</path>
@@ -654,6 +657,7 @@
       </rooms>
       <rooms name="Water">
         <room>rooms\rmWater1</room>
+        <room>rooms\rmWater2</room>
       </rooms>
     </rooms>
     <rooms name="BKZN">
