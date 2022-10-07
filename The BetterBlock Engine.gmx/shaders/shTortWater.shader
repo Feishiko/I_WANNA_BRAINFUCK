@@ -32,6 +32,6 @@ void main()
     vec2 uv = v_vTexcoord;
     vec4 noise = texture2D( u_noise, uv + u_time/100.0);
     float offset = noise.r;
-    gl_FragColor = v_vColour * texture2D( gm_BaseTexture, uv + vec2(offset)/8.0);
+    gl_FragColor = v_vColour * texture2D( gm_BaseTexture, uv + vec2(offset)/10.0);
 }
 

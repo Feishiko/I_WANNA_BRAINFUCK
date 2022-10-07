@@ -140,6 +140,7 @@
     </sprites>
     <sprites name="misc">
       <sprite>sprites\sprWater</sprite>
+      <sprite>sprites\sprWaterOMG</sprite>
       <sprite>sprites\sprWalljumpR</sprite>
       <sprite>sprites\sprWalljumpL</sprite>
       <sprite>sprites\sprJumpRefresher</sprite>
@@ -222,6 +223,7 @@
       <sprites name="Buff">
         <sprite>sprites\sprBuffCreator</sprite>
       </sprites>
+      <sprite>sprites\sprBlackOMG</sprite>
     </sprites>
     <sprite>sprites\sprBlackBall</sprite>
     <sprites name="Feishiko">
@@ -257,6 +259,7 @@
     <background>background\bgWha</background>
     <background>background\bgWhat2</background>
     <background>background\backUnderSea</background>
+    <background>background\bgUnderWater2</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\pthD</path>
@@ -478,6 +481,7 @@
     </objects>
     <objects name="misc">
       <object>objects\objWater</object>
+      <object>objects\objWaterOMG</object>
       <object>objects\objWater2</object>
       <object>objects\objWater3</object>
       <object>objects\objWalljumpR</object>
@@ -558,6 +562,10 @@
         <object>objects\objTheText</object>
         <object>objects\objDontShow</object>
       </objects>
+      <objects name="Effect">
+        <object>objects\objWaterEffect01</object>
+        <object>objects\objWaterEffect03</object>
+      </objects>
     </objects>
     <objects name="Feishiko">
       <object>objects\oFade</object>
@@ -573,7 +581,6 @@
       <object>objects\oBlockMiniWhite</object>
       <object>objects\oWaterStage</object>
     </objects>
-    <object>objects\object169</object>
   </objects>
   <rooms name="rooms">
     <rooms name="init">
@@ -631,6 +638,9 @@
         <rooms name="5B6 Wum">
           <room>rooms\room39</room>
         </rooms>
+      </rooms>
+      <rooms name="WaterPart2">
+        <room>rooms\rWater2</room>
       </rooms>
     </rooms>
     <rooms name="Feishiko">
