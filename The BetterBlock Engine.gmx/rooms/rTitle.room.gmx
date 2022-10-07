@@ -53,6 +53,7 @@
   <instances>
     <instance objName="objTitleMenu" x="256" y="416" name="inst_45B14C65" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlayMusic" x="480" y="192" name="inst_0D30212D" locked="0" code="BGM = musTitleMusic;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDontShow" x="96" y="160" name="inst_D832C8DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -3,7 +3,7 @@
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>100</depth>
+  <depth>0</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -25,10 +25,19 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>surf = surface_create(room_width, room_height);
-_utime = shader_get_uniform(shTurnH, "u_time");
+            <string>_utime = shader_get_uniform(shTortWater, "u_time");
+_unoise = shader_get_sampler_index(shTortWater, "u_noise");
 
-deltatime = 0;
+texture = sprite_get_texture(sNoise, -1);
+
+time = 0;
+
+/*
+for(var i = 0; i &lt;= room_width div 32; i++){
+    for(var j = 0; j &lt;= room_height div 32; j++){
+        instance_create(i * 32, j * 32, objWater2);
+    }
+}  
 </string>
           </argument>
         </arguments>
@@ -51,46 +60,17 @@ deltatime = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>deltatime = current_time;
-if(!surface_exists(surf)){
-    surf = surface_create(room_width, room_height);
-}
-
-surface_set_target(surf);
-shader_set(shTurnH);
-shader_set_uniform_f(_utime, deltatime);
-with(oBlockWhite){
-    draw_self();
-}
-with(objSave){
-    draw_self();
-}
-with(objPlayerKiller){
-    draw_self();
-}
-with(objWater2){
-    draw_sprite(sBlockWhite, -1, x, y);
-}
-with(objWarp){
-    draw_self();
-}
-with(objWalljumpR){
-    draw_self();
-}
-with(objWalljumpL){
-    draw_self();
-}
+            <string>time++;
 if(instance_exists(objPlayer)){
-    draw_sprite(sprPlayerIdle, -1, x, y);
-}
-shader_reset();
-surface_reset_target();
+    if((objPlayer.vspeed*global.grav) &gt; 2)
+        objPlayer.vspeed = 2*global.grav;
+    }
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="8" enumb="0">
+    <event eventtype="8" enumb="64">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -107,9 +87,21 @@ surface_reset_target();
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>shader_set(shMath);
-draw_surface(surf, 0, 0);
+            <string>/*
+with(all){
+    visible = false;
+}
+visible = true
+*/
+
+shader_set(shTortWater);
+shader_set_uniform_f(_utime, time);
+texture_set_stage(_unoise, texture);
+draw_surface(application_surface, 0, 0);
 shader_reset();
+draw_set_alpha(0.4);
+draw_rectangle_colour(0, 0, room_width, room_height, c_blue, c_blue, c_blue, c_blue, false);
+draw_set_alpha(1);
 </string>
           </argument>
         </arguments>

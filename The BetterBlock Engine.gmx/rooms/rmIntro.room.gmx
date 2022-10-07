@@ -149,7 +149,8 @@
     <instance objName="oWarpFadeIn" x="2208" y="640" name="inst_5A6E9383" locked="0" code="roomTo = rBoshy1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="2240" y="0" name="inst_C4519085" locked="0" code="" scaleX="1" scaleY="23" colour="4294967295" rotation="0"/>
     <instance objName="oTort" x="320" y="160" name="inst_0433420C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objWarp" x="192" y="608" name="inst_7D7BA673" locked="0" code="roomTo = rmMath1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWarp" x="192" y="608" name="inst_7D7BA673" locked="0" code="roomTo = rmWater1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDontShow" x="32" y="160" name="inst_25EBB339" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bAllTiles" x="0" y="704" w="32" h="32" xo="0" yo="96" id="10003900" name="inst_FDAC197D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

@@ -55,6 +55,7 @@
     <instance objName="objPlayMusic" x="416" y="480" name="inst_076C9243" locked="0" code="BGM = musTitleMusic;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oFade" x="64" y="32" name="inst_4204FD20" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oTitle" x="0" y="-64" name="inst_5309B788" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDontShow" x="128" y="384" name="inst_8F1F5919" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

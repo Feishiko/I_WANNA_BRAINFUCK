@@ -59,6 +59,7 @@
         <sound>sound\musScaredAmi</sound>
         <sound>sound\musAscii</sound>
         <sound>sound\musMath</sound>
+        <sound>sound\musUnderWater</sound>
       </sounds>
     </sounds>
   </sounds>
@@ -229,6 +230,8 @@
       <sprite>sprites\sNoise</sprite>
       <sprite>sprites\sBlockWhite</sprite>
       <sprite>sprites\sBlockMiniWhite</sprite>
+      <sprite>sprites\sBlockBlock</sprite>
+      <sprite>sprites\sBlockUnder</sprite>
     </sprites>
     <sprite>sprites\sprite88</sprite>
   </sprites>
@@ -253,6 +256,7 @@
     </backgrounds>
     <background>background\bgWha</background>
     <background>background\bgWhat2</background>
+    <background>background\backUnderSea</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\pthD</path>
@@ -308,6 +312,7 @@
     <shader type="GLSLES">shaders\shCover.shader</shader>
     <shader type="GLSLES">shaders\shScreenTitleNoise.shader</shader>
     <shader type="GLSLES">shaders\shTort.shader</shader>
+    <shader type="GLSLES">shaders\shTortWater.shader</shader>
     <shader type="GLSLES">shaders\shMath.shader</shader>
     <shader type="GLSLES">shaders\shTurnWhite.shader</shader>
     <shader type="GLSLES">shaders\shTurnH.shader</shader>
@@ -354,6 +359,8 @@
       <object>objects\objBlock</object>
       <objects name="Feishiko">
         <object>objects\oBlockWhite</object>
+        <object>objects\oBlockBlock</object>
+        <object>objects\oBlockUnder</object>
       </objects>
       <objects name="OMGUY">
         <object>objects\objCreatorBlock</object>
@@ -549,6 +556,7 @@
       </objects>
       <objects name="IDK">
         <object>objects\objTheText</object>
+        <object>objects\objDontShow</object>
       </objects>
     </objects>
     <objects name="Feishiko">
@@ -563,6 +571,7 @@
       <object>objects\oMathCover</object>
       <object>objects\oTurnWhite</object>
       <object>objects\oBlockMiniWhite</object>
+      <object>objects\oWaterStage</object>
     </objects>
     <object>objects\object169</object>
   </objects>
@@ -632,6 +641,9 @@
       <rooms name="MathStage">
         <room>rooms\rmMath1</room>
         <room>rooms\rmMath2</room>
+      </rooms>
+      <rooms name="Water">
+        <room>rooms\rmWater1</room>
       </rooms>
     </rooms>
     <rooms name="BKZN">
