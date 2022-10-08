@@ -25,14 +25,15 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>op=0
+            <string>image_speed=0
+op=0
 T=""
 D=0
 num=instance_number(objBuffParents)
 x=view_xview[0]+16+32*(num-1)
 y=view_yview[0]+16
 image_alpha=0.8
-info="Creator Bless You"
+info="Creator Give you#An Extra jump"
 asdf=string_length(info)
 </string>
           </argument>
