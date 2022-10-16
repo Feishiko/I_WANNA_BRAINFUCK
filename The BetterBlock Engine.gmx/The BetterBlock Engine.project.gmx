@@ -117,6 +117,7 @@
     </sprites>
     <sprites name="killers">
       <sprite>sprites\sprSpikeUp</sprite>
+      <sprite>sprites\sprSpikeUpCenter</sprite>
       <sprites name="K3">
         <sprite>sprites\sprSpikeUpK3</sprite>
         <sprite>sprites\sprSpikeLeftK3</sprite>
@@ -140,8 +141,10 @@
     </sprites>
     <sprites name="misc">
       <sprite>sprites\sprWater</sprite>
+      <sprite>sprites\sprWater2</sprite>
       <sprite>sprites\sprWaterOMG</sprite>
       <sprite>sprites\sprWalljumpR</sprite>
+      <sprite>sprites\sprWalljumpRFloat</sprite>
       <sprite>sprites\sprWalljumpL</sprite>
       <sprite>sprites\sprJumpRefresher</sprite>
       <sprite>sprites\sprSign</sprite>
@@ -367,6 +370,7 @@
         <object>objects\oBlockWhite</object>
         <object>objects\oBlockBlock</object>
         <object>objects\oBlockUnder</object>
+        <object>objects\oBlockFloat</object>
       </objects>
       <objects name="OMGUY">
         <object>objects\objCreatorBlock</object>
@@ -392,6 +396,7 @@
       <object>objects\objSlipBlock</object>
       <object>objects\objBossBlock</object>
       <object>objects\objBlockInvis</object>
+      <object>objects\objBlockInvis2</object>
       <object>objects\objBlockFake</object>
       <object>objects\objSlideBlock</object>
       <object>objects\objSlideBlockL</object>
@@ -488,6 +493,9 @@
       <object>objects\objWater2</object>
       <object>objects\objWater3</object>
       <object>objects\objWalljumpR</object>
+      <object>objects\objWalljumpR2</object>
+      <object>objects\objWalljumpRFloat</object>
+      <object>objects\objWalljumpRFloatRandom</object>
       <object>objects\objWalljumpL</object>
       <object>objects\objJumpRefresher</object>
       <object>objects\objSign</object>
@@ -584,6 +592,8 @@
       <object>objects\oBlockMiniWhite</object>
       <object>objects\oWaterStage</object>
     </objects>
+    <object>objects\objFloatingSpike</object>
+    <object>objects\objFloatingSpikeNoSpin</object>
   </objects>
   <rooms name="rooms">
     <rooms name="init">
@@ -658,6 +668,7 @@
       <rooms name="Water">
         <room>rooms\rmWater1</room>
         <room>rooms\rmWater2</room>
+        <room>rooms\rmWater3</room>
       </rooms>
     </rooms>
     <rooms name="BKZN">

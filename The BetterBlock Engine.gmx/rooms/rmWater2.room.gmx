@@ -142,7 +142,6 @@
     <instance objName="objSpikeLeft" x="720" y="208" name="inst_B789772E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeLeft" x="48" y="208" name="inst_FC06C5C9" locked="0" code="" scaleX="4" scaleY="4" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeLeft" x="176" y="256" name="inst_66C0CFEA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWarpFadeIn" x="736" y="336" name="inst_98C0042D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeLeft" x="128" y="400" name="inst_CED30014" locked="0" code="" scaleX="4" scaleY="4" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeLeft" x="256" y="448" name="inst_CF172DE1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="640" y="416" name="inst_C98EFEFC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -166,6 +165,7 @@
     <instance objName="objSpikeLeft" x="512" y="288" name="inst_4C842238" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeLeft" x="496" y="480" name="inst_81A86BBF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeRight" x="0" y="0" name="inst_6E99F6F9" locked="0" code="" scaleX="1" scaleY="8.5" colour="4294967295" rotation="0"/>
+    <instance objName="objWarp" x="736" y="336" name="inst_F725CBB4" locked="0" code="roomTo=rmWater3&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="v_r_fish" x="112" y="64" w="320" h="160" xo="320" yo="160" id="10004329" name="inst_D6B282E0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
