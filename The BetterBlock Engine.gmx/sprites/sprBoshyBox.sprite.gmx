@@ -21,5 +21,6 @@
   <height>225</height>
   <frames>
     <frame index="0">images\sprBoshyBox_0.png</frame>
+    <frame index="1">images\sprBoshyBox_1.png</frame>
   </frames>
 </sprite>

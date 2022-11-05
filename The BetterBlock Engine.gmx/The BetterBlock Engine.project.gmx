@@ -62,6 +62,8 @@
         <sound>sound\musUnderWater</sound>
       </sounds>
     </sounds>
+    <sound>sound\sndBossHitRemastered</sound>
+    <sound>sound\sndBossAppear</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="world">
@@ -190,12 +192,13 @@
         <sprite>sprites\sprWhite</sprite>
         <sprite>sprites\sprBoshyQuestion</sprite>
         <sprite>sprites\sprFallenSDDL</sprite>
+        <sprite>sprites\sprDaoliBullet</sprite>
         <sprite>sprites\sprGoldenLight</sprite>
         <sprites name="ForBoss">
           <sprite>sprites\sprBoshySpider</sprite>
+          <sprite>sprites\sprBoshyBox</sprite>
         </sprites>
         <sprite>sprites\sprBossSave_white</sprite>
-        <sprite>sprites\sprBoshyBox</sprite>
       </sprites>
       <sprites name="Medley">
         <sprite>sprites\sprTitleCard</sprite>
@@ -559,7 +562,10 @@
         <object>objects\objDrawCircle2</object>
         <object>objects\objDrawCircle</object>
         <object>objects\objPlaymusicSpecial</object>
-        <object>objects\objBoshyBox</object>
+        <objects name="BOSS">
+          <object>objects\objBoshyBox</object>
+          <object>objects\objDaoliBullet</object>
+        </objects>
       </objects>
       <objects name="Medley">
         <object>objects\objTitleCard</object>

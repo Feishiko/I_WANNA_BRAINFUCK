@@ -59,6 +59,10 @@
     <instance objName="objBoshyBox" x="624" y="720" name="inst_BE95A495" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSDDLKid" x="144" y="256" name="inst_40B2648B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlayMusic" x="16" y="0" name="inst_486C62AD" locked="0" code="BGM=musBoss0&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDaoliBullet" x="448" y="176" name="inst_6F9AFFE3" locked="0" code="" scaleX="6" scaleY="6" colour="4294967295" rotation="0"/>
+    <instance objName="objDaoliBullet" x="576" y="320" name="inst_5F62384A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDaoliBullet" x="128" y="384" name="inst_AB600F7C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDaoliBullet" x="64" y="208" name="inst_86FAC5EC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bgBoshySmallblock" x="288" y="480" w="16" h="16" xo="0" yo="0" id="10003970" name="inst_B63BEAC0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

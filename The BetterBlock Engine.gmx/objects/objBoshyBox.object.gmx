@@ -25,7 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>t=0
+            <string>audio_play_sound(sndBossAppear,0,false)
+Hurt=0
+image_speed=0
+HP=25
+t=0
 friction=0.5
 </string>
           </argument>
@@ -80,6 +84,30 @@ room_goto(rBoshy6)
         </arguments>
       </action>
     </event>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>image_index=0
+Hurt=0
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
@@ -97,7 +125,19 @@ room_goto(rBoshy6)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>t+=0.1
+            <string>if(Hurt=1)
+{
+image_index=1
+}
+else
+{
+image_index=0
+}
+if(HP&lt;=0)
+{
+instance_destroy()
+}
+t+=0.1
 image_angle=sin(t)*13
 </string>
           </argument>
@@ -107,17 +147,31 @@ image_angle=sin(t)*13
     <event eventtype="4" ename="objBullet">
       <action>
         <libid>1</libid>
-        <id>203</id>
-        <kind>0</kind>
+        <id>603</id>
+        <kind>7</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_kill_object</functionname>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>audio_play_sound(sndBossHit,0,false)
+with(other)
+{
+instance_destroy()
+}
+HP-=1
+Hurt=1
+alarm[0]=5
+</string>
+          </argument>
+        </arguments>
       </action>
     </event>
   </events>
