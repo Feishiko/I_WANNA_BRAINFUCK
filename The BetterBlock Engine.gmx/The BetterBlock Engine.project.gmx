@@ -64,6 +64,9 @@
     </sounds>
     <sound>sound\sndBossHitRemastered</sound>
     <sound>sound\sndBossAppear</sound>
+    <sound>sound\sndXuli</sound>
+    <sound>sound\sndExplode</sound>
+    <sound>sound\musGC2Spider</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="world">
@@ -192,11 +195,15 @@
         <sprite>sprites\sprWhite</sprite>
         <sprite>sprites\sprBoshyQuestion</sprite>
         <sprite>sprites\sprFallenSDDL</sprite>
-        <sprite>sprites\sprDaoliBullet</sprite>
         <sprite>sprites\sprGoldenLight</sprite>
         <sprites name="ForBoss">
           <sprite>sprites\sprBoshySpider</sprite>
           <sprite>sprites\sprBoshyBox</sprite>
+          <sprite>sprites\sprBoom</sprite>
+          <sprite>sprites\sprDaoliBullet</sprite>
+          <sprite>sprites\sprJCHZ</sprite>
+          <sprite>sprites\sprGreenEffect</sprite>
+          <sprite>sprites\sprGC2TitleCard</sprite>
         </sprites>
         <sprite>sprites\sprBossSave_white</sprite>
       </sprites>
@@ -214,6 +221,10 @@
         </sprites>
         <sprite>sprites\sprite97</sprite>
         <sprite>sprites\sprite119</sprite>
+        <sprites name="part2">
+          <sprite>sprites\sprKrainBlock</sprite>
+          <sprite>sprites\sprChest</sprite>
+        </sprites>
         <sprite>sprites\sprite112</sprite>
         <sprite>sprites\sprite122</sprite>
         <sprite>sprites\sprite121</sprite>
@@ -242,6 +253,8 @@
       <sprite>sprites\sBlockUnder</sprite>
     </sprites>
     <sprite>sprites\sprite88</sprite>
+    <sprite>sprites\sprAchievementMB</sprite>
+    <sprite>sprites\sprAchievementGC2</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bAllTiles</background>
@@ -377,6 +390,7 @@
       </objects>
       <objects name="OMGUY">
         <object>objects\objCreatorBlock</object>
+        <object>objects\objKrainBlock</object>
       </objects>
       <object>objects\objMiniBlock</object>
       <objects name="Better Block Objects">
@@ -565,11 +579,18 @@
         <objects name="BOSS">
           <object>objects\objBoshyBox</object>
           <object>objects\objDaoliBullet</object>
+          <object>objects\objBoss1Movement1</object>
+          <object>objects\objJCHZ</object>
+          <object>objects\objGC2Spider</object>
+          <object>objects\objExplode</object>
         </objects>
       </objects>
       <objects name="Medley">
         <object>objects\objTitleCard</object>
         <object>objects\objCreatorPlayerTrg</object>
+        <objects name="Part2">
+          <object>objects\objChest</object>
+        </objects>
       </objects>
       <objects name="Buff">
         <object>objects\objBuffCreator</object>
@@ -643,7 +664,7 @@
           <room>rooms\rCreator</room>
         </rooms>
         <rooms name="Krain's game">
-          <room>rooms\room37</room>
+          <room>rooms\rKrain</room>
         </rooms>
         <rooms name="Risk of needle">
           <room>rooms\room38</room>
