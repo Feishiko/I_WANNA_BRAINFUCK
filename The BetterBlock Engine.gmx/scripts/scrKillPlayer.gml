@@ -1,5 +1,12 @@
 //kills the player
-
+//OMGUY ADD THIS
+if(instance_exists(objSDDLKid))
+{
+with(objSDDLKid)
+{
+instance_destroy()
+}
+}
 if (instance_exists(objPlayer) && (!global.noDeath && !global.debugNoDeath))
 {
     if (global.gameStarted) //normal death

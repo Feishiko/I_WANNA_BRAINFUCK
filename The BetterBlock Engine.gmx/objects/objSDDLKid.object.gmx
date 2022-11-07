@@ -65,10 +65,7 @@ if(instance_exists(objPlayer))
 x=objPlayer.x
 y=objPlayer.y
 }
-else
-{
-visible=0
-}
+
 </string>
           </argument>
         </arguments>
