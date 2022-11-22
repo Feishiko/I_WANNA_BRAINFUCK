@@ -166,7 +166,7 @@ with(other)
 {
 instance_destroy()
 }
-if(!instance_exists(objGC2Spider))
+if(!instance_exists(objGC2Spider) &amp;&amp; !instance_exists(objGC2SpiderBig))
 {
 HP-=1
 Hurt=1

@@ -57,6 +57,7 @@
         <sound>sound\musAmibent</sound>
         <sound>sound\musSDDL_OMGUY</sound>
         <sound>sound\musBoshy</sound>
+        <sound>sound\musGC2phase2</sound>
         <sound>sound\musRandomMedley</sound>
         <sound>sound\musBoss0</sound>
       </sounds>
@@ -594,9 +595,13 @@
           <object>objects\objBoss1Movement1</object>
           <object>objects\objJCHZ</object>
           <object>objects\objGC2Spider</object>
+          <object>objects\objGC2SpiderBig</object>
           <object>objects\objGC2titlecard</object>
+          <object>objects\objGC2SpiderDead</object>
+          <object>objects\objGC2SpiderDead2</object>
           <object>objects\objDaoliAcid</object>
           <object>objects\objDaoliAcidShooter</object>
+          <object>objects\objDaoliAcidShooter2</object>
           <object>objects\objExplode</object>
         </objects>
       </objects>
