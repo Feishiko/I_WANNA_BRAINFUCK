@@ -32,6 +32,29 @@ alarm[0]=25
         </arguments>
       </action>
     </event>
+    <event eventtype="1" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>instance_create(x,y,objBoss1Movement2)
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="2" enumb="0">
       <action>
         <libid>1</libid>
@@ -51,7 +74,7 @@ alarm[0]=25
             <kind>1</kind>
             <string>Move+=1
 objBoshyBox.x=choose(random_range(50,100),random_range(600,700))
-objBoshyBox.y=random_range(50,408)
+objBoshyBox.y=random_range(208,408)
 instance_create(objBoshyBox.x,objBoshyBox.y,objDaoliBullet)
 alarm[0]=25
 </string>

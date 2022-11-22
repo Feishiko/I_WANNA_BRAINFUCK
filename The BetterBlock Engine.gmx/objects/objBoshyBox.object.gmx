@@ -161,13 +161,21 @@ image_angle=sin(t)*13
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>audio_play_sound(sndBossHit,0,false)
+            <string>audio_play_sound(sndBossHitRemastered,0,false)
 with(other)
 {
 instance_destroy()
 }
+if(!instance_exists(objGC2Spider))
+{
 HP-=1
 Hurt=1
+}
+else
+{
+instance_create(x,y,objDaoliHuzhao)
+audio_play_sound(sndDefend,0,false)
+}
 alarm[0]=5
 </string>
           </argument>

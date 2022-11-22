@@ -25,6 +25,12 @@
         <sound>sound\sndDJHA</sound>
         <sound>sound\sndThinking</sound>
         <sound>sound\sndAizheng</sound>
+        <sounds name="Boss1">
+          <sound>sound\sndJCHZ</sound>
+          <sound>sound\sndTitleCardGC2</sound>
+          <sound>sound\musGC2Spider</sound>
+          <sound>sound\sndYummy</sound>
+        </sounds>
         <sound>sound\sndXKDDX</sound>
         <sound>sound\sndAAAA</sound>
         <sound>sound\sndWowSound1</sound>
@@ -66,7 +72,7 @@
     <sound>sound\sndBossAppear</sound>
     <sound>sound\sndXuli</sound>
     <sound>sound\sndExplode</sound>
-    <sound>sound\musGC2Spider</sound>
+    <sound>sound\sndDefend</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="world">
@@ -198,9 +204,13 @@
         <sprite>sprites\sprGoldenLight</sprite>
         <sprites name="ForBoss">
           <sprite>sprites\sprBoshySpider</sprite>
+          <sprite>sprites\sprBoshySpiderSmall</sprite>
+          <sprite>sprites\sprBoshySpiderGreen</sprite>
           <sprite>sprites\sprBoshyBox</sprite>
           <sprite>sprites\sprBoom</sprite>
           <sprite>sprites\sprDaoliBullet</sprite>
+          <sprite>sprites\sprDaoliAcid</sprite>
+          <sprite>sprites\sprDaoliHuzhao</sprite>
           <sprite>sprites\sprJCHZ</sprite>
           <sprite>sprites\sprGreenEffect</sprite>
           <sprite>sprites\sprGC2TitleCard</sprite>
@@ -579,9 +589,14 @@
         <objects name="BOSS">
           <object>objects\objBoshyBox</object>
           <object>objects\objDaoliBullet</object>
+          <object>objects\objDaoliHuzhao</object>
+          <object>objects\objBoss1Movement2</object>
           <object>objects\objBoss1Movement1</object>
           <object>objects\objJCHZ</object>
           <object>objects\objGC2Spider</object>
+          <object>objects\objGC2titlecard</object>
+          <object>objects\objDaoliAcid</object>
+          <object>objects\objDaoliAcidShooter</object>
           <object>objects\objExplode</object>
         </objects>
       </objects>

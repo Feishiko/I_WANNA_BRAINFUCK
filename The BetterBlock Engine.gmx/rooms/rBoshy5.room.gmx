@@ -58,7 +58,6 @@
     <instance objName="objSDDLKid" x="144" y="256" name="inst_40B2648B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlayMusic" x="16" y="0" name="inst_486C62AD" locked="0" code="BGM=musBoss0&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBoss1Movement1" x="96" y="64" name="inst_8CA77B7B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objJCHZ" x="640" y="112" name="inst_6DFF9BAB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBoshyBox" x="640" y="720" name="inst_42161093" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objGoldenlight" x="400" y="608" name="inst_5C521447" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>

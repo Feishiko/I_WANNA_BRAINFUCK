@@ -61,14 +61,13 @@
     <instance objName="objWhite2" x="304" y="496" name="inst_6B50EC53" locked="0" code="" scaleX="6" scaleY="3.5" colour="4294967295" rotation="0"/>
     <instance objName="objBossSave_white" x="384" y="400" name="inst_9D07175A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWhite2" x="288" y="368" name="inst_D4FA4492" locked="0" code="" scaleX="3" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="objWhite2" x="384" y="368" name="inst_7D9BA59A" locked="0" code="" scaleX="4.5" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWhite2" x="416" y="400" name="inst_C04FA4B7" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWhite2" x="176" y="320" name="inst_ACAB6CB8" locked="0" code="" scaleX="3.5" scaleY="2.5" colour="4294967295" rotation="0"/>
-    <instance objName="objWhite2" x="288" y="320" name="inst_D292CC5F" locked="0" code="" scaleX="12" scaleY="1.5" colour="4294967295" rotation="0"/>
+    <instance objName="objWhite2" x="288" y="320" name="inst_D292CC5F" locked="0" code="audio_stop_sound(musGC2Spider)&#xA;" scaleX="12" scaleY="1.5" colour="4294967295" rotation="0"/>
     <instance objName="objWhite2" x="80" y="320" name="inst_D6E8EEAA" locked="0" code="" scaleX="3.5" scaleY="8.5" colour="4294967295" rotation="0"/>
     <instance objName="objWhite2" x="176" y="224" name="inst_C523D330" locked="0" code="" scaleX="19.5" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="objWhite2" x="672" y="320" name="inst_14E55104" locked="0" code="" scaleX="3" scaleY="9" colour="4294967295" rotation="0"/>
-    <instance objName="objWhite2" x="80" y="192" name="inst_050CBB21" locked="0" code="" scaleX="22.5" scaleY="4" colour="4294967295" rotation="0"/>
+    <instance objName="objWhite2" x="80" y="176" name="inst_050CBB21" locked="0" code="" scaleX="22.5" scaleY="7" colour="4294967295" rotation="0"/>
     <instance objName="objDrawCircle" x="384" y="496" name="inst_B547B58B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSDDLKid" x="-80" y="224" name="inst_DF0184B3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
