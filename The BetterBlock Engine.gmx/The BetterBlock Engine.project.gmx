@@ -27,6 +27,7 @@
         <sound>sound\sndAizheng</sound>
         <sounds name="Boss1">
           <sound>sound\sndJCHZ</sound>
+          <sound>sound\sndWOWDian</sound>
           <sound>sound\sndTitleCardGC2</sound>
           <sound>sound\musGC2Spider</sound>
           <sound>sound\sndYummy</sound>
@@ -214,7 +215,10 @@
           <sprite>sprites\sprDaoliHuzhao</sprite>
           <sprite>sprites\sprJCHZ</sprite>
           <sprite>sprites\sprGreenEffect</sprite>
+          <sprite>sprites\sprGreenScreen</sprite>
+          <sprite>sprites\sprWOW</sprite>
           <sprite>sprites\sprGC2TitleCard</sprite>
+          <sprite>sprites\sprSpikeFriendly</sprite>
         </sprites>
         <sprite>sprites\sprBossSave_white</sprite>
       </sprites>
@@ -593,16 +597,27 @@
           <object>objects\objDaoliHuzhao</object>
           <object>objects\objBoss1Movement2</object>
           <object>objects\objBoss1Movement1</object>
-          <object>objects\objJCHZ</object>
-          <object>objects\objGC2Spider</object>
-          <object>objects\objGC2SpiderBig</object>
-          <object>objects\objGC2titlecard</object>
-          <object>objects\objGC2SpiderDead</object>
-          <object>objects\objGC2SpiderDead2</object>
-          <object>objects\objDaoliAcid</object>
-          <object>objects\objDaoliAcidShooter</object>
-          <object>objects\objDaoliAcidShooter2</object>
+          <objects name="Spider">
+            <object>objects\objGC2SpiderDead</object>
+            <object>objects\objJCHZ</object>
+            <object>objects\objGC2titlecard</object>
+            <object>objects\objGC2SpiderDead2</object>
+            <object>objects\objGC2Spider</object>
+            <object>objects\objDaoliAcid</object>
+            <object>objects\objDaoliAcidShooter</object>
+            <object>objects\objGC2SpiderBig</object>
+            <object>objects\objDaoliAcidShooter2</object>
+          </objects>
           <object>objects\objExplode</object>
+          <objects name="Green Screen">
+            <object>objects\objGreenDark</object>
+            <object>objects\objShowingBullet2</object>
+            <object>objects\objShowingKid</object>
+            <object>objects\objShowingBullet</object>
+            <object>objects\objSpikeShoot</object>
+            <object>objects\objBullet2</object>
+            <object>objects\objWOW</object>
+          </objects>
         </objects>
       </objects>
       <objects name="Medley">
