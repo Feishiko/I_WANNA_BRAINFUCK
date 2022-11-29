@@ -29,7 +29,6 @@
 image_speed=0
 HP=20
 instance_create(x,y,objShowingKid)
-instance_create(x,y,objSpikeShoot)
 Start=0
 k=800
 //p=608

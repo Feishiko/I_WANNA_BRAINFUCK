@@ -75,6 +75,7 @@
     <sound>sound\sndXuli</sound>
     <sound>sound\sndExplode</sound>
     <sound>sound\sndDefend</sound>
+    <sound>sound\sndWarning2</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="world">
@@ -251,6 +252,7 @@
       </sprites>
       <sprites name="IDK">
         <sprite>sprites\sprTheText</sprite>
+        <sprite>sprites\sprWARNING</sprite>
       </sprites>
       <sprites name="Buff">
         <sprite>sprites\sprBuffCreator</sprite>
@@ -633,6 +635,7 @@
       </objects>
       <objects name="IDK">
         <object>objects\objTheText</object>
+        <object>objects\objWarning2</object>
         <object>objects\objDontShow</object>
       </objects>
       <objects name="Effect">

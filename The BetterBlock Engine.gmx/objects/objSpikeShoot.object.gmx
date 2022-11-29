@@ -25,8 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>x=384
+            <string>
+x=384
 y=448
+inst=instance_create(x,y,objWarning2)
+inst.Text="Shoot!"
 </string>
           </argument>
         </arguments>
