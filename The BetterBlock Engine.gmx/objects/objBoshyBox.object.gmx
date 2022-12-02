@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>audio_play_sound(sndBossAppear,0,false)
+            <string>wudi=1
+audio_play_sound(sndBossAppear,0,false)
 Hurt=0
 image_speed=0
 HP=25
@@ -166,7 +167,7 @@ with(other)
 {
 instance_destroy()
 }
-if(!instance_exists(objGC2Spider) &amp;&amp; !instance_exists(objGC2SpiderBig))
+if(!instance_exists(objGC2Spider) &amp;&amp; !instance_exists(objGC2SpiderBig) &amp;&amp; visible=1 &amp;&amp; wudi=0)
 {
 HP-=1
 Hurt=1

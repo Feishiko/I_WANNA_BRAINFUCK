@@ -76,6 +76,8 @@
     <sound>sound\sndExplode</sound>
     <sound>sound\sndDefend</sound>
     <sound>sound\sndWarning2</sound>
+    <sound>sound\sndDisappear</sound>
+    <sound>sound\sndPrinting</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="world">
@@ -218,6 +220,11 @@
           <sprite>sprites\sprGreenEffect</sprite>
           <sprite>sprites\sprGreenScreen</sprite>
           <sprite>sprites\sprWOW</sprite>
+          <sprite>sprites\sprDyingDaoli</sprite>
+          <sprites name="Typewriter">
+            <sprite>sprites\sprDaoliS</sprite>
+            <sprite>sprites\sprTypeWriterDaoli</sprite>
+          </sprites>
           <sprite>sprites\sprGC2TitleCard</sprite>
           <sprite>sprites\sprSpikeFriendly</sprite>
         </sprites>
@@ -598,6 +605,13 @@
           <object>objects\objDaoliBullet</object>
           <object>objects\objDaoliHuzhao</object>
           <object>objects\objBoss1Movement2</object>
+          <objects name="Typewriter">
+            <object>objects\objTypeWriter</object>
+            <object>objects\objGreenAttack2</object>
+            <object>objects\objGreenAttack3</object>
+            <object>objects\objDaolideath</object>
+            <object>objects\objLitttleDaoli</object>
+          </objects>
           <object>objects\objBoss1Movement1</object>
           <objects name="Spider">
             <object>objects\objGC2SpiderDead</object>
@@ -636,6 +650,7 @@
       <objects name="IDK">
         <object>objects\objTheText</object>
         <object>objects\objWarning2</object>
+        <object>objects\objWarning3</object>
         <object>objects\objDontShow</object>
       </objects>
       <objects name="Effect">

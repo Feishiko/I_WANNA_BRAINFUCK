@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>Hurt=0
+            <string>objBoshyBox.wudi=1
+Hurt=0
 image_speed=0
 HP=5
 spdd=16

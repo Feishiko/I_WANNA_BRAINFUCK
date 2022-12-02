@@ -50,6 +50,7 @@
           <argument>
             <kind>1</kind>
             <string>inst=instance_create(x,y,objShowingBullet2)
+gravity=0.1
 </string>
           </argument>
         </arguments>
