@@ -214,6 +214,10 @@
           <sprite>sprites\sprBoshyBox</sprite>
           <sprite>sprites\sprBoom</sprite>
           <sprite>sprites\sprDaoliBullet</sprite>
+          <sprites name="Last">
+            <sprite>sprites\sprGunDaoli</sprite>
+            <sprite>sprites\sprBulletDaoli</sprite>
+          </sprites>
           <sprite>sprites\sprDaoliAcid</sprite>
           <sprite>sprites\sprDaoliHuzhao</sprite>
           <sprite>sprites\sprJCHZ</sprite>
@@ -603,6 +607,10 @@
         <objects name="BOSS">
           <object>objects\objBoshyBox</object>
           <object>objects\objDaoliBullet</object>
+          <objects name="Last">
+            <object>objects\objBoshy1</object>
+            <object>objects\objTheGreenBu</object>
+          </objects>
           <object>objects\objDaoliHuzhao</object>
           <object>objects\objBoss1Movement2</object>
           <objects name="Typewriter">

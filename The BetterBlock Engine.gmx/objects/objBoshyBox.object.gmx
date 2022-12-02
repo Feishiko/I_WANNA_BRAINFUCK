@@ -145,6 +145,44 @@ image_angle=sin(t)*13
         </arguments>
       </action>
     </event>
+    <event eventtype="4" ename="objBullet2">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>audio_play_sound(sndBossHitRemastered,0,false)
+with(other)
+{
+instance_destroy()
+}
+if(!instance_exists(objGC2Spider) &amp;&amp; !instance_exists(objGC2SpiderBig) &amp;&amp; visible=1 &amp;&amp; wudi=0)
+{
+HP-=1
+Hurt=1
+}
+else
+{
+instance_create(x,y,objDaoliHuzhao)
+audio_play_sound(sndDefend,0,false)
+}
+alarm[0]=5
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="4" ename="objBullet">
       <action>
         <libid>1</libid>
