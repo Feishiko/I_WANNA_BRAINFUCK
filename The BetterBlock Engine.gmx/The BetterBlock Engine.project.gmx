@@ -373,6 +373,7 @@
     <shader type="GLSLES">shaders\shTurnGreen.shader</shader>
     <shader type="GLSLES">shaders\shTurnPlat.shader</shader>
     <shader type="GLSLES">shaders\shAlpha.shader</shader>
+    <shader type="GLSLES">shaders\shBoshy.shader</shader>
   </shaders>
   <fonts name="fonts">
     <font>fonts\fDefault30</font>
@@ -681,6 +682,7 @@
       <object>objects\oTurnWhite</object>
       <object>objects\oBlockMiniWhite</object>
       <object>objects\oWaterStage</object>
+      <object>objects\oBoshyStage</object>
     </objects>
     <object>objects\objFloatingSpike</object>
     <object>objects\objFloatingSpikeNoSpin</object>
