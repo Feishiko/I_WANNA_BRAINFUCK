@@ -42,7 +42,7 @@ HP=20
 spdd=16
 image_speed=0
 instance_create(x,y,objGC2titlecard)
-audio_play_sound(musGC2phase2,0,false)
+//audio_play_sound(musGC2phase2,0,false)
 direction=-90
 alarm[0]=125
 alarm[1]=5
