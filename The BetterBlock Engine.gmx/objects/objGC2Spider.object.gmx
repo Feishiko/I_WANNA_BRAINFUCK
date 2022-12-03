@@ -25,7 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>objBoshyBox.wudi=1
+            <string>inst=instance_create(x,y,objShootSign2)
+inst.FollowObj=objGC2Spider
+inst.xoff=-96
+inst.yoff=-30
+objBoshyBox.wudi=1
 Hurt=0
 image_speed=0
 HP=5

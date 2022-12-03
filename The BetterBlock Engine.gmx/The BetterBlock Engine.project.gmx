@@ -283,6 +283,7 @@
     <sprite>sprites\sprite88</sprite>
     <sprite>sprites\sprAchievementMB</sprite>
     <sprite>sprites\sprAchievementGC2</sprite>
+    <sprite>sprites\sprShootSign2</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bAllTiles</background>
@@ -658,6 +659,7 @@
       <objects name="IDK">
         <object>objects\objTheText</object>
         <object>objects\objWarning2</object>
+        <object>objects\objShootSign2</object>
         <object>objects\objWarning3</object>
         <object>objects\objDontShow</object>
       </objects>

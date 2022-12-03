@@ -25,7 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(instance_exists(objDaoliAcid))
+            <string>inst=instance_create(x,y,objShootSign2)
+inst.FollowObj=objGC2SpiderBig
+inst.xoff=-64-149
+inst.yoff=-93/2
+if(instance_exists(objDaoliAcid))
 {
 with(objDaoliAcid)
 {
