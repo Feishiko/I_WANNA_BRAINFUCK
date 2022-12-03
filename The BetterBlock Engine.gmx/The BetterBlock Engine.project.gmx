@@ -558,6 +558,7 @@
     <objects name="saves">
       <object>objects\objSaveMedium</object>
       <object>objects\objSave</object>
+      <object>objects\objTouchSaveInvis</object>
       <object>objects\objSaveWeird</object>
       <object>objects\objSaveVHard</object>
       <object>objects\objSaveMediumFlip</object>

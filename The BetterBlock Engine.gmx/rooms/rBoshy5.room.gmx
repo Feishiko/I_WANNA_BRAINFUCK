@@ -61,6 +61,7 @@
     <instance objName="objBoshyBox" x="640" y="720" name="inst_42161093" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objGoldenlight" x="400" y="608" name="inst_5C521447" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBoshyStage" x="16" y="48" name="inst_548800B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objTouchSaveInvis" x="272" y="304" name="inst_E065DEE1" locked="0" code="" scaleX="7.74193525314331" scaleY="5.67741918563843" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bgBoshySmallblock" x="288" y="480" w="16" h="16" xo="0" yo="0" id="10003970" name="inst_B63BEAC0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
