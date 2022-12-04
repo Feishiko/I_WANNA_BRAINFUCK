@@ -75,8 +75,15 @@ alarm[0]=100
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>x=FollowObj.x+xoff
+            <string>if(instance_exists(FollowObj))
+{
+x=FollowObj.x+xoff
 y=FollowObj.y+yoff
+}
+else
+{
+instance_destroy()
+}
 if(Fade=1)
 {
 image_alpha-=0.005

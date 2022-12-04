@@ -38,7 +38,7 @@ instance_destroy()
 }
 Hurt=0
 image_speed=0
-HP=20
+HP=1
 spdd=16
 image_speed=0
 instance_create(x,y,objGC2titlecard)
