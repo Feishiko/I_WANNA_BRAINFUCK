@@ -32,7 +32,7 @@ inst.yoff=-30
 objBoshyBox.wudi=1
 Hurt=0
 image_speed=0
-HP=1
+HP=5
 spdd=16
 image_speed=0
 instance_create(x,y,objGC2titlecard)

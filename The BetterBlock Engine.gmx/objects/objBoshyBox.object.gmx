@@ -29,7 +29,7 @@
 audio_play_sound(sndBossAppear,0,false)
 Hurt=0
 image_speed=0
-HP=25
+HP=50
 t=0
 friction=0.5
 </string>
