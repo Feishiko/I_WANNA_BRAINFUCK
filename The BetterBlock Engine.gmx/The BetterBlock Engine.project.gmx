@@ -285,11 +285,12 @@
     <sprite>sprites\sprAchievementGC2</sprite>
     <sprite>sprites\sprShootSign2</sprite>
     <sprites name="Resofa">
-      <sprite>sprites\sprBlockA</sprite>
+      <sprite>sprites\sprMarioBlockHigh</sprite>
       <sprite>sprites\sprBlackSpikeUp</sprite>
       <sprite>sprites\sprBlackSpikeRight</sprite>
       <sprite>sprites\sprBlackSpikeLeft</sprite>
       <sprite>sprites\sprBlackSpikeDown</sprite>
+      <sprite>sprites\sprBubble</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">

@@ -12,7 +12,7 @@
   <showcolour>-1</showcolour>
   <code></code>
   <enableViews>-1</enableViews>
-  <clearViewBackground>0</clearViewBackground>
+  <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>0</isSet>
@@ -53,7 +53,6 @@
   <instances>
     <instance objName="objSave" x="96" y="288" name="inst_1625C004" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlayerStart" x="64" y="288" name="inst_D80E977E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpinSurface" x="96" y="192" name="inst_DCF71025" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="32" y="288" name="inst_02497DB7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="192" y="416" name="inst_363F049D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="320" y="512" name="inst_E3DE9F86" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
@@ -71,7 +70,6 @@
     <instance objName="objDreamWater" x="64" y="192" name="inst_7A44ED9F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="160" y="288" name="inst_A68E3E91" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="160" y="224" name="inst_225E214D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpikeRight" x="192" y="320" name="inst_68F51EDC" locked="0" code="" scaleX="1.03225803375244" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="192" y="224" name="inst_FB27BA21" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="224" y="224" name="inst_9492B8FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="288" y="224" name="inst_6604826D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -90,10 +88,9 @@
     <instance objName="objSpikeDown" x="608" y="480" name="inst_1EB83137" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="736" y="480" name="inst_595E102E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="672" y="544" name="inst_3C4AC798" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objFloatingSpike" x="256" y="352" name="inst_F1F5F2C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWater" x="0" y="0" name="inst_C75C685A" locked="0" code="visible=false&#xA;" scaleX="25" scaleY="19" colour="4294967295" rotation="0"/>
-    <instance objName="objFloatingSpike" x="352" y="384" name="inst_677BFCD9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objFloatingSpike" x="448" y="448" name="inst_D129DF75" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBetterBlockExpandCtrl" x="256" y="320" name="inst_A5739C03" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeUp" x="256" y="416" name="inst_856C5A11" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bgCaveUnderwaterDream" x="64" y="320" w="32" h="32" xo="32" yo="0" id="10004547" name="inst_2D0AFECE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
