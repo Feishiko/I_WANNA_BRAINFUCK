@@ -284,6 +284,13 @@
     <sprite>sprites\sprAchievementMB</sprite>
     <sprite>sprites\sprAchievementGC2</sprite>
     <sprite>sprites\sprShootSign2</sprite>
+    <sprites name="Resofa">
+      <sprite>sprites\sprBlockA</sprite>
+      <sprite>sprites\sprBlackSpikeUp</sprite>
+      <sprite>sprites\sprBlackSpikeRight</sprite>
+      <sprite>sprites\sprBlackSpikeLeft</sprite>
+      <sprite>sprites\sprBlackSpikeDown</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bAllTiles</background>
@@ -310,6 +317,14 @@
     <background>background\bgUnderWater2</background>
     <backgrounds name="bkzn">
       <background>background\v_r_fish</background>
+    </backgrounds>
+    <backgrounds name="Resofa">
+      <backgrounds name="Tile">
+        <background>background\bgColor</background>
+      </backgrounds>
+      <backgrounds name="Background">
+        <background>background\backgroundA</background>
+      </backgrounds>
     </backgrounds>
   </backgrounds>
   <paths name="paths">
@@ -360,6 +375,9 @@
     </scripts>
     <scripts name="Feishiko">
       <script>scripts\FadeInto.gml</script>
+    </scripts>
+    <scripts name="Resofa">
+      <script>scripts\set_default.gml</script>
     </scripts>
   </scripts>
   <shaders name="shaders">
@@ -522,6 +540,12 @@
           <object>objects\objCherryRandomColExplode</object>
           <object>objects\objCherryRandomColBounce</object>
         </objects>
+      </objects>
+      <objects name="Resofa">
+        <object>objects\objSpikeBlackUp</object>
+        <object>objects\objSpikeBlackDown</object>
+        <object>objects\objSpikeBlackLeft</object>
+        <object>objects\objSpikeBlackRight</object>
       </objects>
     </objects>
     <objects name="triggers">
@@ -687,6 +711,9 @@
     </objects>
     <object>objects\objFloatingSpike</object>
     <object>objects\objFloatingSpikeNoSpin</object>
+    <objects name="Resofa">
+      <object>objects\objSpin</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <rooms name="init">
@@ -767,6 +794,9 @@
     <rooms name="BKZN">
       <room>rooms\rTrigger</room>
       <room>rooms\rAllBlack1</room>
+    </rooms>
+    <rooms name="Resofa and His Piece of Shit">
+      <room>rooms\rResofaAA</room>
     </rooms>
   </rooms>
   <help>

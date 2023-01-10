@@ -1,4 +1,4 @@
-///scrIsBlock(id)
+ ///scrIsBlock(id)
 var t_id = noone;
 
 if (argument_count == 0)

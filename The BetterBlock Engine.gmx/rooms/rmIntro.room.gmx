@@ -149,11 +149,13 @@
     <instance objName="oWarpFadeIn" x="2208" y="640" name="inst_5A6E9383" locked="0" code="roomTo = rBoshy1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="2240" y="0" name="inst_C4519085" locked="0" code="" scaleX="1" scaleY="23" colour="4294967295" rotation="0"/>
     <instance objName="oTort" x="320" y="160" name="inst_0433420C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objWarp" x="192" y="608" name="inst_7D7BA673" locked="0" code="roomTo = rmWater1;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWarp" x="256" y="608" name="inst_7D7BA673" locked="0" code="roomTo = rmWater1;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objDontShow" x="32" y="160" name="inst_25EBB339" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objWarp" x="384" y="608" name="inst_B006F144" locked="0" code="roomTo=rWater2" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBetterSign" x="384" y="672" name="inst_68378996" locked="0" code="Te=&quot;OMGUY&quot;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objWarp" x="544" y="608" name="inst_D861E8E4" locked="0" code="roomTo = rCreator;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWarp" x="352" y="608" name="inst_B006F144" locked="0" code="roomTo=rWater2" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBetterSign" x="352" y="672" name="inst_68378996" locked="0" code="Te=&quot;OMGUY&quot;&#xA;color=c_white" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWarp" x="448" y="608" name="inst_D861E8E4" locked="0" code="roomTo = rCreator;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBetterSign" x="672" y="672" name="inst_0842DBD9" locked="0" code="Te=&quot;Resofa&quot;&#xA;color=c_white&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWarp" x="576" y="608" name="inst_11E31D18" locked="0" code="roomTo = rResofaAA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bAllTiles" x="0" y="704" w="32" h="32" xo="0" yo="96" id="10003900" name="inst_FDAC197D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -226,6 +228,11 @@
     <tile bgName="bAllTiles" x="2144" y="704" w="32" h="32" xo="0" yo="96" id="10003967" name="inst_159B7C35" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bAllTiles" x="2176" y="704" w="32" h="32" xo="0" yo="96" id="10003968" name="inst_0204F426" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bAllTiles" x="2208" y="704" w="32" h="32" xo="0" yo="96" id="10003969" name="inst_4C415347" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgColor" x="512" y="608" w="32" h="32" xo="32" yo="32" id="10004336" name="inst_25B136A6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgColor" x="512" y="640" w="32" h="32" xo="32" yo="32" id="10004337" name="inst_FB534B38" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgColor" x="512" y="672" w="32" h="32" xo="32" yo="32" id="10004338" name="inst_C036EF68" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgColor" x="512" y="576" w="32" h="32" xo="32" yo="32" id="10004339" name="inst_148FC029" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgColor" x="512" y="544" w="32" h="32" xo="32" yo="32" id="10004340" name="inst_99399A37" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
