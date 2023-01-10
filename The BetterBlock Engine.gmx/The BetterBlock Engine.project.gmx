@@ -321,11 +321,13 @@
     <backgrounds name="Resofa">
       <backgrounds name="Tile">
         <background>background\bgColor</background>
+        <background>background\bgCaveUnderwaterDream</background>
       </backgrounds>
       <backgrounds name="Background">
         <background>background\backgroundA</background>
       </backgrounds>
     </backgrounds>
+    <background>background\backgroundCaoGao</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\pthD</path>
@@ -712,7 +714,8 @@
     <object>objects\objFloatingSpike</object>
     <object>objects\objFloatingSpikeNoSpin</object>
     <objects name="Resofa">
-      <object>objects\objSpin</object>
+      <object>objects\objSpinSurface</object>
+      <object>objects\objDreamWater</object>
     </objects>
   </objects>
   <rooms name="rooms">
@@ -797,6 +800,7 @@
     </rooms>
     <rooms name="Resofa and His Piece of Shit">
       <room>rooms\rResofaAA</room>
+      <room>rooms\rResofaBA</room>
     </rooms>
   </rooms>
   <help>

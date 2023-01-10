@@ -121,33 +121,10 @@
     <instance objName="objBlock" x="2144" y="704" name="inst_584F31F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="2176" y="704" name="inst_AF144E36" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="2208" y="704" name="inst_2E91D494" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBlock" x="-32" y="672" name="inst_3EB268A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBlock" x="-32" y="640" name="inst_AECA1D91" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBlock" x="-32" y="608" name="inst_B99129E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBlock" x="-32" y="576" name="inst_4086ADAB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBlock" x="-32" y="544" name="inst_50602B11" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBlock" x="-32" y="512" name="inst_27F501A0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBlock" x="-32" y="480" name="inst_10E684B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBlock" x="-32" y="448" name="inst_7293B16C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBlock" x="-32" y="416" name="inst_81FD9CC2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBlock" x="-32" y="384" name="inst_4AD634B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBlock" x="-32" y="352" name="inst_C5A4DF4B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBlock" x="-32" y="320" name="inst_4A5CC86C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBlock" x="-32" y="288" name="inst_0B6ED7C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBlock" x="-32" y="256" name="inst_C98837FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBlock" x="-32" y="224" name="inst_287D7687" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBlock" x="-32" y="192" name="inst_4F67FD8F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBlock" x="-32" y="160" name="inst_C228A462" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBlock" x="-32" y="128" name="inst_BA6ED5ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBlock" x="-32" y="96" name="inst_4AE036AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBlock" x="-32" y="64" name="inst_22419AA7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBlock" x="-32" y="32" name="inst_C4340EEA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBlock" x="-32" y="0" name="inst_223ABE68" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlayerStart" x="96" y="672" name="inst_C1ED7E06" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSmoothCamera" x="128" y="128" name="inst_62FC6437" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlayMusic" x="192" y="224" name="inst_80C30200" locked="0" code="BGM = musScaredAmi;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWarpFadeIn" x="2208" y="640" name="inst_5A6E9383" locked="0" code="roomTo = rBoshy1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBlock" x="2240" y="0" name="inst_C4519085" locked="0" code="" scaleX="1" scaleY="23" colour="4294967295" rotation="0"/>
     <instance objName="oTort" x="320" y="160" name="inst_0433420C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWarp" x="256" y="608" name="inst_7D7BA673" locked="0" code="roomTo = rmWater1;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objDontShow" x="32" y="160" name="inst_25EBB339" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -155,7 +132,8 @@
     <instance objName="objBetterSign" x="352" y="672" name="inst_68378996" locked="0" code="Te=&quot;OMGUY&quot;&#xA;color=c_white" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWarp" x="448" y="608" name="inst_D861E8E4" locked="0" code="roomTo = rCreator;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBetterSign" x="672" y="672" name="inst_0842DBD9" locked="0" code="Te=&quot;Resofa&quot;&#xA;color=c_white&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objWarp" x="576" y="608" name="inst_11E31D18" locked="0" code="roomTo = rResofaAA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWarp" x="576" y="608" name="inst_11E31D18" locked="0" code="roomTo = rResofaAA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWarp" x="672" y="608" name="inst_F16EDE2D" locked="0" code="roomTo = rResofaBA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bAllTiles" x="0" y="704" w="32" h="32" xo="0" yo="96" id="10003900" name="inst_FDAC197D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

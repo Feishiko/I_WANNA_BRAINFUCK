@@ -62,7 +62,7 @@
     <instance objName="objSpikeUp" x="256" y="192" name="inst_271E1850" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="288" y="224" name="inst_6CEB0481" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="256" y="352" name="inst_4BB292F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpin" x="96" y="192" name="inst_DCF71025" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpinSurface" x="96" y="192" name="inst_DCF71025" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bAllTiles" x="0" y="256" w="32" h="32" xo="0" yo="0" id="10004441" name="inst_AA9A72E4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
