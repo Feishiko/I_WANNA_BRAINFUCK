@@ -50,7 +50,7 @@
             <kind>1</kind>
             <string>if(instance_exists(objCxkPing))
 {
-x=objCxkPing.x+142
+x=objCxkPing.x+122
 y=objCxkPing.y
 }
 image_alpha-=0.1

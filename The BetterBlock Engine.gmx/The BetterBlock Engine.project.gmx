@@ -319,6 +319,7 @@
         <sprite>sprites\sprKaoji</sprite>
         <sprite>sprites\sprCxkTieShanKao</sprite>
         <sprite>sprites\sprSheld</sprite>
+        <sprite>sprites\sprCxkYao</sprite>
       </sprites>
     </sprites>
   </sprites>
