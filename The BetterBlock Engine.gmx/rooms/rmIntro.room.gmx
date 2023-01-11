@@ -133,7 +133,8 @@
     <instance objName="objWarp" x="448" y="608" name="inst_D861E8E4" locked="0" code="roomTo = rCreator;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBetterSign" x="672" y="672" name="inst_0842DBD9" locked="0" code="Te=&quot;Resofa&quot;&#xA;color=c_white&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWarp" x="576" y="608" name="inst_11E31D18" locked="0" code="roomTo = rResofaAA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objWarp" x="672" y="608" name="inst_F16EDE2D" locked="0" code="roomTo = rResofaBA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWarp" x="672" y="608" name="inst_F16EDE2D" locked="0" code="roomTo = rResofaBA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWarp" x="768" y="608" name="inst_6FD9CFC0" locked="0" code="roomTo = rCxkIntro;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bAllTiles" x="0" y="704" w="32" h="32" xo="0" yo="96" id="10003900" name="inst_FDAC197D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

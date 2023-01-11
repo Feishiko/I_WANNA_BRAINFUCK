@@ -35,7 +35,8 @@ _utime = shader_get_uniform(shCover, "u_time");
 _utime2 = shader_get_uniform(shScreenTitleNoise, "u_time");
 time = 0;
 timer = 0;
-
+//Resofa added freeze
+freeze=0;
 select = 0;
 
 button[0] = "Load Game";
@@ -97,6 +98,9 @@ timer += 0.05;
 x = xstart + cos(time/40) * 3.0;
 y = ystart + sin(time/40) * 3.0;
 
+if(freeze=0)
+{
+//Resofa added freeze
 if(select = 3 &amp;&amp; scrButtonCheckPressed(global.menuDownButton)){
     select = -1;
 }
@@ -130,7 +134,7 @@ if (scrButtonCheckPressed(global.menuAcceptButton)){
                     
                     if (file_exists("Data\save"+string(global.savenum)))
                         file_delete("Data\save"+string(global.savenum));
-                    
+freeze=1;
                     FadeInto(global.startRoom);
             
                         
@@ -143,6 +147,8 @@ if (scrButtonCheckPressed(global.menuAcceptButton)){
             game_end();
         }break;
     }
+}
+//
 }
 </string>
           </argument>

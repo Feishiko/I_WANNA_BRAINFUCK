@@ -46,6 +46,9 @@
       <sounds name="Feishiko">
         <sound>sound\sndEntering</sound>
       </sounds>
+      <sounds name="Resofa">
+        <sound>sound\sndDaJiaHao</sound>
+      </sounds>
     </sounds>
     <sounds name="music">
       <sound>sound\musOnDeath</sound>
@@ -68,6 +71,9 @@
         <sound>sound\musAscii</sound>
         <sound>sound\musMath</sound>
         <sound>sound\musUnderWater</sound>
+      </sounds>
+      <sounds name="Resofa">
+        <sound>sound\musCxk</sound>
       </sounds>
     </sounds>
     <sound>sound\sndBossHitRemastered</sound>
@@ -224,7 +230,7 @@
           <sprite>sprites\sprGreenEffect</sprite>
           <sprite>sprites\sprGreenScreen</sprite>
           <sprite>sprites\sprWOW</sprite>
-          <sprite>sprites\sprDyingDaoli</sprite>
+          <sprite>sprites\_</sprite>
           <sprites name="Typewriter">
             <sprite>sprites\sprDaoliS</sprite>
             <sprite>sprites\sprTypeWriterDaoli</sprite>
@@ -291,6 +297,17 @@
       <sprite>sprites\sprBlackSpikeLeft</sprite>
       <sprite>sprites\sprBlackSpikeDown</sprite>
       <sprite>sprites\sprBubble</sprite>
+      <sprite>sprites\sprSpinSpikeUp</sprite>
+      <sprite>sprites\sprSpinSpikeRight</sprite>
+      <sprite>sprites\sprSpinSpikeDown</sprite>
+      <sprite>sprites\sprSpinSpikeLeft</sprite>
+      <sprite>sprites\sprCxkSave</sprite>
+      <sprite>sprites\sprSpinGua</sprite>
+      <sprites name="Cxk">
+        <sprite>sprites\sprBasketball</sprite>
+        <sprite>sprites\sprCxkMoving</sprite>
+        <sprite>sprites\sprCxkSpining</sprite>
+      </sprites>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -324,11 +341,12 @@
         <background>background\bgColor</background>
         <background>background\bgCaveUnderwaterDream</background>
       </backgrounds>
+      <background>background\backgroundCaoGao</background>
       <backgrounds name="Background">
         <background>background\backgroundA</background>
+        <background>background\backgroundCxk</background>
       </backgrounds>
     </backgrounds>
-    <background>background\backgroundCaoGao</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\pthD</path>
@@ -505,6 +523,7 @@
       <object>objects\objSpikeUp</object>
       <object>objects\objSpikeRight</object>
       <object>objects\objSpikeLeft</object>
+      <object>objects\objSpikeDown</object>
       <objects name="OMGUY">
         <object>objects\objSpikeCreatorUp</object>
         <object>objects\objSpikeCreatorRight</object>
@@ -518,7 +537,6 @@
         <object>objects\objSpikeDownFake</object>
         <object>objects\objCherryFake</object>
       </objects>
-      <object>objects\objSpikeDown</object>
       <object>objects\objMiniUp</object>
       <object>objects\objMiniRight</object>
       <object>objects\objMiniLeft</object>
@@ -717,6 +735,13 @@
     <objects name="Resofa">
       <object>objects\objSpinSurface</object>
       <object>objects\objDreamWater</object>
+      <objects name="Cxk">
+        <object>objects\objBasketball</object>
+        <object>objects\objCxkBossIntro</object>
+        <object>objects\objCxkSaveIntro</object>
+        <object>objects\objTouchSaveInvisibleCxk</object>
+        <object>objects\objWhiteFlashCxk</object>
+      </objects>
     </objects>
   </objects>
   <rooms name="rooms">
@@ -802,6 +827,13 @@
     <rooms name="Resofa and His Piece of Shit">
       <room>rooms\rResofaAA</room>
       <room>rooms\rResofaBA</room>
+      <rooms name="Boss">
+        <room>rooms\rCxkIntro</room>
+        <room>rooms\rCxk</room>
+      </rooms>
+      <rooms name="Avoidance">
+        <room>rooms\rSnake</room>
+      </rooms>
     </rooms>
   </rooms>
   <help>
