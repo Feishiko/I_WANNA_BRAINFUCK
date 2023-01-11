@@ -84,7 +84,7 @@ image_alpha-=0.02
 {
 direction=random_range(0,180);
 speed=random_range(1,5);
-instance_create(1300,608,objCxkBossIntro);
+instance_create(1300,658,objCxkBossIntro);
 image_index = 1;
 canSave = false;
 }

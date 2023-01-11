@@ -32,7 +32,7 @@ image_yscale=3;
 image_xscale=3;
 image_alpha=0.2;
 audio_play_sound(sndDaJiaHao,0,false);
-alarm[1]=333;
+alarm[1]=233;
 </string>
           </argument>
         </arguments>

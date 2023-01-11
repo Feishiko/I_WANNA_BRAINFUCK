@@ -48,6 +48,12 @@
       </sounds>
       <sounds name="Resofa">
         <sound>sound\sndDaJiaHao</sound>
+        <sound>sound\sndBasketBall</sound>
+        <sound>sound\sndNiGanMa</sound>
+        <sound>sound\sndLiHai</sound>
+        <sound>sound\sndjntm</sound>
+        <sound>sound\sndChinken</sound>
+        <sound>sound\sndJi</sound>
       </sounds>
     </sounds>
     <sounds name="music">
@@ -304,9 +310,15 @@
       <sprite>sprites\sprCxkSave</sprite>
       <sprite>sprites\sprSpinGua</sprite>
       <sprites name="Cxk">
+        <sprite>sprites\sprWarningBig</sprite>
         <sprite>sprites\sprBasketball</sprite>
         <sprite>sprites\sprCxkMoving</sprite>
         <sprite>sprites\sprCxkSpining</sprite>
+        <sprite>sprites\sprCxkDaodan</sprite>
+        <sprite>sprites\sprDangerSugnA</sprite>
+        <sprite>sprites\sprKaoji</sprite>
+        <sprite>sprites\sprCxkTieShanKao</sprite>
+        <sprite>sprites\sprSheld</sprite>
       </sprites>
     </sprites>
   </sprites>
@@ -396,9 +408,6 @@
     </scripts>
     <scripts name="Feishiko">
       <script>scripts\FadeInto.gml</script>
-    </scripts>
-    <scripts name="Resofa">
-      <script>scripts\set_default.gml</script>
     </scripts>
   </scripts>
   <shaders name="shaders">
@@ -736,11 +745,27 @@
       <object>objects\objSpinSurface</object>
       <object>objects\objDreamWater</object>
       <objects name="Cxk">
+        <object>objects\objCxkController</object>
+        <object>objects\objSpinScreenCxk</object>
         <object>objects\objBasketball</object>
+        <object>objects\objBasketBallExplodable</object>
+        <object>objects\objBasketBallPlayerShoot</object>
+        <object>objects\objBasketbomb</object>
+        <object>objects\objBasketbullet</object>
         <object>objects\objCxkBossIntro</object>
         <object>objects\objCxkSaveIntro</object>
         <object>objects\objTouchSaveInvisibleCxk</object>
-        <object>objects\objWhiteFlashCxk</object>
+        <object>objects\objCxk</object>
+        <object>objects\objPlatformCxk</object>
+        <object>objects\objDangerSignA</object>
+        <object>objects\objKaoji</object>
+        <object>objects\objCxkPing</object>
+        <object>objects\objCxkBullet</object>
+        <object>objects\objCxkDaodan</object>
+        <object>objects\objCxkFreeTail</object>
+        <object>objects\objWarningBig</object>
+        <object>objects\objSheld</object>
+        <object>objects\objShadowCxk</object>
       </objects>
     </objects>
   </objects>
