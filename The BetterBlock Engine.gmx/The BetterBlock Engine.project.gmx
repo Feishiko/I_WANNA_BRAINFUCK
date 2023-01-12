@@ -320,6 +320,10 @@
         <sprite>sprites\sprCxkTieShanKao</sprite>
         <sprite>sprites\sprSheld</sprite>
         <sprite>sprites\sprCxkYao</sprite>
+        <sprite>sprites\sprEggCxk</sprite>
+        <sprite>sprites\sprCxkDajiahao</sprite>
+        <sprite>sprites\sprCxkFail</sprite>
+        <sprite>sprites\sprGroundCxk</sprite>
       </sprites>
     </sprites>
   </sprites>
@@ -749,8 +753,10 @@
         <object>objects\objCxkController</object>
         <object>objects\objSpinScreenCxk</object>
         <object>objects\objBasketball</object>
+        <object>objects\objBasketballPingPong</object>
         <object>objects\objBasketBallExplodable</object>
         <object>objects\objBasketBallPlayerShoot</object>
+        <object>objects\objBasketBallPingPongPlayerShoot</object>
         <object>objects\objBasketbomb</object>
         <object>objects\objBasketbullet</object>
         <object>objects\objCxkBossIntro</object>
@@ -761,12 +767,23 @@
         <object>objects\objDangerSignA</object>
         <object>objects\objKaoji</object>
         <object>objects\objCxkPing</object>
+        <object>objects\objCxkPong</object>
         <object>objects\objCxkBullet</object>
         <object>objects\objCxkDaodan</object>
+        <object>objects\objLittleCxk</object>
         <object>objects\objCxkFreeTail</object>
         <object>objects\objWarningBig</object>
         <object>objects\objSheld</object>
+        <object>objects\objSheldB</object>
         <object>objects\objShadowCxk</object>
+        <object>objects\objLastCxk</object>
+        <object>objects\objBasketUFO</object>
+        <object>objects\objShakeCxk</object>
+        <object>objects\objBigShakeCxk</object>
+        <object>objects\objChongjiboR</object>
+        <object>objects\objChongjiboL</object>
+        <object>objects\objFailCxk</object>
+        <object>objects\objEggCxk</object>
       </objects>
     </objects>
   </objects>

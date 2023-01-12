@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>gravity_direction=270;
 gravity=0.05;
+instance_create(400,304,objShakeCxk);
 </string>
           </argument>
         </arguments>

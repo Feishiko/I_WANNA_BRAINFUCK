@@ -28,6 +28,9 @@
             <string>a=0
 b=5
 c=5
+wai=0
+d=0
+e=0
 </string>
           </argument>
         </arguments>
@@ -50,9 +53,15 @@ c=5
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>view_angle[0]=sin(a)*b
+            <string>view_angle[0]=sin(a)*b+d
 a+=0.03
 b+=(c-b)/50
+d+=(e-d)/50
+if(wai=1)
+{
+objPlayer.hspeed-=view_angle[0]/15
+}
+
 </string>
           </argument>
         </arguments>
