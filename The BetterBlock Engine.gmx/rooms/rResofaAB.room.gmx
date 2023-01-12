@@ -57,15 +57,14 @@
     <instance objName="objPlayMusic" x="16" y="336" name="inst_A9090157" locked="0" code="BGM=musSpining&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpinKid" x="352" y="528" name="inst_E7E8B1D8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeSpinUp" x="544" y="384" name="inst_8B5732D8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpikeSpinRight" x="448" y="512" name="inst_0C57A3C5" locked="0" code="" scaleX="2.06451606750488" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeSpinRight" x="448" y="512" name="inst_0C57A3C5" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="544" y="416" name="inst_1384621C" locked="0" code="" scaleX="1" scaleY="2.06451606750488" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="352" y="544" name="inst_11CEA29B" locked="0" code="" scaleX="8.5" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="624" y="576" name="inst_1FC8E545" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="720" y="416" name="inst_DEA1842A" locked="0" code="" scaleX="2.5" scaleY="6" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="576" y="416" name="inst_EBB1707D" locked="0" code="" scaleX="3.61290311813354" scaleY="3" colour="4294967295" rotation="0"/>
-    <instance objName="objSpikeSpinLeft" x="512" y="480" name="inst_3BB1B4E8" locked="0" code="" scaleX="2.06451606750488" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeSpinLeft" x="544" y="480" name="inst_3BB1B4E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="416" y="512" name="inst_88184490" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objWaterOMG" x="448" y="480" name="inst_B5676659" locked="0" code="" scaleX="4" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="objSpinCxk" x="288" y="496" name="inst_0E5CF979" locked="0" code="" scaleX="0.593220353126526" scaleY="2.37234044075012" colour="4294967295" rotation="0"/>
     <instance objName="objSaveBlocker" x="320" y="512" name="inst_7AB51DF8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="288" y="320" name="inst_751FA70B" locked="0" code="" scaleX="9" scaleY="1" colour="4294967295" rotation="0"/>
@@ -90,8 +89,8 @@
     <instance objName="objSpikeSpinDown" x="384" y="352" name="inst_C8AB4C7D" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeSpinDown" x="352" y="352" name="inst_AC1BE376" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeSpinDown" x="320" y="352" name="inst_EF560816" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="0"/>
-    <instance objName="objSpinGua" x="672" y="544" name="inst_1370CF38" locked="0" code="" scaleX="0.321428567171097" scaleY="0.298136651515961" colour="4294967295" rotation="0"/>
-    <instance objName="objSpinGua" x="416" y="448" name="inst_1651DC03" locked="0" code="" scaleX="0.642857134342194" scaleY="0.597484290599823" colour="4294967295" rotation="0"/>
+    <instance objName="objSpinGua" x="672" y="528" name="inst_1370CF38" locked="0" code="" scaleX="0.321428567171097" scaleY="0.298136651515961" colour="4294967295" rotation="0"/>
+    <instance objName="objSpinGua" x="416" y="432" name="inst_1651DC03" locked="0" code="" scaleX="1.01785719394684" scaleY="0.74842768907547" colour="4294967295" rotation="0"/>
     <instance objName="objBlockSpinB" x="224" y="288" name="inst_7128C513" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlockSpin" x="224" y="256" name="inst_4D03F28D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlockSpinB" x="224" y="320" name="inst_6BD2F3C6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -137,6 +136,8 @@
     <instance objName="objSpinCxk" x="96" y="336" name="inst_43F7BE81" locked="0" code="" scaleX="1.13559317588806" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="objSpinGua" x="128" y="96" name="inst_2EFDCEB7" locked="0" code="" scaleX="-0.357142865657806" scaleY="1.30188679695129" colour="4294967295" rotation="114.51000213623"/>
     <instance objName="objSpinGua" x="576" y="176" name="inst_41F02F2E" locked="0" code="" scaleX="1.07142853736877" scaleY="0.798742115497589" colour="4294967295" rotation="0"/>
+    <instance objName="objWater" x="448" y="480" name="inst_840520E2" locked="0" code="" scaleX="4.12903213500977" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="objWarp" x="768" y="32" name="inst_CBEEC62E" locked="0" code="roomTo=rCxkIntro&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bAllTiles" x="384" y="544" w="32" h="32" xo="0" yo="0" id="10005023" name="inst_590B4F8F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

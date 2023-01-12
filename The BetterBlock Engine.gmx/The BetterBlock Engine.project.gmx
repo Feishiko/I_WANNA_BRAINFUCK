@@ -47,13 +47,18 @@
         <sound>sound\sndEntering</sound>
       </sounds>
       <sounds name="Resofa">
-        <sound>sound\sndDaJiaHao</sound>
-        <sound>sound\sndBasketBall</sound>
-        <sound>sound\sndNiGanMa</sound>
-        <sound>sound\sndLiHai</sound>
-        <sound>sound\sndjntm</sound>
-        <sound>sound\sndChinken</sound>
-        <sound>sound\sndJi</sound>
+        <sounds name="Cxk">
+          <sound>sound\sndBasketBall</sound>
+          <sound>sound\sndChinken</sound>
+          <sound>sound\sndLiHai</sound>
+          <sound>sound\sndDaJiaHao</sound>
+          <sound>sound\sndJi</sound>
+          <sound>sound\sndjntm</sound>
+          <sound>sound\sndNiGanMa</sound>
+        </sounds>
+        <sounds name="Rock">
+          <sound>sound\sndNote</sound>
+        </sounds>
       </sounds>
     </sounds>
     <sounds name="music">
@@ -81,6 +86,7 @@
       <sounds name="Resofa">
         <sound>sound\musCxk</sound>
         <sound>sound\musSpining</sound>
+        <sound>sound\musSnake</sound>
       </sounds>
     </sounds>
     <sound>sound\sndBossHitRemastered</sound>
@@ -312,6 +318,13 @@
       <sprite>sprites\sprSpinCxk</sprite>
       <sprite>sprites\sprSpinKid</sprite>
       <sprite>sprites\sprBlockUnderGrass</sprite>
+      <sprites name="Rock">
+        <sprite>sprites\sprJelly</sprite>
+        <sprite>sprites\sprAwsome</sprite>
+        <sprite>sprites\sprGuitar</sprite>
+        <sprite>sprites\sprBass</sprite>
+        <sprite>sprites\sprNotes</sprite>
+      </sprites>
       <sprites name="Cxk">
         <sprite>sprites\sprWarningBig</sprite>
         <sprite>sprites\sprBasketball</sprite>
@@ -329,6 +342,9 @@
         <sprite>sprites\sprGroundCxk</sprite>
         <sprite>sprites\sprRainbowScreen</sprite>
         <sprite>sprites\sprCxkSave</sprite>
+      </sprites>
+      <sprites name="Snake">
+        <sprite>sprites\sprSnake</sprite>
       </sprites>
     </sprites>
   </sprites>
@@ -756,7 +772,6 @@
     <object>objects\objFloatingSpike</object>
     <object>objects\objFloatingSpikeNoSpin</object>
     <objects name="Resofa">
-      <object>objects\objDreamWater</object>
       <objects name="Cxk">
         <object>objects\objCxkController</object>
         <object>objects\objSpinScreenCxk</object>
@@ -809,6 +824,10 @@
           <object>objects\onjSpinSpikeMovingLeft</object>
           <object>objects\onjSpinSpikeMovingRight</object>
         </objects>
+      </objects>
+      <objects name="Snake">
+        <object>objects\objSnake</object>
+        <object>objects\objScreen</object>
       </objects>
     </objects>
   </objects>
@@ -893,15 +912,20 @@
       <room>rooms\rAllBlack1</room>
     </rooms>
     <rooms name="Resofa and His Piece of Shit">
-      <room>rooms\rResofaAA</room>
-      <room>rooms\rResofaAB</room>
-      <room>rooms\rResofaBA</room>
       <rooms name="Boss">
-        <room>rooms\rCxkIntro</room>
-        <room>rooms\rCxk</room>
+        <rooms name="Cxk">
+          <room>rooms\rCxkIntro</room>
+          <room>rooms\rCxk</room>
+        </rooms>
       </rooms>
       <rooms name="Avoidance">
         <room>rooms\rSnake</room>
+      </rooms>
+      <rooms name="Level">
+        <rooms name="Spin">
+          <room>rooms\rResofaAA</room>
+          <room>rooms\rResofaAB</room>
+        </rooms>
       </rooms>
     </rooms>
   </rooms>

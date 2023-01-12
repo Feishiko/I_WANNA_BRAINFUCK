@@ -3,7 +3,7 @@
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>-98</depth>
+  <depth>0</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -25,14 +25,15 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>sur=surface_create(800,608)
-a=90
+            <string>scrStopMusic()
+scrPlayMusic(musSnake,false);
+alarm[0]=3000/133.31*0.25*9
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="3" enumb="2">
+    <event eventtype="2" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -49,22 +50,14 @@ a=90
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (!surface_exists(sur)) 
-{
-sur = surface_create(room_width, room_height);
-}
-a+=0.04
-surface_set_target(sur) 
-draw_clear_alpha(c_black,0)
-draw_surface_ext(application_surface,400-sin(a)*400,0,sin(a),1,0,c_white,1)
-surface_reset_target()
-
+            <string>view_yview[0]=-32
+alarm[0]=3000/133.31
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="8" enumb="64">
+    <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -81,10 +74,7 @@ surface_reset_target()
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_rectangle_colour(0,0,800,608,c_white,c_white,c_white,c_white,0)
-draw_set_colour(c_blue)
-draw_surface(sur,0,0)
-draw_set_colour(c_white)
+            <string>view_yview[0]+=(0-view_yview[0])/20
 </string>
           </argument>
         </arguments>

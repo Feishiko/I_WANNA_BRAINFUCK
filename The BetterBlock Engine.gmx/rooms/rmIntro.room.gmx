@@ -133,7 +133,7 @@
     <instance objName="objWarp" x="448" y="608" name="inst_D861E8E4" locked="0" code="roomTo = rCreator;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBetterSign" x="672" y="672" name="inst_0842DBD9" locked="0" code="Te=&quot;Resofa&quot;&#xA;color=c_white&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWarp" x="576" y="608" name="inst_11E31D18" locked="0" code="roomTo = rResofaAA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objWarp" x="672" y="608" name="inst_F16EDE2D" locked="0" code="roomTo = rResofaBA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWarp" x="672" y="608" name="inst_F16EDE2D" locked="0" code="roomTo = rSnake;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWarp" x="768" y="608" name="inst_6FD9CFC0" locked="0" code="roomTo = rCxkIntro;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
