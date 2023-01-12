@@ -55,13 +55,14 @@
     <instance objName="objBlock" x="0" y="480" name="inst_E6ABD265" locked="0" code="" scaleX="25" scaleY="4" colour="4294967295" rotation="0"/>
     <instance objName="objPlayMusic" x="208" y="240" name="inst_7C1A5543" locked="0" code="BGM=musCxk&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCxkController" x="240" y="240" name="inst_66D45FE6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objTouchSaveInvisibleCxk" x="416" y="448" name="inst_12F82DB3" locked="0" code="" scaleX="16" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="objTouchSaveInvisibleCxk" x="416" y="448" name="inst_12F82DB3" locked="0" code="" scaleX="24.84375" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="objSpinScreenCxk" x="176" y="304" name="inst_EDF068E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBasketball" x="720" y="80" name="inst_165363F8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBasketball" x="592" y="80" name="inst_4E201233" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBasketball" x="80" y="80" name="inst_9488B29F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBasketball" x="208" y="80" name="inst_C0196174" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBasketball" x="400" y="80" name="inst_1C9EC6C1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objRainbowScreen" x="0" y="0" name="inst_6927A262" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

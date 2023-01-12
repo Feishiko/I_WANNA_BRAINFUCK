@@ -3,7 +3,7 @@
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-98</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -81,7 +81,8 @@ surface_reset_target()
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_colour(c_blue)
+            <string>draw_rectangle_colour(0,0,800,608,c_white,c_white,c_white,c_white,0)
+draw_set_colour(c_blue)
 draw_surface(sur,0,0)
 draw_set_colour(c_white)
 </string>

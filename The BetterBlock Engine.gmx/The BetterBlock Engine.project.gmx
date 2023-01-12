@@ -80,6 +80,7 @@
       </sounds>
       <sounds name="Resofa">
         <sound>sound\musCxk</sound>
+        <sound>sound\musSpining</sound>
       </sounds>
     </sounds>
     <sound>sound\sndBossHitRemastered</sound>
@@ -307,8 +308,10 @@
       <sprite>sprites\sprSpinSpikeRight</sprite>
       <sprite>sprites\sprSpinSpikeDown</sprite>
       <sprite>sprites\sprSpinSpikeLeft</sprite>
-      <sprite>sprites\sprCxkSave</sprite>
       <sprite>sprites\sprSpinGua</sprite>
+      <sprite>sprites\sprSpinCxk</sprite>
+      <sprite>sprites\sprSpinKid</sprite>
+      <sprite>sprites\sprBlockUnderGrass</sprite>
       <sprites name="Cxk">
         <sprite>sprites\sprWarningBig</sprite>
         <sprite>sprites\sprBasketball</sprite>
@@ -324,6 +327,8 @@
         <sprite>sprites\sprCxkDajiahao</sprite>
         <sprite>sprites\sprCxkFail</sprite>
         <sprite>sprites\sprGroundCxk</sprite>
+        <sprite>sprites\sprRainbowScreen</sprite>
+        <sprite>sprites\sprCxkSave</sprite>
       </sprites>
     </sprites>
   </sprites>
@@ -502,6 +507,10 @@
       <object>objects\objSlideBlockL</object>
       <object>objects\objSlideBlockR</object>
       <object>objects\objSaveBlocker</object>
+      <objects name="Resofa">
+        <object>objects\objBlockSpin</object>
+        <object>objects\objBlockSpinB</object>
+      </objects>
     </objects>
     <objects name="slopes">
       <object>objects\objSlope</object>
@@ -747,7 +756,6 @@
     <object>objects\objFloatingSpike</object>
     <object>objects\objFloatingSpikeNoSpin</object>
     <objects name="Resofa">
-      <object>objects\objSpinSurface</object>
       <object>objects\objDreamWater</object>
       <objects name="Cxk">
         <object>objects\objCxkController</object>
@@ -784,6 +792,23 @@
         <object>objects\objChongjiboL</object>
         <object>objects\objFailCxk</object>
         <object>objects\objEggCxk</object>
+        <object>objects\objRainbowScreen</object>
+      </objects>
+      <objects name="Spin">
+        <object>objects\objSpinSurface</object>
+        <object>objects\objSpinKid</object>
+        <object>objects\objSpinGua</object>
+        <object>objects\objSpinCxk</object>
+        <objects name="SpinSpike">
+          <object>objects\objSpikeSpinUp</object>
+          <object>objects\objSpikeSpinDown</object>
+          <object>objects\objSpikeSpinLeft</object>
+          <object>objects\objSpikeSpinRight</object>
+          <object>objects\onjSpinSpikeMovingUp</object>
+          <object>objects\onjSpinSpikeMovingDown</object>
+          <object>objects\onjSpinSpikeMovingLeft</object>
+          <object>objects\onjSpinSpikeMovingRight</object>
+        </objects>
       </objects>
     </objects>
   </objects>
@@ -869,6 +894,7 @@
     </rooms>
     <rooms name="Resofa and His Piece of Shit">
       <room>rooms\rResofaAA</room>
+      <room>rooms\rResofaAB</room>
       <room>rooms\rResofaBA</room>
       <rooms name="Boss">
         <room>rooms\rCxkIntro</room>

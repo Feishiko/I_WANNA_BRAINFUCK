@@ -54,9 +54,14 @@ image_angle+=a;
 a+=0.01;
 if(y&gt;668)
 {
+with(objRainbowScreen)
+{
+instance_destroy();
+}
 instance_create(400,304,objEggCxk)
 scrStopMusic()
 instance_create(400,304,objBigShakeCxk);
+audio_play_sound(sndDeath,0,false);
 audio_play_sound(sndChinken,0,false);
 instance_destroy();
 }

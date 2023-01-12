@@ -312,7 +312,7 @@ alarm[3]=0
 {
 
 d=random_range(20,45);
-audio_play_sound(sndNiGanMa,0,false);
+audio_play_sound(sndBossHitRemastered,0,false);
 with(other)
 {
 instance_destroy();
@@ -343,7 +343,7 @@ hpb-=1;
             <kind>1</kind>
             <string>if(hp&gt;0)
 {
-audio_play_sound(sndNiGanMa,0,false);
+audio_play_sound(sndBossHitRemastered,0,false);
 with(other)
 {
 instance_destroy();
