@@ -56,9 +56,6 @@
           <sound>sound\sndjntm</sound>
           <sound>sound\sndNiGanMa</sound>
         </sounds>
-        <sounds name="Rock">
-          <sound>sound\sndNote</sound>
-        </sounds>
       </sounds>
     </sounds>
     <sounds name="music">
