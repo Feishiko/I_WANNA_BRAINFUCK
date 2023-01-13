@@ -56,9 +56,36 @@ sur = surface_create(room_width, room_height);
 a+=0.03
 surface_set_target(sur) 
 draw_clear_alpha(c_black,0)
+if (surface_exists(application_surface)) 
+{
 draw_surface_ext(application_surface,400-sin(a)*400,0,sin(a),1,0,c_white,1)
+}
 surface_reset_target()
 
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="7" enumb="3">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>surface_free(sur)
 </string>
           </argument>
         </arguments>
@@ -82,9 +109,7 @@ surface_reset_target()
           <argument>
             <kind>1</kind>
             <string>draw_rectangle_colour(0,0,800,608,c_white,c_white,c_white,c_white,0)
-draw_set_colour(c_blue)
 draw_surface(sur,0,0)
-draw_set_colour(c_white)
 </string>
           </argument>
         </arguments>

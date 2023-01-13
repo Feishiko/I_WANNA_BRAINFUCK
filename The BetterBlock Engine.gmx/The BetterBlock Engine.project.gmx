@@ -243,7 +243,7 @@
           <sprite>sprites\sprGreenEffect</sprite>
           <sprite>sprites\sprGreenScreen</sprite>
           <sprite>sprites\sprWOW</sprite>
-          <sprite>sprites\_</sprite>
+          <sprite>sprites\sprDyingDaoli</sprite>
           <sprites name="Typewriter">
             <sprite>sprites\sprDaoliS</sprite>
             <sprite>sprites\sprTypeWriterDaoli</sprite>
@@ -346,6 +346,7 @@
       <sprites name="Snake">
         <sprite>sprites\sprSnake</sprite>
         <sprite>sprites\sprRedBlockKill</sprite>
+        <sprite>sprites\sprGlitch</sprite>
       </sprites>
     </sprites>
   </sprites>
@@ -835,6 +836,8 @@
         <object>objects\objScreenSnake</object>
         <object>objects\objRedBlockKill</object>
         <object>objects\objRedBlockHint</object>
+        <object>objects\objSurfaceSnake</object>
+        <object>objects\objGlitch</object>
       </objects>
     </objects>
   </objects>

@@ -84,7 +84,7 @@ alarm[1]=200
             <kind>1</kind>
             <string>gravity=0.2
 gravity_direction=270
-hspeed=choose(-2,2)
+hspeed=choose(-1,1)
 instance_create(400,-7,objPlatformCxk);
 instance_create(300,-7,objPlatformCxk);
 instance_create(500,-7,objPlatformCxk);
