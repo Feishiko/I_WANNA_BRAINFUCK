@@ -345,6 +345,7 @@
       </sprites>
       <sprites name="Snake">
         <sprite>sprites\sprSnake</sprite>
+        <sprite>sprites\sprRedBlockKill</sprite>
       </sprites>
     </sprites>
   </sprites>
@@ -434,6 +435,9 @@
     </scripts>
     <scripts name="Feishiko">
       <script>scripts\FadeInto.gml</script>
+    </scripts>
+    <scripts name="Resofa">
+      <script>scripts\scrPlayMusicAvoidance.gml</script>
     </scripts>
   </scripts>
   <shaders name="shaders">
@@ -827,7 +831,10 @@
       </objects>
       <objects name="Snake">
         <object>objects\objSnake</object>
-        <object>objects\objScreen</object>
+        <object>objects\objSnakeMusic</object>
+        <object>objects\objScreenSnake</object>
+        <object>objects\objRedBlockKill</object>
+        <object>objects\objRedBlockHint</object>
       </objects>
     </objects>
   </objects>
