@@ -34,9 +34,18 @@ de=4
 k=0
 partb=0
 partc=0
+partd=0
 aaa=0
 f=3
 g=0
+h=0
+xc=0
+yc=0
+xd=0
+yd=0
+kl=3
+ds=1
+dad=3
 alarm[0]=3000/133.31*(0.125*19+0.5)
 alarm[1]=3000/133.31*0.125*19
 alarm[2]=3000/133.31*(0.125*19+0.5)
@@ -67,7 +76,10 @@ c=make_colour_rgb(114,44,44)
           <argument>
             <kind>1</kind>
             <string>partb=0
+partc=0
+partd=1
 aaa=0
+alarm[0]=1
 </string>
           </argument>
         </arguments>
@@ -119,7 +131,7 @@ if(g=0)
 {
 f=3
 }
-else if(g&lt;7)
+else if(g&lt;8)
 {
 f=1
 }
@@ -129,6 +141,11 @@ f=3
 g=0
 }
 g+=1
+h+=1
+if(h&gt;31)
+{
+f=6
+}
 alarm[9]=3000/133.31*0.25*f
 </string>
           </argument>
@@ -156,6 +173,10 @@ alarm[9]=3000/133.31*0.25*f
 alarm[2]=0
 alarm[3]=0
 alarm[4]=0
+with(objRedBlockHint)
+{
+instance_destroy()
+}
 </string>
           </argument>
         </arguments>
@@ -179,8 +200,9 @@ alarm[4]=0
           <argument>
             <kind>1</kind>
             <string>partb=1
+
 alarm[7]=3000/133.31*16
-alarm[10]=3000/133.31*32-1
+alarm[10]=3000/133.31*(32+0.5)
 </string>
           </argument>
         </arguments>
@@ -323,10 +345,11 @@ alarm[4]=3000/133.31*0.5
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>ya=123
+            <string>ya=0
 xa=12
 xb=88
-yb=514
+yb=608
+c=make_colour_rgb(17,27,17)
 </string>
           </argument>
         </arguments>
@@ -456,8 +479,65 @@ alarm[1]=3000/133.31*4
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>view_yview[0]=-16
+            <string>if(partd=1)
+{
+if(kl&gt;0)
+{
+xc=0
+xd=800
+yc=0
+yd=kl*32
+if(kl=1)
+{
+view_yview[0]=-16
+alarm[0]=3000/133.31*1.5
+}
+else
+{
+view_yview[0]=-15*kl
 alarm[0]=3000/133.31
+}
+}
+else
+{
+if(kl=0)
+{
+alarm[0]=3000/133.31
+}
+else if(kl&gt;-3)
+{
+xc=random(800)
+xd=random(800)
+yc=random(608)
+yd=random(608)
+view_yview[0]=-16*sin(kl*60)
+ds*=-1
+alarm[0]=3000/133.31*0.5
+}
+else if(kl&lt;=-5)
+{
+kl=3
+dad-=1
+alarm[0]=1
+}
+else
+{
+xc=random(800)
+xd=random(800)
+yc=random(608)
+yd=random(608)
+view_yview[0]=32*(kl+6)/2
+alarm[0]=3000/133.31
+}
+}
+
+kl-=1
+}
+else
+{
+view_yview[0]=-16
+alarm[0]=3000/133.31
+}
 if(partb=1)
 {
 g=0
@@ -539,8 +619,8 @@ ya=yb
 }
 
 }
-//xa+=(xb-xa)/5
-//ya+=(yb-ya)/5
+xc+=(xd-xc)/5
+yc+=(yd-yc)/5
 s+=(0-s)/6
 </string>
           </argument>
@@ -566,6 +646,12 @@ s+=(0-s)/6
             <kind>1</kind>
             <string>
 draw_triangle_colour(0,608+view_yview[0],xa,ya+view_yview[0],128,608+view_yview[0],c,c,c,0)
+if(partd=1)
+{
+
+draw_triangle_colour(400+ds*200,608+view_yview[0],xc*ds,yc+view_yview[0],400+ds*400,608+view_yview[0],c,c,c,0)
+
+}
 if(aaa=1&amp;&amp;s&lt;10)
 {
 draw_triangle_colour(0,608+view_yview[0],150,view_yview[0],300,608+view_yview[0],ce,ce,ce,0)

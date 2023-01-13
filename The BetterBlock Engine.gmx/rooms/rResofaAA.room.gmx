@@ -142,7 +142,7 @@
     <instance objName="objBlock" x="720" y="272" name="inst_2D864715" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="736" y="512" name="inst_29A69A7B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWarp" x="176" y="16" name="inst_AB92DAD5" locked="0" code="roomTo = rResofaAB;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="onjSpinSpikeMovingDown" x="592" y="80" name="inst_FDBD5344" locked="0" code="t=90&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="onjSpinSpikeMovingDown" x="608" y="80" name="inst_FDBD5344" locked="0" code="t=90&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBetterSign" x="416" y="512" name="inst_FF847ADB" locked="0" code="Te = &quot;I'm the trigger&quot;;&#xA;color=c_black&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
