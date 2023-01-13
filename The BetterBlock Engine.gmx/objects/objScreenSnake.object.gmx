@@ -54,7 +54,6 @@ alarm[2]=3000/133.31*(0.125*19+0.5)
 alarm[3]=3000/133.31*(0.125*19+0.75)
 alarm[5]=3000/133.31*0.125
 alarm[6]=3000/133.31*(0.125*19+32)
-alarm[8]=3000/133.31*(0.125*19+32*4+29)
 c=make_colour_rgb(114,44,44)
 cs=make_colour_rgb(random(255),random(255),random(255))
 
@@ -206,9 +205,10 @@ instance_destroy()
             <kind>1</kind>
             <string>partb=1
 
-alarm[7]=3000/133.31*16
+
 if(good=0)
 {
+alarm[7]=3000/133.31*16
 alarm[10]=3000/133.31*(32+0.5)
 }
 else
@@ -461,9 +461,12 @@ xa=32
 ya=520
 yb=608
 c=make_colour_rgb(55,11,11)
+if(global.noDeath=0)
+{
 repeat(irandom_range(3,6))
 {
 instance_create(random_range(0,800),random_range(0,608),objRedBlockHint)
+}
 }
 alarm[2]=3000/133.31*0.25
 alarm[3]=0
@@ -494,6 +497,9 @@ alarm[1]=3000/133.31*4
             <kind>1</kind>
             <string>if(partd=1)
 {
+alarm[2]=0
+alarm[3]=0
+alarm[4]=0
 kl-=1
 if(kl&gt;=0)
 {
@@ -541,7 +547,7 @@ ins.image_yscale=608/32
 global.noDeath=1
 if(instance_exists(objPlayer))
 {
-objPlayer.y=648
+objPlayer.y=848
 }
 with(objSnake)
 {
@@ -551,6 +557,8 @@ instance_destroy()
 alarm[2]=3000/133.31*(20+1)
 alarm[1]=3000/133.31*(23.5+1)
 alarm[0]=3000/133.31*(28.5)
+alarm[6]=3000/133.31*(21+40.5-1)
+alarm[8]=3000/133.31*(21+40.5)
 partd=0
 parte=1
 }
@@ -567,6 +575,7 @@ else
 {
 if(parte=1)
 {
+h=0
 good=1
 ins=instance_create(368,432,objSnake)
 ins.head=1
@@ -576,6 +585,7 @@ if(instance_exists(objPlayer))
 objPlayer.y=368-9
 objPlayer.x=400
 }
+
 parte=0
 }
 view_yview[0]=-16
