@@ -198,7 +198,7 @@
     <instance objName="objBlock" x="736" y="512" name="inst_F3372601" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="736" y="544" name="inst_CE3C8AFF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="704" y="544" name="inst_37AA8380" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objWarp" x="704" y="480" name="inst_1E744D49" locked="0" code="roomTo = rmAscii2;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWarp" x="704" y="480" name="inst_1E744D49" locked="0" code="roomTo = rmAscii2;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="96" y="320" name="inst_3F3BDE8B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="192" y="320" name="inst_336E8804" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="320" y="320" name="inst_A12BEE82" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

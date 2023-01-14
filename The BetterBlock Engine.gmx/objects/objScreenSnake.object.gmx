@@ -30,17 +30,20 @@ yb=608
 xa=0
 ya=608
 s=0
+ends=0
 de=4
 k=0
 partb=0
 partc=0
 partd=0
 parte=0
+rock=0
 aaa=0
 f=3
 g=0
 h=0
 xc=0
+pps=0
 yc=0
 xd=0
 yd=0
@@ -54,9 +57,74 @@ alarm[2]=3000/133.31*(0.125*19+0.5)
 alarm[3]=3000/133.31*(0.125*19+0.75)
 alarm[5]=3000/133.31*0.125
 alarm[6]=3000/133.31*(0.125*19+32)
+alarm[11]=3000/133.31*(0.125*19+32*5+28.5)
 c=make_colour_rgb(114,44,44)
 cs=make_colour_rgb(random(255),random(255),random(255))
 
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="11">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if(ends=0)
+{
+rock=1
+ends=1
+alarm[11]=3000/133.31*28
+
+}
+else if(ends=1)
+{
+with(objGlitchKill)
+{
+instance_destroy()
+}
+with(objRedBlockHint)
+{
+instance_destroy()
+}
+xa=0
+xb=0
+ya=608
+yb=608
+alarm[2]=0
+alarm[3]=0
+alarm[4]=0
+rock=0
+ends=2
+//alarm[11]=3000/133.31*(0.125*19+32*8+28.5-(0.125*19+32*6+0.5))
+alarm[11]=3000/133.31*17*4
+}
+else
+{
+for(si=0;si&lt;=10;si++)
+{
+alarm[si]=0
+}
+xc=0
+xd=0
+yc=608
+yd=608
+ins=instance_create(400-16,304-16,objWarp)
+ins.roomTo=rmIntro
+}
 </string>
           </argument>
         </arguments>
@@ -213,6 +281,7 @@ alarm[10]=3000/133.31*(32+0.5)
 }
 else
 {
+alarm[7]=3000/133.31*(64)
 alarm[10]=3000/133.31*(64)
 }
 
@@ -362,7 +431,7 @@ alarm[4]=3000/133.31*0.5
 xa=12
 xb=88
 yb=608
-c=make_colour_rgb(17,27,17)
+c=make_colour_rgb(67,67,67)
 </string>
           </argument>
         </arguments>
@@ -481,6 +550,26 @@ alarm[1]=3000/133.31*4
     <event eventtype="2" enumb="0">
       <action>
         <libid>1</libid>
+        <id>605</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>pu</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>603</id>
         <kind>7</kind>
         <userelative>0</userelative>
@@ -497,12 +586,20 @@ alarm[1]=3000/133.31*4
             <kind>1</kind>
             <string>if(partd=1)
 {
+
+xa=0
+xb=0
+ya=608
+yb=608
 alarm[2]=0
 alarm[3]=0
 alarm[4]=0
+alarm[8]=0
+alarm[9]=1
 kl-=1
 if(kl&gt;=0)
 {
+s=200
 xc=0
 xd=800
 yc=0
@@ -510,10 +607,14 @@ yd=kl*32
 if(kl=0)
 {
 view_yview[0]=-16
-alarm[0]=3000/133.31*0.75
+alarm[0]=3000/133.31//*1.25
 }
 else
 {
+repeat(irandom_range(2,5))
+{
+instance_create(random_range(0,800),random_range(0,608),objCherryKillHint)
+}
 view_yview[0]=-15*kl
 alarm[0]=3000/133.31
 }
@@ -526,16 +627,19 @@ alarm[0]=3000/133.31
 }
 else if(kl&gt;-10)
 {
+instance_create(random_range(0,800),random_range(0,608),objCherryKillHint)
+cs=make_colour_rgb(random(255),random(255),random(255))
 xc=random(800)
 xd=random(800)
 yc=random(608)
 yd=random(608)
 view_yview[0]=-16*sin(kl*60)
-
+ds*=-1
 alarm[0]=3000/133.31*0.5
 }
 else
 {
+cs=make_colour_rgb(random(255),random(255),random(255))
 ds*=-1
 kl=3
 dad-=1
@@ -544,21 +648,30 @@ if(dad=-1)
 ins=instance_create(0,0,objGlitch)
 ins.image_xscale=800/32
 ins.image_yscale=608/32
-global.noDeath=1
+
 if(instance_exists(objPlayer))
 {
+global.noDeath=1
 objPlayer.y=848
 }
 with(objSnake)
 {
 instance_destroy()
 }
-//368 432
-alarm[2]=3000/133.31*(20+1)
-alarm[1]=3000/133.31*(23.5+1)
-alarm[0]=3000/133.31*(28.5)
-alarm[6]=3000/133.31*(21+40.5-1)
-alarm[8]=3000/133.31*(21+40.5)
+with(objPlayerKiller)
+{
+instance_destroy()
+}
+with(objCherryKillHint)
+{
+instance_destroy()
+}
+//368 432 28+32.5
+alarm[2]=3000/133.31*(20)
+alarm[1]=3000/133.31*(23.5)
+alarm[0]=3000/133.31*(27.5)
+alarm[6]=3000/133.31*(20+40)-1
+alarm[8]=3000/133.31*(20+40)
 partd=0
 parte=1
 }
@@ -575,13 +688,16 @@ else
 {
 if(parte=1)
 {
-h=0
+h=-31
 good=1
-ins=instance_create(368,432,objSnake)
+ins=instance_create(368+64*0.25/2,432+64*0.25/2,objSnake)
 ins.head=1
+ins.image_xscale=0.75
+ins.image_yscale=0.75
 global.noDeath=0
 if(instance_exists(objPlayer))
 {
+
 objPlayer.y=368-9
 objPlayer.x=400
 }
@@ -598,26 +714,6 @@ alarm[8]=3000/133.31*0.5
 }
 //pupupupu
 </string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>605</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>0</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>pu</string>
           </argument>
         </arguments>
       </action>
@@ -639,7 +735,16 @@ alarm[8]=3000/133.31*0.5
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>view_yview[0]+=(0-view_yview[0])/10
+            <string>if(rock=1)
+{
+s=random_range(-pps,pps)
+pps+=0.01
+}
+else
+{
+pps=0
+}
+view_yview[0]+=(0-view_yview[0])/10
 if(k=1)
 {
 view_yview[0]=random_range(-10,200)
@@ -672,9 +777,46 @@ ya=yb
 }
 
 }
+
 xc+=(xd-xc)/5
 yc+=(yd-yc)/5
 s+=(0-s)/6
+if(!instance_exists(objPlayer)&amp;&amp;!instance_exists(objBlackScreenSnake))
+{
+for(si=0;si&lt;=10;si++)
+{
+alarm[si]=0
+}
+xb=0
+yb=608
+xa=0
+ya=608
+s=0
+ends=0
+de=4
+k=0
+partb=0
+partc=0
+partd=0
+parte=0
+rock=0
+aaa=0
+f=3
+g=0
+h=0
+kl=3
+ds=1
+good=0
+dad=3
+xc=0
+xd=0
+yc=608
+yd=608
+scrStopMusic()
+ins=instance_create(0,0,objBlackScreenSnake)
+ins.image_xscale=800/32
+ins.image_yscale=608/32
+}
 </string>
           </argument>
         </arguments>

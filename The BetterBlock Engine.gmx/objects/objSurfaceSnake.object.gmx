@@ -26,6 +26,64 @@
           <argument>
             <kind>1</kind>
             <string>sur=surface_create(800,608)
+ix=0
+t=0
+alarm[1]=1
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (!surface_exists(sur)) 
+{
+sur = surface_create(room_width, room_height);
+}
+
+
+surface_set_target(sur) 
+draw_clear_alpha(c_black,0)
+if (surface_exists(application_surface)) 
+{
+for(iy=0;iy&lt;608;iy+=3)
+{
+if(objScreenSnake.rock=1)
+{
+ix=random_range(-t,t)
+t+=0.0001
+}
+else
+{
+ix=0
+t=0
+}
+draw_surface_part_ext(application_surface,0,iy,800,1,ix,iy+random_range(-t/100,t/100),1,1,c_white,1)
+}
+}
+surface_reset_target()
+
+
+
+
+
+
+alarm[1]=1+t
 </string>
           </argument>
         </arguments>
@@ -53,13 +111,24 @@
 sur = surface_create(room_width, room_height);
 }
 
+
 surface_set_target(sur) 
 draw_clear_alpha(c_black,0)
 if (surface_exists(application_surface)) 
 {
 for(iy=0;iy&lt;608;iy+=3)
 {
-draw_surface_part_ext(application_surface,0,iy,800,1,0,iy,1,1,c_white,1)
+if(objScreenSnake.rock=1)
+{
+ix=random_range(-t,t)
+t+=0.0001
+}
+else
+{
+ix=0
+t=0
+}
+draw_surface_part_ext(application_surface,0,iy,800,1,ix,iy+random_range(-t/80,t/80),1,1,c_white,1)
 }
 }
 surface_reset_target()

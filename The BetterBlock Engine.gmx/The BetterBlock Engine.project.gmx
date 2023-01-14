@@ -344,6 +344,7 @@
         <sprite>sprites\sprSnake</sprite>
         <sprite>sprites\sprRedBlockKill</sprite>
         <sprite>sprites\sprGlitch</sprite>
+        <sprite>sprites\sprCherryShadow</sprite>
       </sprites>
     </sprites>
   </sprites>
@@ -834,7 +835,11 @@
         <object>objects\objRedBlockKill</object>
         <object>objects\objRedBlockHint</object>
         <object>objects\objSurfaceSnake</object>
+        <object>objects\objCherryKill</object>
+        <object>objects\objCherryKillHint</object>
         <object>objects\objGlitch</object>
+        <object>objects\objBlackScreenSnake</object>
+        <object>objects\objGlitchKill</object>
       </objects>
     </objects>
   </objects>
