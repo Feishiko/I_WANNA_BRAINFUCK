@@ -365,6 +365,7 @@
     <sprite>sprites\sCurse</sprite>
     <sprite>sprites\sDuckNormal</sprite>
     <sprite>sprites\sDZ2</sprite>
+    <sprite>sprites\sLaserLine</sprite>
     <sprite>sprites\sDZshark</sprite>
     <sprite>sprites\sEyeBruh</sprite>
     <sprite>sprites\sFake</sprite>
