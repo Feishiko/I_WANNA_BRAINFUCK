@@ -84,6 +84,7 @@
         <sound>sound\musCxk</sound>
         <sound>sound\musSpining</sound>
         <sound>sound\musSnake</sound>
+        <sound>sound\musStep</sound>
       </sounds>
     </sounds>
     <sound>sound\sndBossHitRemastered</sound>
@@ -346,6 +347,8 @@
         <sprite>sprites\sprGlitch</sprite>
         <sprite>sprites\sprCherryShadow</sprite>
       </sprites>
+      <sprite>sprites\sprBlack</sprite>
+      <sprite>sprites\sprSpinCircle</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -383,6 +386,8 @@
       <backgrounds name="Background">
         <background>background\backgroundA</background>
         <background>background\backgroundCxk</background>
+        <background>background\backgroundB</background>
+        <background>background\backgroundC</background>
       </backgrounds>
     </backgrounds>
   </backgrounds>
@@ -437,6 +442,7 @@
     </scripts>
     <scripts name="Resofa">
       <script>scripts\scrPlayMusicAvoidance.gml</script>
+      <script>scripts\scrFlipGravB.gml</script>
     </scripts>
   </scripts>
   <shaders name="shaders">
@@ -603,12 +609,6 @@
           <object>objects\objCherryRandomColExplode</object>
           <object>objects\objCherryRandomColBounce</object>
         </objects>
-      </objects>
-      <objects name="Resofa">
-        <object>objects\objSpikeBlackUp</object>
-        <object>objects\objSpikeBlackDown</object>
-        <object>objects\objSpikeBlackLeft</object>
-        <object>objects\objSpikeBlackRight</object>
       </objects>
     </objects>
     <objects name="triggers">
@@ -841,6 +841,21 @@
         <object>objects\objBlackScreenSnake</object>
         <object>objects\objGlitchKill</object>
       </objects>
+      <objects name="Step">
+        <object>objects\objSpikeBlackUp</object>
+        <object>objects\objSpikeBlackDown</object>
+        <object>objects\objSpikeBlackLeft</object>
+        <object>objects\objSpikeBlackRight</object>
+        <object>objects\objStepRoom</object>
+        <object>objects\objGravUpNo</object>
+        <object>objects\objGravDownNo</object>
+        <object>objects\objSurfaceStep</object>
+        <object>objects\objSpikeBlackUpInvisible</object>
+        <object>objects\objSpikeBlackRightInvisible</object>
+        <object>objects\objSpikeBlackDownInvisible</object>
+        <object>objects\objSpikeBlackLeftInvisible</object>
+        <object>objects\objSpinCircle</object>
+      </objects>
     </objects>
   </objects>
   <rooms name="rooms">
@@ -937,6 +952,10 @@
         <rooms name="Spin">
           <room>rooms\rResofaAA</room>
           <room>rooms\rResofaAB</room>
+        </rooms>
+        <rooms name="Step">
+          <room>rooms\rStepA</room>
+          <room>rooms\rStepB</room>
         </rooms>
       </rooms>
     </rooms>

@@ -223,6 +223,7 @@ bottomToOrigin = (sprite_get_bbox_bottom(mask_index) - sprite_get_yoffset(mask_i
           <argument>
             <kind>1</kind>
             <string>//check left/right button presses
+
 var L = (scrButtonCheck(global.leftButton) || (global.directionalTapFix &amp;&amp; scrButtonCheckPressed(global.leftButton)));
 var R = (scrButtonCheck(global.rightButton) || (global.directionalTapFix &amp;&amp; scrButtonCheckPressed(global.rightButton)));
 

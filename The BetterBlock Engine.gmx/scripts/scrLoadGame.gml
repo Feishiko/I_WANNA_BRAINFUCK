@@ -36,7 +36,6 @@ if (loadFile)
         global.savePlayerX = ds_map_find_value(saveMap,"savePlayerX");
         global.savePlayerY = ds_map_find_value(saveMap,"savePlayerY");
         global.saveGrav = ds_map_find_value(saveMap,"saveGrav");
-        
         if (is_string(global.saveRoom))   //check if the saved room loaded properly
         {
             if (!room_exists(asset_get_index(global.saveRoom)))  //check if the room index in the save is valid
