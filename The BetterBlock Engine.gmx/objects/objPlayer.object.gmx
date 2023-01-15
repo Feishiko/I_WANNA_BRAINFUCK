@@ -118,7 +118,7 @@ with (objBow)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if ((x &lt; 0 || x &gt; room_width || y &lt; 0 || y &gt; room_height) &amp;&amp; global.edgeDeath)  //check if player has left the room
+            <string>if ((x &lt; 0 || x &gt; room_width || y &lt; 0 || y &gt; room_height) &amp;&amp; global.edgeDeath&amp;&amp;!instance_exists(oScreenWarp))  //check if player has left the room
     scrKillPlayer();
 
 //update player sprite
