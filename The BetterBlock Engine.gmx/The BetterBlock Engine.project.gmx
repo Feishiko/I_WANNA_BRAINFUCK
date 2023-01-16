@@ -58,6 +58,7 @@
           <sound>sound\sndjntm</sound>
           <sound>sound\sndNiGanMa</sound>
         </sounds>
+        <sound>sound\sndDaoLiZhiGe</sound>
       </sounds>
     </sounds>
     <sounds name="music">
@@ -205,6 +206,8 @@
       <sprite>sprites\sprSaveMask</sprite>
       <sprite>sprites\sprSaveMedium</sprite>
       <sprite>sprites\sprSave</sprite>
+      <sprite>sprites\sprSaveMaskCenter</sprite>
+      <sprite>sprites\sprSaveCenter</sprite>
       <sprite>sprites\sprSaveWeird</sprite>
       <sprite>sprites\sprSaveVHard</sprite>
       <sprite>sprites\sprSaveMediumFlip</sprite>
@@ -311,6 +314,14 @@
     <sprite>sprites\sprShootSign2</sprite>
     <sprites name="Resofa">
       <sprite>sprites\sprMarioBlockHigh</sprite>
+      <sprite>sprites\sprMarioBlockGigh</sprite>
+      <sprite>sprites\sprMarioBlockSpining</sprite>
+      <sprite>sprites\sprMarioBlockBigh</sprite>
+      <sprite>sprites\sprMarioBlockDigh</sprite>
+      <sprite>sprites\sprMarioBlockEigh</sprite>
+      <sprite>sprites\sprMarioBlockNigh</sprite>
+      <sprite>sprites\sprMarioBlockQigh</sprite>
+      <sprite>sprites\sprEnemy</sprite>
       <sprite>sprites\sprBlackSpikeUp</sprite>
       <sprite>sprites\sprBlackSpikeRight</sprite>
       <sprite>sprites\sprBlackSpikeLeft</sprite>
@@ -434,7 +445,7 @@
     <backgrounds name="Resofa">
       <backgrounds name="Tile">
         <background>background\bgColor</background>
-        <background>background\bgCaveUnderwaterDream</background>
+        <background>background\bgCaveUnderwater</background>
       </backgrounds>
       <background>background\backgroundCaoGao</background>
       <backgrounds name="Background">
@@ -442,6 +453,8 @@
         <background>background\backgroundCxk</background>
         <background>background\backgroundB</background>
         <background>background\backgroundC</background>
+        <background>background\backgroundD</background>
+        <background>background\backgroundE</background>
       </backgrounds>
     </backgrounds>
     <background>background\PC_Computer___Bug_Fables_The_Everlasting_Sapling___Grass</background>
@@ -725,6 +738,7 @@
     <objects name="saves">
       <object>objects\objSaveMedium</object>
       <object>objects\objSave</object>
+      <object>objects\objCenterSave</object>
       <object>objects\objTouchSaveInvis</object>
       <object>objects\objSaveWeird</object>
       <object>objects\objSaveVHard</object>
@@ -1024,6 +1038,16 @@
         <object>objects\objSpikeBlackLeftInvisible</object>
         <object>objects\objSpinCircle</object>
       </objects>
+      <objects name="Water">
+        <object>objects\objWaterSurface</object>
+        <object>objects\objBackgroundFollow</object>
+        <object>objects\objMarioBlockCenter</object>
+        <object>objects\objMarioBlockCenterD</object>
+        <object>objects\objMarioBlockCenterB</object>
+        <object>objects\objObjOut</object>
+        <object>objects\objEnemyA</object>
+        <object>objects\objMarioBlockSpining</object>
+      </objects>
     </objects>
   </objects>
   <rooms name="rooms">
@@ -1132,8 +1156,8 @@
           <room>rooms\rStepA</room>
           <room>rooms\rStepB</room>
         </rooms>
-        <rooms name="rCity">
-          <room>rooms\rCity</room>
+        <rooms name="Water">
+          <room>rooms\rWater</room>
         </rooms>
       </rooms>
     </rooms>
