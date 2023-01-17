@@ -1156,9 +1156,6 @@
           <room>rooms\rStepA</room>
           <room>rooms\rStepB</room>
         </rooms>
-        <rooms name="Water">
-          <room>rooms\rWater</room>
-        </rooms>
       </rooms>
     </rooms>
   </rooms>
