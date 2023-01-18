@@ -402,7 +402,9 @@
       <sprite>sprites\sprSpinGua</sprite>
       <sprite>sprites\sprSpinCxk</sprite>
       <sprite>sprites\sprSpinKid</sprite>
+      <sprite>sprites\sprSpinCircle</sprite>
       <sprite>sprites\sprBlockUnderGrass</sprite>
+      <sprite>sprites\sprBlack</sprite>
       <sprites name="Rock">
         <sprite>sprites\sprJelly</sprite>
         <sprite>sprites\sprAwsome</sprite>
@@ -434,8 +436,6 @@
         <sprite>sprites\sprGlitch</sprite>
         <sprite>sprites\sprCherryShadow</sprite>
       </sprites>
-      <sprite>sprites\sprBlack</sprite>
-      <sprite>sprites\sprSpinCircle</sprite>
       <sprites name="Version">
         <sprite>sprites\sprVersionMedly</sprite>
         <sprite>sprites\sprVGem</sprite>
