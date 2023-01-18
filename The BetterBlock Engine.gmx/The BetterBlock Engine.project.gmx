@@ -81,6 +81,9 @@
         <sound>sound\sound21</sound>
         <sound>sound\sound20</sound>
         <sound>sound\musSaul</sound>
+        <sounds name="part 2">
+          <sound>sound\musOmoriOcean</sound>
+        </sounds>
       </sounds>
       <sounds name="Feishiko">
         <sound>sound\musTitleMusic</sound>
@@ -308,6 +311,60 @@
         <sprite>sprites\sprBuffCreator</sprite>
       </sprites>
       <sprite>sprites\sprBlackOMG</sprite>
+      <sprites name="saulFakeman">
+        <sprite>sprites\sEyeBruh</sprite>
+        <sprite>sprites\sLaserLine</sprite>
+        <sprite>sprites\sHandClock</sprite>
+        <sprite>sprites\sDuckNormal</sprite>
+        <sprite>sprites\sFakeHuman</sprite>
+        <sprite>sprites\sprBigBlock</sprite>
+        <sprite>sprites\sprDuck</sprite>
+        <sprite>sprites\sHuman</sprite>
+        <sprite>sprites\sprHeart</sprite>
+        <sprite>sprites\sLaser</sprite>
+        <sprite>sprites\sFake</sprite>
+        <sprite>sprites\sprite100</sprite>
+        <sprite>sprites\sLightBall</sprite>
+        <sprite>sprites\sprMASAIKE</sprite>
+        <sprite>sprites\sprite106</sprite>
+        <sprite>sprites\sprLine207</sprite>
+        <sprite>sprites\sprMasaike2</sprite>
+        <sprite>sprites\sSaulFakeman</sprite>
+        <sprite>sprites\sSaulFakeman2</sprite>
+        <sprite>sprites\sWeirdCore</sprite>
+        <sprite>sprites\sTheyBlack</sprite>
+        <sprite>sprites\sNormalSaul</sprite>
+        <sprite>sprites\sYumeBullet</sprite>
+        <sprite>sprites\sprite108</sprite>
+      </sprites>
+      <sprites name="water part eh">
+        <sprite>sprites\sSpring2</sprite>
+        <sprite>sprites\sSaul</sprite>
+        <sprite>sprites\sIlive</sprite>
+        <sprite>sprites\sDZshark</sprite>
+        <sprite>sprites\sSeaGrass</sprite>
+        <sprite>sprites\sprite92</sprite>
+        <sprite>sprites\spriteddd</sprite>
+        <sprite>sprites\sASDF</sprite>
+        <sprite>sprites\sWaterCurse</sprite>
+        <sprite>sprites\sWaterCurse2</sprite>
+        <sprite>sprites\sXZLEvent</sprite>
+        <sprite>sprites\sWaterBlock</sprite>
+        <sprite>sprites\sXZL</sprite>
+        <sprite>sprites\sBugLine</sprite>
+        <sprite>sprites\sCurse</sprite>
+        <sprite>sprites\sDZ2</sprite>
+        <sprite>sprites\sCrab</sprite>
+        <sprite>sprites\sSpring1</sprite>
+      </sprites>
+      <sprites name="radium kid">
+        <sprite>sprites\sprPlayerFallRadium</sprite>
+        <sprite>sprites\sHalfLifeLoading</sprite>
+        <sprite>sprites\sDoor</sprite>
+        <sprite>sprites\sUpArrowDoor</sprite>
+        <sprite>sprites\sSignRadium</sprite>
+        <sprite>sprites\sprPlayerJumpRadium</sprite>
+      </sprites>
     </sprites>
     <sprite>sprites\sprBlackBall</sprite>
     <sprites name="Feishiko">
@@ -392,51 +449,9 @@
         <sprite>sprites\sprVCloudA</sprite>
       </sprites>
     </sprites>
-    <sprite>sprites\sIlive</sprite>
-    <sprite>sprites\sASDF</sprite>
-    <sprite>sprites\sBugLine</sprite>
-    <sprite>sprites\sCrab</sprite>
-    <sprite>sprites\sCurse</sprite>
-    <sprite>sprites\sDuckNormal</sprite>
-    <sprite>sprites\sDZ2</sprite>
-    <sprite>sprites\sLaserLine</sprite>
-    <sprite>sprites\sDZshark</sprite>
-    <sprite>sprites\sEyeBruh</sprite>
-    <sprite>sprites\sFake</sprite>
-    <sprite>sprites\sHandClock</sprite>
-    <sprite>sprites\sprBigBlock</sprite>
-    <sprite>sprites\sFakeHuman</sprite>
-    <sprite>sprites\sHuman</sprite>
     <sprite>sprites\sprBus</sprite>
-    <sprite>sprites\sprDuck</sprite>
-    <sprite>sprites\sprHeart</sprite>
-    <sprite>sprites\sLaser</sprite>
-    <sprite>sprites\spriteddd</sprite>
-    <sprite>sprites\sprite92</sprite>
-    <sprite>sprites\sprite100</sprite>
-    <sprite>sprites\sprite106</sprite>
-    <sprite>sprites\sLightBall</sprite>
-    <sprite>sprites\sprite108</sprite>
-    <sprite>sprites\sprLine207</sprite>
-    <sprite>sprites\sprMASAIKE</sprite>
-    <sprite>sprites\sprMasaike2</sprite>
     <sprite>sprites\sprWarpGuo</sprite>
-    <sprite>sprites\sSaul</sprite>
-    <sprite>sprites\sSaulFakeman</sprite>
-    <sprite>sprites\sSaulFakeman2</sprite>
-    <sprite>sprites\sSeaGrass</sprite>
-    <sprite>sprites\sSpring1</sprite>
-    <sprite>sprites\sSpring2</sprite>
     <sprite>sprites\sSweepor</sprite>
-    <sprite>sprites\sTheyBlack</sprite>
-    <sprite>sprites\sWaterBlock</sprite>
-    <sprite>sprites\sWaterCurse</sprite>
-    <sprite>sprites\sWaterCurse2</sprite>
-    <sprite>sprites\sWeirdCore</sprite>
-    <sprite>sprites\sXZL</sprite>
-    <sprite>sprites\sXZLEvent</sprite>
-    <sprite>sprites\sYumeBullet</sprite>
-    <sprite>sprites\sNormalSaul</sprite>
     <sprite>sprites\sPlayerKillerCenter</sprite>
   </sprites>
   <backgrounds name="background">
@@ -482,29 +497,32 @@
         <background>background\backgroundG</background>
       </backgrounds>
     </backgrounds>
-    <background>background\PC_Computer___Bug_Fables_The_Everlasting_Sapling___Grass</background>
-    <background>background\background7</background>
-    <background>background\background8</background>
-    <background>background\background11</background>
-    <background>background\background13</background>
-    <background>background\background15</background>
-    <background>background\background17</background>
-    <background>background\background18</background>
-    <background>background\background19</background>
-    <background>background\background20</background>
-    <background>background\background21</background>
-    <background>background\background22</background>
-    <background>background\bDesert</background>
-    <background>background\BGasdf</background>
-    <background>background\bgDesert</background>
-    <background>background\bgEN</background>
-    <background>background\bgMasaike</background>
-    <background>background\bgSabdstorm</background>
-    <background>background\bgSaulFakeman</background>
-    <background>background\bgSaulFakeman2</background>
-    <background>background\bgSpace</background>
-    <background>background\BGssr</background>
-    <background>background\bgTrigle</background>
+    <backgrounds name="omguy">
+      <backgrounds name="trash">
+        <background>background\background7</background>
+        <background>background\background11</background>
+        <background>background\background8</background>
+        <background>background\background15</background>
+        <background>background\background18</background>
+        <background>background\background17</background>
+        <background>background\background13</background>
+        <background>background\background21</background>
+        <background>background\background22</background>
+        <background>background\background20</background>
+        <background>background\bDesert</background>
+        <background>background\BGasdf</background>
+        <background>background\bgDesert</background>
+        <background>background\bgEN</background>
+        <background>background\bgMasaike</background>
+        <background>background\bgSaulFakeman</background>
+        <background>background\bgSabdstorm</background>
+        <background>background\bgSaulFakeman2</background>
+        <background>background\bgSpace</background>
+        <background>background\BGssr</background>
+        <background>background\background19</background>
+        <background>background\bgTrigle</background>
+      </backgrounds>
+    </backgrounds>
   </backgrounds>
   <paths name="paths">
     <path>paths\pthD</path>
@@ -774,6 +792,9 @@
     <objects name="warps">
       <object>objects\objWarpStart</object>
       <object>objects\objRoomChanger</object>
+      <objects name="omguy">
+        <object>objects\oMesaLoading</object>
+      </objects>
       <object>objects\objBugWarp</object>
       <object>objects\objWarp</object>
       <object>objects\objWarpNext</object>
@@ -879,92 +900,104 @@
       </objects>
       <object>objects\objBusBoss</object>
       <object>objects\objBus</object>
-      <object>objects\objClockDie</object>
-      <object>objects\objClockMan</object>
-      <object>objects\objDuckPattern</object>
-      <object>objects\object121</object>
-      <object>objects\object124</object>
-      <object>objects\object141</object>
-      <object>objects\object142</object>
-      <object>objects\object173</object>
-      <object>objects\object174</object>
-      <object>objects\object175</object>
-      <object>objects\object176</object>
-      <object>objects\objFakeApple</object>
-      <object>objects\objGuoChang</object>
-      <object>objects\objHeart</object>
-      <object>objects\objMasaike</object>
-      <object>objects\objMasaike2</object>
-      <object>objects\objSaulFakePattern</object>
-      <object>objects\oBoing</object>
-      <object>objects\oBoingDead</object>
-      <object>objects\oBoingDead2</object>
-      <object>objects\oBugScreenLine1</object>
-      <object>objects\oBugScreenLine2</object>
-      <object>objects\oBugScreenlineCreator</object>
-      <object>objects\oCherrySaul</object>
-      <object>objects\oCrab</object>
-      <object>objects\oCurse</object>
-      <object>objects\oDownFlying</object>
-      <object>objects\oDuckNormal</object>
-      <object>objects\oDZ</object>
-      <object>objects\oDZlive</object>
-      <object>objects\oDZshark</object>
-      <object>objects\oEyeBaowei</object>
-      <object>objects\oFake</object>
-      <object>objects\oFake2</object>
-      <object>objects\oFakeHuman</object>
-      <object>objects\oFakeHumanFake</object>
-      <object>objects\oFakemanBG</object>
-      <object>objects\oFakemanBG2</object>
-      <object>objects\oFakemanBG3</object>
-      <object>objects\oFakemanBG4</object>
-      <object>objects\oFakemanBGmirror</object>
-      <object>objects\oGhostKid</object>
-      <object>objects\oGhostTrg</object>
-      <object>objects\oHumanBaowei</object>
-      <object>objects\oHuman</object>
-      <object>objects\oHumanFaking</object>
-      <object>objects\oHumanFaking2</object>
-      <object>objects\oHumanMaker</object>
-      <object>objects\oKiller</object>
-      <object>objects\oKiller2</object>
-      <object>objects\oKillGhost</object>
-      <object>objects\oLaser</object>
-      <object>objects\oLaserCreator</object>
-      <object>objects\oLaserline</object>
-      <object>objects\oLightBall</object>
-      <object>objects\oMasaike3</object>
-      <object>objects\oMovingBlock</object>
-      <object>objects\oMovingSpikeLat</object>
-      <object>objects\oMovingSpikeUp</object>
-      <object>objects\oMT</object>
-      <object>objects\oNormalSaul</object>
-      <object>objects\oPlayerControlBG</object>
-      <object>objects\oSaul</object>
-      <object>objects\oSaulFakeman</object>
-      <object>objects\oSaulFakeman2</object>
-      <object>objects\oSaulGone</object>
-      <object>objects\oScreenWarp</object>
-      <object>objects\oSeaGrass</object>
-      <object>objects\oSweepor</object>
-      <object>objects\oTrg2</object>
-      <object>objects\oUpFlying</object>
-      <object>objects\oWarning</object>
-      <object>objects\oWaterControl</object>
-      <object>objects\oWaterCurse</object>
-      <object>objects\oWaterCurse3</object>
-      <object>objects\oWaterCurse2</object>
-      <object>objects\oWaterCurseDead</object>
-      <object>objects\oWeirdCore</object>
-      <object>objects\oXZL</object>
-      <object>objects\oXZLEvent</object>
-      <object>objects\oYumeNikki</object>
-      <object>objects\oYumeNikki2</object>
-      <object>objects\object172</object>
-      <object>objects\oClock</object>
-      <object>objects\oASDF</object>
-      <object>objects\oEmpty2077</object>
+      <objects name="what">
+        <object>objects\object124</object>
+        <object>objects\object141</object>
+        <object>objects\object121</object>
+        <object>objects\object173</object>
+        <object>objects\object174</object>
+        <object>objects\object175</object>
+        <object>objects\object176</object>
+        <object>objects\objGuoChang</object>
+        <object>objects\object142</object>
+      </objects>
+      <objects name="water part uh">
+        <object>objects\oWaterCurse3</object>
+        <object>objects\oWaterCurseDead</object>
+        <object>objects\oDZ</object>
+        <object>objects\oBoingDead2</object>
+        <object>objects\oCrab</object>
+        <object>objects\oCurse</object>
+        <object>objects\oBoing</object>
+        <object>objects\oBoingDead</object>
+        <object>objects\oDownFlying</object>
+        <object>objects\oDZlive</object>
+        <object>objects\oDZshark</object>
+        <object>objects\oGhostTrg</object>
+        <object>objects\oGhostKid</object>
+        <object>objects\oKiller2</object>
+        <object>objects\oKiller</object>
+        <object>objects\oMovingSpikeLat</object>
+        <object>objects\oKillGhost</object>
+        <object>objects\oMovingBlock</object>
+        <object>objects\oSweepor</object>
+        <object>objects\oPlayerControlBG</object>
+        <object>objects\oMovingSpikeUp</object>
+        <object>objects\oMT</object>
+        <object>objects\oSeaGrass</object>
+        <object>objects\oSaul</object>
+        <object>objects\oScreenWarp</object>
+        <object>objects\oUpFlying</object>
+        <object>objects\oTrg2</object>
+        <object>objects\oWaterControl</object>
+        <object>objects\oWaterCurse</object>
+        <object>objects\oWaterCurse2</object>
+        <object>objects\oXZL</object>
+        <object>objects\oXZLEvent</object>
+      </objects>
+      <objects name="saulfakeman">
+        <object>objects\oYumeNikki</object>
+        <object>objects\oDuckNormal</object>
+        <object>objects\objSaulFakePattern</object>
+        <object>objects\objFakeApple</object>
+        <object>objects\objDuckPattern</object>
+        <object>objects\objHeart</object>
+        <object>objects\objClockDie</object>
+        <object>objects\objClockMan</object>
+        <object>objects\objMasaike</object>
+        <object>objects\oBugScreenLine1</object>
+        <object>objects\objMasaike2</object>
+        <object>objects\oCherrySaul</object>
+        <object>objects\oBugScreenLine2</object>
+        <object>objects\oBugScreenlineCreator</object>
+        <object>objects\oHumanMaker</object>
+        <object>objects\oEyeBaowei</object>
+        <object>objects\oFakeHuman</object>
+        <object>objects\oFakemanBG3</object>
+        <object>objects\oFake</object>
+        <object>objects\oFake2</object>
+        <object>objects\oFakeHumanFake</object>
+        <object>objects\oFakemanBG2</object>
+        <object>objects\oFakemanBG4</object>
+        <object>objects\oFakemanBG</object>
+        <object>objects\oLaserline</object>
+        <object>objects\oFakemanBGmirror</object>
+        <object>objects\oHuman</object>
+        <object>objects\oHumanBaowei</object>
+        <object>objects\oLaser</object>
+        <object>objects\oNormalSaul</object>
+        <object>objects\oLightBall</object>
+        <object>objects\oMasaike3</object>
+        <object>objects\oHumanFaking2</object>
+        <object>objects\oLaserCreator</object>
+        <object>objects\oSaulFakeman</object>
+        <object>objects\oWeirdCore</object>
+        <object>objects\oWarning</object>
+        <object>objects\oSaulFakeman2</object>
+        <object>objects\oHumanFaking</object>
+        <object>objects\oSaulGone</object>
+        <object>objects\oYumeNikki2</object>
+        <object>objects\oClock</object>
+        <object>objects\object172</object>
+        <object>objects\oEmpty2077</object>
+        <object>objects\oASDF</object>
+      </objects>
+      <objects name="radiumKid">
+        <object>objects\objRadiumKid</object>
+        <object>objects\oSignRadium</object>
+        <object>objects\oDoor</object>
+        <object>objects\oUpDoor</object>
+      </objects>
     </objects>
     <objects name="Feishiko">
       <object>objects\oFade</object>
@@ -1145,6 +1178,7 @@
       </rooms>
       <rooms name="WaterPart2">
         <room>rooms\rWater2</room>
+        <room>rooms\rCreditRoom</room>
       </rooms>
       <room>rooms\rWater1</room>
       <room>rooms\rWater5</room>
