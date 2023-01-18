@@ -91,7 +91,6 @@
         <sound>sound\musSpining</sound>
         <sound>sound\musSnake</sound>
         <sound>sound\musStep</sound>
-        <sound>sound\musJelly</sound>
       </sounds>
     </sounds>
     <sound>sound\sndBossHitRemastered</sound>
@@ -321,7 +320,6 @@
       <sprite>sprites\sprMarioBlockDigh</sprite>
       <sprite>sprites\sprMarioBlockEigh</sprite>
       <sprite>sprites\sprMarioBlockNigh</sprite>
-      <sprite>sprites\sprMarioBlockOigh</sprite>
       <sprite>sprites\sprMarioBlockQigh</sprite>
       <sprite>sprites\sprEnemy</sprite>
       <sprite>sprites\sprBlackSpikeUp</sprite>
@@ -370,7 +368,6 @@
       </sprites>
       <sprite>sprites\sprBlack</sprite>
       <sprite>sprites\sprSpinCircle</sprite>
-      <sprite>sprites\sprShit</sprite>
     </sprites>
     <sprite>sprites\sIlive</sprite>
     <sprite>sprites\sASDF</sprite>
@@ -448,7 +445,7 @@
     <backgrounds name="Resofa">
       <backgrounds name="Tile">
         <background>background\bgColor</background>
-        <background>background\bgCaveJelly</background>
+        <background>background\bgCaveUnderwater</background>
       </backgrounds>
       <background>background\backgroundCaoGao</background>
       <backgrounds name="Background">
@@ -1041,20 +1038,15 @@
         <object>objects\objSpikeBlackLeftInvisible</object>
         <object>objects\objSpinCircle</object>
       </objects>
-      <objects name="Version">
-        <object>objects\object400</object>
+      <objects name="Water">
+        <object>objects\objWaterSurface</object>
+        <object>objects\objBackgroundFollow</object>
         <object>objects\objMarioBlockCenter</object>
         <object>objects\objMarioBlockCenterD</object>
         <object>objects\objMarioBlockCenterB</object>
-        <object>objects\objMarioBlockCenterC</object>
-        <object>objects\objBackgroundFollow</object>
-        <object>objects\objMarioBlockSpining</object>
         <object>objects\objObjOut</object>
-      </objects>
-      <objects name="Demo">
-        <object>objects\objJellyrSurface</object>
-        <object>objects\objShit</object>
         <object>objects\objEnemyA</object>
+        <object>objects\objMarioBlockSpining</object>
       </objects>
     </objects>
   </objects>
@@ -1163,9 +1155,6 @@
         <rooms name="Step">
           <room>rooms\rStepA</room>
           <room>rooms\rStepB</room>
-        </rooms>
-        <rooms name="Version">
-          <room>rooms\rVA</room>
         </rooms>
       </rooms>
     </rooms>

@@ -57,7 +57,7 @@ e=0
 a+=0.03
 b+=(c-b)/50
 d+=(e-d)/50
-if(wai=1&amp;&amp;instance_exists(objPlayer))
+if(wai=1)
 {
 objPlayer.hspeed-=view_angle[0]/15
 }
