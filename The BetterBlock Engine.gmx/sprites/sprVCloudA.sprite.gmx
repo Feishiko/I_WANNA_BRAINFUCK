@@ -2,7 +2,7 @@
 <sprite>
   <type>0</type>
   <xorig>17</xorig>
-  <yorigin>21</yorigin>
+  <yorigin>22</yorigin>
   <colkind>0</colkind>
   <coltolerance>0</coltolerance>
   <sepmasks>-1</sepmasks>
@@ -18,8 +18,11 @@
   </TextureGroups>
   <For3D>0</For3D>
   <width>34</width>
-  <height>43</height>
+  <height>44</height>
   <frames>
     <frame index="0">images\sprVCloudA_0.png</frame>
+    <frame index="1">images\sprVCloudA_1.png</frame>
+    <frame index="2">images\sprVCloudA_2.png</frame>
+    <frame index="3">images\sprVCloudA_3.png</frame>
   </frames>
 </sprite>

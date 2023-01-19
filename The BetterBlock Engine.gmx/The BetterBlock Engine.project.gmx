@@ -58,10 +58,8 @@
           <sound>sound\sndjntm</sound>
           <sound>sound\sndNiGanMa</sound>
         </sounds>
-        <sound>sound\sndGom</sound>
-        <sound>sound\sndGem</sound>
         <sound>sound\sndDaoLiZhiGe</sound>
-        <sound>sound\sndVBreak</sound>
+        <sound>sound\sndLaoMa</sound>
       </sounds>
     </sounds>
     <sounds name="music">
@@ -97,14 +95,6 @@
         <sound>sound\musSpining</sound>
         <sound>sound\musSnake</sound>
         <sound>sound\musStep</sound>
-        <sound>sound\musVA</sound>
-        <sound>sound\musVB</sound>
-        <sound>sound\musVC</sound>
-        <sound>sound\musVD</sound>
-        <sound>sound\musVE</sound>
-        <sound>sound\musVF</sound>
-        <sound>sound\musVG</sound>
-        <sound>sound\musVH</sound>
       </sounds>
     </sounds>
     <sound>sound\sndBossHitRemastered</sound>
@@ -436,17 +426,19 @@
         <sprite>sprites\sprGlitch</sprite>
         <sprite>sprites\sprCherryShadow</sprite>
       </sprites>
-      <sprites name="Version">
-        <sprite>sprites\sprVersionMedly</sprite>
-        <sprite>sprites\sprVGem</sprite>
-        <sprite>sprites\sprVWaterA</sprite>
-        <sprite>sprites\sprEdit</sprite>
-        <sprite>sprites\sprVGround</sprite>
-        <sprite>sprites\sprVGroundB</sprite>
-        <sprite>sprites\sprVTree</sprite>
-        <sprite>sprites\sprVBlock</sprite>
-        <sprite>sprites\sprVQBlock</sprite>
-        <sprite>sprites\sprVCloudA</sprite>
+      <sprites name="Demo">
+        <sprites name="Version">
+          <sprite>sprites\sprVV</sprite>
+          <sprite>sprites\sprVersionMedly</sprite>
+          <sprite>sprites\sprVGem</sprite>
+          <sprite>sprites\sprVWaterA</sprite>
+          <sprite>sprites\sprVGround</sprite>
+          <sprite>sprites\sprVGroundB</sprite>
+          <sprite>sprites\sprVTree</sprite>
+          <sprite>sprites\sprVBlock</sprite>
+          <sprite>sprites\sprVQBlock</sprite>
+          <sprite>sprites\sprVCloudA</sprite>
+        </sprites>
       </sprites>
     </sprites>
     <sprite>sprites\sprBus</sprite>
@@ -485,7 +477,6 @@
         <background>background\bgColor</background>
         <background>background\bgCaveUnderwater</background>
       </backgrounds>
-      <background>background\backgroundEdit</background>
       <backgrounds name="Background">
         <background>background\backgroundA</background>
         <background>background\backgroundCxk</background>
@@ -1097,6 +1088,20 @@
         <object>objects\objSpinCircle</object>
       </objects>
       <objects name="Demo">
+        <objects name="Version">
+          <object>objects\objBackgroundFollow</object>
+          <object>objects\objVersionCard</object>
+          <object>objects\objVBlockParent</object>
+          <object>objects\objVTree</object>
+          <object>objects\objGem</object>
+          <object>objects\objVGround</object>
+          <object>objects\objVGroundB</object>
+          <object>objects\objVQBlock</object>
+          <object>objects\objVBlock</object>
+          <object>objects\objVersion</object>
+          <object>objects\objVWater</object>
+          <object>objects\objVZone</object>
+        </objects>
         <object>objects\objWaterSurface</object>
         <object>objects\objMarioBlockCenter</object>
         <object>objects\objMarioBlockCenterD</object>
@@ -1104,18 +1109,6 @@
         <object>objects\objObjOut</object>
         <object>objects\objEnemyA</object>
         <object>objects\objMarioBlockSpining</object>
-      </objects>
-      <objects name="Version">
-        <object>objects\objBackgroundFollow</object>
-        <object>objects\objVersionCard</object>
-        <object>objects\objVTree</object>
-        <object>objects\objGem</object>
-        <object>objects\objVGround</object>
-        <object>objects\objVGroundB</object>
-        <object>objects\objVQBlock</object>
-        <object>objects\objVBlock</object>
-        <object>objects\objVersion</object>
-        <object>objects\objVWater</object>
       </objects>
     </objects>
   </objects>
@@ -1225,9 +1218,6 @@
         <rooms name="Step">
           <room>rooms\rStepA</room>
           <room>rooms\rStepB</room>
-        </rooms>
-        <rooms name="Version">
-          <room>rooms\rVersionA</room>
         </rooms>
       </rooms>
     </rooms>
