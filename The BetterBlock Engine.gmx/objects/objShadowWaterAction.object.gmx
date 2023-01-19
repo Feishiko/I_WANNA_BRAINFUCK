@@ -59,6 +59,14 @@ image_alpha=0.7;
           <argument>
             <kind>1</kind>
             <string>image_angle+=a
+with(objBetterBlockExpandCtrl)
+{
+sprite_index=sprWaterMetal
+}
+with(objBetterBlockExpandBlock)
+{
+sprite_index=sprWaterMetal
+}
 </string>
           </argument>
         </arguments>

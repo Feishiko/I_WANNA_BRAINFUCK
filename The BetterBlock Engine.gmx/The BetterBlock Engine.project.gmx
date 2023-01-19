@@ -447,6 +447,7 @@
           <sprite>sprites\sprVCloudA</sprite>
         </sprites>
       </sprites>
+      <sprite>sprites\sprWaterMetal</sprite>
       <sprite>sprites\sprWaterActionShadow</sprite>
     </sprites>
     <sprite>sprites\sprBus</sprite>
@@ -1266,6 +1267,7 @@
       <rooms name="Water">
         <room>rooms\rWaterA</room>
         <room>rooms\rWaterActionA</room>
+        <room>rooms\rWaterActionB</room>
       </rooms>
     </rooms>
   </rooms>
