@@ -187,7 +187,38 @@
     <instance objName="objSpikeUp" x="128" y="96" name="inst_22F7AE57" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="160" y="96" name="inst_01EA3972" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="192" y="96" name="inst_1E944CF1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSign" x="544" y="512" name="inst_5FBDAB01" locked="0" code="signText = &quot;Warning#They will eat a worm&quot;;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWarp" x="800" y="32" name="inst_81FFC11A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayMusic" x="128" y="-32" name="inst_E849250F" locked="0" code="BGM=musBoss2Ocean&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBubbleUpCreator" x="480" y="288" name="inst_B3F8010D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBubbleUpCreator" x="480" y="352" name="inst_E62F05F2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBubbleUpCreator" x="480" y="416" name="inst_6250550B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBubbleUpCreator" x="480" y="480" name="inst_B705DA7A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBubbleUpCreator" x="624" y="512" name="inst_2BE9BA69" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBubbleUpCreator" x="656" y="512" name="inst_F07B37C3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBubbleUpCreator" x="688" y="512" name="inst_4EC1C433" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBubbleUpCreator" x="720" y="512" name="inst_248A5080" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBubbleUpCreator" x="736" y="512" name="inst_BC98C2DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBubbleUpCreator" x="624" y="448" name="inst_06DCFA65" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBubbleUpCreator" x="656" y="448" name="inst_77E62C80" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBubbleUpCreator" x="688" y="448" name="inst_57EC1EAD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBubbleUpCreator" x="720" y="448" name="inst_4FB14AF5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBubbleUpCreator" x="736" y="448" name="inst_F8A11AEE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBubbleUpCreator" x="624" y="384" name="inst_E70E8C86" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBubbleUpCreator" x="656" y="384" name="inst_B71AA642" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBubbleUpCreator" x="688" y="384" name="inst_6D780B4D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBubbleUpCreator" x="720" y="384" name="inst_AEF31742" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBubbleUpCreator" x="736" y="384" name="inst_02FAEA9A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBubbleUpCreator" x="624" y="320" name="inst_79E40813" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBubbleUpCreator" x="656" y="320" name="inst_ECC7AA9B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBubbleUpCreator" x="688" y="320" name="inst_2E72E506" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBubbleUpCreator" x="720" y="320" name="inst_0EAC36DE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBubbleUpCreator" x="736" y="320" name="inst_59918337" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBubbleUpCreator" x="624" y="256" name="inst_2D1F66D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBubbleUpCreator" x="656" y="256" name="inst_950D53EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBubbleUpCreator" x="688" y="256" name="inst_0BCDC832" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBubbleUpCreator" x="720" y="256" name="inst_EBD3DDBD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBubbleUpCreator" x="736" y="256" name="inst_C3DEABCB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBetterSign" x="544" y="512" name="inst_92823454" locked="0" code="Te = &quot;Warning#They will #eat a worm&quot;;&#xA;color=c_white&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

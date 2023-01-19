@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_create(x,y,oDZlive)
+            <string>audio_play_sound(sndBosslive,0,false)
+instance_create(x,y,oDZlive)
 x=-304
 y=0
 //s//pd=0

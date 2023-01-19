@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>x=-304
+            <string>audio_play_sound(sndBosslive,0,false)
+x=-304
 y=0
 </string>
           </argument>

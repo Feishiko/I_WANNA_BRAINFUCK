@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>event_inherited()
-inst=instance_create(x,y-48,oUpDoor)
+//inst=instance_create(x,y-48,oUpDoor)
 </string>
           </argument>
         </arguments>
@@ -52,11 +52,11 @@ inst=instance_create(x,y-48,oUpDoor)
             <string>event_inherited()
 if(place_meeting(x,y,objPlayer))
 {
-inst.touch=1
+//inst.touch=1
 }
 else
 {
-inst.touch=0
+//inst.touch=0
 }
 </string>
           </argument>

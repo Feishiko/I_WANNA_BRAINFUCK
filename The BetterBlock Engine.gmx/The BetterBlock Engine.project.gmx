@@ -118,6 +118,11 @@
     <sound>sound\sndMesaRadio3</sound>
     <sound>sound\sndMesaRadio1</sound>
     <sound>sound\sndMesaRadio2</sound>
+    <sound>sound\sndIT</sound>
+    <sound>sound\musOcean2</sound>
+    <sound>sound\musBoss2Ocean</sound>
+    <sound>sound\sndBosslive</sound>
+    <sound>sound\sndSaulGuitar</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="world">
@@ -453,6 +458,8 @@
     <sprite>sprites\sprWarpGuo</sprite>
     <sprite>sprites\sSweepor</sprite>
     <sprite>sprites\sPlayerKillerCenter</sprite>
+    <sprite>sprites\sTextureKuang</sprite>
+    <sprite>sprites\sPaper</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bAllTiles</background>
@@ -523,6 +530,8 @@
         <background>background\bgTrigle</background>
       </backgrounds>
     </backgrounds>
+    <background>background\bgMorningDew</background>
+    <background>background\bgMorningDew2</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\pthD</path>
@@ -602,6 +611,9 @@
       <font>fonts\fontButton</font>
       <font>fonts\fontAscii</font>
       <font>fonts\fontShowing</font>
+    </fonts>
+    <fonts name="OMGUY">
+      <font>fonts\font4</font>
     </fonts>
   </fonts>
   <objects name="objects">
@@ -898,6 +910,11 @@
         <object>objects\objWaterEffect01</object>
         <object>objects\objWaterEffect03</object>
       </objects>
+      <objects name="tool">
+        <object>objects\oTexture2</object>
+        <object>objects\oTextureHalflife</object>
+        <object>objects\oSignNPC</object>
+      </objects>
       <object>objects\objBusBoss</object>
       <object>objects\objBus</object>
       <objects name="what">
@@ -915,11 +932,10 @@
         <object>objects\oWaterCurse3</object>
         <object>objects\oWaterCurseDead</object>
         <object>objects\oDZ</object>
-        <object>objects\oBoingDead2</object>
+        <object>objects\oMovingBlock</object>
         <object>objects\oCrab</object>
         <object>objects\oCurse</object>
-        <object>objects\oBoing</object>
-        <object>objects\oBoingDead</object>
+        <object>objects\oUpFlying</object>
         <object>objects\oDownFlying</object>
         <object>objects\oDZlive</object>
         <object>objects\oDZshark</object>
@@ -929,7 +945,6 @@
         <object>objects\oKiller</object>
         <object>objects\oMovingSpikeLat</object>
         <object>objects\oKillGhost</object>
-        <object>objects\oMovingBlock</object>
         <object>objects\oSweepor</object>
         <object>objects\oPlayerControlBG</object>
         <object>objects\oMovingSpikeUp</object>
@@ -937,12 +952,17 @@
         <object>objects\oSeaGrass</object>
         <object>objects\oSaul</object>
         <object>objects\oScreenWarp</object>
-        <object>objects\oUpFlying</object>
         <object>objects\oTrg2</object>
         <object>objects\oWaterControl</object>
         <object>objects\oWaterCurse</object>
         <object>objects\oWaterCurse2</object>
         <object>objects\oXZL</object>
+        <object>objects\objBubbleOMGUY</object>
+        <object>objects\oBubbleUpCreator</object>
+        <object>objects\oBubbleDownCreator</object>
+        <object>objects\oBoing</object>
+        <object>objects\oBoingDead</object>
+        <object>objects\oBoingDead2</object>
         <object>objects\oXZLEvent</object>
       </objects>
       <objects name="saulfakeman">
@@ -996,6 +1016,7 @@
         <object>objects\objRadiumKid</object>
         <object>objects\oSignRadium</object>
         <object>objects\oDoor</object>
+        <object>objects\objHalfLifeWarp</object>
         <object>objects\oUpDoor</object>
       </objects>
     </objects>
@@ -1178,12 +1199,13 @@
       </rooms>
       <rooms name="WaterPart2">
         <room>rooms\rWater2</room>
+        <room>rooms\rWater2_1</room>
+        <room>rooms\rWater1</room>
         <room>rooms\rCreditRoom</room>
+        <room>rooms\rWater3</room>
+        <room>rooms\rWater5</room>
+        <room>rooms\rWater4</room>
       </rooms>
-      <room>rooms\rWater1</room>
-      <room>rooms\rWater5</room>
-      <room>rooms\rWater3</room>
-      <room>rooms\rWater4</room>
       <room>rooms\rSaulFakeman</room>
       <room>rooms\rSaulFakeman2</room>
       <room>rooms\rSaulFakeman3</room>
