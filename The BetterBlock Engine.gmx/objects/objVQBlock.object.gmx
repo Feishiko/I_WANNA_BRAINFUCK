@@ -97,7 +97,7 @@ c=2
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(on=false&amp;&amp;f=false&amp;&amp;collision_line(x-16,y+17,x+15,y+17,objPlayer,1,1))
+            <string>if(on=false&amp;&amp;f=false&amp;&amp;collision_line(x-16,y+16,x+15,y+16,objPlayer,1,1))
 {
 on=true
 if(global.Vorld&lt;4)

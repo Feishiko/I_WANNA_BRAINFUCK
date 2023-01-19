@@ -532,6 +532,87 @@ if (instance_exists(objSlope) &amp;&amp; hspeed != 0)
         </arguments>
       </action>
     </event>
+    <event eventtype="4" ename="objVBlockParent">
+      <action>
+        <libid>1</libid>
+        <id>605</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>Resofa added this</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (scrIsBetterPlatform(other) || scrIsBetterBlock(other)||other.solid=false)
+    exit;
+if (!place_free(x+hspeed,y))
+{
+    if (global.grav == 1)   //normal
+    {
+        if(hspeed &lt;= 0){move_contact_solid(180,abs(hspeed));}
+        if(hspeed &gt; 0){move_contact_solid(0,abs(hspeed));}
+    }
+    else    //flipped
+    {
+        if(hspeed &lt; 0){move_contact_solid(180,abs(hspeed));}
+        if(hspeed &gt;= 0){move_contact_solid(0,abs(hspeed));}
+    }
+    hspeed = 0;
+}
+ 
+if (!place_free(x,y+vspeed))
+{
+    if (global.grav == 1)   //normal
+    {
+        if(vspeed &lt;= 0){move_contact_solid(90,abs(vspeed));}
+        if(vspeed &gt; 0){move_contact_solid(270,abs(vspeed));djump=1;        if(instance_exists(objXiaLuoErDuan))
+        {
+        objXiaLuoErDuan.asdff=1
+        }}//OMGUY Change it
+    }
+    else    //flipped
+    {
+        if(vspeed &lt;= 0){move_contact_solid(90,abs(vspeed));djump=1;        if(instance_exists(objXiaLuoErDuan))
+        {
+        objXiaLuoErDuan.asdff=1
+        }}//OMGUY Change it
+        if(vspeed &gt; 0){move_contact_solid(270,abs(vspeed));}
+    }
+    vspeed = 0;
+}
+
+if (!place_free(x+hspeed,y+vspeed)) {hspeed = 0;}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="4" ename="objPlayerKiller">
       <action>
         <libid>1</libid>
