@@ -445,6 +445,7 @@
           <sprite>sprites\sprVCloudA</sprite>
         </sprites>
       </sprites>
+      <sprite>sprites\sprite269</sprite>
     </sprites>
     <sprite>sprites\sprBus</sprite>
     <sprite>sprites\sprWarpGuo</sprite>
