@@ -52,7 +52,7 @@
   </views>
   <instances>
     <instance objName="objPlayMusic" x="32" y="32" name="inst_7342E7B3" locked="0" code="BGM=musGuyRock" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oSignNPC" x="352" y="368" name="inst_45125E49" locked="0" code="Max=2&#xA;texts[0]=&quot;2023年8月15日11:00&#xA;今天刚开坑,离DDL就剩1天了,赶紧编个剧情糊弄一下&quot;&#xA;texts[1]=&quot;2077年，9小时战争爆发，&#xA;刘华强和他的同僚电棍。马里奥阻&#xA;止了K娘失控的骰子的欧洲大光球和8个暗黑物质。&#xA;卡比的草莓蛋糕得以拯救。&#xA;然而这时突然钻出来一个光头...&quot;&#xA;texts[2]=&quot;2023年8月15日12:01&#xA;md我写了个啥&#xA;算了粪game要个几把剧情,以撒启动!&quot;&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oSignNPC" x="352" y="368" name="inst_45125E49" locked="0" code="Max=2&#xA;texts[0]=&quot;2023年8月15日11:00&#xA;今天刚开坑,离DDL就剩1天了,赶紧编个剧情糊弄一下&quot;&#xA;texts[1]=&quot;2077年，9小时战争爆发，&#xA;刘华强和他的同僚电棍，马里奥阻&#xA;止了K娘失控的骰子的欧洲大光球和8个暗黑物质。&#xA;卡比的草莓蛋糕得以拯救。&#xA;然而这时突然钻出来一个光头...&quot;&#xA;texts[2]=&quot;2023年8月15日12:01&#xA;md我写了个啥&#xA;算了粪game要个几把剧情,以撒启动!&quot;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="128" y="128" name="inst_E43DC89B" locked="0" code="" scaleX="16.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="128" y="144" name="inst_1194D63D" locked="0" code="" scaleX="0.5" scaleY="10" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="144" y="448" name="inst_7C48158C" locked="0" code="" scaleX="16" scaleY="0.5" colour="4294967295" rotation="0"/>

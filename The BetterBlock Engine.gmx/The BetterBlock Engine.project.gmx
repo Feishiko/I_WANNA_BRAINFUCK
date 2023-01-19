@@ -95,6 +95,8 @@
         <sound>sound\musSpining</sound>
         <sound>sound\musSnake</sound>
         <sound>sound\musStep</sound>
+        <sound>sound\musWaterArea</sound>
+        <sound>sound\musWaterAction</sound>
       </sounds>
     </sounds>
     <sound>sound\sndBossHitRemastered</sound>
@@ -445,7 +447,7 @@
           <sprite>sprites\sprVCloudA</sprite>
         </sprites>
       </sprites>
-      <sprite>sprites\sprite269</sprite>
+      <sprite>sprites\sprWaterActionShadow</sprite>
     </sprites>
     <sprite>sprites\sprBus</sprite>
     <sprite>sprites\sprWarpGuo</sprite>
@@ -484,6 +486,11 @@
       <backgrounds name="Tile">
         <background>background\bgColor</background>
         <background>background\bgCaveUnderwater</background>
+        <backgrounds name="BackTile">
+          <background>background\btSign</background>
+          <background>background\btMetal</background>
+          <background>background\btCamera</background>
+        </backgrounds>
       </backgrounds>
       <backgrounds name="Background">
         <background>background\backgroundA</background>
@@ -494,7 +501,10 @@
         <background>background\backgroundE</background>
         <background>background\backgroundF</background>
         <background>background\backgroundG</background>
+        <background>background\backgroundH</background>
+        <background>background\backgroundI</background>
       </backgrounds>
+      <background>background\background59</background>
     </backgrounds>
     <backgrounds name="omguy">
       <backgrounds name="trash">
@@ -527,6 +537,10 @@
   </backgrounds>
   <paths name="paths">
     <path>paths\pthD</path>
+    <path>paths\pU1</path>
+    <path>paths\pL1</path>
+    <path>paths\pD1</path>
+    <path>paths\pR1</path>
   </paths>
   <scripts name="scripts">
     <scripts name="player">
@@ -1132,6 +1146,12 @@
         <object>objects\objEnemyA</object>
         <object>objects\objMarioBlockSpining</object>
       </objects>
+      <objects name="Water">
+        <object>objects\objCameraSurface</object>
+        <object>objects\objTrgWater</object>
+        <object>objects\objBackgroundShine</object>
+        <object>objects\objShadowWaterAction</object>
+      </objects>
     </objects>
   </objects>
   <rooms name="rooms">
@@ -1242,6 +1262,10 @@
           <room>rooms\rStepA</room>
           <room>rooms\rStepB</room>
         </rooms>
+      </rooms>
+      <rooms name="Water">
+        <room>rooms\rWaterA</room>
+        <room>rooms\rWaterActionA</room>
       </rooms>
     </rooms>
   </rooms>
