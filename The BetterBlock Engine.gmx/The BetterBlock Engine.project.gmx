@@ -462,6 +462,7 @@
       </sprites>
       <sprite>sprites\sprWaterMetal</sprite>
       <sprite>sprites\sprWaterActionShadow</sprite>
+      <sprite>sprites\sprPlayerKiller32x32</sprite>
     </sprites>
     <sprite>sprites\sprBus</sprite>
     <sprite>sprites\sprWarpGuo</sprite>
@@ -1179,6 +1180,7 @@
         <object>objects\objTrgWater</object>
         <object>objects\objBackgroundShine</object>
         <object>objects\objShadowWaterAction</object>
+        <object>objects\objSineyWater</object>
       </objects>
     </objects>
   </objects>
@@ -1298,6 +1300,7 @@
         <room>rooms\rWaterA</room>
         <room>rooms\rWaterActionA</room>
         <room>rooms\rWaterActionB</room>
+        <room>rooms\rWaterActionC</room>
       </rooms>
     </rooms>
   </rooms>
