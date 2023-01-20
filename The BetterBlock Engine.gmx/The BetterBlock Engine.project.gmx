@@ -115,6 +115,11 @@
     <sound>sound\musBoss2Ocean</sound>
     <sound>sound\sndBosslive</sound>
     <sound>sound\sndSaulGuitar</sound>
+    <sound>sound\musHell</sound>
+    <sound>sound\musDesertXJL</sound>
+    <sound>sound\sndHello</sound>
+    <sound>sound\sndLeimu</sound>
+    <sound>sound\sndToilet</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="world">
@@ -307,6 +312,14 @@
       <sprites name="Buff">
         <sprite>sprites\sprBuffCreator</sprite>
       </sprites>
+      <sprites name="XJL">
+        <sprite>sprites\sXJLevent</sprite>
+        <sprite>sprites\sMT</sprite>
+        <sprite>sprites\sGM8IronDoor</sprite>
+        <sprite>sprites\sWaterCross</sprite>
+        <sprite>sprites\sXJLtext</sprite>
+        <sprite>sprites\sprite274</sprite>
+      </sprites>
       <sprite>sprites\sprBlackOMG</sprite>
       <sprites name="saulFakeman">
         <sprite>sprites\sEyeBruh</sprite>
@@ -456,9 +469,11 @@
     <sprite>sprites\sPlayerKillerCenter</sprite>
     <sprite>sprites\sTextureKuang</sprite>
     <sprite>sprites\sPaper</sprite>
+    <sprite>sprites\sXJL</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bAllTiles</background>
+    <background>background\bDesertAllTitle</background>
     <background>background\bAllTiles_Tiled</background>
     <background>background\bAllTiles2</background>
     <background>background\bMegaman</background>
@@ -535,6 +550,10 @@
     </backgrounds>
     <background>background\bgMorningDew</background>
     <background>background\bgMorningDew2</background>
+    <background>background\bgPipeMario</background>
+    <background>background\bgCrimsonTitle</background>
+    <background>background\bgCrimsonBG</background>
+    <background>background\bgDesert2</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\pthD</path>
@@ -921,6 +940,7 @@
         <object>objects\oTexture2</object>
         <object>objects\oTextureHalflife</object>
         <object>objects\oSignNPC</object>
+        <object>objects\oSignJimmyMcgill</object>
       </objects>
       <object>objects\objBusBoss</object>
       <object>objects\objBus</object>
@@ -945,6 +965,7 @@
         <object>objects\oUpFlying</object>
         <object>objects\oDownFlying</object>
         <object>objects\oDZlive</object>
+        <object>objects\oXJLlive</object>
         <object>objects\oDZshark</object>
         <object>objects\oGhostTrg</object>
         <object>objects\oGhostKid</object>
@@ -964,12 +985,18 @@
         <object>objects\oWaterCurse</object>
         <object>objects\oWaterCurse2</object>
         <object>objects\oXZL</object>
+        <object>objects\oXJLevent</object>
+        <object>objects\oSpinDude</object>
         <object>objects\objBubbleOMGUY</object>
         <object>objects\oBubbleUpCreator</object>
         <object>objects\oBubbleDownCreator</object>
         <object>objects\oBoing</object>
         <object>objects\oBoingDead</object>
+        <object>objects\oBubbleMatong</object>
         <object>objects\oBoingDead2</object>
+        <object>objects\oGM8Zombie</object>
+        <object>objects\oWaterCross</object>
+        <object>objects\oXJL2</object>
         <object>objects\oXZLEvent</object>
       </objects>
       <objects name="saulfakeman">
@@ -1216,14 +1243,17 @@
         <room>rooms\rWater2</room>
         <room>rooms\rWater2_1</room>
         <room>rooms\rWater1</room>
+        <room>rooms\rWaterMaTong</room>
         <room>rooms\rCreditRoom</room>
         <room>rooms\rWater3</room>
         <room>rooms\rWater5</room>
         <room>rooms\rWater4</room>
+        <room>rooms\rXZLDefence</room>
       </rooms>
       <room>rooms\rSaulFakeman</room>
       <room>rooms\rSaulFakeman2</room>
       <room>rooms\rSaulFakeman3</room>
+      <room>rooms\rCrimsonPit</room>
     </rooms>
     <rooms name="Feishiko">
       <room>rooms\rmIntro</room>
