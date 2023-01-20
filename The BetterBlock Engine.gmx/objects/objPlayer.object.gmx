@@ -71,6 +71,8 @@ bottomToOrigin = (sprite_get_bbox_bottom(mask_index) - sprite_get_yoffset(mask_i
 if(!instance_exists(oFeishikoCont)){
     instance_create(0, 0, oFeishikoCont);
 }
+
+poison=100//Resofa added this
 </string>
           </argument>
         </arguments>
@@ -527,6 +529,35 @@ if (instance_exists(objSlope) &amp;&amp; hspeed != 0)
     xprevious = x;
     yprevious = y;
 }
+//Resofa added this
+if(place_meeting(x,y,objPoisonWater))
+{
+poison-=objPoisonWater.a
+}
+else
+{
+if(poison&lt;100)
+{
+poison+=1
+}
+else
+{
+poison=100
+}
+}
+if(poison&lt;0)
+{
+scrKillPlayer()
+}
+
+
+
+
+
+
+
+
+
 </string>
           </argument>
         </arguments>
@@ -839,6 +870,14 @@ if(room != rmMath1 &amp;&amp; room != rmMath2){//FEISHIKO ADD THIS
 //draw the player's hitbox
 if (global.debugShowHitbox)
     draw_sprite_ext(mask_index,image_index,x,y,image_xscale,image_yscale,image_angle,image_blend,image_alpha*0.8);
+    
+//Resofa added this
+if(place_meeting(x,y,objPoisonWater))
+{
+draw_rectangle_colour(drawX-10,drawY-28*global.grav,drawX+10,drawY-35*global.grav,c_black,c_black,c_black,c_black,1)
+draw_rectangle_colour(drawX-10,drawY-28*global.grav,drawX-10+poison*0.2,drawY-35*global.grav,c_green,c_green,c_green,c_green,0)
+}
+
 </string>
           </argument>
         </arguments>

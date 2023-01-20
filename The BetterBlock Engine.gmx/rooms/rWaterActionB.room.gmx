@@ -135,6 +135,7 @@
     <instance objName="objFloatingSpike" x="176" y="416" name="inst_90A1FD57" locked="0" code="t=53&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeLeft" x="128" y="192" name="inst_472088B0" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeRight" x="96" y="176" name="inst_F485F1D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWarp" x="96" y="608" name="inst_064A37DE" locked="0" code="roomTo=rWaterActionC&#xA;" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="btMetal" x="32" y="192" w="32" h="32" xo="0" yo="0" id="10006698" name="inst_73A77C04" depth="10000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
