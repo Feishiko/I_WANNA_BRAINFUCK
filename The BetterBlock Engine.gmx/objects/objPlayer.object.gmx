@@ -872,7 +872,7 @@ if (global.debugShowHitbox)
     draw_sprite_ext(mask_index,image_index,x,y,image_xscale,image_yscale,image_angle,image_blend,image_alpha*0.8);
     
 //Resofa added this
-if(place_meeting(x,y,objPoisonWater))
+if(poison&lt;100)
 {
 draw_rectangle_colour(drawX-10,drawY-28*global.grav,drawX+10,drawY-35*global.grav,c_black,c_black,c_black,c_black,1)
 draw_rectangle_colour(drawX-10,drawY-28*global.grav,drawX-10+poison*0.2,drawY-35*global.grav,c_green,c_green,c_green,c_green,0)
