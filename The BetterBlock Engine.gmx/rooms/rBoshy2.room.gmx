@@ -380,6 +380,7 @@
     <instance objName="objSaveWeird" x="160" y="0" name="inst_BDFA18D2" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="objSaveWeird" x="496" y="368" name="inst_BBD466E0" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="objSaveWeird" x="720" y="272" name="inst_0B56E923" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="oWhite" x="16" y="368" name="inst_F0B41A3C" locked="0" code="depth=9999999&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

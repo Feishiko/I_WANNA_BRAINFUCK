@@ -318,7 +318,8 @@
         <sprite>sprites\sGM8IronDoor</sprite>
         <sprite>sprites\sWaterCross</sprite>
         <sprite>sprites\sXJLtext</sprite>
-        <sprite>sprites\sprite274</sprite>
+        <sprite>sprites\sWhite</sprite>
+        <sprite>sprites\sDemo</sprite>
       </sprites>
       <sprite>sprites\sprBlackOMG</sprite>
       <sprites name="saulFakeman">
@@ -950,6 +951,10 @@
         <object>objects\oTextureHalflife</object>
         <object>objects\oSignNPC</object>
         <object>objects\oSignJimmyMcgill</object>
+        <object>objects\oWhite</object>
+      </objects>
+      <objects name="XJL">
+        <object>objects\oXJL_True</object>
       </objects>
       <object>objects\objBusBoss</object>
       <object>objects\objBus</object>
