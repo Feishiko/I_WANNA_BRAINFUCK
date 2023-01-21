@@ -73,11 +73,11 @@
     <instance objName="objBlock" x="304" y="0" name="inst_FC8B88C6" locked="0" code="" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="560" y="0" name="inst_B845E6AF" locked="0" code="" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBreathBubble" x="64" y="576" name="inst_266778B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objFloatingSpike" x="64" y="432" name="inst_7EA3CB2E" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="objFloatingSpike" x="64" y="480" name="inst_7EA3CB2E" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="objFloatingSpike" x="48" y="400" name="inst_DBD9E822" locked="0" code="t=30&#xA;" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="112" y="512" name="inst_B1CB87B6" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="112" y="480" name="inst_E48B8F2D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpikeDown" x="80" y="448" name="inst_9FC7187D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeDown" x="80" y="448" name="inst_9FC7187D" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="144" y="576" name="inst_42C1E3A3" locked="0" code="" scaleX="5" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="144" y="512" name="inst_0B0A0F77" locked="0" code="" scaleX="3" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="272" y="528" name="inst_2CD3659A" locked="0" code="" scaleX="1" scaleY="1.5" colour="4294967295" rotation="0"/>

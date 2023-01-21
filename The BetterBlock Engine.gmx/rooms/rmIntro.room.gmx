@@ -139,6 +139,7 @@
     <instance objName="objWarp" x="416" y="544" name="inst_B7A609B9" locked="0" code="roomTo=rSaulFakeman" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWarp" x="736" y="544" name="inst_4FF0D663" locked="0" code="roomTo=rWaterA&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWarp" x="224" y="544" name="inst_53AC9630" locked="0" code="roomTo = rmMath1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWarp" x="640" y="480" name="inst_C35E02CA" locked="0" code="roomTo=rExcuseA&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bAllTiles" x="0" y="704" w="32" h="32" xo="0" yo="96" id="10003900" name="inst_FDAC197D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

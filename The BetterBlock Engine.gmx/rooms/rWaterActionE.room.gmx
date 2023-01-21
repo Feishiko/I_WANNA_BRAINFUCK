@@ -3,8 +3,8 @@
   <caption></caption>
   <width>800</width>
   <height>608</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>8</vsnap>
+  <hsnap>8</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
@@ -53,13 +53,64 @@
   <instances>
     <instance objName="objPlayerStart" x="48" y="544" name="inst_D961C9B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBackgroundShine" x="448" y="352" name="inst_DCAE1211" locked="0" code="i=1&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objShadowWaterAction" x="528" y="416" name="inst_F21985BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objShadowWaterAction" x="320" y="416" name="inst_F21985BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlayMusic" x="384" y="352" name="inst_08B5A560" locked="0" code="BGM=musWaterAction&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objCameraSurface" x="0" y="0" name="inst_151278A7" locked="0" code="xx=280&#xA;yy=104&#xA;xs=-132&#xA;ys=-52&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="0" y="512" name="inst_9F0B4EBC" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
-    <instance objName="objBlock" x="96" y="576" name="inst_80E23F9B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBlock" x="96" y="576" name="inst_80E23F9B" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objMovingPlatform" x="32" y="576" name="inst_E84B7D32" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objMovingPlatform" x="64" y="576" name="inst_2FE5C31E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSineyWater" x="160" y="432" name="inst_029CD0A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objFloatingSpikeNoSpin" x="176" y="448" name="inst_F408B68F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBlock" x="704" y="0" name="inst_F3FCD700" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBlock" x="704" y="64" name="inst_884E53AB" locked="0" code="" scaleX="3.09677410125732" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayerKillerBlock" x="160" y="576" name="inst_843A951E" locked="0" code="" scaleX="20" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayerKillerBlock" x="0" y="0" name="inst_1EB2B4BC" locked="0" code="" scaleX="22" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayerKillerBlock" x="0" y="32" name="inst_3A85575E" locked="0" code="" scaleX="1" scaleY="15" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayerKillerBlock" x="768" y="128" name="inst_DDB1E008" locked="0" code="" scaleX="1" scaleY="14" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeDown" x="96" y="512" name="inst_6BA9219D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeUp" x="128" y="544" name="inst_FFA1BC91" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPoisonWater" x="160" y="240" name="inst_84BBD05F" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayerKillerBlock" x="192" y="272" name="inst_459BF9D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayerKillerBlock" x="128" y="240" name="inst_75BBED03" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayerKillerBlock" x="224" y="80" name="inst_ECDD63F8" locked="0" code="" scaleX="1" scaleY="5" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayerKillerBlock" x="256" y="224" name="inst_B6EB7AFA" locked="0" code="" scaleX="0.5" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSineyWater" x="256" y="112" name="inst_AA464798" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCherry" x="336" y="144" name="inst_9EDAAF38" locked="0" code="" scaleX="4.5" scaleY="4.5" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeDown" x="192" y="304" name="inst_0F0513A1" locked="0" code="" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayerKillerBlock" x="96" y="480" name="inst_A250DBF1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayerKillerBlock" x="64" y="480" name="inst_181F939F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayerKillerBlock" x="32" y="480" name="inst_B1DD50F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayerKiller" x="128" y="272" name="inst_A7AE4958" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayerKiller" x="256" y="256" name="inst_33EECE0D" locked="0" code="" scaleX="0.670000016689301" scaleY="0.666666686534882" colour="4294967295" rotation="0"/>
+    <instance objName="objSave" x="128" y="160" name="inst_5A9D21D8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveBlocker" x="96" y="160" name="inst_FBE38464" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveBlocker" x="160" y="160" name="inst_86D49F5B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeDown" x="320" y="160" name="inst_4CAFDD98" locked="0" code="" scaleX="1.5" scaleY="7" colour="4294967295" rotation="0"/>
+    <instance objName="objSineyWater" x="416" y="128" name="inst_4BE2112F" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeUp" x="448" y="96" name="inst_757FC075" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeUp" x="512" y="128" name="inst_0A8AD3EB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeDown" x="512" y="32" name="inst_1704FA33" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeDown" x="448" y="128" name="inst_1B41B8C7" locked="0" code="" scaleX="1" scaleY="5.5" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeDown" x="512" y="160" name="inst_BF39D150" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSave" x="288" y="48" name="inst_00C78B9E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveBlocker" x="240" y="48" name="inst_61179E1A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveBlocker" x="336" y="48" name="inst_66585EA3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayerKillerBlock" x="576" y="144" name="inst_65412CC1" locked="0" code="" scaleX="1" scaleY="3.5" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayerKillerBlock" x="576" y="32" name="inst_099CE550" locked="0" code="" scaleX="2.5" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayerKillerBlock" x="640" y="96" name="inst_EC3D662F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayerKiller" x="640" y="128" name="inst_461032D2" locked="0" code="" scaleX="0.666666686534882" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayerKiller" x="256" y="272" name="inst_8AB862BD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayerKillerBlock" x="256" y="288" name="inst_CF788527" locked="0" code="" scaleX="1" scaleY="4.5" colour="4294967295" rotation="0"/>
+    <instance objName="objCameraSurface" x="536" y="344" name="inst_67910C66" locked="0" code="xx=224&#xA;yy=224&#xA;xs=-112&#xA;ys=-112&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayerKillerBlock" x="496" y="304" name="inst_7A18C2A3" locked="0" code="" scaleX="8.5" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayerKillerBlock" x="496" y="336" name="inst_F9DA3DFE" locked="0" code="" scaleX="1" scaleY="7.5" colour="4294967295" rotation="0"/>
+    <instance objName="objPoisonWater" x="224" y="272" name="inst_DD0C8A81" locked="0" code="" scaleX="3.25" scaleY="9.5" colour="4294967295" rotation="0"/>
+    <instance objName="objFloatingSpike" x="272" y="472" name="inst_B9EAFFA6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objFloatingSpike" x="272" y="544" name="inst_A0F8DDC4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBreathBubble" x="240" y="416" name="inst_246A9049" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBreathBubble" x="304" y="416" name="inst_751135C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBlackScreenTrigger" x="368" y="32" name="inst_0E039494" locked="0" code="" scaleX="0.5" scaleY="3.5" colour="4294967295" rotation="0"/>
+    <instance objName="objMovingPlatform" x="288" y="80" name="inst_7CC1BEDD" locked="0" code="" scaleX="2.5" scaleY="0.5" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="btMetal" x="0" y="128" w="32" h="32" xo="32" yo="0" id="10006695" name="inst_887E4E3A" depth="10000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -537,6 +588,29 @@
     <tile bgName="btMetal" x="704" y="128" w="32" h="32" xo="0" yo="0" id="10009145" name="inst_42E9476D" depth="10000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="btMetal" x="704" y="96" w="32" h="32" xo="0" yo="0" id="10009146" name="inst_B667A971" depth="10000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="btMetal" x="704" y="64" w="32" h="32" xo="0" yo="0" id="10009147" name="inst_07356971" depth="10000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCaveUnderwater" x="0" y="512" w="32" h="32" xo="64" yo="0" id="10009149" name="inst_6FCDB30D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCaveUnderwater" x="0" y="544" w="32" h="32" xo="64" yo="32" id="10009150" name="inst_8B82B849" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCaveUnderwater" x="0" y="576" w="32" h="32" xo="64" yo="32" id="10009151" name="inst_7D6C9EB4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCaveUnderwater" x="96" y="576" w="32" h="32" xo="0" yo="0" id="10009152" name="inst_5A867DD0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCaveUnderwater" x="128" y="576" w="32" h="32" xo="64" yo="0" id="10009153" name="inst_8C5F8481" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCaveUnderwater" x="704" y="0" w="32" h="32" xo="0" yo="64" id="10009154" name="inst_1440CAB6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCaveUnderwater" x="736" y="0" w="32" h="32" xo="32" yo="64" id="10009155" name="inst_9FB91782" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCaveUnderwater" x="768" y="0" w="32" h="32" xo="32" yo="64" id="10009156" name="inst_7AD58499" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCaveUnderwater" x="736" y="96" w="32" h="32" xo="32" yo="64" id="10009157" name="inst_EE68B476" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCaveUnderwater" x="768" y="96" w="32" h="32" xo="32" yo="64" id="10009158" name="inst_5A6FAA20" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCaveUnderwater" x="736" y="64" w="32" h="32" xo="32" yo="0" id="10009159" name="inst_77A1E909" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCaveUnderwater" x="768" y="64" w="32" h="32" xo="32" yo="0" id="10009160" name="inst_75A161F6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCaveUnderwater" x="704" y="64" w="32" h="32" xo="0" yo="0" id="10009161" name="inst_20F02CE6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCaveUnderwater" x="704" y="96" w="32" h="32" xo="0" yo="64" id="10009162" name="inst_722A5B7E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="btCamera" x="688" y="496" w="80" h="80" xo="160" yo="80" id="10009164" name="inst_755C76A5" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="btCamera" x="688" y="416" w="80" h="80" xo="160" yo="160" id="10009166" name="inst_8DAB3EB3" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="btCamera" x="608" y="336" w="80" h="80" xo="0" yo="80" id="10009168" name="inst_96FD7759" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="btCamera" x="528" y="336" w="80" h="80" xo="80" yo="0" id="10009171" name="inst_2FA6221C" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="btCamera" x="608" y="496" w="80" h="80" xo="0" yo="160" id="10009174" name="inst_D37D4FD4" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="btCamera" x="688" y="336" w="80" h="80" xo="160" yo="0" id="10009175" name="inst_426503BC" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="btCamera" x="528" y="416" w="80" h="80" xo="80" yo="160" id="10009176" name="inst_9544E831" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="btCamera" x="608" y="416" w="80" h="80" xo="80" yo="240" id="10009177" name="inst_01182903" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="btCamera" x="528" y="496" w="80" h="80" xo="80" yo="80" id="10009178" name="inst_2F6F4128" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

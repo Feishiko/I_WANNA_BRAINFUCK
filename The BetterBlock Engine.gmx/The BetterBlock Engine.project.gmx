@@ -1197,6 +1197,7 @@
         <object>objects\objMarioBlockSpining</object>
       </objects>
       <objects name="Water">
+        <object>objects\objPlayerKillerBlock</object>
         <object>objects\objCameraSurface</object>
         <object>objects\objTrgWater</object>
         <object>objects\objBackgroundShine</object>
@@ -1205,6 +1206,9 @@
         <object>objects\objPoisonWater</object>
         <object>objects\objBreathBubble</object>
         <object>objects\objBlackScreenTrigger</object>
+      </objects>
+      <objects name="Excuse">
+        <object>objects\objExcuseSurface</object>
       </objects>
     </objects>
     <object>objects\oWaterPower1</object>
@@ -1332,6 +1336,9 @@
         <room>rooms\rWaterActionC</room>
         <room>rooms\rWaterActionD</room>
         <room>rooms\rWaterActionE</room>
+      </rooms>
+      <rooms name="Excuse">
+        <room>rooms\rExcuseA</room>
       </rooms>
     </rooms>
   </rooms>
