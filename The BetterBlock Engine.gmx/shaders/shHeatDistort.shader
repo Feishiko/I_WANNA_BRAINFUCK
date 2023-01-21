@@ -66,7 +66,7 @@ void main()
     // Time varying pixel color
     vec3 col = vec3(c);
     
-    vec4 tex = texture2D(gm_BaseTexture, v_vTexcoord + col.r/50.);
+    vec4 tex = texture2D(gm_BaseTexture, v_vTexcoord + col.r/50. - 1./100.);
 
     tex.rgb *= vec3(1., .55, .35);
 
@@ -75,6 +75,10 @@ void main()
     noisepoint = smoothstep(0., .2, noisepoint);
     
     tex.rgb *= noisepoint;    
+    
+    vec3 gray = vec3(tex.r + tex.g + tex.b)/3.;
+    
+    tex.rgb += gray*.5;
 
     gl_FragColor = tex;
 }
