@@ -318,8 +318,12 @@
         <sprite>sprites\sGM8IronDoor</sprite>
         <sprite>sprites\sWaterCross</sprite>
         <sprite>sprites\sXJLtext</sprite>
+        <sprite>sprites\sArrow2</sprite>
         <sprite>sprites\sWhite</sprite>
+        <sprite>sprites\sCenterWhite</sprite>
+        <sprite>sprites\sXZL_center</sprite>
         <sprite>sprites\sDemo</sprite>
+        <sprite>sprites\sXJL</sprite>
       </sprites>
       <sprite>sprites\sprBlackOMG</sprite>
       <sprites name="saulFakeman">
@@ -477,7 +481,6 @@
     <sprite>sprites\sPlayerKillerCenter</sprite>
     <sprite>sprites\sTextureKuang</sprite>
     <sprite>sprites\sPaper</sprite>
-    <sprite>sprites\sXJL</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bAllTiles</background>
@@ -563,6 +566,7 @@
     <background>background\bgCrimsonBG</background>
     <background>background\bgDesert2</background>
     <background>background\bgMT</background>
+    <background>background\bWaterPower</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\pthD</path>
@@ -955,6 +959,8 @@
       </objects>
       <objects name="XJL">
         <object>objects\oXJL_True</object>
+        <object>objects\oArrow2</object>
+        <object>objects\oXJLevent</object>
       </objects>
       <object>objects\objBusBoss</object>
       <object>objects\objBus</object>
@@ -999,7 +1005,6 @@
         <object>objects\oWaterCurse</object>
         <object>objects\oWaterCurse2</object>
         <object>objects\oXZL</object>
-        <object>objects\oXJLevent</object>
         <object>objects\oSpinDude</object>
         <object>objects\objBubbleOMGUY</object>
         <object>objects\oBubbleUpCreator</object>
@@ -1202,6 +1207,11 @@
         <object>objects\objBlackScreenTrigger</object>
       </objects>
     </objects>
+    <object>objects\oWaterPower1</object>
+    <object>objects\oWaterPower1_spr</object>
+    <object>objects\oWaterPower2</object>
+    <object>objects\oWaterPower2_spr</object>
+    <object>objects\oBigBoom</object>
   </objects>
   <rooms name="rooms">
     <rooms name="init">
