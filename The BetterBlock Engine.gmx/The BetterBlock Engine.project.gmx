@@ -633,6 +633,7 @@
     <shader type="GLSLES">shaders\shTurnPlat.shader</shader>
     <shader type="GLSLES">shaders\shAlpha.shader</shader>
     <shader type="GLSLES">shaders\shBoshy.shader</shader>
+    <shader type="GLSLES">shaders\shHeatDistort.shader</shader>
   </shaders>
   <fonts name="fonts">
     <font>fonts\fDefault30</font>
@@ -1076,6 +1077,9 @@
       <object>objects\oBlockMiniWhite</object>
       <object>objects\oWaterStage</object>
       <object>objects\oBoshyStage</object>
+      <objects name="Effect">
+        <object>objects\oHeatDistort</object>
+      </objects>
     </objects>
     <objects name="Resofa">
       <objects name="Cxk">
