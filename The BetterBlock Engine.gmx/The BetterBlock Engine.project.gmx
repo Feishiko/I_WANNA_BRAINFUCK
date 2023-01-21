@@ -416,6 +416,7 @@
       <sprite>sprites\sprSpinCircle</sprite>
       <sprite>sprites\sprBlockUnderGrass</sprite>
       <sprite>sprites\sprBlack</sprite>
+      <sprite>sprites\sprBlackScreen</sprite>
       <sprites name="Rock">
         <sprite>sprites\sprJelly</sprite>
         <sprite>sprites\sprAwsome</sprite>
@@ -461,10 +462,13 @@
           <sprite>sprites\sprVCloudA</sprite>
         </sprites>
       </sprites>
-      <sprite>sprites\sprWaterMetal</sprite>
-      <sprite>sprites\sprWaterActionShadow</sprite>
-      <sprite>sprites\sprPlayerKiller32x32</sprite>
-      <sprite>sprites\sprPoisonWater</sprite>
+      <sprites name="Water">
+        <sprite>sprites\sprPoisonWater</sprite>
+        <sprite>sprites\sprPlayerKiller32x32</sprite>
+        <sprite>sprites\sprWaterMetal</sprite>
+        <sprite>sprites\sprWaterActionShadow</sprite>
+        <sprite>sprites\sprite281</sprite>
+      </sprites>
     </sprites>
     <sprite>sprites\sprBus</sprite>
     <sprite>sprites\sprWarpGuo</sprite>
@@ -1186,6 +1190,7 @@
         <object>objects\objSineyWater</object>
         <object>objects\objPoisonWater</object>
         <object>objects\objBreathBubble</object>
+        <object>objects\objBlackScreenTrigger</object>
       </objects>
     </objects>
   </objects>
@@ -1307,6 +1312,7 @@
         <room>rooms\rWaterActionB</room>
         <room>rooms\rWaterActionC</room>
         <room>rooms\rWaterActionD</room>
+        <room>rooms\rWaterActionE</room>
       </rooms>
     </rooms>
   </rooms>

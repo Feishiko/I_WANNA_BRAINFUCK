@@ -13,7 +13,7 @@
     <TextureGroup0>0</TextureGroup0>
   </TextureGroups>
   <For3D>0</For3D>
-  <width>80</width>
-  <height>80</height>
+  <width>240</width>
+  <height>320</height>
   <data>images\btCamera.png</data>
 </background>
