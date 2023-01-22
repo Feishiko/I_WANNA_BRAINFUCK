@@ -1207,9 +1207,6 @@
         <object>objects\objBreathBubble</object>
         <object>objects\objBlackScreenTrigger</object>
       </objects>
-      <objects name="Excuse">
-        <object>objects\objExcuseSurface</object>
-      </objects>
     </objects>
     <object>objects\oWaterPower1</object>
     <object>objects\oWaterPower1_spr</object>
@@ -1336,9 +1333,6 @@
         <room>rooms\rWaterActionC</room>
         <room>rooms\rWaterActionD</room>
         <room>rooms\rWaterActionE</room>
-      </rooms>
-      <rooms name="Excuse">
-        <room>rooms\rExcuseA</room>
       </rooms>
     </rooms>
   </rooms>
