@@ -25,11 +25,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>inst=instance_create(x,y,oArrow2)
+            <string>image_xscale-=0.5
+image_yscale-=0.5
+inst=instance_create(x,y,oArrow2)
 inst.O=id
-y=32
+//y=32
 sec=5
-audio_play_sound(sndHello,0,false)
+//audio_play_sound(sndHello,0,false)
 alarm[0]=50
 </string>
           </argument>
@@ -53,7 +55,7 @@ alarm[0]=50
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>audio_play_sound(sndDefend,0,false)
+            <string>audio_play_sound(sndDeath,0,false)
 oXJLevent.num+=1
 with(inst)
 {

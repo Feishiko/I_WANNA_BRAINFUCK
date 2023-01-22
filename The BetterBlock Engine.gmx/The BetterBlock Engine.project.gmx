@@ -72,6 +72,11 @@
       <sounds name="OMGUY">
         <sound>sound\musAmibent</sound>
         <sound>sound\musSDDL_OMGUY</sound>
+        <sounds name="fakeman">
+          <sound>sound\sndMesaRadio1</sound>
+          <sound>sound\sndMesaRadio2</sound>
+          <sound>sound\sndMesaRadio3</sound>
+        </sounds>
         <sound>sound\musBoshy</sound>
         <sound>sound\musGC2phase2</sound>
         <sound>sound\musRandomMedley</sound>
@@ -81,6 +86,13 @@
         <sound>sound\musSaul</sound>
         <sounds name="part 2">
           <sound>sound\musOmoriOcean</sound>
+          <sound>sound\musBoss2Ocean</sound>
+          <sound>sound\sndBosslive</sound>
+          <sound>sound\sndSaulGuitar</sound>
+          <sound>sound\sndHello</sound>
+          <sound>sound\musOcean2</sound>
+          <sound>sound\sndToilet</sound>
+          <sound>sound\sndLeimu</sound>
         </sounds>
       </sounds>
       <sounds name="Feishiko">
@@ -107,19 +119,10 @@
     <sound>sound\sndWarning2</sound>
     <sound>sound\sndDisappear</sound>
     <sound>sound\sndPrinting</sound>
-    <sound>sound\sndMesaRadio3</sound>
-    <sound>sound\sndMesaRadio1</sound>
-    <sound>sound\sndMesaRadio2</sound>
     <sound>sound\sndIT</sound>
-    <sound>sound\musOcean2</sound>
-    <sound>sound\musBoss2Ocean</sound>
-    <sound>sound\sndBosslive</sound>
-    <sound>sound\sndSaulGuitar</sound>
     <sound>sound\musHell</sound>
     <sound>sound\musDesertXJL</sound>
-    <sound>sound\sndHello</sound>
-    <sound>sound\sndLeimu</sound>
-    <sound>sound\sndToilet</sound>
+    <sound>sound\musXJL</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="world">
@@ -315,12 +318,14 @@
       <sprites name="XJL">
         <sprite>sprites\sXJLevent</sprite>
         <sprite>sprites\sMT</sprite>
+        <sprite>sprites\sXJLwarning</sprite>
         <sprite>sprites\sGM8IronDoor</sprite>
         <sprite>sprites\sWaterCross</sprite>
         <sprite>sprites\sXJLtext</sprite>
         <sprite>sprites\sArrow2</sprite>
         <sprite>sprites\sWhite</sprite>
         <sprite>sprites\sCenterWhite</sprite>
+        <sprite>sprites\sXJLflight</sprite>
         <sprite>sprites\sXZL_center</sprite>
         <sprite>sprites\sDemo</sprite>
         <sprite>sprites\sXJL</sprite>
@@ -961,6 +966,10 @@
         <object>objects\oXJL_True</object>
         <object>objects\oArrow2</object>
         <object>objects\oXJLevent</object>
+        <object>objects\oXJLwarning</object>
+        <object>objects\oWarpXJL</object>
+        <object>objects\oBigBoom</object>
+        <object>objects\oXJLflight</object>
       </objects>
       <object>objects\objBusBoss</object>
       <object>objects\objBus</object>
@@ -1212,7 +1221,6 @@
     <object>objects\oWaterPower1_spr</object>
     <object>objects\oWaterPower2</object>
     <object>objects\oWaterPower2_spr</object>
-    <object>objects\oBigBoom</object>
   </objects>
   <rooms name="rooms">
     <rooms name="init">
