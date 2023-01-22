@@ -3,8 +3,8 @@
   <caption></caption>
   <width>800</width>
   <height>608</height>
-  <vsnap>8</vsnap>
-  <hsnap>8</hsnap>
+  <vsnap>16</vsnap>
+  <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
@@ -53,7 +53,7 @@
   <instances>
     <instance objName="objPlayerStart" x="48" y="544" name="inst_D961C9B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBackgroundShine" x="448" y="352" name="inst_DCAE1211" locked="0" code="i=1&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objShadowWaterAction" x="320" y="416" name="inst_F21985BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objShadowWaterAction" x="392" y="400" name="inst_F21985BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlayMusic" x="384" y="352" name="inst_08B5A560" locked="0" code="BGM=musWaterAction&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="0" y="512" name="inst_9F0B4EBC" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="96" y="576" name="inst_80E23F9B" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
@@ -86,7 +86,7 @@
     <instance objName="objSaveBlocker" x="96" y="160" name="inst_FBE38464" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSaveBlocker" x="160" y="160" name="inst_86D49F5B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="320" y="160" name="inst_4CAFDD98" locked="0" code="" scaleX="1.5" scaleY="7" colour="4294967295" rotation="0"/>
-    <instance objName="objSineyWater" x="416" y="128" name="inst_4BE2112F" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSineyWater" x="416" y="128" name="inst_4BE2112F" locked="0" code="a=0.02&#xA;" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="448" y="96" name="inst_757FC075" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="512" y="128" name="inst_0A8AD3EB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="512" y="32" name="inst_1704FA33" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
@@ -108,9 +108,13 @@
     <instance objName="objFloatingSpike" x="272" y="472" name="inst_B9EAFFA6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objFloatingSpike" x="272" y="544" name="inst_A0F8DDC4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBreathBubble" x="240" y="416" name="inst_246A9049" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBreathBubble" x="304" y="416" name="inst_751135C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlackScreenTrigger" x="368" y="32" name="inst_0E039494" locked="0" code="" scaleX="0.5" scaleY="3.5" colour="4294967295" rotation="0"/>
     <instance objName="objMovingPlatform" x="288" y="80" name="inst_7CC1BEDD" locked="0" code="" scaleX="2.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeLeft" x="160" y="352" name="inst_01D9400B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeRight" x="192" y="352" name="inst_B13C1FC3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeRight" x="288" y="400" name="inst_46BD9F5E" locked="0" code="" scaleX="1.25" scaleY="0.75" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeDown" x="448" y="32" name="inst_24135E2E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWarpFadeIn" x="800" y="32" name="inst_0314D451" locked="0" code="roomTo=rWater2&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="btMetal" x="0" y="128" w="32" h="32" xo="32" yo="0" id="10006695" name="inst_887E4E3A" depth="10000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -611,6 +615,10 @@
     <tile bgName="btCamera" x="528" y="416" w="80" h="80" xo="80" yo="160" id="10009176" name="inst_9544E831" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="btCamera" x="608" y="416" w="80" h="80" xo="80" yo="240" id="10009177" name="inst_01182903" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="btCamera" x="528" y="496" w="80" h="80" xo="80" yo="80" id="10009178" name="inst_2F6F4128" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgPipeMario" x="752" y="16" w="32" h="32" xo="96" yo="0" id="10009179" name="inst_CBEF0416" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgPipeMario" x="752" y="48" w="32" h="32" xo="96" yo="64" id="10009180" name="inst_9101642E" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgPipeMario" x="784" y="48" w="32" h="32" xo="128" yo="64" id="10009181" name="inst_9F0FBCE0" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgPipeMario" x="784" y="16" w="32" h="32" xo="128" yo="0" id="10009182" name="inst_55984351" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
