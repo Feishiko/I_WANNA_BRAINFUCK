@@ -31,7 +31,7 @@ jump = 8.5 * global.grav; //set how fast the player jumps
 jump2 = 7 * global.grav; //sets how fast the player double jumps
 gravity = 0.4 * global.grav; //player gravity
 he=0
-h = 0
+hs=0.1
 djump = 1; //allow the player to double jump as soon as he spawns
 maxSpeed = 3;   //max horizontal speed
 maxVspeed = 9;  //max vertical speed
@@ -249,42 +249,50 @@ else
 maxSpeed=9
 if (R)
 {
-if(h&lt;1)
+if(he&lt;maxSpeed)
 {
-h+=0.05
+he+=hs
 }
 else
 {
-h=1
+he=maxSpeed
 }
 }
 else if (L)
 {
-if(h&gt;-1)
+if(he&gt;-maxSpeed)
 {
-h-=0.05
+he-=hs
 }
 else
 {
-h=-1
+he=-maxSpeed
 }
         }
         else
         {
-        if(h&gt;0.1)
+        if(he&gt;0.1)
         {
-        h-=0.05
+        he-=hs
         }
-        else if(h&lt;0.1)
+        else if(he&lt;-0.1)
         {
-        h+=0.05
+        he+=hs
         }
         else
         {
-        h=0
+        he=0
         }
         }
-        he=h
+        if(he&gt;0.1)
+        {
+        h=1
+        }
+        else if(he&lt;-0.1)
+        {
+        h=-1
+        }
+        hspeed=he
 }
 var slipBlockTouching = instance_place(x,y+(1*global.grav),objSlipBlock);   //check if on a slip block
 
@@ -292,7 +300,6 @@ var slipBlockTouching = instance_place(x,y+(1*global.grav),objSlipBlock);   //ch
 var notOnBlock = (place_free(x,y+(global.grav)) &amp;&amp; !instance_exists(riding));
 var onVineL = (place_meeting(x-1,y,objWalljumpL) &amp;&amp; notOnBlock);
 var onVineR = (place_meeting(x+1,y,objWalljumpR) &amp;&amp; notOnBlock);
-
 if (h != 0)  //player is moving
 {
     if (!onVineR &amp;&amp; !onVineL)   //make sure not currently touching a vine
@@ -303,14 +310,20 @@ if (h != 0)  //player is moving
     {
         if (slipBlockTouching == noone) //not touching a slip block, move immediately at full speed
         {
+if(!instance_exists(objRollGimmick))
+{
             hspeed = maxSpeed * h;
+}
         }
         else    //touching a slip block, use acceleration
         {
             hspeed += (slipBlockTouching.slip) * h;
             
             if (abs(hspeed) &gt; maxSpeed)
+        if(!instance_exists(objRollGimmick))
+{
                 hspeed = maxSpeed * h;
+}
         }
         
         sprite_index = sprPlayerRunning;
@@ -827,6 +840,7 @@ if (!place_free(x+hspeed,y))
         if(hspeed &gt;= 0){move_contact_solid(0,abs(hspeed));}
     }
     hspeed = 0;
+    he=0;
 }
  
 if (!place_free(x,y+vspeed))
@@ -900,6 +914,10 @@ move_wrap(1,1,1)
           <argument>
             <kind>1</kind>
             <string>///draw the player
+if(instance_exists(objRollGimmick))
+{
+exit
+}
 
 var drawX = x;
 var drawY = y;
