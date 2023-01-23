@@ -123,6 +123,8 @@
     <sound>sound\musHell</sound>
     <sound>sound\musDesertXJL</sound>
     <sound>sound\musXJL</sound>
+    <sound>sound\sndSussy</sound>
+    <sound>sound\sndWait</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="world">
@@ -486,6 +488,8 @@
     <sprite>sprites\sPlayerKillerCenter</sprite>
     <sprite>sprites\sTextureKuang</sprite>
     <sprite>sprites\sPaper</sprite>
+    <sprite>sprites\sNothing</sprite>
+    <sprite>sprites\sWait</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bAllTiles</background>
@@ -867,6 +871,7 @@
     </objects>
     <object>objects\objFloatingSpikeNoSpin</object>
     <object>objects\objFloatingSpike</object>
+    <object>objects\oFloatingSpikeFreeze</object>
     <objects name="OMGUY">
       <objects name="Boshy">
         <object>objects\objGoldenlight</object>
@@ -960,6 +965,8 @@
         <object>objects\oTextureHalflife</object>
         <object>objects\oSignNPC</object>
         <object>objects\oSignJimmyMcgill</object>
+        <object>objects\oWarpFadeInInvis</object>
+        <object>objects\oTrgCreatedOBJ</object>
         <object>objects\oWhite</object>
       </objects>
       <objects name="XJL">
@@ -970,6 +977,10 @@
         <object>objects\oWarpXJL</object>
         <object>objects\oBigBoom</object>
         <object>objects\oXJLflight</object>
+      </objects>
+      <objects name="Desert">
+        <object>objects\oWait</object>
+        <object>objects\oSaulNPC</object>
       </objects>
       <object>objects\objBusBoss</object>
       <object>objects\objBus</object>
@@ -1291,12 +1302,18 @@
         <room>rooms\rWater3</room>
         <room>rooms\rWater5</room>
         <room>rooms\rWater4</room>
+        <rooms name="Desert">
+          <room>rooms\rDesert1</room>
+        </rooms>
         <room>rooms\rXZLDefence</room>
+        <room>rooms\rDesertCenter</room>
       </rooms>
       <room>rooms\rSaulFakeman</room>
       <room>rooms\rSaulFakeman2</room>
       <room>rooms\rSaulFakeman3</room>
       <room>rooms\rCrimsonPit</room>
+      <room>rooms\rCrimsonPit2</room>
+      <room>rooms\rCrimsonMEME</room>
     </rooms>
     <rooms name="Feishiko">
       <room>rooms\rmIntro</room>

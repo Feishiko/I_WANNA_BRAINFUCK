@@ -51,7 +51,6 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="objPlayerStart" x="384" y="168" name="inst_7A8A0337" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="0" y="0" name="inst_50785A0A" locked="0" code="" scaleX="1" scaleY="17" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="0" y="576" name="inst_F08D0CFC" locked="0" code="" scaleX="25" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="320" y="512" name="inst_59CD16E6" locked="0" code="" scaleX="5" scaleY="1" colour="4294967295" rotation="0"/>
@@ -66,8 +65,8 @@
     <instance objName="objBlock" x="384" y="200" name="inst_F3D93F3D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oHeatDistort" x="64" y="32" name="inst_06926035" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlayMusic" x="128" y="48" name="inst_01AF8D9D" locked="0" code="BGM=musXJL&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objWarp" x="800" y="224" name="inst_0922DC1F" locked="0" code="roomTo=rCrimsonPit2&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objWarp" x="-32" y="544" name="inst_1D237635" locked="0" code="roomTo=rDesert1&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWarp" x="800" y="224" name="inst_0922DC1F" locked="0" code="roomTo=rCrimsonPit2" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWarp" x="-32" y="544" name="inst_1D237635" locked="0" code="roomTo=rDesert1" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBetterSign" x="384" y="480" name="inst_4AAFA491" locked="0" code="Te=&quot;There are two humans#There is 1 SUS among us&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>

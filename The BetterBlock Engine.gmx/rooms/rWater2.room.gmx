@@ -166,7 +166,7 @@
     <instance objName="objSave" x="384" y="176" name="inst_C8F7ADBF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSaveBlocker" x="416" y="176" name="inst_0AE1626A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSaveBlocker" x="352" y="176" name="inst_1D334E1E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oDoor" x="560" y="320" name="inst_3CE2C007" locked="0" code="roomTo=rCreditRoom&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDoor" x="560" y="320" name="inst_3CE2C007" locked="0" code="roomTo=rCreditRoom" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="400" y="384" name="inst_86C95F90" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="432" y="384" name="inst_D19CAEC3" locked="0" code="" scaleX="6.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="624" y="368" name="inst_87B79A64" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
@@ -191,6 +191,11 @@
     <instance objName="oBlockBlock" x="416" y="464" name="inst_7C441191" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBlockBlock" x="384" y="544" name="inst_33C621BE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBlockBlock" x="288" y="528" name="inst_CD160A96" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oFloatingSpikeFreeze" x="528" y="512" name="inst_9BE4EBDD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBlockUnder" x="512" y="560" name="inst_FA5016B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDoor" x="688" y="480" name="inst_120FE152" locked="0" code="roomTo=rCreditRoom&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oFloatingSpikeFreeze" x="528" y="480" name="inst_67A2671B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oFloatingSpikeFreeze" x="528" y="544" name="inst_0E52A6AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bgMorningDew" x="400" y="368" w="32" h="32" xo="0" yo="0" id="10005445" name="inst_38342845" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -235,6 +240,56 @@
     <tile bgName="bgMorningDew" x="544" y="368" w="32" h="32" xo="0" yo="0" id="10005484" name="inst_1B35C9F3" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgMorningDew" x="576" y="368" w="32" h="32" xo="0" yo="0" id="10005485" name="inst_FB35D49B" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgMorningDew" x="576" y="336" w="32" h="32" xo="0" yo="0" id="10005486" name="inst_1960DD70" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew" x="544" y="400" w="32" h="32" xo="0" yo="0" id="10009495" name="inst_BC7A67E7" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew" x="576" y="400" w="32" h="32" xo="0" yo="0" id="10009496" name="inst_7450A5D1" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew" x="608" y="400" w="32" h="32" xo="0" yo="0" id="10009497" name="inst_505F3DA2" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew" x="640" y="400" w="32" h="32" xo="0" yo="0" id="10009498" name="inst_96CC67AC" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew" x="672" y="400" w="32" h="32" xo="0" yo="0" id="10009499" name="inst_658FED23" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew" x="704" y="400" w="32" h="32" xo="0" yo="0" id="10009500" name="inst_0F9C0629" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew" x="736" y="400" w="32" h="32" xo="0" yo="0" id="10009501" name="inst_888E330D" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew" x="768" y="400" w="32" h="32" xo="0" yo="0" id="10009502" name="inst_E5804E28" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew" x="768" y="432" w="32" h="32" xo="0" yo="0" id="10009503" name="inst_0310E4E7" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew" x="736" y="432" w="32" h="32" xo="0" yo="0" id="10009504" name="inst_E5681B0A" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew" x="704" y="432" w="32" h="32" xo="0" yo="0" id="10009505" name="inst_DDE239BC" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew" x="672" y="432" w="32" h="32" xo="0" yo="0" id="10009506" name="inst_82E7861F" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew" x="640" y="432" w="32" h="32" xo="0" yo="0" id="10009507" name="inst_6D4079F9" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew" x="608" y="432" w="32" h="32" xo="0" yo="0" id="10009508" name="inst_0CACEF5C" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew" x="576" y="432" w="32" h="32" xo="0" yo="0" id="10009509" name="inst_0BC2C172" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew" x="544" y="432" w="32" h="32" xo="0" yo="0" id="10009510" name="inst_980B23C2" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew" x="544" y="464" w="32" h="32" xo="0" yo="0" id="10009511" name="inst_F13D3D3A" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew" x="544" y="496" w="32" h="32" xo="0" yo="0" id="10009512" name="inst_B24C3DF7" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew" x="544" y="528" w="32" h="32" xo="0" yo="0" id="10009513" name="inst_630040A2" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew" x="576" y="528" w="32" h="32" xo="0" yo="0" id="10009514" name="inst_3BC6B608" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew" x="576" y="496" w="32" h="32" xo="0" yo="0" id="10009515" name="inst_EF768E71" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew" x="576" y="464" w="32" h="32" xo="0" yo="0" id="10009516" name="inst_58414D45" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew" x="608" y="464" w="32" h="32" xo="0" yo="0" id="10009517" name="inst_8B9B43FE" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew" x="608" y="496" w="32" h="32" xo="0" yo="0" id="10009518" name="inst_16701124" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew" x="608" y="528" w="32" h="32" xo="0" yo="0" id="10009519" name="inst_11C9F563" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew" x="640" y="528" w="32" h="32" xo="0" yo="0" id="10009520" name="inst_EEFC6666" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew" x="640" y="496" w="32" h="32" xo="0" yo="0" id="10009521" name="inst_2B562BC1" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew" x="640" y="464" w="32" h="32" xo="0" yo="0" id="10009522" name="inst_4EFC039E" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew" x="672" y="464" w="32" h="32" xo="0" yo="0" id="10009523" name="inst_3CE5E556" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew" x="704" y="464" w="32" h="32" xo="0" yo="0" id="10009524" name="inst_20F35DC0" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew" x="736" y="464" w="32" h="32" xo="0" yo="0" id="10009525" name="inst_3BDB2EE9" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew" x="768" y="464" w="32" h="32" xo="0" yo="0" id="10009526" name="inst_B7FFC4B1" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew" x="768" y="496" w="32" h="32" xo="0" yo="0" id="10009527" name="inst_CA92DDA8" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew" x="768" y="528" w="32" h="32" xo="0" yo="0" id="10009528" name="inst_4E4DB134" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew" x="672" y="528" w="32" h="32" xo="0" yo="0" id="10009530" name="inst_E336BD09" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew" x="736" y="528" w="32" h="32" xo="0" yo="0" id="10009531" name="inst_580B4E3A" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew" x="704" y="528" w="32" h="32" xo="0" yo="0" id="10009532" name="inst_091EB855" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew" x="672" y="496" w="32" h="32" xo="0" yo="0" id="10009533" name="inst_9D03EF70" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew" x="704" y="496" w="32" h="32" xo="0" yo="0" id="10009534" name="inst_00DCA8A2" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew" x="736" y="496" w="32" h="32" xo="0" yo="0" id="10009535" name="inst_2E44D72C" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="608" y="560" w="16" h="16" xo="0" yo="0" id="10009536" name="inst_D28E7822" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="608" y="576" w="16" h="16" xo="0" yo="0" id="10009537" name="inst_F6BE0789" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="608" y="592" w="16" h="16" xo="0" yo="0" id="10009538" name="inst_2706802D" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="704" y="560" w="16" h="16" xo="0" yo="0" id="10009539" name="inst_BA7D143D" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="704" y="576" w="16" h="16" xo="0" yo="0" id="10009540" name="inst_BBCFB159" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="704" y="592" w="16" h="16" xo="0" yo="0" id="10009541" name="inst_4B73416E" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="592" y="560" w="16" h="16" xo="0" yo="0" id="10009542" name="inst_B62934BD" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="624" y="560" w="16" h="16" xo="0" yo="0" id="10009543" name="inst_D551FCE0" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="688" y="560" w="16" h="16" xo="0" yo="0" id="10009544" name="inst_09F6E60C" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="720" y="560" w="16" h="16" xo="0" yo="0" id="10009545" name="inst_4C512186" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgMorningDew2" x="384" y="208" w="16" h="16" xo="0" yo="0" id="10005393" name="inst_796DF2EE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgMorningDew2" x="384" y="224" w="16" h="16" xo="0" yo="0" id="10005394" name="inst_1C6B332E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgMorningDew2" x="384" y="240" w="16" h="16" xo="0" yo="0" id="10005395" name="inst_B7F1B5DF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -280,6 +335,51 @@
     <tile bgName="bgMorningDew2" x="448" y="208" w="16" h="16" xo="0" yo="0" id="10005435" name="inst_C0A9ECD6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgMorningDew2" x="416" y="208" w="16" h="16" xo="0" yo="0" id="10005436" name="inst_1BD4F2C7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgMorningDew2" x="400" y="208" w="16" h="16" xo="0" yo="0" id="10005437" name="inst_475203C5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="560" y="400" w="16" h="16" xo="0" yo="0" id="10009449" name="inst_4EC4B405" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="544" y="544" w="16" h="16" xo="0" yo="0" id="10009450" name="inst_03904B26" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="544" y="400" w="16" h="16" xo="0" yo="0" id="10009451" name="inst_E1C01B8D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="544" y="416" w="16" h="16" xo="0" yo="0" id="10009452" name="inst_5BD4FEDB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="544" y="432" w="16" h="16" xo="0" yo="0" id="10009453" name="inst_3FC684E4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="544" y="448" w="16" h="16" xo="0" yo="0" id="10009454" name="inst_5CAA14C7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="544" y="464" w="16" h="16" xo="0" yo="0" id="10009455" name="inst_A6D4D82E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="544" y="480" w="16" h="16" xo="0" yo="0" id="10009456" name="inst_1AC2FCF6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="560" y="544" w="16" h="16" xo="0" yo="0" id="10009458" name="inst_4C52558E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="576" y="544" w="16" h="16" xo="0" yo="0" id="10009459" name="inst_B2709FFA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="592" y="544" w="16" h="16" xo="0" yo="0" id="10009460" name="inst_58BDF052" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="608" y="544" w="16" h="16" xo="0" yo="0" id="10009461" name="inst_26256709" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="624" y="544" w="16" h="16" xo="0" yo="0" id="10009462" name="inst_0A5BEF06" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="640" y="544" w="16" h="16" xo="0" yo="0" id="10009463" name="inst_1E87EAB7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="656" y="544" w="16" h="16" xo="0" yo="0" id="10009464" name="inst_BEEA1DC6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="672" y="544" w="16" h="16" xo="0" yo="0" id="10009465" name="inst_9F245F3C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="688" y="544" w="16" h="16" xo="0" yo="0" id="10009466" name="inst_CAE90FA5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="704" y="544" w="16" h="16" xo="0" yo="0" id="10009467" name="inst_5F237201" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="736" y="544" w="16" h="16" xo="0" yo="0" id="10009468" name="inst_2ACE4290" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="720" y="544" w="16" h="16" xo="0" yo="0" id="10009469" name="inst_5DB69655" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="752" y="544" w="16" h="16" xo="0" yo="0" id="10009470" name="inst_B27F2A08" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="768" y="544" w="16" h="16" xo="0" yo="0" id="10009471" name="inst_E1A75F3B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="784" y="544" w="16" h="16" xo="0" yo="0" id="10009472" name="inst_7925FE39" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="784" y="528" w="16" h="16" xo="0" yo="0" id="10009473" name="inst_A17FCD17" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="784" y="496" w="16" h="16" xo="0" yo="0" id="10009474" name="inst_E3B1C4E9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="784" y="512" w="16" h="16" xo="0" yo="0" id="10009475" name="inst_DCA2B0F0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="784" y="480" w="16" h="16" xo="0" yo="0" id="10009476" name="inst_65D930DE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="784" y="464" w="16" h="16" xo="0" yo="0" id="10009477" name="inst_8BC7C67D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="784" y="448" w="16" h="16" xo="0" yo="0" id="10009478" name="inst_DFD3AD14" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="784" y="432" w="16" h="16" xo="0" yo="0" id="10009479" name="inst_7EA85FE2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="784" y="416" w="16" h="16" xo="0" yo="0" id="10009480" name="inst_A9207CD3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="784" y="400" w="16" h="16" xo="0" yo="0" id="10009481" name="inst_B5C438AF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="768" y="400" w="16" h="16" xo="0" yo="0" id="10009482" name="inst_30D61BA5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="736" y="400" w="16" h="16" xo="0" yo="0" id="10009483" name="inst_E57A9DC7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="752" y="400" w="16" h="16" xo="0" yo="0" id="10009484" name="inst_6FF4ABEA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="720" y="400" w="16" h="16" xo="0" yo="0" id="10009485" name="inst_AC0C364A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="704" y="400" w="16" h="16" xo="0" yo="0" id="10009486" name="inst_1F464BC2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="688" y="400" w="16" h="16" xo="0" yo="0" id="10009487" name="inst_8938193F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="672" y="400" w="16" h="16" xo="0" yo="0" id="10009488" name="inst_5351C2C1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="656" y="400" w="16" h="16" xo="0" yo="0" id="10009489" name="inst_0C686840" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="640" y="400" w="16" h="16" xo="0" yo="0" id="10009490" name="inst_102D4C40" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="624" y="400" w="16" h="16" xo="0" yo="0" id="10009491" name="inst_37CCC579" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="608" y="400" w="16" h="16" xo="0" yo="0" id="10009492" name="inst_86303469" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="592" y="400" w="16" h="16" xo="0" yo="0" id="10009493" name="inst_F0D9488A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgMorningDew2" x="576" y="400" w="16" h="16" xo="0" yo="0" id="10009494" name="inst_BEF4E8DB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

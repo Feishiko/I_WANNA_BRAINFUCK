@@ -58,6 +58,13 @@ alarm[0]=5
           <argument>
             <kind>1</kind>
             <string>objPlayer.frozen=0
+if(instance_exists(oSaulNPC))
+{
+inst=instance_create(0,0,oWarpFadeInInvis)
+inst.roomTo=rCrimsonMEME
+inst.x=objPlayer.x
+inst.y=objPlayer.y
+}
 </string>
           </argument>
         </arguments>

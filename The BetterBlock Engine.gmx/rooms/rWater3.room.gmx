@@ -191,6 +191,7 @@
     <instance objName="objSaveBlocker" x="48" y="304" name="inst_8C474ED5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSignJimmyMcgill" x="736" y="352" name="inst_D5034B0D" locked="0" code="Max=0&#xA;texts[0]=&quot;自定义文本&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oUpDoor" x="736" y="320" name="inst_17BD8CA2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oFloatingSpikeFreeze" x="240" y="320" name="inst_D834F579" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
