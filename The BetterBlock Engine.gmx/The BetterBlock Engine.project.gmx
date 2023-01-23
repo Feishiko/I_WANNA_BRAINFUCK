@@ -125,6 +125,7 @@
     <sound>sound\musXJL</sound>
     <sound>sound\sndSussy</sound>
     <sound>sound\sndWait</sound>
+    <sound>sound\musDesertWarp</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="world">
@@ -328,6 +329,7 @@
         <sprite>sprites\sWhite</sprite>
         <sprite>sprites\sCenterWhite</sprite>
         <sprite>sprites\sXJLflight</sprite>
+        <sprite>sprites\sSaulThin</sprite>
         <sprite>sprites\sXZL_center</sprite>
         <sprite>sprites\sDemo</sprite>
         <sprite>sprites\sXJL</sprite>
@@ -490,6 +492,7 @@
     <sprite>sprites\sPaper</sprite>
     <sprite>sprites\sNothing</sprite>
     <sprite>sprites\sWait</sprite>
+    <sprite>sprites\sStorm</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bAllTiles</background>
@@ -760,6 +763,10 @@
       </objects>
       <object>objects\objBetterMovingPlatform</object>
       <object>objects\objBlockRise</object>
+      <objects name="OMGUY">
+        <object>objects\oThin2</object>
+        <object>objects\oSaulThin</object>
+      </objects>
       <object>objects\objBlockFall</object>
     </objects>
     <object>objects\objBetterBlockCtrl</object>
@@ -1030,7 +1037,9 @@
         <object>objects\oBubbleUpCreator</object>
         <object>objects\oBubbleDownCreator</object>
         <object>objects\oBoing</object>
+        <object>objects\oBoing2</object>
         <object>objects\oBoingDead</object>
+        <object>objects\oBoing2Dead</object>
         <object>objects\oBubbleMatong</object>
         <object>objects\oBoingDead2</object>
         <object>objects\oGM8Zombie</object>
@@ -1235,6 +1244,8 @@
     <object>objects\oWaterPower1_spr</object>
     <object>objects\oWaterPower2</object>
     <object>objects\oWaterPower2_spr</object>
+    <object>objects\oStorm</object>
+    <object>objects\oWeirdCoreWarp</object>
   </objects>
   <rooms name="rooms">
     <rooms name="init">
@@ -1303,6 +1314,11 @@
         <room>rooms\rWater5</room>
         <room>rooms\rWater4</room>
         <rooms name="Desert">
+          <room>rooms\rDesert2</room>
+          <room>rooms\rDesert3</room>
+          <room>rooms\rDesert3_1</room>
+          <room>rooms\rWeirdCore</room>
+          <room>rooms\rDesert4</room>
           <room>rooms\rDesert1</room>
         </rooms>
         <room>rooms\rXZLDefence</room>

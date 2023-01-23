@@ -3,7 +3,7 @@
   <caption></caption>
   <width>800</width>
   <height>608</height>
-  <vsnap>32</vsnap>
+  <vsnap>16</vsnap>
   <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>50</speed>
@@ -269,6 +269,11 @@
     <instance objName="oBubbleUpCreator" x="496" y="32" name="inst_236FF345" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBubbleUpCreator" x="528" y="32" name="inst_F0627503" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBubbleUpCreator" x="544" y="32" name="inst_BC8BC634" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oFloatingSpikeFreeze" x="496" y="176" name="inst_A7A9B518" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oFloatingSpikeFreeze" x="496" y="144" name="inst_720A6346" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oFloatingSpikeFreeze" x="496" y="112" name="inst_0FC289AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWaterBlock" x="480" y="192" name="inst_80691A33" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oStorm" x="416" y="96" name="inst_6C5B608A" locked="0" code="" scaleX="0.479999989271164" scaleY="0.529999971389771" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

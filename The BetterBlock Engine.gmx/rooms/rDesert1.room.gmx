@@ -57,7 +57,6 @@
     <instance objName="oSeaGrass" x="128" y="0" name="inst_18C43462" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSeaGrass" x="96" y="0" name="inst_4E43612F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSeaGrass" x="64" y="0" name="inst_B929CA3F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oSeaGrass" x="32" y="0" name="inst_5E5C52F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSeaGrass" x="0" y="0" name="inst_F5152522" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSeaGrass" x="256" y="0" name="inst_332A9A54" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSeaGrass" x="288" y="0" name="inst_B7571048" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -174,6 +173,8 @@
     <instance objName="oTrgCreatedOBJ" x="672" y="32" name="inst_D1368C82" locked="0" code="ox=544&#xA;oy=-96&#xA;o=oSaulNPC&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSaveBlocker" x="704" y="32" name="inst_06A3AA2F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oTrgCreatedOBJ" x="128" y="224" name="inst_7590DCDE" locked="0" code="visible=1&#xA;o=oWait&#xA;ox=0&#xA;oy=0&#xA;" scaleX="1" scaleY="7.5" colour="4294967295" rotation="0"/>
+    <instance objName="objGravityDown" x="64" y="96" name="inst_8B97D6E4" locked="0" code="image_angle=180&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWarp" x="32" y="-32" name="inst_B7F945A3" locked="0" code="roomTo=rDesert2&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bgPipeMario" x="752" y="0" w="32" h="32" xo="96" yo="0" id="10007940" name="inst_054F19D5" depth="-11" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
