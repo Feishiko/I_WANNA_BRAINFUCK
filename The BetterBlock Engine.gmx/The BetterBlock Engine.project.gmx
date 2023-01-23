@@ -1216,6 +1216,9 @@
         <object>objects\objBreathBubble</object>
         <object>objects\objBlackScreenTrigger</object>
       </objects>
+      <objects name="Roll">
+        <object>objects\objRollGimmick</object>
+      </objects>
     </objects>
     <object>objects\oWaterPower1</object>
     <object>objects\oWaterPower1_spr</object>
@@ -1325,6 +1328,14 @@
         <room>rooms\rSnake</room>
       </rooms>
       <rooms name="Level">
+        <rooms name="Water">
+          <room>rooms\rWaterA</room>
+          <room>rooms\rWaterActionA</room>
+          <room>rooms\rWaterActionB</room>
+          <room>rooms\rWaterActionC</room>
+          <room>rooms\rWaterActionD</room>
+          <room>rooms\rWaterActionE</room>
+        </rooms>
         <rooms name="Spin">
           <room>rooms\rResofaAA</room>
           <room>rooms\rResofaAB</room>
@@ -1333,14 +1344,9 @@
           <room>rooms\rStepA</room>
           <room>rooms\rStepB</room>
         </rooms>
-      </rooms>
-      <rooms name="Water">
-        <room>rooms\rWaterA</room>
-        <room>rooms\rWaterActionA</room>
-        <room>rooms\rWaterActionB</room>
-        <room>rooms\rWaterActionC</room>
-        <room>rooms\rWaterActionD</room>
-        <room>rooms\rWaterActionE</room>
+        <rooms name="Roll">
+          <room>rooms\rRollA</room>
+        </rooms>
       </rooms>
     </rooms>
   </rooms>

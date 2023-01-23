@@ -26,11 +26,12 @@
           <argument>
             <kind>1</kind>
             <string>frozen = false; //sets if the player can move or not
-
+rote=0
 jump = 8.5 * global.grav; //set how fast the player jumps
 jump2 = 7 * global.grav; //sets how fast the player double jumps
 gravity = 0.4 * global.grav; //player gravity
-
+he=0
+h = 0
 djump = 1; //allow the player to double jump as soon as he spawns
 maxSpeed = 3;   //max horizontal speed
 maxVspeed = 9;  //max vertical speed
@@ -229,8 +230,12 @@ bottomToOrigin = (sprite_get_bbox_bottom(mask_index) - sprite_get_yoffset(mask_i
 var L = (scrButtonCheck(global.leftButton) || (global.directionalTapFix &amp;&amp; scrButtonCheckPressed(global.leftButton)));
 var R = (scrButtonCheck(global.rightButton) || (global.directionalTapFix &amp;&amp; scrButtonCheckPressed(global.rightButton)));
 
-var h = 0;
 
+
+//Resofa added this
+var h = 0;
+if(!instance_exists(objRollGimmick))
+{
 if (!frozen)    //don't move if frozen
 {
     if (R)
@@ -238,7 +243,49 @@ if (!frozen)    //don't move if frozen
     else if (L)
         h = -1;
 }
-
+}
+else
+{
+maxSpeed=9
+if (R)
+{
+if(h&lt;1)
+{
+h+=0.05
+}
+else
+{
+h=1
+}
+}
+else if (L)
+{
+if(h&gt;-1)
+{
+h-=0.05
+}
+else
+{
+h=-1
+}
+        }
+        else
+        {
+        if(h&gt;0.1)
+        {
+        h-=0.05
+        }
+        else if(h&lt;0.1)
+        {
+        h+=0.05
+        }
+        else
+        {
+        h=0
+        }
+        }
+        he=h
+}
 var slipBlockTouching = instance_place(x,y+(1*global.grav),objSlipBlock);   //check if on a slip block
 
 //vine checks

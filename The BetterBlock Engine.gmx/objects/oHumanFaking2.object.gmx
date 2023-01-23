@@ -147,7 +147,10 @@ oEyeBaowei.image_speed+=0.1
 RA=oEyeBaowei.radius
 Maxradius+=10
 oHumanFaking2.b+=1
+if(instance_exists(oYumeNikki))
+{
 oYumeNikki.a=b
+}
 }
 </string>
           </argument>
