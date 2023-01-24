@@ -56,7 +56,6 @@
     <instance objName="oSeaGrass" x="0" y="496" name="inst_9691966E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSeaGrass" x="32" y="512" name="inst_B99BF612" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="objGravityDown" x="224" y="544" name="inst_EC785262" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSave" x="64" y="464" name="inst_EAB7DFE0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWaterBlock" x="0" y="576" name="inst_CD027216" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWaterBlock" x="64" y="576" name="inst_ED2EF7C4" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWaterBlock" x="192" y="576" name="inst_F1549314" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -99,7 +98,6 @@
     <instance objName="objPlayerStart" x="0" y="464" name="inst_9E86EED9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSeaGrass" x="64" y="352" name="inst_AF909942" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="oSeaGrass" x="96" y="352" name="inst_E8D11ACD" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="0"/>
-    <instance objName="objSave" x="80" y="304" name="inst_D4C058BE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSeaGrass" x="0" y="336" name="inst_38B9237E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSeaGrass" x="0" y="304" name="inst_AC458E6A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSeaGrass" x="0" y="272" name="inst_0CDD4A71" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -186,13 +184,15 @@
     <instance objName="oBubbleUpCreator" x="512" y="224" name="inst_76BEDC0F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBubbleUpCreator" x="480" y="160" name="inst_A053FF56" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBubbleUpCreator" x="512" y="160" name="inst_87B0EEC0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSave" x="64" y="384" name="inst_408F29E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSaveBlocker" x="112" y="304" name="inst_885D54DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSaveBlocker" x="48" y="304" name="inst_8C474ED5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSignJimmyMcgill" x="736" y="352" name="inst_D5034B0D" locked="0" code="Max=0&#xA;texts[0]=&quot;自定义文本&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oUpDoor" x="736" y="320" name="inst_17BD8CA2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oFloatingSpikeFreeze" x="240" y="320" name="inst_D834F579" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSeaGrass" x="544" y="0" name="inst_01F90B48" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveWeird" x="64" y="464" name="inst_79B9A11E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveWeird" x="64" y="384" name="inst_C60E716B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveWeird" x="80" y="304" name="inst_0035FE7F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

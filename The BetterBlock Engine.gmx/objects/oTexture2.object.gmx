@@ -71,6 +71,13 @@ inst.roomTo=rCrimsonMEME
 inst.x=objPlayer.x
 inst.y=objPlayer.y
 }
+if(instance_exists(oSaulNPC2) &amp;&amp; instance_exists(objPlayer) &amp;&amp; !instance_exists(oSaulThin))
+{
+inst=instance_create(0,0,oWarpFadeInInvis)
+inst.roomTo=rCrimsonMEME2
+inst.x=objPlayer.x
+inst.y=objPlayer.y
+}
 </string>
           </argument>
         </arguments>

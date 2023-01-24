@@ -127,6 +127,7 @@
     <sound>sound\sndSussy</sound>
     <sound>sound\sndWait</sound>
     <sound>sound\musDesertWarp</sound>
+    <sound>sound\musDesertBruh</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="world">
@@ -495,6 +496,7 @@
     <sprite>sprites\sNothing</sprite>
     <sprite>sprites\sWait</sprite>
     <sprite>sprites\sStorm</sprite>
+    <sprite>sprites\sSUSdude</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bAllTiles</background>
@@ -586,6 +588,7 @@
     <background>background\bgDesert2</background>
     <background>background\bgMT</background>
     <background>background\bWaterPower</background>
+    <background>background\bgTreeDesert</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\pthD</path>
@@ -715,6 +718,9 @@
         <object>objects\oBigBlock</object>
         <object>objects\oWaterBlock</object>
         <object>objects\objBetterBlockDonutBlock</object>
+        <objects name="OMGUY">
+          <object>objects\oSand</object>
+        </objects>
         <object>objects\objBetterBlockExpandCtrl</object>
         <object>objects\objBetterBlockExpandBlock</object>
         <object>objects\objBetterBlockScalingBlock</object>
@@ -867,6 +873,7 @@
     <objects name="warps">
       <object>objects\objWarpStart</object>
       <object>objects\objRoomChanger</object>
+      <object>objects\objChangerDude</object>
       <objects name="omguy">
         <object>objects\oMesaLoading</object>
       </objects>
@@ -994,7 +1001,9 @@
       </objects>
       <objects name="Desert">
         <object>objects\oWait</object>
+        <object>objects\oSandStorm</object>
         <object>objects\oSaulNPC</object>
+        <object>objects\oSaulNPC2</object>
       </objects>
       <object>objects\objBusBoss</object>
       <object>objects\objBus</object>
@@ -1254,6 +1263,7 @@
     <object>objects\oWaterPower2_spr</object>
     <object>objects\oStorm</object>
     <object>objects\oWeirdCoreWarp</object>
+    <object>objects\oSUSdude</object>
   </objects>
   <rooms name="rooms">
     <rooms name="init">
@@ -1326,8 +1336,12 @@
           <room>rooms\rDesert3</room>
           <room>rooms\rDesert3_1</room>
           <room>rooms\rWeirdCore</room>
+          <room>rooms\rCreditRoom2</room>
           <room>rooms\rDesert4</room>
           <room>rooms\rDesert1</room>
+          <room>rooms\rDesert5</room>
+          <room>rooms\rDesert5_1</room>
+          <room>rooms\rDesert5_2</room>
         </rooms>
         <room>rooms\rXZLDefence</room>
         <room>rooms\rDesertCenter</room>
@@ -1338,6 +1352,7 @@
       <room>rooms\rCrimsonPit</room>
       <room>rooms\rCrimsonPit2</room>
       <room>rooms\rCrimsonMEME</room>
+      <room>rooms\rCrimsonMEME2</room>
     </rooms>
     <rooms name="Feishiko">
       <room>rooms\rmIntro</room>
