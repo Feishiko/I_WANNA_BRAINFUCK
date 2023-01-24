@@ -484,6 +484,7 @@
         <sprite>sprites\sprWaterActionShadow</sprite>
         <sprite>sprites\sprite281</sprite>
       </sprites>
+      <sprite>sprites\sprBounceBallRoll</sprite>
     </sprites>
     <sprite>sprites\sprBus</sprite>
     <sprite>sprites\sprWarpGuo</sprite>
@@ -1244,6 +1245,7 @@
       </objects>
       <objects name="Roll">
         <object>objects\objRollGimmick</object>
+        <object>objects\objBounceBallRoll</object>
       </objects>
     </objects>
     <object>objects\oWaterPower1</object>
