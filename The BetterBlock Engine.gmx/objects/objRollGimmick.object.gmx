@@ -29,8 +29,8 @@
 {
 with(objPlayer)
 {
-rote-=he*3
-view_angle=rote
+rote-=he*2
+view_angle=-rote
 draw_sprite_ext(sprite_index,image_index,x,y,1,1,rote,c_white,1)
 }
 }

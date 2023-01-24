@@ -31,7 +31,7 @@ jump = 8.5 * global.grav; //set how fast the player jumps
 jump2 = 7 * global.grav; //sets how fast the player double jumps
 gravity = 0.4 * global.grav; //player gravity
 he=0
-hs=0.1
+hs=0.5
 djump = 1; //allow the player to double jump as soon as he spawns
 maxSpeed = 3;   //max horizontal speed
 maxVspeed = 9;  //max vertical speed
@@ -273,11 +273,11 @@ he=-maxSpeed
         {
         if(he&gt;0.1)
         {
-        he-=hs
+        he-=hs*0.2
         }
         else if(he&lt;-0.1)
         {
-        he+=hs
+        he+=hs*0.2
         }
         else
         {

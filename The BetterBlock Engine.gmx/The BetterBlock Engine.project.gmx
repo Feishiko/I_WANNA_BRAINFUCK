@@ -109,6 +109,7 @@
         <sound>sound\musStep</sound>
         <sound>sound\musWaterArea</sound>
         <sound>sound\musWaterAction</sound>
+        <sound>sound\musRoll</sound>
       </sounds>
     </sounds>
     <sound>sound\sndBossHitRemastered</sound>
@@ -524,11 +525,13 @@
     <backgrounds name="Resofa">
       <backgrounds name="Tile">
         <background>background\bgColor</background>
+        <background>background\bgRoll</background>
         <background>background\bgCaveUnderwater</background>
         <backgrounds name="BackTile">
           <background>background\btSign</background>
           <background>background\btMetal</background>
           <background>background\btCamera</background>
+          <background>background\btRoll</background>
         </backgrounds>
       </backgrounds>
       <backgrounds name="Background">
@@ -542,6 +545,9 @@
         <background>background\backgroundG</background>
         <background>background\backgroundH</background>
         <background>background\backgroundI</background>
+        <background>background\backgroundJ</background>
+        <background>background\backgroundK</background>
+        <background>background\backgroundL</background>
       </backgrounds>
       <background>background\background59</background>
     </backgrounds>
