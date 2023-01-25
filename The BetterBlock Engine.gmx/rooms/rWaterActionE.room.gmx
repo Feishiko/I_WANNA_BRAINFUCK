@@ -81,7 +81,7 @@
     <instance objName="objPlayerKillerBlock" x="64" y="480" name="inst_181F939F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlayerKillerBlock" x="32" y="480" name="inst_B1DD50F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlayerKiller" x="128" y="272" name="inst_A7AE4958" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objPlayerKiller" x="256" y="256" name="inst_33EECE0D" locked="0" code="" scaleX="0.6700000166893" scaleY="0.666666686534882" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayerKiller" x="256" y="256" name="inst_33EECE0D" locked="0" code="" scaleX="0.670000016689301" scaleY="0.666666686534882" colour="4294967295" rotation="0"/>
     <instance objName="objSave" x="128" y="160" name="inst_5A9D21D8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSaveBlocker" x="96" y="160" name="inst_FBE38464" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSaveBlocker" x="160" y="160" name="inst_86D49F5B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -114,7 +114,7 @@
     <instance objName="objSpikeRight" x="192" y="352" name="inst_B13C1FC3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeRight" x="288" y="400" name="inst_46BD9F5E" locked="0" code="" scaleX="1.25" scaleY="0.75" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="448" y="32" name="inst_24135E2E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oWarpFadeIn" x="800" y="32" name="inst_0314D451" locked="0" code="roomTo=rWater2&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oWarpFadeIn" x="800" y="32" name="inst_0314D451" locked="0" code="roomTo=rWater2" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="btMetal" x="0" y="128" w="32" h="32" xo="32" yo="0" id="10006695" name="inst_887E4E3A" depth="10000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
