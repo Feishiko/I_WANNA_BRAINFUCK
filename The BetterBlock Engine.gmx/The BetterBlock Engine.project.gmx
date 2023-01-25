@@ -101,6 +101,8 @@
         <sound>sound\musAscii</sound>
         <sound>sound\musMath</sound>
         <sound>sound\musUnderWater</sound>
+        <sound>sound\sndRain</sound>
+        <sound>sound\sndStorm</sound>
       </sounds>
       <sounds name="Resofa">
         <sound>sound\musCxk</sound>
@@ -401,6 +403,12 @@
       <sprite>sprites\sBlockMiniWhite</sprite>
       <sprite>sprites\sBlockBlock</sprite>
       <sprite>sprites\sBlockUnder</sprite>
+      <sprite>sprites\sBlockGray</sprite>
+      <sprite>sprites\sRain</sprite>
+      <sprite>sprites\sBadkidIdle</sprite>
+      <sprite>sprites\sBadkidChange</sprite>
+      <sprite>sprites\sShadowBall</sprite>
+      <sprite>sprites\sRect</sprite>
     </sprites>
     <sprite>sprites\sprite88</sprite>
     <sprite>sprites\sprAchievementMB</sprite>
@@ -661,6 +669,10 @@
     <shader type="GLSLES">shaders\shAlpha.shader</shader>
     <shader type="GLSLES">shaders\shBoshy.shader</shader>
     <shader type="GLSLES">shaders\shHeatDistort.shader</shader>
+    <shader type="GLSLES">shaders\shFan.shader</shader>
+    <shader type="GLSLES">shaders\shLoseHP.shader</shader>
+    <shader type="GLSLES">shaders\shRandomNoise.shader</shader>
+    <shader type="GLSLES">shaders\shRotated3d.shader</shader>
   </shaders>
   <fonts name="fonts">
     <font>fonts\fDefault30</font>
@@ -704,6 +716,7 @@
       <object>objects\objBlock</object>
       <objects name="Feishiko">
         <object>objects\oBlockWhite</object>
+        <object>objects\oBlockGray</object>
         <object>objects\oBlockBlock</object>
         <object>objects\oBlockUnder</object>
         <object>objects\oBlockFloat</object>
@@ -1135,6 +1148,15 @@
       <objects name="Effect">
         <object>objects\oHeatDistort</object>
       </objects>
+      <objects name="Badkid">
+        <object>objects\oRain</object>
+        <object>objects\oRainCreator</object>
+        <object>objects\oStorms</object>
+        <object>objects\oBadkid</object>
+        <object>objects\oBadkidHP</object>
+        <object>objects\oBadkidNoise</object>
+        <object>objects\oRotated3d</object>
+      </objects>
     </objects>
     <objects name="Resofa">
       <objects name="Cxk">
@@ -1368,6 +1390,7 @@
         <room>rooms\rmWater2</room>
         <room>rooms\rmWater3</room>
       </rooms>
+      <room>rooms\rmBadkid</room>
     </rooms>
     <rooms name="BKZN">
       <room>rooms\rTrigger</room>
