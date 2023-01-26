@@ -60,6 +60,11 @@
         </sounds>
         <sound>sound\sndDaoLiZhiGe</sound>
         <sound>sound\sndLaoMa</sound>
+        <sound>sound\sndPipeSmooth</sound>
+        <sound>sound\sndPipe</sound>
+        <sound>sound\sndPipeLittleA</sound>
+        <sound>sound\sndPipeLittleB</sound>
+        <sound>sound\sndPipeLittleC</sound>
       </sounds>
     </sounds>
     <sounds name="music">
@@ -491,7 +496,8 @@
         <sprite>sprites\sprPlayerKiller32x32</sprite>
         <sprite>sprites\sprWaterMetal</sprite>
         <sprite>sprites\sprWaterActionShadow</sprite>
-        <sprite>sprites\sprite281</sprite>
+        <sprite>sprites\sprGangGuan</sprite>
+        <sprite>sprites\sprLittleGangGuan</sprite>
       </sprites>
       <sprite>sprites\sprBounceBallRoll</sprite>
     </sprites>
@@ -1273,6 +1279,9 @@
         <object>objects\objPoisonWater</object>
         <object>objects\objBreathBubble</object>
         <object>objects\objBlackScreenTrigger</object>
+        <objects name="Pipe">
+          <object>objects\objGangGuanBoss</object>
+        </objects>
       </objects>
       <objects name="Roll">
         <object>objects\objRollGimmick</object>
@@ -1402,6 +1411,9 @@
           <room>rooms\rCxkIntro</room>
           <room>rooms\rCxk</room>
         </rooms>
+        <rooms name="Pipe">
+          <room>rooms\rPipeBoss</room>
+        </rooms>
       </rooms>
       <rooms name="Avoidance">
         <room>rooms\rSnake</room>
@@ -1413,7 +1425,6 @@
           <room>rooms\rWaterActionB</room>
           <room>rooms\rWaterActionC</room>
           <room>rooms\rWaterActionD</room>
-          <room>rooms\rWaterActionE</room>
         </rooms>
         <rooms name="Spin">
           <room>rooms\rResofaAA</room>

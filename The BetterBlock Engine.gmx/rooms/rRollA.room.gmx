@@ -182,32 +182,26 @@
     <instance objName="objSpikeLeft" x="2864" y="880" name="inst_7DB88CFF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSaveBlocker" x="2672" y="912" name="inst_38080698" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSaveBlocker" x="2784" y="912" name="inst_5322AE4E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objJumpRefresher" x="2368" y="896" name="inst_E1BCEB85" locked="0" code="" scaleX="10.0769233703613" scaleY="2.69230771064758" colour="4294967295" rotation="0"/>
-    <instance objName="objJumpRefresher" x="2144" y="896" name="inst_03B92885" locked="0" code="" scaleX="15.8500003814697" scaleY="4.8461537361145" colour="4294967295" rotation="0"/>
-    <instance objName="objBounceBallRoll" x="1936" y="1040" name="inst_9A9ED357" locked="0" code="" scaleX="3.25" scaleY="3.25" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="368" y="1008" name="inst_DE270832" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="0" y="608" name="inst_84985DB5" locked="0" code="" scaleX="25" scaleY="0.5" colour="4294967295" rotation="0"/>
-    <instance objName="objWater" x="512" y="960" name="inst_F43059A1" locked="0" code="" scaleX="6.5" scaleY="2.5" colour="4294967295" rotation="0"/>
-    <instance objName="objFloatingSpike" x="576" y="976" name="inst_89BD01E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objFloatingSpike" x="640" y="1024" name="inst_5272C4BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objFloatingSpike" x="576" y="944" name="inst_D24F1B39" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objFloatingSpike" x="640" y="1056" name="inst_C58A1D08" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWarp" x="384" y="960" name="inst_4F68899B" locked="0" code="roomTo=rmIntro&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objWater" x="784" y="928" name="inst_093CB048" locked="0" code="" scaleX="30.5" scaleY="4.5" colour="4294967295" rotation="0"/>
-    <instance objName="objFloatingSpike" x="848" y="944" name="inst_3CED4081" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objFloatingSpike" x="880" y="976" name="inst_8FBF51EC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objFloatingSpike" x="576" y="912" name="inst_888541D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objFloatingSpike" x="576" y="880" name="inst_ACF6F1B3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objFloatingSpike" x="576" y="848" name="inst_B885223A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objFloatingSpike" x="640" y="1088" name="inst_AE3AF9F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objFloatingSpike" x="640" y="1120" name="inst_BAE0B57B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objFloatingSpike" x="640" y="1152" name="inst_1AD2441A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objFloatingSpike" x="896" y="880" name="inst_B6A5484D" locked="0" code="" scaleX="2" scaleY="3" colour="4294967295" rotation="0"/>
-    <instance objName="objFloatingSpike" x="1200" y="1056" name="inst_E3E161DB" locked="0" code="" scaleX="4.5" scaleY="1.5" colour="4294967295" rotation="0"/>
-    <instance objName="objFloatingSpike" x="1504" y="928" name="inst_5F072050" locked="0" code="" scaleX="2" scaleY="5" colour="4294967295" rotation="0"/>
-    <instance objName="objFloatingSpike" x="1344" y="944" name="inst_6C70620B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objFloatingSpike" x="928" y="1072" name="inst_BE448144" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objFloatingSpike" x="1696" y="1072" name="inst_D461425F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeDown" x="2432" y="592" name="inst_7D05171B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeDown" x="2400" y="592" name="inst_93D7F778" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeDown" x="2368" y="592" name="inst_435AE1D8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeDown" x="2336" y="592" name="inst_A81C4FFF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeDown" x="2304" y="592" name="inst_30247214" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeDown" x="2272" y="592" name="inst_14B418DD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeDown" x="1824" y="592" name="inst_23168CF4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeDown" x="1856" y="592" name="inst_B68DFE33" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeDown" x="1888" y="592" name="inst_D21B3E68" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeDown" x="1920" y="592" name="inst_338D3652" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeDown" x="1952" y="592" name="inst_79CE5752" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeDown" x="1984" y="592" name="inst_A86E4A0A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeDown" x="2016" y="592" name="inst_FABC0C39" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeDown" x="2048" y="592" name="inst_4854703C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeDown" x="2240" y="592" name="inst_B08135A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeDown" x="2208" y="592" name="inst_0DDDD3D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objGravUpNo" x="2608" y="832" name="inst_D4D3FDD9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bgRoll" x="144" y="416" w="16" h="16" xo="32" yo="0" id="10010093" name="inst_42E23D69" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
