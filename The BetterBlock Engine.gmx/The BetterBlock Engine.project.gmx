@@ -518,6 +518,8 @@
     <sprite>sprites\sPaper</sprite>
     <sprite>sprites\sBrainFuck_exe</sprite>
     <sprite>sprites\sErrorFake</sprite>
+    <sprite>sprites\sGM8Loading</sprite>
+    <sprite>sprites\sGM8Loading2</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bAllTiles</background>
@@ -612,6 +614,8 @@
     <background>background\bgTreeDesert</background>
     <background>background\bgSaulFakepicture</background>
     <background>background\bgWindow</background>
+    <background>background\bgYUUTU</background>
+    <background>background\bgNikaple</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\pthD</path>
@@ -1039,6 +1043,16 @@
         <object>objects\oSaulNPC</object>
         <object>objects\oSaulNPC2</object>
       </objects>
+      <objects name="TheFakeEngine">
+        <object>objects\oFakeError</object>
+        <object>objects\oFakeGM8_1</object>
+        <object>objects\oBetterBlockEngine</object>
+        <object>objects\oFakeGM8_2</object>
+        <object>objects\oFakeRenex</object>
+        <object>objects\oBug2</object>
+        <object>objects\oError</object>
+        <object>objects\oFakeYOYOYOI2</object>
+      </objects>
       <object>objects\objBusBoss</object>
       <object>objects\objBus</object>
       <objects name="what">
@@ -1308,8 +1322,6 @@
     <object>objects\oWaterPower1_spr</object>
     <object>objects\oWaterPower2</object>
     <object>objects\oWaterPower2_spr</object>
-    <object>objects\oBetterBlockEngine</object>
-    <object>objects\oFakeError</object>
   </objects>
   <rooms name="rooms">
     <rooms name="init">
@@ -1398,6 +1410,12 @@
         <room>rooms\rDesertCenter</room>
       </rooms>
       <rooms name="tHE eND">
+        <rooms name="Fake Engine">
+          <room>rooms\rTheRenex</room>
+          <room>rooms\rFakeEngine</room>
+          <room>rooms\rTheDaoli</room>
+          <room>rooms\rFakeEngine2</room>
+        </rooms>
         <room>rooms\rWindow</room>
       </rooms>
       <room>rooms\rCrimsonPit</room>
