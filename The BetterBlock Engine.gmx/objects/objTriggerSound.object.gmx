@@ -49,8 +49,11 @@ trg = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.trigger[trg] = true;    //set trigger when touched by player
+            <string>if(global.trigger[trg] = false)
+{
+global.trigger[trg] = true;    //set trigger when touched by player
 audio_play_sound(snd,1,0)
+}
 </string>
           </argument>
         </arguments>
