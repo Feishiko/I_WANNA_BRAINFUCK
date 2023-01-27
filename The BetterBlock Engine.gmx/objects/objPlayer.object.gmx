@@ -253,7 +253,7 @@ if (!frozen)    //don't move if frozen
 else
 {
 maxSpeed=9
-if (R)
+if((R&amp;&amp;global.grav&gt;=0)||(L&amp;&amp;global.grav&lt;0))
 {
 if(he&lt;maxSpeed)
 {
@@ -264,7 +264,7 @@ else
 he=maxSpeed
 }
 }
-else if (L)
+else if((L&amp;&amp;global.grav&gt;=0)||(R&amp;&amp;global.grav&lt;0))
 {
 if(he&gt;-maxSpeed)
 {

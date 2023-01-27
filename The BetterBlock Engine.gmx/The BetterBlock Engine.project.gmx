@@ -65,6 +65,7 @@
         <sound>sound\sndPipeLittleA</sound>
         <sound>sound\sndPipeLittleB</sound>
         <sound>sound\sndPipeLittleC</sound>
+        <sound>sound\sndSB</sound>
       </sounds>
     </sounds>
     <sounds name="music">
@@ -1284,6 +1285,7 @@
         <object>objects\objMarioBlockSpining</object>
       </objects>
       <objects name="Water">
+        <object>objects\objTriggerSound</object>
         <object>objects\objPlayerKillerBlock</object>
         <object>objects\objCameraSurface</object>
         <object>objects\objTrgWater</object>
