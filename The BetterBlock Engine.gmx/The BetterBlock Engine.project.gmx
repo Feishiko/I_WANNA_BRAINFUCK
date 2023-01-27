@@ -343,6 +343,13 @@
         <sprite>sprites\sDemo</sprite>
         <sprite>sprites\sXJL</sprite>
       </sprites>
+      <sprites name="Desert">
+        <sprite>sprites\sStorm</sprite>
+        <sprite>sprites\sNothing</sprite>
+        <sprite>sprites\sWait</sprite>
+        <sprite>sprites\sSUSdude</sprite>
+        <sprite>sprites\sSUSdude2</sprite>
+      </sprites>
       <sprite>sprites\sprBlackOMG</sprite>
       <sprites name="saulFakeman">
         <sprite>sprites\sEyeBruh</sprite>
@@ -373,6 +380,7 @@
       <sprites name="water part eh">
         <sprite>sprites\sSpring2</sprite>
         <sprite>sprites\sSaul</sprite>
+        <sprite>sprites\sSaul2</sprite>
         <sprite>sprites\sIlive</sprite>
         <sprite>sprites\sDZshark</sprite>
         <sprite>sprites\sSeaGrass</sprite>
@@ -507,10 +515,8 @@
     <sprite>sprites\sPlayerKillerCenter</sprite>
     <sprite>sprites\sTextureKuang</sprite>
     <sprite>sprites\sPaper</sprite>
-    <sprite>sprites\sNothing</sprite>
-    <sprite>sprites\sWait</sprite>
-    <sprite>sprites\sStorm</sprite>
-    <sprite>sprites\sSUSdude</sprite>
+    <sprite>sprites\sBrainFuck_exe</sprite>
+    <sprite>sprites\sErrorFake</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bAllTiles</background>
@@ -603,6 +609,8 @@
     <background>background\bgMT</background>
     <background>background\bWaterPower</background>
     <background>background\bgTreeDesert</background>
+    <background>background\bgSaulFakepicture</background>
+    <background>background\bgWindow</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\pthD</path>
@@ -729,6 +737,7 @@
       </objects>
       <objects name="OMGUY">
         <object>objects\objCreatorBlock</object>
+        <object>objects\oSUSdude1</object>
         <object>objects\objKrainBlock</object>
       </objects>
       <object>objects\objMiniBlock</object>
@@ -1021,6 +1030,11 @@
       <objects name="Desert">
         <object>objects\oWait</object>
         <object>objects\oSandStorm</object>
+        <object>objects\oTang2</object>
+        <object>objects\oSaul5</object>
+        <object>objects\oWeirdCoreWarp</object>
+        <object>objects\oStorm</object>
+        <object>objects\oSUSdude</object>
         <object>objects\oSaulNPC</object>
         <object>objects\oSaulNPC2</object>
       </objects>
@@ -1292,9 +1306,8 @@
     <object>objects\oWaterPower1_spr</object>
     <object>objects\oWaterPower2</object>
     <object>objects\oWaterPower2_spr</object>
-    <object>objects\oStorm</object>
-    <object>objects\oWeirdCoreWarp</object>
-    <object>objects\oSUSdude</object>
+    <object>objects\oBetterBlockEngine</object>
+    <object>objects\oFakeError</object>
   </objects>
   <rooms name="rooms">
     <rooms name="init">
@@ -1371,15 +1384,20 @@
           <room>rooms\rDesert4</room>
           <room>rooms\rDesert1</room>
           <room>rooms\rDesert5</room>
+          <room>rooms\rDesert6</room>
           <room>rooms\rDesert5_1</room>
           <room>rooms\rDesert5_2</room>
+          <room>rooms\rSaulFakeman</room>
+          <room>rooms\rSaulFakeman3</room>
+          <room>rooms\rSaulFakeman2</room>
+          <room>rooms\rGreenGrass</room>
         </rooms>
         <room>rooms\rXZLDefence</room>
         <room>rooms\rDesertCenter</room>
       </rooms>
-      <room>rooms\rSaulFakeman</room>
-      <room>rooms\rSaulFakeman2</room>
-      <room>rooms\rSaulFakeman3</room>
+      <rooms name="tHE eND">
+        <room>rooms\rWindow</room>
+      </rooms>
       <room>rooms\rCrimsonPit</room>
       <room>rooms\rCrimsonPit2</room>
       <room>rooms\rCrimsonMEME</room>

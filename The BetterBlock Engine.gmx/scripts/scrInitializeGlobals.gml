@@ -3,6 +3,7 @@
 scrSetGlobalOptions();       //initialize global game options
 
 global.savenum = 1;
+global.SUS = 0;
 global.difficulty = 0;  //0 = medium, 1 = hard, 2 = very hard, 3 = impossible
 global.death = 0;
 global.time = 0;

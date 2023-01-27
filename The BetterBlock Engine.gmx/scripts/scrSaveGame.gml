@@ -55,6 +55,7 @@ ds_map_add(saveMap,"death",global.death);
 ds_map_add(saveMap,"time",global.time);
 ds_map_add(saveMap,"timeMicro",global.timeMicro);
 
+ds_map_add(saveMap,"SUS",global.SUS);
 ds_map_add(saveMap,"difficulty",global.difficulty);
 ds_map_add(saveMap,"saveRoom",global.saveRoom);
 ds_map_add(saveMap,"savePlayerX",global.savePlayerX);

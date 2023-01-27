@@ -31,6 +31,7 @@ if (loadFile)
         global.time = ds_map_find_value(saveMap,"time");
         global.timeMicro = ds_map_find_value(saveMap,"timeMicro");
         
+        global.SUS = ds_map_find_value(saveMap,"SUS");
         global.difficulty = ds_map_find_value(saveMap,"difficulty");
         global.saveRoom = ds_map_find_value(saveMap,"saveRoom");
         global.savePlayerX = ds_map_find_value(saveMap,"savePlayerX");

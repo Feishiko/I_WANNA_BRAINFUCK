@@ -57,7 +57,7 @@
     <instance objName="objBlock" x="288" y="320" name="inst_42CCFE79" locked="0" code="" scaleX="1" scaleY="28" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="544" y="320" name="inst_F42F5510" locked="0" code="" scaleX="1" scaleY="28" colour="4294967295" rotation="0"/>
     <instance objName="objSmoothCamera" x="64" y="96" name="inst_51A7C2BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBlockInvis" x="544" y="192" name="inst_D870F1B0" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="objBlockInvis" x="640" y="64" name="inst_D870F1B0" locked="0" code="" scaleX="1" scaleY="7.22580623626709" colour="4294967295" rotation="0"/>
     <instance objName="objRoomChanger" x="-32" y="96" name="inst_0FED0698" locked="0" code="roomTo=rWaterMaTong&#xA;warpX=768+17&#xA;warpY=256+23&#xA;" scaleX="1" scaleY="7" colour="4294967295" rotation="0"/>
     <instance objName="objPlayMusic" x="160" y="32" name="inst_1DC9E235" locked="0" code="BGM=musHell&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBetterSign" x="160" y="256" name="inst_867EA54B" locked="0" code="Te=&quot;You can go back&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

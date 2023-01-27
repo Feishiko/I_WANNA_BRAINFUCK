@@ -166,6 +166,7 @@
     <instance objName="objSaveWeird" x="64" y="384" name="inst_52589494" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSaveWeird" x="64" y="464" name="inst_D7302527" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSaveWeird" x="80" y="304" name="inst_AA52BE04" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBlock" x="576" y="0" name="inst_B5F94107" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bAllTiles" x="0" y="0" w="32" h="32" xo="32" yo="32" id="10009646" name="inst_CF625964" depth="-1" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -333,6 +334,7 @@
     <tile bgName="bAllTiles" x="608" y="480" w="32" h="32" xo="32" yo="32" id="10009810" name="inst_F47CFDBF" depth="-1" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bAllTiles" x="608" y="512" w="32" h="32" xo="32" yo="32" id="10009811" name="inst_06480869" depth="-1" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bAllTiles" x="544" y="0" w="32" h="32" xo="32" yo="32" id="10009812" name="inst_A76D5462" depth="-1" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bAllTiles" x="576" y="0" w="32" h="32" xo="32" yo="32" id="10011501" name="inst_08BA504C" depth="-1" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

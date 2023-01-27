@@ -172,6 +172,12 @@ if (global.playerAnimationFix)
     }
 }
 
+//OMGUY ADD THIS
+if(instance_exists(oFakeError))
+{
+image_speed=0
+image_index=0
+}
 </string>
           </argument>
         </arguments>
