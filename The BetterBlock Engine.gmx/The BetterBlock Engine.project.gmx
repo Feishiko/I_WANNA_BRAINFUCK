@@ -60,11 +60,6 @@
         </sounds>
         <sound>sound\sndDaoLiZhiGe</sound>
         <sound>sound\sndLaoMa</sound>
-        <sound>sound\sndPipeSmooth</sound>
-        <sound>sound\sndPipe</sound>
-        <sound>sound\sndPipeLittleA</sound>
-        <sound>sound\sndPipeLittleB</sound>
-        <sound>sound\sndPipeLittleC</sound>
         <sound>sound\sndSB</sound>
       </sounds>
     </sounds>
@@ -505,8 +500,6 @@
         <sprite>sprites\sprPlayerKiller32x32</sprite>
         <sprite>sprites\sprWaterMetal</sprite>
         <sprite>sprites\sprWaterActionShadow</sprite>
-        <sprite>sprites\sprGangGuan</sprite>
-        <sprite>sprites\sprLittleGangGuan</sprite>
       </sprites>
       <sprite>sprites\sprBounceBallRoll</sprite>
     </sprites>
@@ -1309,9 +1302,6 @@
         <object>objects\objPoisonWater</object>
         <object>objects\objBreathBubble</object>
         <object>objects\objBlackScreenTrigger</object>
-        <objects name="Pipe">
-          <object>objects\objGangGuanBoss</object>
-        </objects>
       </objects>
       <objects name="Roll">
         <object>objects\objRollGimmick</object>
