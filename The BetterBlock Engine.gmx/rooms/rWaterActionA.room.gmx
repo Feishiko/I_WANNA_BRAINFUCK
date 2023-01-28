@@ -109,7 +109,7 @@
     <instance objName="objShadowWaterAction" x="192" y="80" name="inst_F21985BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlayMusic" x="224" y="272" name="inst_08B5A560" locked="0" code="BGM=musWaterAction&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWarp" x="800" y="480" name="inst_78C25248" locked="0" code="roomTo=rWaterActionB&#xA;" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="objTriggerSound" x="32" y="512" name="inst_04A46E9D" locked="0" code="trg=1&#xA;snd=sndSB&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objFreeTrigger" x="32" y="512" name="inst_91C36FD6" locked="0" code="trg=1&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="btMetal" x="0" y="128" w="32" h="32" xo="32" yo="0" id="10006695" name="inst_887E4E3A" depth="10000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
