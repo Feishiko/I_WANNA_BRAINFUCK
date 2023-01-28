@@ -234,10 +234,9 @@
     <instance objName="objSpikeUp" x="1024" y="832" name="inst_9C14ED44" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="896" y="864" name="inst_D6991A07" locked="0" code="" scaleX="6" scaleY="11" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="1552" y="592" name="inst_E700C114" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objSpikeDown" x="1312" y="592" name="inst_5A20F3FB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="1392" y="592" name="inst_B09F341C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="1472" y="592" name="inst_1311800B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objMovingPlatform" x="1168" y="576" name="inst_1D92E885" locked="0" code="hspeed=7&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objMovingPlatform" x="1168" y="576" name="inst_1D92E885" locked="0" code="hspeed=2&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="592" y="624" name="inst_7A02E9B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="544" y="624" name="inst_2C6CC77B" locked="0" code="" scaleX="1.5" scaleY="1.5" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeDown" x="480" y="624" name="inst_05A07500" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
@@ -266,6 +265,7 @@
     <instance objName="objGravDownNo" x="48" y="624" name="inst_65447736" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSave" x="144" y="688" name="inst_05CE875C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSaveBlocker" x="128" y="688" name="inst_0C561523" locked="0" code="" scaleX="0.5" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBlock" x="720" y="624" name="inst_F7D872DB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bgRoll" x="144" y="416" w="16" h="16" xo="32" yo="0" id="10010093" name="inst_42E23D69" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -1447,6 +1447,10 @@
     <tile bgName="bgRoll" x="208" y="864" w="16" h="16" xo="16" yo="32" id="10012143" name="inst_C6C05A2F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgRoll" x="272" y="960" w="16" h="16" xo="16" yo="32" id="10012144" name="inst_60BC6D0C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgRoll" x="288" y="960" w="16" h="16" xo="16" yo="32" id="10012145" name="inst_FDC1C04C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgRoll" x="736" y="624" w="16" h="16" xo="32" yo="0" id="10012148" name="inst_91F36CBB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgRoll" x="720" y="624" w="16" h="16" xo="0" yo="0" id="10012149" name="inst_A65A60A4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgRoll" x="720" y="640" w="16" h="16" xo="0" yo="32" id="10012150" name="inst_38B778A4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgRoll" x="736" y="640" w="16" h="16" xo="32" yo="32" id="10012151" name="inst_B5A81029" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
