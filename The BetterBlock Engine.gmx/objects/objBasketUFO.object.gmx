@@ -30,7 +30,7 @@ alarm[1]=333
 instance_create(x,y,objLastCxk)
 a=0
 sta=0
-hp=40
+hp=30
 image_xscale=1.2
 image_yscale=1.2
 </string>
@@ -84,7 +84,7 @@ alarm[1]=200
             <kind>1</kind>
             <string>gravity=0.2
 gravity_direction=270
-hspeed=choose(-1,1)
+hspeed=choose(-0.5,0.5)
 instance_create(400,-7,objPlatformCxk);
 instance_create(300,-7,objPlatformCxk);
 instance_create(500,-7,objPlatformCxk);
