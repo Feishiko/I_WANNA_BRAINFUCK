@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>alarm[0]=50
+            <string>x=400
+alarm[0]=50
 </string>
           </argument>
         </arguments>
@@ -96,7 +97,9 @@ alarm[1]=50
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_text(x,y,"press shift to start")
+            <string>draw_set_valign(fa_top)
+draw_set_halign(fa_center)
+draw_text(x,y,"press shift to start")
 </string>
           </argument>
         </arguments>

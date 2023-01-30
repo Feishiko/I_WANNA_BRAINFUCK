@@ -65,6 +65,9 @@
     <instance objName="objBlock" x="0" y="384" name="inst_640A312C" locked="0" code="" scaleX="25" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSignNPC" x="320" y="320" name="inst_F34E9A73" locked="0" code="Max=2&#xA;texts[0]=&quot;我他妈的为啥要做这玩意&quot;&#xA;texts[1]=&quot;算了现在还有救...&#xA;得和同伴们做个陷阱让kid饱受折磨后巴不得把幕后黑手杀了&#xA;这样这玩意就不会存在了&quot;&#xA;texts[2]=&quot;他最好来&#xA;----(字迹不清)&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oUpDoor" x="320" y="256" name="inst_D191D0A8" locked="0" code="" scaleX="2" scaleY="1.66666662693024" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayMusic" x="64" y="96" name="inst_4D242F2E" locked="0" code="BGM=musWaterArea&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oGreenBugged" x="0" y="0" name="inst_B90448CF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBlock" x="-32" y="0" name="inst_16846629" locked="0" code="" scaleX="1" scaleY="19" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

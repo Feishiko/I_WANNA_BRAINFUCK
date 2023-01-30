@@ -131,6 +131,7 @@
     <sound>sound\sndWait</sound>
     <sound>sound\musDesertWarp</sound>
     <sound>sound\musDesertBruh</sound>
+    <sound>sound\musBugged</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="world">
@@ -311,6 +312,7 @@
         <sprite>sprites\sprite122</sprite>
         <sprite>sprites\sprite121</sprite>
         <sprite>sprites\sprite123</sprite>
+        <sprite>sprites\sAmongusTitled</sprite>
         <sprite>sprites\sprite120</sprite>
       </sprites>
       <sprites name="Unused">
@@ -1312,6 +1314,7 @@
     <object>objects\oWaterPower1_spr</object>
     <object>objects\oWaterPower2</object>
     <object>objects\oWaterPower2_spr</object>
+    <object>objects\oGreenBugged</object>
   </objects>
   <rooms name="rooms">
     <rooms name="init">

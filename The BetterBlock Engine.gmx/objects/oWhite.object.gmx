@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_alpha=0.05
+            <string>image_alpha=0.75
 </string>
           </argument>
         </arguments>

@@ -52,6 +52,7 @@
   </views>
   <instances>
     <instance objName="oFakeYOYOYOI2" x="288" y="480" name="inst_99511F13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayMusic" x="128" y="64" name="inst_5CE8493F" locked="0" code="BGM=musGuyRock&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bAllTiles" x="32" y="576" w="32" h="32" xo="0" yo="0" id="10011716" name="inst_A6A683C3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
