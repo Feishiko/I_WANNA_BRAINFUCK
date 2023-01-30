@@ -597,20 +597,29 @@
         <background>background\background19</background>
         <background>background\bgTrigle</background>
       </backgrounds>
+      <backgrounds name="Still Trash">
+        <background>background\bgMorningDew</background>
+        <background>background\bgMorningDew2</background>
+        <background>background\bgCrimsonTitle</background>
+        <background>background\bgCrimsonBG</background>
+        <background>background\bgDesert2</background>
+        <background>background\bgMT</background>
+        <background>background\bgPipeMario</background>
+        <background>background\bWaterPower</background>
+        <background>background\bgSaulFakepicture</background>
+        <background>background\bgWindow</background>
+        <background>background\bgTreeDesert</background>
+        <background>background\bgNikaple</background>
+        <background>background\bgYUUTU</background>
+        <backgrounds name="TheGateMaze">
+          <background>background\bgGate1</background>
+          <background>background\bgGate2</background>
+          <background>background\bgGate4</background>
+          <background>background\bgGate3</background>
+        </backgrounds>
+        <background>background\bgCongrats</background>
+      </backgrounds>
     </backgrounds>
-    <background>background\bgMorningDew</background>
-    <background>background\bgMorningDew2</background>
-    <background>background\bgPipeMario</background>
-    <background>background\bgCrimsonTitle</background>
-    <background>background\bgCrimsonBG</background>
-    <background>background\bgDesert2</background>
-    <background>background\bgMT</background>
-    <background>background\bWaterPower</background>
-    <background>background\bgTreeDesert</background>
-    <background>background\bgSaulFakepicture</background>
-    <background>background\bgWindow</background>
-    <background>background\bgYUUTU</background>
-    <background>background\bgNikaple</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\pthD</path>
@@ -767,6 +776,9 @@
       <object>objects\objSlipBlock</object>
       <object>objects\objBossBlock</object>
       <object>objects\objBlockInvis</object>
+      <objects name="OMGUY">
+        <object>objects\oInvisSilent</object>
+      </objects>
       <object>objects\objBlockInvis2</object>
       <object>objects\objBlockFake</object>
       <object>objects\objSlideBlock</object>
@@ -1016,6 +1028,7 @@
         <object>objects\oSignJimmyMcgill</object>
         <object>objects\oWarpFadeInInvis</object>
         <object>objects\oTrgCreatedOBJ</object>
+        <object>objects\oDrawBGdude</object>
         <object>objects\oWhite</object>
       </objects>
       <objects name="XJL">
@@ -1408,6 +1421,11 @@
           <room>rooms\rFakeEngine</room>
           <room>rooms\rTheDaoli</room>
           <room>rooms\rFakeEngine2</room>
+          <rooms name="TheGate">
+            <room>rooms\rTheGate2</room>
+            <room>rooms\rTheGate</room>
+          </rooms>
+          <room>rooms\rTheGate3</room>
         </rooms>
         <room>rooms\rWindow</room>
       </rooms>
