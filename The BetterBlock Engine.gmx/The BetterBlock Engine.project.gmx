@@ -1439,9 +1439,6 @@
           <room>rooms\rCxkIntro</room>
           <room>rooms\rCxk</room>
         </rooms>
-        <rooms name="Pipe">
-          <room>rooms\rPipeBoss</room>
-        </rooms>
       </rooms>
       <rooms name="Avoidance">
         <room>rooms\rSnake</room>
@@ -1453,6 +1450,7 @@
           <room>rooms\rWaterActionB</room>
           <room>rooms\rWaterActionC</room>
           <room>rooms\rWaterActionD</room>
+          <room>rooms\rWaterEnd</room>
         </rooms>
         <rooms name="Spin">
           <room>rooms\rResofaAA</room>

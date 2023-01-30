@@ -3,8 +3,8 @@
   <caption></caption>
   <width>800</width>
   <height>608</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>16</vsnap>
+  <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
@@ -41,7 +41,7 @@
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
   </backgrounds>
   <views>
-    <view visible="-1" objName="&lt;undefined&gt;" xview="200" yview="304" wview="400" hview="304" xport="0" yport="0" wport="800" hport="608" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="-1" objName="&lt;undefined&gt;" xview="0" yview="0" wview="800" hview="608" xport="0" yport="0" wport="800" hport="608" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
@@ -55,18 +55,19 @@
     <instance objName="objBackgroundShine" x="448" y="352" name="inst_DCAE1211" locked="0" code="i=1&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objShadowWaterAction" x="384" y="416" name="inst_F21985BF" locked="0" code="a=-2&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objMovingPlatform" x="384" y="576" name="inst_E84B7D32" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objCameraSurface" x="536" y="344" name="inst_67910C66" locked="0" code="xx=224&#xA;yy=224&#xA;xs=-112&#xA;ys=-112&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="0" y="576" name="inst_EF4BDF24" locked="0" code="" scaleX="12" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="416" y="576" name="inst_D584E0E0" locked="0" code="" scaleX="12" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="0" y="0" name="inst_9B977032" locked="0" code="" scaleX="1" scaleY="18" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="32" y="0" name="inst_6C04CB68" locked="0" code="" scaleX="24" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="768" y="32" name="inst_62A93C97" locked="0" code="" scaleX="1" scaleY="17" colour="4294967295" rotation="0"/>
-    <instance objName="objMovingPlatform" x="32" y="448" name="inst_21C0105A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objMovingPlatform" x="64" y="448" name="inst_8D8A49D8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objMovingPlatform" x="96" y="448" name="inst_959FD513" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objMovingPlatform" x="736" y="448" name="inst_8A3E22C2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objMovingPlatform" x="704" y="448" name="inst_594BA304" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objMovingPlatform" x="672" y="448" name="inst_33083F9B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayMusic" x="192" y="256" name="inst_18677D79" locked="0" code="BGM=musWaterArea&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBlock" x="632" y="512" name="inst_1DB6E8B2" locked="0" code="" scaleX="0.5" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="objBlock" x="696" y="512" name="inst_483444A4" locked="0" code="" scaleX="0.5" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="objBlock" x="624" y="480" name="inst_7548020D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBlock" x="688" y="480" name="inst_7F422D23" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oSignNPC" x="64" y="496" name="inst_BF5494C7" locked="0" code="Max=6&#xA;texts[0]=&quot;谈话记录(部分）&quot;&#xA;texts[1]=&quot;R：你怎么在里面加了114号混凝土？&quot;&#xA;texts[2]=&quot;O：啥？这，这不对吧？我加的明明是514号啊……&#xA;哎tnnd，谁又偷偷摸摸把标签改了！&quot;&#xA;texts[3]=&quot;R：完了，无了，全无了&quot;&#xA;texts[4]=&quot;O：哟，哼，哼，额啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊&#xA;（发出绝望的惨叫声）&quot;&#xA;texts[5]=&quot;F：看来我们得重新找一个地方建设了&quot;&#xA;texts[6]=&quot;（没了）&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oUpDoor" x="64" y="352" name="inst_0753F128" locked="0" code="" scaleX="2" scaleY="2.33333325386047" colour="4294967295" rotation="0"/>
+    <instance objName="objWarp" x="656" y="480" name="inst_D4077323" locked="0" code="roomTo=rWater1&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="btMetal" x="0" y="128" w="32" h="32" xo="32" yo="0" id="10006695" name="inst_887E4E3A" depth="10000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -129,7 +130,6 @@
     <tile bgName="btMetal" x="0" y="544" w="32" h="32" xo="0" yo="0" id="10006799" name="inst_31693463" depth="10000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="btMetal" x="32" y="544" w="32" h="32" xo="0" yo="0" id="10006800" name="inst_232E4302" depth="10000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="btMetal" x="64" y="544" w="32" h="32" xo="0" yo="0" id="10006801" name="inst_146FF9F3" depth="10000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="btMetal" x="64" y="512" w="32" h="32" xo="0" yo="0" id="10006802" name="inst_8F065CD8" depth="10000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="btMetal" x="32" y="512" w="32" h="32" xo="0" yo="0" id="10006803" name="inst_6657CE5D" depth="10000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="btMetal" x="0" y="512" w="32" h="32" xo="0" yo="0" id="10006804" name="inst_E23B54F3" depth="10000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="btMetal" x="0" y="480" w="32" h="32" xo="0" yo="0" id="10006805" name="inst_5E722BB2" depth="10000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -544,6 +544,7 @@
     <tile bgName="btMetal" x="704" y="128" w="32" h="32" xo="0" yo="0" id="10009145" name="inst_42E9476D" depth="10000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="btMetal" x="704" y="96" w="32" h="32" xo="0" yo="0" id="10009146" name="inst_B667A971" depth="10000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="btMetal" x="704" y="64" w="32" h="32" xo="0" yo="0" id="10009147" name="inst_07356971" depth="10000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="btMetal" x="64" y="512" w="32" h="32" xo="32" yo="0" id="10012152" name="inst_CC49A326" depth="10000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="btMetal" x="32" y="32" w="32" h="32" xo="64" yo="32" id="10011450" name="inst_71988031" depth="500000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="btMetal" x="672" y="128" w="32" h="32" xo="0" yo="32" id="10011451" name="inst_5A1DA1F4" depth="500000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="btMetal" x="736" y="128" w="32" h="32" xo="32" yo="32" id="10011452" name="inst_9F7E7454" depth="500000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -568,7 +569,6 @@
     <tile bgName="btMetal" x="320" y="480" w="32" h="32" xo="0" yo="64" id="10011473" name="inst_13201542" depth="500000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="btMetal" x="320" y="512" w="32" h="32" xo="96" yo="32" id="10011474" name="inst_CD0EF721" depth="500000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="btMetal" x="352" y="544" w="32" h="32" xo="64" yo="0" id="10011475" name="inst_3842E818" depth="500000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="btMetal" x="64" y="512" w="32" h="32" xo="96" yo="64" id="10011476" name="inst_3684D650" depth="500000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="btMetal" x="96" y="512" w="32" h="32" xo="64" yo="64" id="10011477" name="inst_9C860F19" depth="500000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="btMetal" x="96" y="544" w="32" h="32" xo="64" yo="0" id="10011478" name="inst_19E82C27" depth="500000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="btMetal" x="32" y="512" w="32" h="32" xo="32" yo="32" id="10011479" name="inst_E808D623" depth="500000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -590,6 +590,8 @@
     <tile bgName="btMetal" x="192" y="64" w="32" h="32" xo="64" yo="0" id="10011498" name="inst_1128AF72" depth="500000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="btMetal" x="192" y="96" w="32" h="32" xo="64" yo="0" id="10011499" name="inst_AFDAD426" depth="500000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="btMetal" x="192" y="128" w="32" h="32" xo="64" yo="0" id="10011500" name="inst_07D9FEFE" depth="500000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="btMetal" x="64" y="512" w="32" h="32" xo="64" yo="32" id="10012153" name="inst_A6425942" depth="500000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="btMetal" x="64" y="512" w="32" h="32" xo="0" yo="32" id="10012154" name="inst_D62613F0" depth="500000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgCaveUnderwater" x="352" y="576" w="32" h="32" xo="64" yo="0" id="10011361" name="inst_7E4F46E0" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgCaveUnderwater" x="416" y="576" w="32" h="32" xo="0" yo="0" id="10011362" name="inst_B827270D" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgCaveUnderwater" x="64" y="576" w="32" h="32" xo="32" yo="0" id="10011363" name="inst_53C2D2AA" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -673,6 +675,15 @@
     <tile bgName="bgCaveUnderwater" x="768" y="448" w="32" h="32" xo="0" yo="32" id="10011447" name="inst_4A92ACE4" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgCaveUnderwater" x="768" y="480" w="32" h="32" xo="0" yo="32" id="10011448" name="inst_F3B6AA72" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgCaveUnderwater" x="768" y="512" w="32" h="32" xo="0" yo="32" id="10011449" name="inst_80470BEF" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgPipeMario" x="624" y="480" w="32" h="32" xo="0" yo="0" id="10012155" name="inst_97AB0A17" depth="-20" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgPipeMario" x="688" y="480" w="32" h="32" xo="64" yo="0" id="10012157" name="inst_FEA85037" depth="-20" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgPipeMario" x="656" y="480" w="32" h="32" xo="32" yo="0" id="10012158" name="inst_46A82DD2" depth="-20" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgPipeMario" x="624" y="512" w="32" h="32" xo="0" yo="32" id="10012161" name="inst_D1345F54" depth="-20" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgPipeMario" x="656" y="512" w="32" h="32" xo="32" yo="32" id="10012162" name="inst_0C5928AB" depth="-20" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgPipeMario" x="688" y="512" w="32" h="32" xo="64" yo="32" id="10012163" name="inst_4D51BA1B" depth="-20" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgPipeMario" x="688" y="544" w="32" h="32" xo="64" yo="64" id="10012164" name="inst_C6203A62" depth="-20" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgPipeMario" x="656" y="544" w="32" h="32" xo="32" yo="64" id="10012165" name="inst_DD2D2EF5" depth="-20" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgPipeMario" x="624" y="544" w="32" h="32" xo="0" yo="64" id="10012166" name="inst_E17152D8" depth="-20" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
