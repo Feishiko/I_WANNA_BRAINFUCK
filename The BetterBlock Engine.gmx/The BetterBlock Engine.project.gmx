@@ -1381,18 +1381,6 @@
         <rooms name="Krain's game">
           <room>rooms\rKrain</room>
         </rooms>
-        <rooms name="Risk of needle">
-          <room>rooms\room38</room>
-        </rooms>
-        <rooms name="The Boshy Screen(Unused)">
-          <room>rooms\rBoshyScreenFuckIntro</room>
-          <room>rooms\rBoshyScreenBurn</room>
-          <room>rooms\rBoshyScreenFreeze</room>
-          <room>rooms\rBoshyScreenFuck</room>
-        </rooms>
-        <rooms name="5B6 Wum">
-          <room>rooms\room39</room>
-        </rooms>
       </rooms>
       <rooms name="WaterPart2">
         <room>rooms\rWater2</room>
