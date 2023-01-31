@@ -193,11 +193,11 @@ draw_set_font(font4)
 draw_set_valign(fa_top)
 draw_set_halign(fa_center)
 draw_set_colour(c_white)
-draw_text(400,560+32,"-Enter-")
+draw_text(view_xview[0]+400,view_yview[0]+560+32,"-Enter-")
 //draw_text(x,y,"Kid:")
 if(unsp=0)
 {
-draw_text(400,y+32,gg)
+draw_text(view_xview[0]+400,view_yview[0]+y+32,gg)
 }
 draw_set_colour(c_black)
 draw_set_alpha(1)

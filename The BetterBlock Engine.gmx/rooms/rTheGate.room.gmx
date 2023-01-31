@@ -70,7 +70,6 @@
     <instance objName="objBlock" x="512" y="160" name="inst_896E6476" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="544" y="224" name="inst_2FCD1044" locked="0" code="" scaleX="8.25806427001953" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="256" y="320" name="inst_5D31F0D3" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
-    <instance objName="objBlock" x="288" y="384" name="inst_BBE8DF72" locked="0" code="" scaleX="5" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="512" y="288" name="inst_4E6E0D66" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="544" y="288" name="inst_B3BD97FB" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlayMusic" x="64" y="32" name="inst_92D74FCB" locked="0" code="BGM=musWaterArea&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

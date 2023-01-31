@@ -132,6 +132,7 @@
     <sound>sound\musDesertWarp</sound>
     <sound>sound\musDesertBruh</sound>
     <sound>sound\musBugged</sound>
+    <sound>sound\musKirby</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="world">
@@ -516,6 +517,7 @@
     <sprite>sprites\sErrorFake</sprite>
     <sprite>sprites\sGM8Loading</sprite>
     <sprite>sprites\sGM8Loading2</sprite>
+    <sprite>sprites\sDuliu</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bAllTiles</background>
@@ -1051,6 +1053,7 @@
         <object>objects\oSUSdude</object>
         <object>objects\oSaulNPC</object>
         <object>objects\oSaulNPC2</object>
+        <object>objects\oNPC3</object>
       </objects>
       <objects name="TheFakeEngine">
         <object>objects\oFakeError</object>
@@ -1061,6 +1064,10 @@
         <object>objects\oBug2</object>
         <object>objects\oError</object>
         <object>objects\oFakeYOYOYOI2</object>
+      </objects>
+      <objects name="Kirby">
+        <object>objects\oPlayerCures</object>
+        <object>objects\oKirbyFeet</object>
       </objects>
       <object>objects\objBusBoss</object>
       <object>objects\objBus</object>
@@ -1428,6 +1435,10 @@
           </rooms>
         </rooms>
         <room>rooms\rWindow</room>
+        <rooms name="The Kirby">
+          <room>rooms\rKirby1</room>
+          <room>rooms\rKirby2</room>
+        </rooms>
       </rooms>
       <room>rooms\rCrimsonPit</room>
       <room>rooms\rCrimsonPit2</room>
