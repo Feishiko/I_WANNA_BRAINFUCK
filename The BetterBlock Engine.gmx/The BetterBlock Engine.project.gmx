@@ -506,6 +506,10 @@
       </sprites>
       <sprite>sprites\sprBounceBallRoll</sprite>
       <sprite>sprites\sprite307</sprite>
+      <sprites name="PokemonBoss">
+        <sprite>sprites\sprHaoGe</sprite>
+        <sprite>sprites\sprOMGTV</sprite>
+      </sprites>
     </sprites>
     <sprite>sprites\sprBus</sprite>
     <sprite>sprites\sprWarpGuo</sprite>
@@ -556,7 +560,11 @@
           <background>background\btMetal</background>
           <background>background\btCamera</background>
           <background>background\btRoll</background>
+          <background>background\btPokemonGrass</background>
+          <background>background\btPokemonGrassBig</background>
+          <background>background\btHealthBar</background>
         </backgrounds>
+        <background>background\bgPokemonFight</background>
       </backgrounds>
       <backgrounds name="Background">
         <background>background\backgroundA</background>
@@ -572,8 +580,10 @@
         <background>background\backgroundJ</background>
         <background>background\backgroundK</background>
         <background>background\backgroundL</background>
+        <background>background\backgroundM</background>
       </backgrounds>
       <background>background\background59</background>
+      <background>background\background83</background>
     </backgrounds>
     <backgrounds name="omguy">
       <backgrounds name="trash">
@@ -714,6 +724,9 @@
     </fonts>
     <fonts name="OMGUY">
       <font>fonts\font4</font>
+    </fonts>
+    <fonts name="Resofa">
+      <font>fonts\fontUIResofa</font>
     </fonts>
   </fonts>
   <objects name="objects">
@@ -1330,6 +1343,10 @@
         <object>objects\objRollGimmick</object>
         <object>objects\objBounceBallRoll</object>
       </objects>
+      <objects name="PokemonReosfa's">
+        <object>objects\objPokemonWriter</object>
+        <object>objects\OMGTVIntro</object>
+      </objects>
     </objects>
     <object>objects\oWaterPower1</object>
     <object>objects\oWaterPower1_spr</object>
@@ -1458,6 +1475,9 @@
         <rooms name="Cxk">
           <room>rooms\rCxkIntro</room>
           <room>rooms\rCxk</room>
+        </rooms>
+        <rooms name="Pokemon">
+          <room>rooms\rPokemonBoss</room>
         </rooms>
       </rooms>
       <rooms name="Avoidance">
