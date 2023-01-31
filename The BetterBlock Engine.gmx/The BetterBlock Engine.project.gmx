@@ -504,6 +504,7 @@
         <sprite>sprites\sprWaterActionShadow</sprite>
       </sprites>
       <sprite>sprites\sprBounceBallRoll</sprite>
+      <sprite>sprites\sprite307</sprite>
     </sprites>
     <sprite>sprites\sprBus</sprite>
     <sprite>sprites\sprWarpGuo</sprite>
