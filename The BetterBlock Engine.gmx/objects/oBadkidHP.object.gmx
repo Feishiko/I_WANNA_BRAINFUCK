@@ -3,7 +3,7 @@
   <spriteName>sRect</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>-190</depth>
+  <depth>-200</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -77,7 +77,7 @@
             <string>if(instance_exists(oBadkid)) {
     shader_set(shFan);
     shader_set_uniform_f(uHp, oBadkid.hp);
-    draw_sprite(sprite_index, -1, x - 100, y - 100);
+    draw_sprite(sprite_index, -1, x - 256/2, y - 256/2);
     shader_reset();
 }
 </string>

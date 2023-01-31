@@ -31,8 +31,8 @@ uniform float hp;
 void main()
 {
     vec2 uv = v_vTexcoord;
-    uv *= 5.3;
-    uv -= vec2(.32);
+    //uv *= 5.3;
+    //uv -= vec2(.32);
     vec2 toCenter = vec2(.5) - uv;
     float angle = atan(toCenter.y, toCenter.x);
     float radius = length(toCenter)*2.0;

@@ -1198,7 +1198,7 @@
         <object>objects\oBadkid</object>
         <object>objects\oBadkidHP</object>
         <object>objects\oBadkidNoise</object>
-        <object>objects\oRotated3d</object>
+        <object>objects\oCameraBadkid</object>
       </objects>
     </objects>
     <objects name="Resofa">
@@ -1425,7 +1425,6 @@
             <room>rooms\rTheGate2</room>
             <room>rooms\rTheGate</room>
           </rooms>
-          <room>rooms\rTheGate3</room>
         </rooms>
         <room>rooms\rWindow</room>
       </rooms>
