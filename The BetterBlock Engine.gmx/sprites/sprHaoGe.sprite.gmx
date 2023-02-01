@@ -2,10 +2,10 @@
 <sprite>
   <type>0</type>
   <xorig>117</xorig>
-  <yorigin>256</yorigin>
-  <colkind>1</colkind>
+  <yorigin>512</yorigin>
+  <colkind>0</colkind>
   <coltolerance>0</coltolerance>
-  <sepmasks>0</sepmasks>
+  <sepmasks>-1</sepmasks>
   <bboxmode>0</bboxmode>
   <bbox_left>0</bbox_left>
   <bbox_right>234</bbox_right>

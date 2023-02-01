@@ -435,7 +435,6 @@
       <sprite>sprites\sprMarioBlockEigh</sprite>
       <sprite>sprites\sprMarioBlockNigh</sprite>
       <sprite>sprites\sprMarioBlockQigh</sprite>
-      <sprite>sprites\sprEnemy</sprite>
       <sprite>sprites\sprBlackSpikeUp</sprite>
       <sprite>sprites\sprBlackSpikeRight</sprite>
       <sprite>sprites\sprBlackSpikeLeft</sprite>
@@ -450,6 +449,8 @@
       <sprite>sprites\sprSpinCxk</sprite>
       <sprite>sprites\sprSpinKid</sprite>
       <sprite>sprites\sprSpinCircle</sprite>
+      <sprite>sprites\sprBounceBallRoll</sprite>
+      <sprite>sprites\sprite307</sprite>
       <sprite>sprites\sprBlockUnderGrass</sprite>
       <sprite>sprites\sprBlack</sprite>
       <sprite>sprites\sprBlackScreen</sprite>
@@ -504,12 +505,12 @@
         <sprite>sprites\sprWaterMetal</sprite>
         <sprite>sprites\sprWaterActionShadow</sprite>
       </sprites>
-      <sprite>sprites\sprBounceBallRoll</sprite>
-      <sprite>sprites\sprite307</sprite>
       <sprites name="PokemonBoss">
         <sprite>sprites\sprHaoGe</sprite>
         <sprite>sprites\sprOMGTV</sprite>
+        <sprite>sprites\sprShuoDaoLi</sprite>
       </sprites>
+      <sprite>sprites\sprite311</sprite>
     </sprites>
     <sprite>sprites\sprBus</sprite>
     <sprite>sprites\sprWarpGuo</sprite>
@@ -581,6 +582,9 @@
         <background>background\backgroundK</background>
         <background>background\backgroundL</background>
         <background>background\backgroundM</background>
+        <background>background\backgroundN</background>
+        <background>background\backgroundO</background>
+        <background>background\backgroundP</background>
       </backgrounds>
       <background>background\background59</background>
       <background>background\background83</background>
@@ -1346,6 +1350,7 @@
       <objects name="PokemonReosfa's">
         <object>objects\objPokemonWriter</object>
         <object>objects\OMGTVIntro</object>
+        <object>objects\objShuoDaoLiPokemon</object>
       </objects>
     </objects>
     <object>objects\oWaterPower1</object>

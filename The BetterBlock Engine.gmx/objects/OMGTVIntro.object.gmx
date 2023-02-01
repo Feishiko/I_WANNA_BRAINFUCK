@@ -69,7 +69,6 @@ alarm[0]=150
 else if(d=1)
 {
 c=0.2
-audio_play_sound(sndXKDDX,0,false)
 objPokemonWriter.text="OMG TV:今天来点大家想看的东西"
 objPokemonWriter.alarm[2]=1
 alarm[0]=150
