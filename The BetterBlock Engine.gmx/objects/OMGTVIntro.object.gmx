@@ -62,7 +62,7 @@ x=1000
             <string>if(d=0)
 {
 c=0.2
-objPokemonWriter.text="OMG TV:大家好啊，我是你们亲爱的游戏制作人员之一"
+objPokemonWriter.text="OMG TV:大家好啊，我是OMGUY"
 objPokemonWriter.alarm[2]=1
 alarm[0]=150
 }
@@ -119,14 +119,14 @@ image_yscale=-sin(b)*c+iys
 if(select=1)
 {
 image_angle-=e
-e+=0.2
-hspeed+=0.1
+e+=0.3
+hspeed+=0.2
 a=random(255)
 }
 else
 {
 a=255
-hspeed=(xstart-x)/30
+hspeed=(xstart-x)/10
 }
 </string>
           </argument>
