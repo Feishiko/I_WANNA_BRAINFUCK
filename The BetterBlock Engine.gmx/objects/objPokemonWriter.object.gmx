@@ -114,10 +114,14 @@ alarm[0]=5
             <string>//gg=string_copy(text[www],0,iii)
 sao=string_length(text)
 gg=string_copy(text,0,iii)
+
 if(iii&lt;=sao)
 {
 iii+=1
+if(string_char_at(text,iii)!=" "&amp;&amp;string_char_at(text,iii)!="")
+{
 audio_play_sound(sndIT,0,false)
+}
 alarm[0]=3
 }
 </string>
@@ -177,7 +181,7 @@ draw_set_colour(c_black)
 //draw_text(x,y,"Kid:")
 if(unsp=0)
 {
-draw_text(x,y,gg)
+draw_text(x,y+16,gg)
 }
 draw_set_colour(c_black)
 </string>
