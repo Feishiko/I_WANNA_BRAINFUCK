@@ -38,7 +38,9 @@
         <sound>sound\sndWowSound1</sound>
         <sound>sound\sndWarp</sound>
         <sound>sound\sndHow</sound>
+        <sound>sound\sndSussy</sound>
         <sound>sound\sndZood_save</sound>
+        <sound>sound\sndWait</sound>
         <sound>sound\sndNormalSave</sound>
         <sound>sound\sound23</sound>
         <sounds name="Sus">
@@ -81,8 +83,16 @@
         <sound>sound\musBoshy</sound>
         <sound>sound\musGC2phase2</sound>
         <sound>sound\musRandomMedley</sound>
+        <sound>sound\musKirby</sound>
+        <sound>sound\musDesertWarp</sound>
         <sound>sound\musBoss0</sound>
+        <sound>sound\musDesertBruh</sound>
         <sound>sound\sound21</sound>
+        <sound>sound\musHell</sound>
+        <sound>sound\musXJL</sound>
+        <sound>sound\musDesertXJL</sound>
+        <sound>sound\musBugged</sound>
+        <sound>sound\musDuliu</sound>
         <sound>sound\sound20</sound>
         <sound>sound\musSaul</sound>
         <sounds name="part 2">
@@ -124,15 +134,6 @@
     <sound>sound\sndDisappear</sound>
     <sound>sound\sndPrinting</sound>
     <sound>sound\sndIT</sound>
-    <sound>sound\musHell</sound>
-    <sound>sound\musDesertXJL</sound>
-    <sound>sound\musXJL</sound>
-    <sound>sound\sndSussy</sound>
-    <sound>sound\sndWait</sound>
-    <sound>sound\musDesertWarp</sound>
-    <sound>sound\musDesertBruh</sound>
-    <sound>sound\musBugged</sound>
-    <sound>sound\musKirby</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="world">
@@ -523,6 +524,7 @@
     <sprite>sprites\sGM8Loading</sprite>
     <sprite>sprites\sGM8Loading2</sprite>
     <sprite>sprites\sDuliu</sprite>
+    <sprite>sprites\sBlack</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bAllTiles</background>
@@ -726,11 +728,11 @@
       <font>fonts\fontAscii</font>
       <font>fonts\fontShowing</font>
     </fonts>
-    <fonts name="OMGUY">
-      <font>fonts\font4</font>
-    </fonts>
     <fonts name="Resofa">
       <font>fonts\fontUIResofa</font>
+    </fonts>
+    <fonts name="OMGUY">
+      <font>fonts\font4</font>
     </fonts>
   </fonts>
   <objects name="objects">
@@ -1050,6 +1052,14 @@
         <object>objects\oTrgCreatedOBJ</object>
         <object>objects\oDrawBGdude</object>
         <object>objects\oWhite</object>
+        <objects name="SudokuIntroWarp">
+          <object>objects\oBlackIntroCreator</object>
+          <object>objects\oBlackIntroCreator2</object>
+          <object>objects\oPlayerSudokuLeft</object>
+          <object>objects\oPlayerSudokuRight</object>
+          <object>objects\oBlackbookIntro</object>
+          <object>objects\oBlackbookIntro2</object>
+        </objects>
       </objects>
       <objects name="XJL">
         <object>objects\oXJL_True</object>
@@ -1070,7 +1080,6 @@
         <object>objects\oSUSdude</object>
         <object>objects\oSaulNPC</object>
         <object>objects\oSaulNPC2</object>
-        <object>objects\oNPC3</object>
       </objects>
       <objects name="TheFakeEngine">
         <object>objects\oFakeError</object>
@@ -1085,6 +1094,7 @@
       <objects name="Kirby">
         <object>objects\oPlayerCures</object>
         <object>objects\oKirbyFeet</object>
+        <object>objects\oNPC3</object>
       </objects>
       <object>objects\objBusBoss</object>
       <object>objects\objBus</object>
@@ -1448,6 +1458,9 @@
         <rooms name="The Kirby">
           <room>rooms\rKirby1</room>
           <room>rooms\rKirby2</room>
+        </rooms>
+        <rooms name="TheDuliu">
+          <room>rooms\rDuliu</room>
         </rooms>
       </rooms>
       <room>rooms\rCrimsonPit</room>

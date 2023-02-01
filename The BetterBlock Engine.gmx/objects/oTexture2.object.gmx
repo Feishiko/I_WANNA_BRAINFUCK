@@ -78,6 +78,16 @@ inst.roomTo=rCrimsonMEME2
 inst.x=objPlayer.x
 inst.y=objPlayer.y
 }
+if(instance_exists(oNPC3) &amp;&amp; instance_exists(objPlayer) &amp;&amp; !instance_exists(oSaulThin))
+{
+with(objPlayer)
+{
+instance_destroy()
+}
+audio_play_sound(sndGlass,0,false)
+inst=instance_create(0,0,oBlackIntroCreator)
+inst.roomTo=rDuliu
+}
 </string>
           </argument>
         </arguments>
