@@ -63,6 +63,8 @@
         <sound>sound\sndDaoLiZhiGe</sound>
         <sound>sound\sndLaoMa</sound>
         <sound>sound\sndSB</sound>
+        <sound>sound\sndDJHAWSSDDD</sound>
+        <sound>sound\sndAoooooo</sound>
       </sounds>
     </sounds>
     <sounds name="music">
@@ -432,7 +434,6 @@
       <sprite>sprites\sprMarioBlockGigh</sprite>
       <sprite>sprites\sprMarioBlockSpining</sprite>
       <sprite>sprites\sprMarioBlockBigh</sprite>
-      <sprite>sprites\sprMarioBlockDigh</sprite>
       <sprite>sprites\sprMarioBlockEigh</sprite>
       <sprite>sprites\sprMarioBlockNigh</sprite>
       <sprite>sprites\sprMarioBlockQigh</sprite>
@@ -508,10 +509,11 @@
       </sprites>
       <sprites name="PokemonBoss">
         <sprite>sprites\sprHaoGe</sprite>
+        <sprite>sprites\sprDaogas</sprite>
         <sprite>sprites\sprOMGTV</sprite>
         <sprite>sprites\sprShuoDaoLi</sprite>
+        <sprite>sprites\sprPokeball</sprite>
       </sprites>
-      <sprite>sprites\sprite311</sprite>
     </sprites>
     <sprite>sprites\sprBus</sprite>
     <sprite>sprites\sprWarpGuo</sprite>
@@ -590,6 +592,7 @@
       </backgrounds>
       <background>background\background59</background>
       <background>background\background83</background>
+      <background>background\background92</background>
     </backgrounds>
     <backgrounds name="omguy">
       <backgrounds name="trash">
@@ -1361,8 +1364,8 @@
         <object>objects\objPokemonWriter</object>
         <object>objects\OMGTVIntro</object>
         <object>objects\objShuoDaoLiPokemon</object>
+        <object>objects\objPokeball</object>
       </objects>
-      <object>objects\objLaoMaNiuQu</object>
       <object>objects\objNiuQuBGM</object>
     </objects>
     <object>objects\oWaterPower1</object>

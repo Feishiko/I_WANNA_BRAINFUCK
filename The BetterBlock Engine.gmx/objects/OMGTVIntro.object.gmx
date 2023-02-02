@@ -42,6 +42,34 @@ x=1000
         </arguments>
       </action>
     </event>
+    <event eventtype="2" enumb="1">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>ins=instance_create(x,y,objPokeball)
+ins.hspeed=-2
+ins.vspeed=-2
+ins.obj=objShuoDaoLiPokemon
+objPokemonWriter.text="OMG TV sent out SDDL!"
+objPokemonWriter.alarm[2]=1
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="2" enumb="0">
       <action>
         <libid>1</libid>
@@ -61,17 +89,18 @@ x=1000
             <kind>1</kind>
             <string>if(d=0)
 {
-c=0.2
-objPokemonWriter.text="OMG TV:大家好啊，我是OMGUY家的TV"
+objPokemonWriter.text="OMG TV wants to fight!"
 objPokemonWriter.alarm[2]=1
-alarm[0]=150
+alarm[0]=110
 }
 else if(d=1)
 {
 c=0.2
-objPokemonWriter.text="OMG TV:今天来点大家想看的东西"
+objPokemonWriter.text="OMG TV:
+我要干啥事来着……              
+哦对了扔球球杀KID"
 objPokemonWriter.alarm[2]=1
-alarm[0]=150
+alarm[0]=180
 }
 else if(d=2)
 {
@@ -79,6 +108,7 @@ objPokemonWriter.text=""
 objPokemonWriter.alarm[2]=1
 select=1
 image_index=1
+alarm[1]=20
 }
 d+=1
 
@@ -122,6 +152,10 @@ image_angle-=e
 e+=0.3
 hspeed+=0.2
 a=random(255)
+if(x&gt;960)
+{
+instance_destroy()
+}
 }
 else
 {
@@ -151,6 +185,8 @@ hspeed=(xstart-x)/10
           <argument>
             <kind>1</kind>
             <string>
+if(select=0)
+{
 draw_set_font(fontUIResofa)
 draw_set_valign(fa_top)
 draw_set_halign(fa_left)
@@ -166,6 +202,7 @@ draw_set_colour(c_green)
 draw_rectangle(16,96,416,112,0)
 draw_set_colour(c_black)
 draw_rectangle(16,96,416,112,1)
+}
 draw_self()
 </string>
           </argument>
