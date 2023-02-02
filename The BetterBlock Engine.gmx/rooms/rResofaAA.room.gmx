@@ -144,6 +144,7 @@
     <instance objName="objWarp" x="176" y="16" name="inst_AB92DAD5" locked="0" code="roomTo = rResofaAB;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="onjSpinSpikeMovingDown" x="608" y="80" name="inst_FDBD5344" locked="0" code="t=90&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBetterSign" x="416" y="512" name="inst_FF847ADB" locked="0" code="Te = &quot;I'm the trigger&quot;;&#xA;color=c_black&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objNiuQuBGM" x="32" y="192" name="inst_AE78B428" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bAllTiles" x="0" y="256" w="32" h="32" xo="0" yo="0" id="10004441" name="inst_AA9A72E4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

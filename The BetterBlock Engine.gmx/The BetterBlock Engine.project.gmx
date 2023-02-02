@@ -1362,6 +1362,8 @@
         <object>objects\OMGTVIntro</object>
         <object>objects\objShuoDaoLiPokemon</object>
       </objects>
+      <object>objects\objLaoMaNiuQu</object>
+      <object>objects\objNiuQuBGM</object>
     </objects>
     <object>objects\oWaterPower1</object>
     <object>objects\oWaterPower1_spr</object>
