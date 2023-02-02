@@ -642,6 +642,7 @@
         <background>background\bgCongrats</background>
       </backgrounds>
     </backgrounds>
+    <background>background\bgWho</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\pthD</path>

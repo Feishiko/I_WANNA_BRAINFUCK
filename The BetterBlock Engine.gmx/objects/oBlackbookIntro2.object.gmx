@@ -26,6 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>//visible=0
+abx=floor(x/800)
+aby=floor(y/608)
 </string>
           </argument>
         </arguments>
@@ -63,6 +65,29 @@
           <argument>
             <kind>1</kind>
             <string></string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="64">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>draw_background_part(bgWho,x-(800*abx),y-(608*aby),32,32,x,y)
+</string>
           </argument>
         </arguments>
       </action>
