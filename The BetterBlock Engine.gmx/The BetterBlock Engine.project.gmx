@@ -137,6 +137,7 @@
     <sound>sound\sndDisappear</sound>
     <sound>sound\sndPrinting</sound>
     <sound>sound\sndIT</sound>
+    <sound>sound\musEscape</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="world">
@@ -931,6 +932,9 @@
     <objects name="triggers">
       <object>objects\objFreeTrigger</object>
       <object>objects\objTriggerButton</object>
+      <objects name="OMGUY">
+        <object>objects\objTriggerDude</object>
+      </objects>
       <object>objects\objKillerTrigger</object>
       <object>objects\objSpikeTriggerUp</object>
       <object>objects\objSpikeTriggerRight</object>
@@ -1420,6 +1424,7 @@
     <object>objects\oWaterPower2_spr</object>
     <object>objects\oGreenBugged</object>
     <object>objects\oCancer</object>
+    <object>objects\oDeleteDuliu</object>
   </objects>
   <rooms name="rooms">
     <rooms name="init">
@@ -1513,6 +1518,7 @@
         </rooms>
         <rooms name="TheDuliu">
           <room>rooms\rDuliu</room>
+          <room>rooms\rDuliu2</room>
         </rooms>
       </rooms>
       <room>rooms\rCrimsonPit</room>
