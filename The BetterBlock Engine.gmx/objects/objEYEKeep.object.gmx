@@ -53,7 +53,10 @@ a=3
 repeat(2000)
 {
 
-if(!place_meeting(x+lengthdir_x(len,image_angle),y+lengthdir_y(len,image_angle),objBlock))
+if(
+//!place_meeting(x+lengthdir_x(len,image_angle),y+lengthdir_y(len,image_angle),objBlock)
+collision_point(x+lengthdir_x(len,image_angle),y+lengthdir_y(len,image_angle),objBlock,1,1)
+)
 {
 len+=1
 }
@@ -64,7 +67,10 @@ yy=y+lengthdir_y(len,image_angle)
 }
 
 }
-if(!place_meeting(x+lengthdir_x(len,image_angle),y+lengthdir_y(len,image_angle),objBlock))
+if(
+//!place_meeting(x+lengthdir_x(len,image_angle),y+lengthdir_y(len,image_angle),objBlock)
+collision_point(x+lengthdir_x(len,image_angle),y+lengthdir_y(len,image_angle),objBlock,1,1)
+)
 {
 xx=x+lengthdir_x(800,image_angle)
 yy=y+lengthdir_y(800,image_angle)
