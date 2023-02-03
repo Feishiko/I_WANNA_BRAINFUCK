@@ -112,22 +112,23 @@ sur = surface_create(room_width, room_height);
 }
 surface_set_target(sur) 
 
-if(a&gt;10)
-{
-draw_clear_alpha(c_black,0)
-}
-else
-{
+//if(a&gt;10)
+//{
+//draw_clear_alpha(c_black,0)
+//}
+//else
+//{
+draw_rectangle_colour(0,0,800,608,c_black,c_black,c_black,c_black,0)
 draw_set_blend_mode(bm_add)
 if (surface_exists(application_surface)) 
 {
-draw_surface_ext(application_surface,400-t*400,304-1/t*304,t,1/t,0,c_white,0.024*a/2)
-draw_surface_ext(application_surface,400-1/t*400,304-t*304,1/t,t,0,c_white,0.024*a/2)
-draw_surface_ext(application_surface,0,0,1,1,0,c_white,0.18*a/2)
+draw_surface_ext(application_surface,400-t*400,304-1/t*304,t,1/t,0,c_white,0.014+a/72)
+draw_surface_ext(application_surface,400-1/t*400,304-t*304,1/t,t,0,c_white,0.014+a/72)
+draw_surface_ext(application_surface,0,0,1,1,0,c_white,0.18*(a+10)/2)
 }
 draw_set_blend_mode(bm_normal)
 
-}
+//}
 
 surface_reset_target()
 
