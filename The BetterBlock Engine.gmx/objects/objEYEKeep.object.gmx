@@ -64,6 +64,7 @@ else
 {
 xx=x+lengthdir_x(len,image_angle)
 yy=y+lengthdir_y(len,image_angle)
+break
 }
 
 }
