@@ -143,6 +143,7 @@
     <instance objName="objWarp" x="160" y="608" name="inst_1C998ABD" locked="0" code="roomTo = rmBadkid;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWarp" x="512" y="480" name="inst_46FE79D3" locked="0" code="roomTo=rPokemonBoss" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWarp" x="448" y="544" name="inst_EE212A91" locked="0" code="roomTo=rTheGate&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWarp" x="864" y="608" name="inst_58B77D8A" locked="0" code="roomTo=rCaveA&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bAllTiles" x="0" y="704" w="32" h="32" xo="0" yo="96" id="10003900" name="inst_FDAC197D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

@@ -125,6 +125,7 @@
         <sound>sound\musWaterArea</sound>
         <sound>sound\musWaterAction</sound>
         <sound>sound\musRoll</sound>
+        <sound>sound\musCaveYeah</sound>
       </sounds>
     </sounds>
     <sound>sound\sndBossHitRemastered</sound>
@@ -192,6 +193,9 @@
     <sprites name="killers">
       <sprite>sprites\sprSpikeUp</sprite>
       <sprite>sprites\sprSpikeUpCenter</sprite>
+      <sprite>sprites\sprSpikeRightCenter</sprite>
+      <sprite>sprites\sprSpikeDownCenter</sprite>
+      <sprite>sprites\sprSpikeLeftCenter</sprite>
       <sprites name="K3">
         <sprite>sprites\sprSpikeUpK3</sprite>
         <sprite>sprites\sprSpikeLeftK3</sprite>
@@ -514,6 +518,10 @@
         <sprite>sprites\sprShuoDaoLi</sprite>
         <sprite>sprites\sprPokeball</sprite>
       </sprites>
+      <sprites name="Cave">
+        <sprite>sprites\sprCaveBackground</sprite>
+      </sprites>
+      <sprite>sprites\sprWhiteWave</sprite>
     </sprites>
     <sprite>sprites\sprBus</sprite>
     <sprite>sprites\sprWarpGuo</sprite>
@@ -560,6 +568,7 @@
         <background>background\bgColor</background>
         <background>background\bgRoll</background>
         <background>background\bgCaveUnderwater</background>
+        <background>background\bgCave</background>
         <backgrounds name="BackTile">
           <background>background\btSign</background>
           <background>background\btMetal</background>
@@ -587,8 +596,8 @@
         <background>background\backgroundL</background>
         <background>background\backgroundM</background>
         <background>background\backgroundN</background>
-        <background>background\backgroundO</background>
         <background>background\backgroundP</background>
+        <background>background\backgroundO</background>
       </backgrounds>
       <background>background\background59</background>
       <background>background\background83</background>
@@ -1313,8 +1322,6 @@
         <object>objects\objSpikeBlackLeft</object>
         <object>objects\objSpikeBlackRight</object>
         <object>objects\objStepRoom</object>
-        <object>objects\objGravUpNo</object>
-        <object>objects\objGravDownNo</object>
         <object>objects\objSurfaceStep</object>
         <object>objects\objSpikeBlackUpInvisible</object>
         <object>objects\objSpikeBlackRightInvisible</object>
@@ -1368,6 +1375,17 @@
         <object>objects\objPokeball</object>
       </objects>
       <object>objects\objNiuQuBGM</object>
+      <objects name="Cave">
+        <object>objects\objCaveSurface</object>
+        <object>objects\objSpikeUpJue</object>
+        <object>objects\objSpikeLeftJue</object>
+        <object>objects\objSpikeDownJue</object>
+        <object>objects\objSpikeRightJue</object>
+        <object>objects\objCaveGimmick</object>
+        <object>objects\objWaveCave</object>
+      </objects>
+      <object>objects\objGravUpNo</object>
+      <object>objects\objGravDownNo</object>
     </objects>
     <object>objects\oWaterPower1</object>
     <object>objects\oWaterPower1_spr</object>
@@ -1526,6 +1544,9 @@
         </rooms>
         <rooms name="Roll">
           <room>rooms\rRollA</room>
+        </rooms>
+        <rooms name="Cave">
+          <room>rooms\rCaveA</room>
         </rooms>
       </rooms>
     </rooms>
