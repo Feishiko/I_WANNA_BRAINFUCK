@@ -26,11 +26,36 @@
           <argument>
             <kind>1</kind>
             <string>sur=surface_create(800,608)
-t=random_range(0.8,1)
+t=random_range(0.5,1)
 c=choose(-1,1)
 od=0.2
 ss=0.2
-a=0
+a=20
+alarm[0]=3000/119.33
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>a=20
+alarm[0]=3000/119.33
 </string>
           </argument>
         </arguments>
@@ -53,20 +78,27 @@ a=0
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(t&gt;1.2)
+            <string>if(t&gt;1.5)
 {
 ss=0.2
 c=-1
-t=1.2
+t=1.5
 }
-else if(t&lt;0.8)
+else if(t&lt;0.5)
 {
 ss=0.2
 c=1
-t=0.8
+t=0.5
 }
 ss+=od
-a+=3000/119.33*0.05
+if(a&gt;0)
+{
+a-=1
+}
+else
+{
+a=0
+}
 if(c&gt;=0){
 t+=1/(3000/119.33)*ss
 }
@@ -79,16 +111,27 @@ if (!surface_exists(sur))
 sur = surface_create(room_width, room_height);
 }
 surface_set_target(sur) 
+
+if(a&gt;10)
+{
 draw_clear_alpha(c_black,0)
+}
+else
+{
 draw_set_blend_mode(bm_add)
 if (surface_exists(application_surface)) 
 {
-draw_surface_ext(application_surface,400-t*400,304-1/t*304,t,1/t,0,c_white,0.3)
-draw_surface_ext(application_surface,400-1/t*400,304-t*304,1/t,t,0,c_white,0.3)
-draw_surface_ext(application_surface,0,0,1,1,0,c_white,sin(a)*0.2+1.2)
+draw_surface_ext(application_surface,400-t*400,304-1/t*304,t,1/t,0,c_white,0.024*a/2)
+draw_surface_ext(application_surface,400-1/t*400,304-t*304,1/t,t,0,c_white,0.024*a/2)
+draw_surface_ext(application_surface,0,0,1,1,0,c_white,0.18*a/2)
 }
 draw_set_blend_mode(bm_normal)
+
+}
+
 surface_reset_target()
+
+
 
 
 </string>
