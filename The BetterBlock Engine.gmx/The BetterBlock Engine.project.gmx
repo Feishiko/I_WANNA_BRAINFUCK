@@ -537,9 +537,12 @@
         <sprite>sprites\sprPokeball</sprite>
       </sprites>
       <sprites name="Cave">
+        <sprite>sprites\sprWhiteWave</sprite>
+        <sprite>sprites\sprLaserRedShape</sprite>
         <sprite>sprites\sprCaveBackground</sprite>
+        <sprite>sprites\sprCaveBlock</sprite>
+        <sprite>sprites\sprEYE</sprite>
       </sprites>
-      <sprite>sprites\sprWhiteWave</sprite>
     </sprites>
     <sprite>sprites\sprBus</sprite>
     <sprite>sprites\sprWarpGuo</sprite>
@@ -1405,6 +1408,8 @@
         <object>objects\objSpikeRightJue</object>
         <object>objects\objCaveGimmick</object>
         <object>objects\objWaveCave</object>
+        <object>objects\objLaserPoint</object>
+        <object>objects\objEYEKeep</object>
       </objects>
       <object>objects\objGravUpNo</object>
       <object>objects\objGravDownNo</object>
@@ -1570,6 +1575,7 @@
         </rooms>
         <rooms name="Cave">
           <room>rooms\rCaveA</room>
+          <room>rooms\rCaveB</room>
         </rooms>
       </rooms>
     </rooms>
