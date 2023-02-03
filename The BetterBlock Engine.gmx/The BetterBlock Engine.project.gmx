@@ -210,6 +210,12 @@
       <sprite>sprites\sprMiniRight</sprite>
       <sprite>sprites\sprMiniLeft</sprite>
       <sprite>sprites\sprMiniDown</sprite>
+      <sprites name="Cancer">
+        <sprite>sprites\sCancerSpikeUp</sprite>
+        <sprite>sprites\sCancerSpikeRight</sprite>
+        <sprite>sprites\sCancerSpikeDown</sprite>
+        <sprite>sprites\sCancerSpikeLeft</sprite>
+      </sprites>
       <sprite>sprites\sprCherry</sprite>
       <sprite>sprites\sprBetterBlockHammer</sprite>
       <sprite>sprites\sprBetterBlockHammerBro</sprite>
@@ -225,6 +231,7 @@
       <sprite>sprites\sprWalljumpRFloat</sprite>
       <sprite>sprites\sprWalljumpL</sprite>
       <sprite>sprites\sprJumpRefresher</sprite>
+      <sprite>sprites\sprJumpRefresher2</sprite>
       <sprite>sprites\sprSign</sprite>
       <sprite>sprites\sprGravityUp</sprite>
       <sprite>sprites\sprRandomGrav</sprite>
@@ -355,6 +362,17 @@
         <sprite>sprites\sWait</sprite>
         <sprite>sprites\sSUSdude</sprite>
         <sprite>sprites\sSUSdude2</sprite>
+      </sprites>
+      <sprites name="Duliu">
+        <sprite>sprites\sBlack</sprite>
+        <sprite>sprites\sDuliuBlock</sprite>
+        <sprite>sprites\sDuliuBlock2</sprite>
+        <sprite>sprites\sGM8Loading</sprite>
+        <sprite>sprites\sErrorFake</sprite>
+        <sprite>sprites\sBrainFuck_exe</sprite>
+        <sprite>sprites\sTextureKuang</sprite>
+        <sprite>sprites\sGM8Loading2</sprite>
+        <sprite>sprites\sDuliu</sprite>
       </sprites>
       <sprite>sprites\sprBlackOMG</sprite>
       <sprites name="saulFakeman">
@@ -527,14 +545,8 @@
     <sprite>sprites\sprWarpGuo</sprite>
     <sprite>sprites\sSweepor</sprite>
     <sprite>sprites\sPlayerKillerCenter</sprite>
-    <sprite>sprites\sTextureKuang</sprite>
     <sprite>sprites\sPaper</sprite>
-    <sprite>sprites\sBrainFuck_exe</sprite>
-    <sprite>sprites\sErrorFake</sprite>
-    <sprite>sprites\sGM8Loading</sprite>
-    <sprite>sprites\sGM8Loading2</sprite>
-    <sprite>sprites\sDuliu</sprite>
-    <sprite>sprites\sBlack</sprite>
+    <sprite>sprites\sCancel</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bAllTiles</background>
@@ -652,6 +664,7 @@
       </backgrounds>
     </backgrounds>
     <background>background\bgWho</background>
+    <background>background\bgDuliu</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\pthD</path>
@@ -791,6 +804,7 @@
         <object>objects\oWaterBlock</object>
         <object>objects\objBetterBlockDonutBlock</object>
         <objects name="OMGUY">
+          <object>objects\oDuliuBlock</object>
           <object>objects\oSand</object>
         </objects>
         <object>objects\objBetterBlockExpandCtrl</object>
@@ -866,7 +880,14 @@
       <object>objects\objSpikeDown</object>
       <objects name="OMGUY">
         <object>objects\objSpikeCreatorUp</object>
+        <object>objects\oInvisKiller</object>
         <object>objects\objSpikeCreatorRight</object>
+        <objects name="Duliu">
+          <object>objects\oCancerSpikeUp</object>
+          <object>objects\oCancerSpikeDown</object>
+          <object>objects\oCancerSpikeLeft</object>
+          <object>objects\oCancerSpikeRight</object>
+        </objects>
         <object>objects\objSpikeCreatorDown</object>
         <object>objects\objSpikeCreatorLeft</object>
       </objects>
@@ -887,6 +908,7 @@
       <object>objects\objCherryBounceLat</object>
       <object>objects\objCherryBounceVert</object>
       <object>objects\objKillerBlock</object>
+      <object>objects\oKillerDuliu</object>
       <objects name="bosses">
         <object>objects\objCherryEnemyTest</object>
         <object>objects\objCherryBossTest</object>
@@ -1392,6 +1414,7 @@
     <object>objects\oWaterPower2</object>
     <object>objects\oWaterPower2_spr</object>
     <object>objects\oGreenBugged</object>
+    <object>objects\oCancer</object>
   </objects>
   <rooms name="rooms">
     <rooms name="init">

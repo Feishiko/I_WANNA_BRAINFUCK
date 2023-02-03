@@ -126,7 +126,7 @@
     <instance objName="objMovingPlatform" x="224" y="320" name="inst_B83995E9" locked="0" code="vspeed = -3;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objMovingPlatform" x="288" y="320" name="inst_113A700E" locked="0" code="vspeed = 3;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objMovingPlatform" x="352" y="320" name="inst_A35BE52D" locked="0" code="vspeed = -3;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objMovingPlatform" x="416" y="320" name="inst_E26886E5" locked="0" code="vspeed = 3;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objMovingPlatform" x="416" y="320" name="inst_E26886E5" locked="0" code="vspeed = 3;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objMovingPlatform" x="480" y="320" name="inst_5B8F5ACC" locked="0" code="vspeed = -3;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objMovingPlatform" x="544" y="320" name="inst_8A0EA2D4" locked="0" code="vspeed = 3;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objMovingPlatform" x="608" y="320" name="inst_0381C9AB" locked="0" code="vspeed = -3;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

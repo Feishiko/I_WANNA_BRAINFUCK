@@ -95,7 +95,7 @@ alarm[3]=400
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>audio_play_sound(sndDisappear,0,false)
+            <string>audio_play_sound(sndAAAA,0,false)
 spd=10
 direction*=-1
 </string>

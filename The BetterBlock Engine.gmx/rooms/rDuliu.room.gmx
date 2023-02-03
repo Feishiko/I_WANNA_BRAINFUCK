@@ -3,8 +3,8 @@
   <caption></caption>
   <width>800</width>
   <height>608</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>16</vsnap>
+  <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>50</speed>
   <persistent>0</persistent>
@@ -31,7 +31,7 @@
     <yoffset>11010215</yoffset>
   </makerSettings>
   <backgrounds>
-    <background visible="-1" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="0" name="bgDuliu" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="-1"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -52,14 +52,173 @@
   </views>
   <instances>
     <instance objName="oBlackIntroCreator2" x="0" y="0" name="inst_C17812D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBlock" x="0" y="0" name="inst_2BDFCF6D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBlock" x="0" y="32" name="inst_F9AD8EA8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBlock" x="0" y="64" name="inst_00E47A2C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBlock" x="0" y="96" name="inst_FE5C1E2C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBlock" x="32" y="96" name="inst_66E41243" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlayerStart" x="32" y="64" name="inst_AE626D4A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlayMusic" x="32" y="0" name="inst_E5D852FD" locked="0" code="BGM=musDuliu&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSave" x="64" y="64" name="inst_D60A449E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="32" y="96" name="inst_D1334D18" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="0" y="96" name="inst_E511C3B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="0" y="64" name="inst_A57A2CD9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="0" y="32" name="inst_7DC3FF31" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="0" y="0" name="inst_32817A4B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="96" y="0" name="inst_CFE7AAFA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="96" y="32" name="inst_97AD8E9C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="64" y="96" name="inst_CAB0461B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="96" y="96" name="inst_8E167F6D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="96" y="128" name="inst_8F6C1440" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="96" y="160" name="inst_795A93AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="64" y="160" name="inst_8446B189" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="64" y="128" name="inst_DB2DF45A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="32" y="128" name="inst_35B7BD2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="32" y="160" name="inst_F651E0BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="0" y="160" name="inst_04EFC8AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="0" y="128" name="inst_18C3B26F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCancer" x="672" y="0" name="inst_45CE156D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oPlayerCures" x="0" y="0" name="inst_60917436" locked="0" code="mode=2&#xA;image_xscale=90&#xA;image_yscale=90&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="192" y="0" name="inst_672707BE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="224" y="0" name="inst_4D238C52" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="192" y="192" name="inst_A896B2E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="224" y="192" name="inst_118D17CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="256" y="192" name="inst_E92A0AEC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="288" y="192" name="inst_48641C08" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="320" y="192" name="inst_D43129FA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="352" y="192" name="inst_6257ADC5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="384" y="192" name="inst_22A67EC6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="256" y="0" name="inst_5293CB04" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="288" y="0" name="inst_DD1F2463" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="320" y="0" name="inst_9AD85880" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="352" y="0" name="inst_A8A98EDC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="384" y="0" name="inst_93754EE7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="416" y="0" name="inst_81D25E35" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="448" y="0" name="inst_3A6FC625" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="416" y="32" name="inst_672B0D73" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="416" y="64" name="inst_8326D344" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="480" y="96" name="inst_AAB33012" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="480" y="192" name="inst_9F3E6EB7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="480" y="160" name="inst_379A190A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objTriggerButton" x="480" y="32" name="inst_41337A0C" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCancerSpikeUp" x="224" y="160" name="inst_BAFBEA33" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCancerSpikeUp" x="256" y="160" name="inst_D684F69B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCancerSpikeUp" x="288" y="160" name="inst_4DC9A5AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCancerSpikeUp" x="320" y="160" name="inst_8A075B91" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCancerSpikeUp" x="352" y="160" name="inst_E698E91C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCancerSpikeUp" x="384" y="160" name="inst_3F20DE7D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCancerSpikeDown" x="96" y="192" name="inst_5A679EFA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCancerSpikeDown" x="64" y="192" name="inst_55CAC35E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCancerSpikeRight" x="128" y="96" name="inst_6CD83BFC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCancerSpikeRight" x="128" y="128" name="inst_7397A493" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCancerSpikeRight" x="160" y="112" name="inst_AC9B739D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCancerSpikeRight" x="128" y="32" name="inst_E2B4410F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCancerSpikeRight" x="128" y="0" name="inst_1FA17B33" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCancerSpikeRight" x="160" y="16" name="inst_88ADCF67" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCancerSpikeUp" x="80" y="256" name="inst_098B6FDD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="80" y="288" name="inst_758D2D60" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="192" y="224" name="inst_122BF93D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="192" y="256" name="inst_F8C08AE2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="192" y="288" name="inst_ECE52000" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="80" y="320" name="inst_D851C636" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="80" y="352" name="inst_4F33C6CC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="0" y="192" name="inst_DD5E9B45" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="0" y="224" name="inst_50F45F4E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="0" y="256" name="inst_78DCFF99" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="0" y="288" name="inst_EF599D9A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="0" y="320" name="inst_78B20F1C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="0" y="352" name="inst_E37FCF6D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="80" y="384" name="inst_6539CDDC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="80" y="416" name="inst_73DE9716" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCancerSpikeUp" x="160" y="288" name="inst_18DED43A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCancerSpikeUp" x="128" y="288" name="inst_81C44EBF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="128" y="320" name="inst_CD6275D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="160" y="320" name="inst_11489A53" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="192" y="320" name="inst_C8CCD077" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCancerSpikeRight" x="112" y="352" name="inst_0C7A20DB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWalljumpR" x="80" y="288" name="inst_B89FEBC4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWalljumpR" x="80" y="320" name="inst_0D275A56" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWalljumpR" x="80" y="352" name="inst_A23E7545" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWalljumpR" x="80" y="384" name="inst_B696E107" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWalljumpR" x="80" y="416" name="inst_4094AEA2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCancerSpikeLeft" x="48" y="336" name="inst_6E80CB1C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCancerSpikeRight" x="32" y="448" name="inst_3BE08945" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="0" y="384" name="inst_32B6F031" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="0" y="416" name="inst_3B6300DE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="0" y="448" name="inst_A17D7B32" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWalljumpL" x="0" y="352" name="inst_56645083" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWalljumpL" x="0" y="384" name="inst_6D874578" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWalljumpL" x="0" y="416" name="inst_5CBE158B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCancerSpikeUp" x="64" y="480" name="inst_D591624F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="64" y="512" name="inst_3E01A0B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="64" y="544" name="inst_148FE632" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="64" y="576" name="inst_78008E35" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="512" y="96" name="inst_6B3DF350" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="512" y="64" name="inst_262D44E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="512" y="32" name="inst_5393E8AD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="480" y="0" name="inst_490DD4E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="512" y="0" name="inst_5B69FA79" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="640" y="0" name="inst_F95087EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="640" y="32" name="inst_14E9309E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="640" y="64" name="inst_FFE442C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="640" y="96" name="inst_67A1CB02" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="640" y="128" name="inst_0852B71C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="672" y="128" name="inst_B943546D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="704" y="128" name="inst_4D7F5717" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="736" y="128" name="inst_AE8B4C5A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="768" y="128" name="inst_71F5E190" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="608" y="96" name="inst_DBE8BCB4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="576" y="96" name="inst_F58295F6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="544" y="96" name="inst_12F04F93" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="544" y="64" name="inst_BD9FA915" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="544" y="32" name="inst_8FF5A507" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="544" y="0" name="inst_88FD9F73" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="576" y="0" name="inst_1CC7FA90" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="608" y="0" name="inst_18293290" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="608" y="32" name="inst_1D2D0E7A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="608" y="64" name="inst_0FB726C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="576" y="64" name="inst_8322FA11" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="576" y="32" name="inst_82438509" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCancerSpikeDown" x="512" y="128" name="inst_5CC98709" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWalljumpL" x="64" y="512" name="inst_E9F2935C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWalljumpL" x="64" y="544" name="inst_315B644B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWalljumpL" x="64" y="576" name="inst_DE76AB31" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="160" y="480" name="inst_844778FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="192" y="480" name="inst_9F22CB1F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="224" y="480" name="inst_2ED36A83" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWater2" x="224" y="256" name="inst_83AACB6F" locked="0" code="" scaleX="1" scaleY="7" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="256" y="256" name="inst_086BAE5B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="288" y="256" name="inst_F8B7254D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="320" y="256" name="inst_F90F5B4E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="352" y="256" name="inst_83F0DE13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="256" y="288" name="inst_5D19958B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="256" y="320" name="inst_B26933B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="256" y="352" name="inst_28D86B21" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="256" y="384" name="inst_0DC73CA3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="256" y="480" name="inst_34B2981C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objGravityDown" x="288" y="224" name="inst_14981184" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="160" y="512" name="inst_B6C58CB8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="416" y="256" name="inst_56DC9B3F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="448" y="256" name="inst_3F67DDEF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="480" y="256" name="inst_55A3AC77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="480" y="224" name="inst_04514A20" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="512" y="256" name="inst_B79DFF72" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objMovingPlatform" x="128" y="480" name="inst_742CF5D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCancerSpikeUp" x="512" y="224" name="inst_2A563DB7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCherryBounceVert" x="240" y="384" name="inst_807EA894" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBlock" x="224" y="192" name="inst_C7972FD5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBlock" x="224" y="480" name="inst_B6A00967" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBlock" x="416" y="256" name="inst_6118B154" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBlock" x="288" y="288" name="inst_1E1AA366" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="288" y="288" name="inst_2D33305E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objGravityUp" x="288" y="480" name="inst_9E47A13A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oDuliuBlock" x="384" y="256" name="inst_A95A99A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWalljumpR" x="480" y="160" name="inst_77A7235F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWalljumpR" x="480" y="192" name="inst_7DD8244A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWalljumpR" x="480" y="224" name="inst_8A512A51" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWarp" x="544" y="160" name="inst_449CCAAD" locked="0" code="" scaleX="2.5" scaleY="2.5" colour="4294967295" rotation="0"/>
+    <instance objName="oCancerSpikeDown" x="320" y="288" name="inst_CCEE7197" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCancerSpikeDown" x="352" y="288" name="inst_019D16E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCancerSpikeDown" x="384" y="288" name="inst_976B5D70" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCancerSpikeDown" x="416" y="288" name="inst_B3996166" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCancerSpikeDown" x="448" y="288" name="inst_E41EE98A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCancerSpikeDown" x="480" y="288" name="inst_5F29A7D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oCancerSpikeDown" x="512" y="288" name="inst_170927D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

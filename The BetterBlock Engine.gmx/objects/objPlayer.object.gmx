@@ -30,6 +30,7 @@ weird1=0
 weird2=0
 asd=0
 alarm[0]=35
+alarm[1]=5
 frozen = false; //sets if the player can move or not
 rote=0
 jump = 8.5 * global.grav; //set how fast the player jumps
@@ -109,6 +110,39 @@ with (objBow)
         </arguments>
       </action>
     </event>
+    <event eventtype="2" enumb="1">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if(weird1=1 &amp;&amp; weird2=0)
+{
+jump = 8.5 * global.grav * random_range(0.1,1)//set how fast the player jumps
+jump2 = 7 * global.grav  * random_range(0.1,1)//sets h
+}
+if(weird2=1)
+{
+jump = 8.5 * global.grav * 0.3//set how fast the player jumps
+jump2 = 7 * global.grav  * 0.3
+}
+alarm[1]=5
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="2" enumb="0">
       <action>
         <libid>1</libid>
@@ -130,16 +164,6 @@ with (objBow)
 if(weird=1)
 {
 asd=choose(0,1)
-}
-if(weird1=1 &amp;&amp; weird2=0)
-{
-jump = 8.5 * global.grav * random_range(0.1,1)//set how fast the player jumps
-jump2 = 7 * global.grav  * random_range(0.1,1)//sets h
-}
-if(weird2=1)
-{
-jump = 8.5 * global.grav * 0.3//set how fast the player jumps
-jump2 = 7 * global.grav  * 0.3
 }
 alarm[0]=35
 </string>
