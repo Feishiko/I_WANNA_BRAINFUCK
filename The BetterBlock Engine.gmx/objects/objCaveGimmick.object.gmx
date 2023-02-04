@@ -29,7 +29,6 @@
 c=1
 od=0.05
 ss=0.2
-image_blend=make_colour_rgb(92,67,18)
 alarm[0]=3000/119.33*4
 with(objSpikeUp)
 {

@@ -1413,7 +1413,8 @@
         <object>objects\objCaveGimmick</object>
         <object>objects\objWaveCave</object>
         <object>objects\objLaserPoint</object>
-        <object>objects\objEYEKeep</object>
+        <object>objects\objEYEKeepSpin</object>
+        <object>objects\objEYEKeepFollow</object>
       </objects>
       <object>objects\objGravUpNo</object>
       <object>objects\objGravDownNo</object>
@@ -1582,6 +1583,7 @@
         <rooms name="Cave">
           <room>rooms\rCaveA</room>
           <room>rooms\rCaveB</room>
+          <room>rooms\rCaveC</room>
         </rooms>
       </rooms>
     </rooms>
