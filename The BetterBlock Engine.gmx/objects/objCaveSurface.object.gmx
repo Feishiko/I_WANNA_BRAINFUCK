@@ -119,13 +119,14 @@ surface_set_target(sur)
 //else
 //{
 draw_rectangle_colour(0,0,800,608,c_black,c_black,c_black,c_black,0)
-repeat(2)
-{
+
 draw_set_blend_mode(bm_add)
 if (surface_exists(application_surface)) 
 {
 draw_surface_ext(application_surface,400-1/t*400,304-t*304,1/t,t,0,c_white,0.13+(a/10+10)/92)
 //draw_surface_ext(application_surface,400-1/t*400,304-t*304,1/t,t,0,c_white,0.01+(a/10+10)/102)
+repeat(2)
+{
 draw_surface_ext(application_surface,0,0,1,1,0,c_white,0.6+(a+12)/82)
 }
 }
