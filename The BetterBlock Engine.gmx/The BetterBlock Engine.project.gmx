@@ -65,6 +65,9 @@
         <sound>sound\sndSB</sound>
         <sound>sound\sndDJHAWSSDDD</sound>
         <sound>sound\sndAoooooo</sound>
+        <sound>sound\sndNUKE</sound>
+        <sound>sound\sndICE</sound>
+        <sound>sound\sndICEWC</sound>
       </sounds>
     </sounds>
     <sounds name="music">
@@ -536,6 +539,8 @@
         <sprite>sprites\sprOMGTV</sprite>
         <sprite>sprites\sprShuoDaoLi</sprite>
         <sprite>sprites\sprPokeball</sprite>
+        <sprite>sprites\sprDaoLiSound</sprite>
+        <sprite>sprites\sprNUKE</sprite>
       </sprites>
       <sprites name="Cave">
         <sprite>sprites\sprWhiteWave</sprite>
@@ -1402,6 +1407,7 @@
         <object>objects\OMGTVIntro</object>
         <object>objects\objShuoDaoLiPokemon</object>
         <object>objects\objPokeball</object>
+        <object>objects\objDaoLiSound</object>
       </objects>
       <object>objects\objNiuQuBGM</object>
       <objects name="Cave">

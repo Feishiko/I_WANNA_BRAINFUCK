@@ -3,7 +3,7 @@
   <spriteName>sprShuoDaoLi</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-4</depth>
   <persistent>0</persistent>
   <parentName>objPlayerKiller</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -30,8 +30,61 @@ image_speed=0.25
 maxHP=20
 curHP=maxHP
 died=0
+t=0
 audio_play_sound(sndDJHAWSSDDD,0,0)
-alarm[0]=254
+alarm[0]=304
+song=0
+chose=1
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="2">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>song=0
+alarm[0]=80
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="1">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>
+audio_play_sound(sndDaoLiZhiGe,0,0)
+song=1
+alarm[2]=1500
 </string>
           </argument>
         </arguments>
@@ -54,7 +107,30 @@ alarm[0]=254
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>chose=choose(1,2,3,4)
+            <string>//chose=choose(1,2,3,4)
+if(chose=1)
+{
+objPokemonWriter.text="Foe SDDL used DAOLI SONG!"
+objPokemonWriter.alarm[2]=1
+alarm[1]=50
+}
+if(chose=2)
+{
+objPokemonWriter.text="Foe SDDL used NINJUTSU!"
+objPokemonWriter.alarm[2]=1
+}
+if(chose=3)
+{
+objPokemonWriter.text="Foe SDDL used ICE!"
+objPokemonWriter.alarm[2]=1
+alarm[2]=50
+}
+if(chose=4)
+{
+objPokemonWriter.text="Foe SDDL used NUKE!"
+objPokemonWriter.alarm[2]=1
+audio_play_sound(sndNUKE,0,0)
+}
 </string>
           </argument>
         </arguments>
@@ -77,7 +153,8 @@ alarm[0]=254
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(image_alpha&lt;1)
+            <string>t+=0.1
+if(image_alpha&lt;1)
 {
 image_alpha+=0.1
 }
@@ -97,6 +174,28 @@ gravity_direction=270
 died=1
 }
 image_angle=direction-90
+}
+else
+{
+
+if(song=1)
+{
+if(sin(t&gt;0.99999))
+{
+ins=instance_create(x,y,objDaoLiSound)
+ins.speed=random_range(3,4)
+ins.direction=random(360)
+}
+image_angle=sin(t*5)*8
+view_xview=random_range(-2,2)
+view_yview=random_range(-2,2)
+}
+else
+{
+image_angle=0
+view_xview=0
+view_yview=0
+}
 }
 </string>
           </argument>
