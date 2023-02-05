@@ -1539,6 +1539,7 @@
           </rooms>
         </rooms>
         <room>rooms\rWindow</room>
+        <room>rooms\rCaveDila</room>
         <rooms name="The Kirby">
           <room>rooms\rKirby1</room>
           <room>rooms\rKirby2</room>
