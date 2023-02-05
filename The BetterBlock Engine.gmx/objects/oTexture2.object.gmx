@@ -88,6 +88,11 @@ audio_play_sound(sndGlass,0,false)
 inst=instance_create(0,0,oBlackIntroCreator)
 inst.roomTo=rDuliu
 }
+if(instance_exists(oNPC4) &amp;&amp; instance_exists(objPlayer) &amp;&amp; !instance_exists(oSaulThin))
+{
+objPlayer.djump=1
+global.SUS=3
+}
 </string>
           </argument>
         </arguments>

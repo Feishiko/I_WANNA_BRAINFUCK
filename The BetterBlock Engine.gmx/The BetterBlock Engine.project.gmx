@@ -141,6 +141,7 @@
     <sound>sound\sndPrinting</sound>
     <sound>sound\sndIT</sound>
     <sound>sound\musEscape</sound>
+    <sound>sound\musTown</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="world">
@@ -369,6 +370,7 @@
       </sprites>
       <sprites name="Duliu">
         <sprite>sprites\sBlack</sprite>
+        <sprite>sprites\sWhatWhite</sprite>
         <sprite>sprites\sDuliuBlock</sprite>
         <sprite>sprites\sDuliuBlock2</sprite>
         <sprite>sprites\sGM8Loading</sprite>
@@ -377,6 +379,9 @@
         <sprite>sprites\sTextureKuang</sprite>
         <sprite>sprites\sGM8Loading2</sprite>
         <sprite>sprites\sDuliu</sprite>
+      </sprites>
+      <sprites name="Town">
+        <sprite>sprites\sNPC</sprite>
       </sprites>
       <sprite>sprites\sprBlackOMG</sprite>
       <sprites name="saulFakeman">
@@ -556,6 +561,7 @@
     <sprite>sprites\sPlayerKillerCenter</sprite>
     <sprite>sprites\sPaper</sprite>
     <sprite>sprites\sCancel</sprite>
+    <sprite>sprites\sCathrisisWater</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bAllTiles</background>
@@ -671,9 +677,11 @@
         </backgrounds>
         <background>background\bgCongrats</background>
       </backgrounds>
+      <background>background\bgTownTile</background>
     </backgrounds>
     <background>background\bgWho</background>
     <background>background\bgDuliu</background>
+    <background>background\bgForest</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\pthD</path>
@@ -814,6 +822,7 @@
         <object>objects\objBetterBlockDonutBlock</object>
         <objects name="OMGUY">
           <object>objects\oDuliuBlock</object>
+          <object>objects\oDuliuBlock2</object>
           <object>objects\oSand</object>
         </objects>
         <object>objects\objBetterBlockExpandCtrl</object>
@@ -951,6 +960,7 @@
       <object>objects\objWater</object>
       <object>objects\objWaterOMG</object>
       <object>objects\objWater2</object>
+      <object>objects\oWhatCathris</object>
       <object>objects\objWater3</object>
       <object>objects\objWalljumpR</object>
       <object>objects\objWalljumpR2</object>
@@ -1098,6 +1108,7 @@
         <object>objects\oWarpFadeInInvis</object>
         <object>objects\oTrgCreatedOBJ</object>
         <object>objects\oDrawBGdude</object>
+        <object>objects\oShake</object>
         <object>objects\oWhite</object>
         <objects name="SudokuIntroWarp">
           <object>objects\oBlackIntroCreator</object>
@@ -1144,6 +1155,13 @@
         <object>objects\oNPC3</object>
       </objects>
       <object>objects\objBusBoss</object>
+      <objects name="Duliu">
+        <object>objects\oAnotherTrg</object>
+      </objects>
+      <objects name="Town">
+        <object>objects\oWhatWhite</object>
+        <object>objects\oNPC4</object>
+      </objects>
       <object>objects\objBus</object>
       <objects name="what">
         <object>objects\object124</object>
@@ -1526,6 +1544,10 @@
         <rooms name="TheDuliu">
           <room>rooms\rDuliu</room>
           <room>rooms\rDuliu2</room>
+        </rooms>
+        <rooms name="TheTown">
+          <room>rooms\rTown</room>
+          <room>rooms\rHumanBridge</room>
         </rooms>
       </rooms>
       <room>rooms\rCrimsonPit</room>
