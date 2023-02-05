@@ -562,6 +562,7 @@
     <sprite>sprites\sPaper</sprite>
     <sprite>sprites\sCancel</sprite>
     <sprite>sprites\sCathrisisWater</sprite>
+    <sprite>sprites\sTheGrass</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bAllTiles</background>
@@ -1450,6 +1451,7 @@
     <object>objects\oGreenBugged</object>
     <object>objects\oCancer</object>
     <object>objects\oDeleteDuliu</object>
+    <object>objects\oTheGrass</object>
   </objects>
   <rooms name="rooms">
     <rooms name="init">
@@ -1548,6 +1550,8 @@
         <rooms name="TheTown">
           <room>rooms\rTown</room>
           <room>rooms\rHumanBridge</room>
+          <room>rooms\rTheGrass</room>
+          <room>rooms\rTheGrass2</room>
         </rooms>
       </rooms>
       <room>rooms\rCrimsonPit</room>

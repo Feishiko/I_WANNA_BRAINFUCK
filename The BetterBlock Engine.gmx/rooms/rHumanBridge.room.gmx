@@ -106,7 +106,7 @@
     <instance objName="oNPC4" x="1536" y="352" name="inst_82676C1C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oNPC4" x="1568" y="352" name="inst_1CD7E4CC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="1408" y="480" name="inst_398CC99C" locked="0" code="" scaleX="6" scaleY="4" colour="4294967295" rotation="0"/>
-    <instance objName="oSignJimmyMcgill" x="128" y="448" name="inst_7DE15766" locked="0" code="Max=1&#xA;texts[0]=&quot;人类大桥(27岁)&quot;&#xA;texts[1]=&quot;当你和NPC对话完后会得到加一跳&#xA;于是我们发明了这玩意&#xA;和'净化'水瀑布配合使用&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oSignJimmyMcgill" x="128" y="448" name="inst_7DE15766" locked="0" code="Max=1&#xA;texts[0]=&quot;人类大桥(27岁)&quot;&#xA;texts[1]=&quot;当你和NPC对话完后会得到加一跳&#xA;于是我们发明了这玩意&#xA;和'净化'水瀑布配合使用&quot;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlayMusic" x="64" y="224" name="inst_996112EA" locked="0" code="BGM=musTown&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="0" y="344" name="inst_8AF07A49" locked="0" code="" scaleX="50" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWhatCathris" x="224" y="0" name="inst_60A62BA1" locked="0" code="" scaleX="37" scaleY="19" colour="4294967295" rotation="0"/>

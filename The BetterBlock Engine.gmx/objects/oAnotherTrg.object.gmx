@@ -49,7 +49,7 @@ alp=0
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(alp&gt;=50)
+            <string>if(alp&gt;=25)
 {
 room_goto(rTown)
 }
