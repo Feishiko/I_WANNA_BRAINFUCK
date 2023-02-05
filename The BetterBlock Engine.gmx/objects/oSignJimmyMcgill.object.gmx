@@ -83,7 +83,7 @@ wow=0
 //objPlayer.x+=8
 if(!instance_exists(oTexture2))
 {
-gnst=instance_create(0,32,oTexture2)
+gnst=instance_create(view_xview[0],view_yview[0]+32,oTexture2)
 }
 repeat(Max+1)
 {
