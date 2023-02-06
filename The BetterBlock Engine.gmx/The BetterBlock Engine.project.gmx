@@ -1570,6 +1570,7 @@
         <room>rooms\rWindow</room>
         <room>rooms\rCaveDila1</room>
         <room>rooms\room100</room>
+        <room>rooms\room101</room>
         <rooms name="The Kirby">
           <room>rooms\rKirby1</room>
           <room>rooms\rKirby2</room>
