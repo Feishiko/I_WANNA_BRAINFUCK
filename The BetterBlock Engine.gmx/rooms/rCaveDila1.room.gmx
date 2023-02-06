@@ -51,7 +51,7 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="oSignJimmyMcgill" x="128" y="448" name="inst_3BB14BDE" locked="0" code="Max=0&#xA;texts[0]=&quot;奇迹滴蜡废品回收站&#xA;废弃地图 5元&#xA;废弃角色 10元&#xA;废弃obj 5毛&quot;&#xA;//(注:奇迹滴蜡有可能是骑拉帝纳的生父)&#xA;//按个按钮BOSHY那关的一堆说的道理从右边出现&#xA;//老白贴图人物是以撒&#xA;//可能还有小蓝人&#xA;//以撒再整点几米克&#xA;//摸了&#xA;//不可智能图书馆可能内容&#xA;//Brainfuck套娃&#xA;//CN3&#xA;//没了&#xA;//明年再见" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oSignJimmyMcgill" x="128" y="448" name="inst_3BB14BDE" locked="0" code="Max=0&#xA;texts[0]=&quot;骑拉帝纳废品回收站&#xA;废弃地图 5元&#xA;废弃角色 10元&#xA;废弃obj 5毛&quot;&#xA;//(注:奇迹滴蜡有可能是骑拉帝纳的生父)&#xA;//按个按钮BOSHY那关的一堆说的道理从右边出现&#xA;//老白贴图人物是以撒&#xA;//可能还有小蓝人&#xA;//以撒再整点几米克&#xA;//摸了&#xA;//不可智能图书馆可能内容&#xA;//Brainfuck套娃&#xA;//CN3&#xA;//没了&#xA;//明年再见&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlayMusic" x="-32" y="32" name="inst_67A91817" locked="0" code="BGM=musCave&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlayerStart" x="32" y="448" name="inst_8C5D3C48" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBlackRock" x="128" y="480" name="inst_E996F54D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
