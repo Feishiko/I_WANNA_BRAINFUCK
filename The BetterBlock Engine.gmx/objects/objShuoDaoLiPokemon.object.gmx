@@ -32,7 +32,7 @@ curHP=maxHP
 died=0
 t=0
 audio_play_sound(sndDJHAWSSDDD,0,0)
-alarm[0]=304
+alarm[0]=284
 song=0
 chose=1
 </string>
@@ -58,6 +58,7 @@ chose=1
           <argument>
             <kind>1</kind>
             <string>song=0
+chose=choose(2,3,4)
 alarm[0]=80
 </string>
           </argument>
