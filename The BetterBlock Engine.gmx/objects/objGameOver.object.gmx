@@ -25,7 +25,16 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>alarm[0] = 30;
+            <string>//OMGUY Add This
+if(instance_exists(oDrawBGdude) &amp;&amp; instance_exists(oTrgOpen))
+{
+sprite_index=sCongratulation
+//x=0
+//y=0
+//visible=1
+}
+alarm[0] = 30;
+
 </string>
           </argument>
         </arguments>
@@ -71,7 +80,16 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_sprite(sprite_index, -1, display_get_gui_width()/2, display_get_gui_height()/2);
+            <string>//OMGUY Add This
+//draw_sprite(sprite_index, -1, display_get_gui_width()/2, display_get_gui_height()/2);
+if(instance_exists(oDrawBGdude) &amp;&amp; instance_exists(oTrgOpen))
+{
+draw_sprite(sprite_index, -1, 0, 0);
+}
+else
+{
+draw_sprite(sprite_index, -1, display_get_gui_width()/2, display_get_gui_height()/2);
+}
 </string>
           </argument>
         </arguments>
