@@ -546,6 +546,8 @@
         <sprite>sprites\sprPokeball</sprite>
         <sprite>sprites\sprDaoLiSound</sprite>
         <sprite>sprites\sprNUKE</sprite>
+        <sprite>sprites\sprRenshuwarn</sprite>
+        <sprite>sprites\aprRenzhededaoli</sprite>
       </sprites>
       <sprites name="Cave">
         <sprite>sprites\sprWhiteWave</sprite>
