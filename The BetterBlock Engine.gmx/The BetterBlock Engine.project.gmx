@@ -577,6 +577,9 @@
     <sprite>sprites\sSweepor</sprite>
     <sprite>sprites\sPlayerKillerCenter</sprite>
     <sprite>sprites\sPaper</sprite>
+    <sprite>sprites\sLightRock</sprite>
+    <sprite>sprites\sDrawing</sprite>
+    <sprite>sprites\sFaceDude</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bAllTiles</background>
@@ -701,6 +704,7 @@
     <background>background\bgOpen</background>
     <background>background\bgDraw1</background>
     <background>background\bgDraw2</background>
+    <background>background\bgDraw3</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\pthD</path>
@@ -832,6 +836,7 @@
         <object>objects\objCreatorBlock</object>
         <object>objects\oSUSdude1</object>
         <object>objects\oBlackRock</object>
+        <object>objects\oLightBlock</object>
         <object>objects\objKrainBlock</object>
       </objects>
       <object>objects\objMiniBlock</object>
@@ -839,8 +844,11 @@
         <object>objects\object120</object>
         <object>objects\oBigBlock</object>
         <object>objects\oWaterBlock</object>
+        <object>objects\oKrainBetterBlock</object>
         <object>objects\objBetterBlockDonutBlock</object>
         <objects name="OMGUY">
+          <object>objects\oHentaiBlock</object>
+          <object>objects\oHentaiBlock2</object>
           <object>objects\oDuliuBlock</object>
           <object>objects\oDuliuBlock2</object>
           <object>objects\oSand</object>
@@ -929,6 +937,7 @@
         <objects name="Cave">
           <object>objects\oCaveSpikeUp</object>
           <object>objects\oCaveSpikeDown</object>
+          <object>objects\oSpikeHentai</object>
           <object>objects\oCaveSpikeLeft</object>
           <object>objects\oCaveSpikeRight</object>
         </objects>
@@ -1199,6 +1208,8 @@
         <object>objects\oCancer</object>
         <object>objects\oDeleteDuliu</object>
         <object>objects\oTrgOpen</object>
+        <object>objects\oIced1</object>
+        <object>objects\oTheHentai</object>
       </objects>
       <object>objects\objBus</object>
       <objects name="what">
@@ -1481,6 +1492,8 @@
       <object>objects\objGravUpNo</object>
       <object>objects\objGravDownNo</object>
     </objects>
+    <object>objects\oDrawing</object>
+    <object>objects\oEN</object>
   </objects>
   <rooms name="rooms">
     <rooms name="init">
@@ -1569,8 +1582,9 @@
         </rooms>
         <room>rooms\rWindow</room>
         <room>rooms\rCaveDila1</room>
-        <room>rooms\room100</room>
-        <room>rooms\room101</room>
+        <room>rooms\rCaveDila2</room>
+        <room>rooms\rCaveDila3</room>
+        <room>rooms\room102</room>
         <rooms name="The Kirby">
           <room>rooms\rKirby1</room>
           <room>rooms\rKirby2</room>
