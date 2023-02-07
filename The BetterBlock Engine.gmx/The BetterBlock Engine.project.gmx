@@ -68,9 +68,6 @@
         <sound>sound\sndNUKE</sound>
         <sound>sound\sndICE</sound>
         <sound>sound\sndICEWC</sound>
-        <sound>sound\sndIScared</sound>
-        <sound>sound\sndNinjia</sound>
-        <sound>sound\sndHeai</sound>
       </sounds>
     </sounds>
     <sounds name="music">
@@ -145,6 +142,8 @@
     <sound>sound\sndIT</sound>
     <sound>sound\musEscape</sound>
     <sound>sound\musTown</sound>
+    <sound>sound\musCave</sound>
+    <sound>sound\sndOpen</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="world">
@@ -386,6 +385,19 @@
       <sprites name="Town">
         <sprite>sprites\sNPC</sprite>
       </sprites>
+      <sprites name="Cave">
+        <sprites name="spike">
+          <sprite>sprites\sSpikeCaveUp</sprite>
+          <sprite>sprites\sSpikeCaveLeft</sprite>
+          <sprite>sprites\sSpikeCaveDown</sprite>
+          <sprite>sprites\sSpikeCaveRight</sprite>
+        </sprites>
+        <sprite>sprites\sCancel</sprite>
+        <sprite>sprites\sCongratulation</sprite>
+        <sprite>sprites\sCathrisisWater</sprite>
+        <sprite>sprites\sTheGrass</sprite>
+        <sprite>sprites\sBlackRock</sprite>
+      </sprites>
       <sprite>sprites\sprBlackOMG</sprite>
       <sprites name="saulFakeman">
         <sprite>sprites\sEyeBruh</sprite>
@@ -542,7 +554,6 @@
         <sprite>sprites\sprWaterActionShadow</sprite>
       </sprites>
       <sprites name="PokemonBoss">
-        <sprite>sprites\sprShifangrenshu</sprite>
         <sprite>sprites\sprHaoGe</sprite>
         <sprite>sprites\sprDaogas</sprite>
         <sprite>sprites\sprOMGTV</sprite>
@@ -551,9 +562,7 @@
         <sprite>sprites\sprDaoLiSound</sprite>
         <sprite>sprites\sprNUKE</sprite>
         <sprite>sprites\sprRenshuwarn</sprite>
-        <sprite>sprites\sprHEAI</sprite>
-        <sprite>sprites\sprNinjiaSDDL</sprite>
-        <sprite>sprites\sprWCICE</sprite>
+        <sprite>sprites\aprRenzhededaoli</sprite>
       </sprites>
       <sprites name="Cave">
         <sprite>sprites\sprWhiteWave</sprite>
@@ -568,9 +577,6 @@
     <sprite>sprites\sSweepor</sprite>
     <sprite>sprites\sPlayerKillerCenter</sprite>
     <sprite>sprites\sPaper</sprite>
-    <sprite>sprites\sCancel</sprite>
-    <sprite>sprites\sCathrisisWater</sprite>
-    <sprite>sprites\sTheGrass</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bAllTiles</background>
@@ -691,6 +697,10 @@
     <background>background\bgWho</background>
     <background>background\bgDuliu</background>
     <background>background\bgForest</background>
+    <background>background\bgSuperRock</background>
+    <background>background\bgOpen</background>
+    <background>background\bgDraw1</background>
+    <background>background\bgDraw2</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\pthD</path>
@@ -821,6 +831,7 @@
       <objects name="OMGUY">
         <object>objects\objCreatorBlock</object>
         <object>objects\oSUSdude1</object>
+        <object>objects\oBlackRock</object>
         <object>objects\objKrainBlock</object>
       </objects>
       <object>objects\objMiniBlock</object>
@@ -914,6 +925,12 @@
           <object>objects\oCancerSpikeDown</object>
           <object>objects\oCancerSpikeLeft</object>
           <object>objects\oCancerSpikeRight</object>
+        </objects>
+        <objects name="Cave">
+          <object>objects\oCaveSpikeUp</object>
+          <object>objects\oCaveSpikeDown</object>
+          <object>objects\oCaveSpikeLeft</object>
+          <object>objects\oCaveSpikeRight</object>
         </objects>
         <object>objects\objSpikeCreatorDown</object>
         <object>objects\objSpikeCreatorLeft</object>
@@ -1164,12 +1181,24 @@
         <object>objects\oNPC3</object>
       </objects>
       <object>objects\objBusBoss</object>
+      <object>objects\oWaterPower1</object>
+      <object>objects\oWaterPower2</object>
+      <object>objects\oGreenBugged</object>
+      <object>objects\oWaterPower2_spr</object>
+      <object>objects\oWaterPower1_spr</object>
       <objects name="Duliu">
         <object>objects\oAnotherTrg</object>
       </objects>
       <objects name="Town">
         <object>objects\oWhatWhite</object>
         <object>objects\oNPC4</object>
+      </objects>
+      <objects name="Cave">
+        <object>objects\oCaveDoor</object>
+        <object>objects\oTheGrass</object>
+        <object>objects\oCancer</object>
+        <object>objects\oDeleteDuliu</object>
+        <object>objects\oTrgOpen</object>
       </objects>
       <object>objects\objBus</object>
       <objects name="what">
@@ -1435,10 +1464,6 @@
         <object>objects\objShuoDaoLiPokemon</object>
         <object>objects\objPokeball</object>
         <object>objects\objDaoLiSound</object>
-        <object>objects\objHeai</object>
-        <object>objects\objShifang</object>
-        <object>objects\objWarningNinja</object>
-        <object>objects\objNinjaDaoLi</object>
       </objects>
       <object>objects\objNiuQuBGM</object>
       <objects name="Cave">
@@ -1456,14 +1481,6 @@
       <object>objects\objGravUpNo</object>
       <object>objects\objGravDownNo</object>
     </objects>
-    <object>objects\oWaterPower1</object>
-    <object>objects\oWaterPower1_spr</object>
-    <object>objects\oWaterPower2</object>
-    <object>objects\oWaterPower2_spr</object>
-    <object>objects\oGreenBugged</object>
-    <object>objects\oCancer</object>
-    <object>objects\oDeleteDuliu</object>
-    <object>objects\oTheGrass</object>
   </objects>
   <rooms name="rooms">
     <rooms name="init">
@@ -1551,7 +1568,9 @@
           </rooms>
         </rooms>
         <room>rooms\rWindow</room>
-        <room>rooms\rCaveDila</room>
+        <room>rooms\rCaveDila1</room>
+        <room>rooms\room100</room>
+        <room>rooms\room101</room>
         <rooms name="The Kirby">
           <room>rooms\rKirby1</room>
           <room>rooms\rKirby2</room>
