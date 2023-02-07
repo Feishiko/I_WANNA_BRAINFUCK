@@ -95,7 +95,8 @@ image_speed=0.25
 image_alpha=7
 audio_play_sound(sndNinjia,0,0)
 ninja=1
-alarm[2]=300
+alarm[4]=60
+alarm[2]=400
 </string>
           </argument>
         </arguments>
@@ -120,6 +121,7 @@ alarm[2]=300
             <kind>1</kind>
             <string>song=0
 ninja=0
+sprite_index=sprShuoDaoLi
 image_alpha=0
 image_speed=0.25
 chose=choose(2,3,4)
@@ -174,7 +176,10 @@ alarm[2]=1500
           <argument>
             <kind>1</kind>
             <string>//chose=choose(2,3,4)
+if(chose!=1)
+{
 chose=2
+}
 if(chose=1)
 {
 objPokemonWriter.text="Foe SDDL used DAOLI SONG!"
