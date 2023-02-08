@@ -587,6 +587,9 @@
     <sprite>sprites\sLightRock</sprite>
     <sprite>sprites\sDrawing</sprite>
     <sprite>sprites\sFaceDude</sprite>
+    <sprite>sprites\sOpen</sprite>
+    <sprite>sprites\sFinish</sprite>
+    <sprite>sprites\sGunShoot</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bAllTiles</background>
@@ -713,6 +716,8 @@
     <background>background\bgDraw2</background>
     <background>background\bgDraw3</background>
     <background>background\bgDraw4</background>
+    <background>background\bgCaveHole</background>
+    <background>background\bgLine</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\pthD</path>
@@ -1200,6 +1205,7 @@
         <object>objects\oNPC3</object>
       </objects>
       <object>objects\objBusBoss</object>
+      <object>objects\oBusFallen</object>
       <object>objects\oWaterPower1</object>
       <object>objects\oWaterPower2</object>
       <object>objects\oGreenBugged</object>
@@ -1509,6 +1515,13 @@
     <object>objects\oDrawing</object>
     <object>objects\oEN</object>
     <object>objects\oKeyboard</object>
+    <object>objects\oOpen</object>
+    <object>objects\oBusShow</object>
+    <object>objects\oFinish</object>
+    <object>objects\oGunshoot</object>
+    <object>objects\oGunShotApple</object>
+    <object>objects\oDaoliEmeny</object>
+    <object>objects\oBoom</object>
   </objects>
   <rooms name="rooms">
     <rooms name="init">
@@ -1601,6 +1614,8 @@
         <room>rooms\rCaveDila3</room>
         <room>rooms\rCaveDila4</room>
         <room>rooms\rCaveDila5</room>
+        <room>rooms\rCaveDila5_1</room>
+        <room>rooms\rCaveDila6</room>
         <rooms name="The Kirby">
           <room>rooms\rKirby1</room>
           <room>rooms\rKirby2</room>
