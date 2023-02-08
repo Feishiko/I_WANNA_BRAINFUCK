@@ -248,7 +248,7 @@
     <instance objName="oCaveSpikeUp" x="32" y="160" name="inst_C24E48D3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oCaveSpikeUp" x="224" y="96" name="inst_84C808D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oCaveSpikeUp" x="288" y="96" name="inst_5C3B2540" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oSignJimmyMcgill" x="704" y="352" name="inst_84B1F940" locked="0" code="Max=0&#xA;texts[0]=&quot;废弃死亡特效1&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oSignJimmyMcgill" x="704" y="352" name="inst_84B1F940" locked="0" code="Max=0&#xA;texts[0]=&quot;废弃死亡特效1&quot;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oTrgOpen" x="704" y="288" name="inst_594FC84D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oCaveDoor" x="256" y="64" name="inst_BDEF338A" locked="0" code="roomTo=rCaveDila2&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>

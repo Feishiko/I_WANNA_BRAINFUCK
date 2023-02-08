@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>ice=0
+            <string>shake=0
+ice=0
+rocket=0
 bg=bgDraw2
 md=choose(1,2,3,4)
 gh=0
@@ -52,6 +54,33 @@ gh=0
           <argument>
             <kind>1</kind>
             <string>instance_create(x,y,oTheHentai)
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if(shake=1)
+{
+view_xview=random_range(10,-10)
+view_yview=random_range(10,-10)
+}
 </string>
           </argument>
         </arguments>
@@ -90,6 +119,53 @@ ice=0
 instance_create(0,0,oIced1)
 }
 }
+if(rocket=1)
+{
+rocket=0
+shake=1
+audio_play_sound(sndRocket,0,0)
+with(oCaveBlock)
+{
+direction=90
+speed=2
+}
+with(oCaveSpikeUp)
+{
+direction=90
+speed=2
+}
+with(oCaveSpikeDown)
+{
+direction=90
+speed=2
+}
+with(oCaveSpikeLeft)
+{
+direction=90
+speed=2
+}
+with(oCaveSpikeRight)
+{
+direction=90
+speed=2
+}
+with(objMovingPlatform)
+{
+direction=90
+speed=2
+}
+with(objWalljumpR)
+{
+direction=90
+speed=2
+}
+with(objWalljumpL)
+{
+direction=90
+speed=2
+}
+}
+
 </string>
           </argument>
         </arguments>

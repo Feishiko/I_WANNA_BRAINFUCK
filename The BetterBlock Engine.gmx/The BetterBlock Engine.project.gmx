@@ -147,6 +147,8 @@
     <sound>sound\musTown</sound>
     <sound>sound\musCave</sound>
     <sound>sound\sndOpen</sound>
+    <sound>sound\sndKeyboard1</sound>
+    <sound>sound\sndRocket</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="world">
@@ -710,6 +712,7 @@
     <background>background\bgDraw1</background>
     <background>background\bgDraw2</background>
     <background>background\bgDraw3</background>
+    <background>background\bgDraw4</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\pthD</path>
@@ -717,6 +720,7 @@
     <path>paths\pL1</path>
     <path>paths\pD1</path>
     <path>paths\pR1</path>
+    <path>paths\path1</path>
   </paths>
   <scripts name="scripts">
     <scripts name="player">
@@ -853,6 +857,7 @@
         <object>objects\objBetterBlockDonutBlock</object>
         <objects name="OMGUY">
           <object>objects\oHentaiBlock</object>
+          <object>objects\oCaveBlock</object>
           <object>objects\oHentaiBlock2</object>
           <object>objects\oDuliuBlock</object>
           <object>objects\oDuliuBlock2</object>
@@ -1503,6 +1508,7 @@
     </objects>
     <object>objects\oDrawing</object>
     <object>objects\oEN</object>
+    <object>objects\oKeyboard</object>
   </objects>
   <rooms name="rooms">
     <rooms name="init">
@@ -1593,7 +1599,8 @@
         <room>rooms\rCaveDila1</room>
         <room>rooms\rCaveDila2</room>
         <room>rooms\rCaveDila3</room>
-        <room>rooms\room102</room>
+        <room>rooms\rCaveDila4</room>
+        <room>rooms\rCaveDila5</room>
         <rooms name="The Kirby">
           <room>rooms\rKirby1</room>
           <room>rooms\rKirby2</room>
