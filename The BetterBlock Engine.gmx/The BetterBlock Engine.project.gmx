@@ -66,6 +66,9 @@
         <sound>sound\sndDJHAWSSDDD</sound>
         <sound>sound\sndAoooooo</sound>
         <sound>sound\sndNUKE</sound>
+        <sound>sound\sndNinjia</sound>
+        <sound>sound\sndHeai</sound>
+        <sound>sound\sndIScared</sound>
         <sound>sound\sndICE</sound>
         <sound>sound\sndICEWC</sound>
       </sounds>
@@ -562,7 +565,9 @@
         <sprite>sprites\sprDaoLiSound</sprite>
         <sprite>sprites\sprNUKE</sprite>
         <sprite>sprites\sprRenshuwarn</sprite>
-        <sprite>sprites\aprRenzhededaoli</sprite>
+        <sprite>sprites\sprRenzhededaoli</sprite>
+        <sprite>sprites\sprHeai</sprite>
+        <sprite>sprites\sprNinjaCloud</sprite>
       </sprites>
       <sprites name="Cave">
         <sprite>sprites\sprWhiteWave</sprite>
@@ -1475,6 +1480,10 @@
         <object>objects\objShuoDaoLiPokemon</object>
         <object>objects\objPokeball</object>
         <object>objects\objDaoLiSound</object>
+        <object>objects\objNinjaDaoLi</object>
+        <object>objects\objHeai</object>
+        <object>objects\objWarningNinja</object>
+        <object>objects\objShifang</object>
       </objects>
       <object>objects\objNiuQuBGM</object>
       <objects name="Cave">
