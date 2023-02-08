@@ -95,7 +95,7 @@ alarm[1]=30
             <string>audio_play_sound(sndShoot,0,0)
 inst=instance_create(x,y,objCherry)
 inst.direction=point_direction(x,y,ax,ay)
-inst.speed=5
+inst.speed=10
 alarm[0]=5
 </string>
           </argument>

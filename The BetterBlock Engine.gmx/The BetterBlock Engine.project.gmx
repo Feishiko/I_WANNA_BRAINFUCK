@@ -590,6 +590,9 @@
     <sprite>sprites\sOpen</sprite>
     <sprite>sprites\sFinish</sprite>
     <sprite>sprites\sGunShoot</sprite>
+    <sprite>sprites\sBald1</sprite>
+    <sprite>sprites\sBald2</sprite>
+    <sprite>sprites\sDaodan</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bAllTiles</background>
@@ -1176,7 +1179,6 @@
         <object>objects\oXJLwarning</object>
         <object>objects\oWarpXJL</object>
         <object>objects\oBigBoom</object>
-        <object>objects\oXJLflight</object>
       </objects>
       <objects name="Desert">
         <object>objects\oWait</object>
@@ -1522,6 +1524,10 @@
     <object>objects\oGunShotApple</object>
     <object>objects\oDaoliEmeny</object>
     <object>objects\oBoom</object>
+    <object>objects\oXJLflight</object>
+    <object>objects\oBaldSmall</object>
+    <object>objects\oBaldBig</object>
+    <object>objects\oDaodan</object>
   </objects>
   <rooms name="rooms">
     <rooms name="init">
