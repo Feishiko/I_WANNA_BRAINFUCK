@@ -97,8 +97,16 @@
         <sound>sound\musDesertBruh</sound>
         <sound>sound\sound21</sound>
         <sound>sound\musHell</sound>
+        <sound>sound\sndMinister</sound>
+        <sound>sound\sndRocket</sound>
         <sound>sound\musXJL</sound>
+        <sound>sound\musCave</sound>
+        <sound>sound\sndKeyboard1</sound>
         <sound>sound\musDesertXJL</sound>
+        <sound>sound\sndOpen</sound>
+        <sound>sound\sndBus</sound>
+        <sound>sound\musTown</sound>
+        <sound>sound\musEscape</sound>
         <sound>sound\musBugged</sound>
         <sound>sound\musDuliu</sound>
         <sound>sound\sound20</sound>
@@ -143,12 +151,6 @@
     <sound>sound\sndDisappear</sound>
     <sound>sound\sndPrinting</sound>
     <sound>sound\sndIT</sound>
-    <sound>sound\musEscape</sound>
-    <sound>sound\musTown</sound>
-    <sound>sound\musCave</sound>
-    <sound>sound\sndOpen</sound>
-    <sound>sound\sndKeyboard1</sound>
-    <sound>sound\sndRocket</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="world">
@@ -1160,6 +1162,7 @@
         <object>objects\oSignJimmyMcgill</object>
         <object>objects\oWarpFadeInInvis</object>
         <object>objects\oTrgCreatedOBJ</object>
+        <object>objects\oPlaySoundTrg</object>
         <object>objects\oDrawBGdude</object>
         <object>objects\oShake</object>
         <object>objects\oWhite</object>

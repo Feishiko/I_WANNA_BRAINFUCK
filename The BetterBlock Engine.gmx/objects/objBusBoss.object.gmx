@@ -299,7 +299,7 @@ audio_play_sound(sndBossHit,0,0)
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="oDaoliEmeny">
+    <event eventtype="4" ename="oXJLflight">
       <action>
         <libid>1</libid>
         <id>203</id>
@@ -337,7 +337,7 @@ audio_play_sound(sndBossHit,0,0)
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="oXJLflight">
+    <event eventtype="4" ename="oDaoliEmeny">
       <action>
         <libid>1</libid>
         <id>203</id>
