@@ -51,7 +51,8 @@ image_yscale=image_xscale
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(image_alpha&lt;0)
+            <string>image_alpha-=0.07
+if(image_alpha&lt;0)
 {
 instance_destroy()
 }

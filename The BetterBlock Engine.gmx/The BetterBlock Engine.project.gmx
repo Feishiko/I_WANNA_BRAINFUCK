@@ -140,6 +140,7 @@
         <sound>sound\musWaterAction</sound>
         <sound>sound\musRoll</sound>
         <sound>sound\musCaveYeah</sound>
+        <sound>sound\musDizzy</sound>
       </sounds>
     </sounds>
     <sound>sound\sndBossHitRemastered</sound>
@@ -580,6 +581,11 @@
         <sprite>sprites\sprCaveBlock</sprite>
         <sprite>sprites\sprEYE</sprite>
       </sprites>
+      <sprites name="Dizzy">
+        <sprite>sprites\sprDizzyBackground</sprite>
+        <sprite>sprites\sprDizzySky</sprite>
+        <sprite>sprites\sprResofaSpikeUpCenter</sprite>
+      </sprites>
     </sprites>
     <sprite>sprites\sprBus</sprite>
     <sprite>sprites\sprWarpGuo</sprite>
@@ -628,6 +634,7 @@
         <background>background\bgColor</background>
         <background>background\bgRoll</background>
         <background>background\bgCaveUnderwater</background>
+        <background>background\bgDizzy</background>
         <background>background\bgCave</background>
         <backgrounds name="BackTile">
           <background>background\btSign</background>
@@ -637,6 +644,7 @@
           <background>background\btPokemonGrass</background>
           <background>background\btPokemonGrassBig</background>
           <background>background\btHealthBar</background>
+          <background>background\btDizzyTree</background>
         </backgrounds>
         <background>background\bgPokemonFight</background>
       </backgrounds>
@@ -1516,6 +1524,14 @@
       </objects>
       <object>objects\objGravUpNo</object>
       <object>objects\objGravDownNo</object>
+      <objects name="Dizzy">
+        <object>objects\objDizzySpikeUp</object>
+        <object>objects\objDizzySky</object>
+        <object>objects\objDizzyBackground</object>
+        <object>objects\objViewSpin</object>
+        <object>objects\objCirclesDizzy</object>
+        <object>objects\objDrawCirclesDizzy</object>
+      </objects>
     </objects>
     <object>objects\oDrawing</object>
     <object>objects\oEN</object>
@@ -1702,6 +1718,9 @@
           <room>rooms\rCaveA</room>
           <room>rooms\rCaveB</room>
           <room>rooms\rCaveC</room>
+        </rooms>
+        <rooms name="Dizzy">
+          <room>rooms\rDizzyA</room>
         </rooms>
       </rooms>
     </rooms>
