@@ -38,6 +38,10 @@ if(image_angle=180)
 x-=1
 y-=1
 }
+a=0
+b=1
+c=1
+d=0.05
 </string>
           </argument>
         </arguments>

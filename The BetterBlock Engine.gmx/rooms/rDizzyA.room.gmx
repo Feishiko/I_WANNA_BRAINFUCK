@@ -61,8 +61,21 @@
     <instance objName="objPlayMusic" x="544" y="208" name="inst_6E00979B" locked="0" code="BGM=musDizzy&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
+    <tile bgName="btDizzy" x="336" y="288" w="16" h="16" xo="0" yo="0" id="10015981" name="inst_359DCC7E" depth="1920784896" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="btDizzy" x="336" y="304" w="16" h="16" xo="0" yo="16" id="10015982" name="inst_439A1A60" depth="1920784896" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="btDizzy" x="384" y="288" w="16" h="16" xo="32" yo="0" id="10015983" name="inst_2D46669A" depth="1920784896" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="btDizzy" x="352" y="288" w="16" h="16" xo="16" yo="0" id="10015984" name="inst_B4DDFEFB" depth="1920784896" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="btDizzy" x="368" y="288" w="16" h="16" xo="16" yo="0" id="10015985" name="inst_9614ACCC" depth="1920784896" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="btDizzy" x="384" y="304" w="16" h="16" xo="32" yo="16" id="10015986" name="inst_686FB1A1" depth="1920784896" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="btDizzy" x="352" y="304" w="16" h="16" xo="16" yo="16" id="10015987" name="inst_F011E7E4" depth="1920784896" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="btDizzy" x="368" y="304" w="16" h="16" xo="16" yo="16" id="10015988" name="inst_6DFC7D2E" depth="1920784896" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="btDizzy" x="304" y="416" w="16" h="16" xo="0" yo="32" id="10015989" name="inst_76FD3B37" depth="1920784896" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="btDizzy" x="320" y="416" w="16" h="16" xo="32" yo="32" id="10015990" name="inst_E6AB80D3" depth="1920784896" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="btDizzy" x="448" y="368" w="16" h="16" xo="32" yo="32" id="10015991" name="inst_AF534E8E" depth="1920784896" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="btDizzy" x="448" y="352" w="16" h="16" xo="32" yo="0" id="10015992" name="inst_7CCF4FB4" depth="1920784896" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="btDizzyTree" x="272" y="128" w="128" h="192" xo="128" yo="0" id="10015916" name="inst_61D532E1" depth="1215752192" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="btDizzyTree" x="352" y="128" w="128" h="192" xo="0" yo="0" id="10015918" name="inst_4137CFA4" depth="1215752192" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="btDizzyTree" x="304" y="416" w="128" h="192" xo="0" yo="192" id="10015995" name="inst_1A0FE966" depth="1215752192" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgDizzy" x="304" y="320" w="16" h="16" xo="16" yo="0" id="10015919" name="inst_E6101F70" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgDizzy" x="320" y="320" w="16" h="16" xo="16" yo="0" id="10015920" name="inst_F2B43D8F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgDizzy" x="336" y="320" w="16" h="16" xo="16" yo="0" id="10015921" name="inst_2BF3D4F2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

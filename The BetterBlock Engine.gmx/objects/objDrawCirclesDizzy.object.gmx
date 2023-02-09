@@ -52,6 +52,9 @@
             <string>ax=200
 ay=152
 b=random(360)
+d=random(360)
+a=1
+i=0
 </string>
           </argument>
         </arguments>

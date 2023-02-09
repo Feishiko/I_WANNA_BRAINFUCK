@@ -645,6 +645,7 @@
           <background>background\btPokemonGrassBig</background>
           <background>background\btHealthBar</background>
           <background>background\btDizzyTree</background>
+          <background>background\btDizzy</background>
         </backgrounds>
         <background>background\bgPokemonFight</background>
       </backgrounds>
