@@ -80,9 +80,9 @@
     <instance objName="objSpikeUp" x="576" y="288" name="inst_4C004F3A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="704" y="288" name="inst_FF7400F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="736" y="288" name="inst_F055C0C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBetterSign" x="384" y="224" name="inst_D6294A86" locked="0" code="Te=&quot;Yes,cancer&quot;&#xA;" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
+    <instance objName="objBetterSign" x="384" y="224" name="inst_D6294A86" locked="0" code="Te=&quot;I Wanna#Yes,cancel&quot;&#xA;" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="768" y="352" name="inst_0E56E759" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oPlayerCures" x="384" y="0" name="inst_0CEF170C" locked="0" code="mode=2&#xA;" scaleX="12" scaleY="11" colour="4294967295" rotation="0"/>
+    <instance objName="oPlayerCures" x="352" y="0" name="inst_0CEF170C" locked="0" code="mode=2&#xA;" scaleX="12" scaleY="11" colour="4294967295" rotation="0"/>
     <instance objName="objSaveBlocker" x="384" y="320" name="inst_24CCFC02" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSaveBlocker" x="448" y="320" name="inst_6B5CE693" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oNPC3" x="1120" y="0" name="inst_24630BF9" locked="0" code="&#xA;&#xA;&#xA;" scaleX="2.69662928581238" scaleY="3.62264156341553" colour="4294967295" rotation="0"/>
@@ -93,7 +93,7 @@
     <instance objName="objSaveBlocker" x="288" y="352" name="inst_7BC2E335" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSaveBlocker" x="320" y="448" name="inst_3867B8C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSaveBlocker" x="512" y="448" name="inst_7BCA20CC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oPlaySoundTrg" x="352" y="0" name="inst_97C11CAF" locked="0" code="" scaleX="14" scaleY="11" colour="4294967295" rotation="0"/>
+    <instance objName="oPlaySoundTrg" x="384" y="0" name="inst_97C11CAF" locked="0" code="" scaleX="14" scaleY="11" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bAllTiles" x="0" y="576" w="32" h="32" xo="0" yo="0" id="10012334" name="inst_365BC937" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
