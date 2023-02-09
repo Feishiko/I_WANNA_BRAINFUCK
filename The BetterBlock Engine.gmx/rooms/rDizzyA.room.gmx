@@ -55,7 +55,7 @@
     <instance objName="objBlock" x="288" y="320" name="inst_B4C673C3" locked="0" code="" scaleX="5" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="objDizzySky" x="-48" y="32" name="inst_2DE70302" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objDizzyBackground" x="0" y="0" name="inst_09E7094C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objDizzySpikeUp" x="432" y="304" name="inst_CD9218DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDizzySpikeUp" x="432" y="320" name="inst_CD9218DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objViewSpin" x="320" y="64" name="inst_8C317261" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objDrawCirclesDizzy" x="400" y="192" name="inst_78E25132" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlayMusic" x="544" y="208" name="inst_6E00979B" locked="0" code="BGM=musDizzy&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
