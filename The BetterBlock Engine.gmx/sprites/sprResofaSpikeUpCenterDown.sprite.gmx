@@ -2,7 +2,7 @@
 <sprite>
   <type>0</type>
   <xorig>16</xorig>
-  <yorigin>16</yorigin>
+  <yorigin>32</yorigin>
   <colkind>0</colkind>
   <coltolerance>0</coltolerance>
   <sepmasks>-1</sepmasks>
@@ -20,6 +20,6 @@
   <width>32</width>
   <height>32</height>
   <frames>
-    <frame index="0">images\sprResofaSpikeUpCenter_0.png</frame>
+    <frame index="0">images\sprResofaSpikeUpCenterDown_0.png</frame>
   </frames>
 </sprite>

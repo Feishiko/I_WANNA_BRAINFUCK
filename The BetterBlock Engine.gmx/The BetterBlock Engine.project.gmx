@@ -584,7 +584,7 @@
       <sprites name="Dizzy">
         <sprite>sprites\sprDizzyBackground</sprite>
         <sprite>sprites\sprDizzySky</sprite>
-        <sprite>sprites\sprResofaSpikeUpCenter</sprite>
+        <sprite>sprites\sprResofaSpikeUpCenterDown</sprite>
       </sprites>
     </sprites>
     <sprite>sprites\sprBus</sprite>
