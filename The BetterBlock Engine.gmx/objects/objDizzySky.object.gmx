@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>x=view_wview[0]/2+view_xview[0]
 y=view_hview[0]/2+view_yview[0]
+image_alpha=1
 </string>
           </argument>
         </arguments>
