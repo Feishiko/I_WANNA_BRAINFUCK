@@ -110,6 +110,7 @@
     <instance objName="objPlayMusic" x="64" y="224" name="inst_996112EA" locked="0" code="BGM=musTown&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="0" y="344" name="inst_8AF07A49" locked="0" code="" scaleX="50" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWhatCathris" x="224" y="0" name="inst_60A62BA1" locked="0" code="" scaleX="37" scaleY="19" colour="4294967295" rotation="0"/>
+    <instance objName="objRoomChanger" x="1600" y="384" name="inst_D64957D6" locked="0" code="roomTo=rTheGrass&#xA;" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bAllTiles" x="0" y="480" w="32" h="32" xo="0" yo="0" id="10014577" name="inst_F68EBF2F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
