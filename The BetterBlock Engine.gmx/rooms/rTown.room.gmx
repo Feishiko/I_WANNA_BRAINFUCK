@@ -80,7 +80,6 @@
     <instance objName="oNPC4" x="544" y="352" name="inst_51D0B062" locked="0" code="texts[0]=&quot;你可以按R&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objRoomChanger" x="800" y="256" name="inst_5843B228" locked="0" code="roomTo=rHumanBridge&#xA;" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="oWhatWhite" x="0" y="0" name="inst_1303432B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oTrgCreatedOBJ" x="576" y="480" name="inst_8D2CADCE" locked="0" code="o=oBadGameTeam&#xA;ox=656&#xA;oy=416" scaleX="7" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bgTownTile" x="32" y="512" w="32" h="32" xo="0" yo="0" id="10013995" name="inst_57445434" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

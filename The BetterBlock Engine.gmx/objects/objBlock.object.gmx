@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//Feishiko add this
+            <string>audio_stop_sound(sndBadGame)
+//Feishiko add this
 rooms = rmAscii1;
 if(room = rooms){
     visible = true;

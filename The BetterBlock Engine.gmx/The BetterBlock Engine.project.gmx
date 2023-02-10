@@ -394,6 +394,7 @@
       </sprites>
       <sprites name="Town">
         <sprite>sprites\sNPC</sprite>
+        <sprite>sprites\sNPC2</sprite>
       </sprites>
       <sprites name="Cave">
         <sprites name="spike">
@@ -1651,6 +1652,7 @@
         <room>rooms\rCaveDila5</room>
         <room>rooms\rCaveDila5_1</room>
         <room>rooms\rCaveDila6</room>
+        <room>rooms\rCaveDila6_1</room>
         <rooms name="The Kirby">
           <room>rooms\rKirby1</room>
           <room>rooms\rKirby2</room>
