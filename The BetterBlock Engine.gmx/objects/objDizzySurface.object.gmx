@@ -3,7 +3,7 @@
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-98999</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -11,30 +11,6 @@
     <event eventtype="0" enumb="0">
       <action>
         <libid>1</libid>
-        <id>301</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_set_alarm</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>125</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>1</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
         <id>603</id>
         <kind>7</kind>
         <userelative>0</userelative>
@@ -49,39 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>ax=200
-ay=152
-b=random(360)
-d=random(360)
-a=1
-i=0
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="2" enumb="1">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>i=0
-a=1
-d=random(360)
-alarm[0]=5
-alarm[1]=650
+            <string>sur=surface_create(800,608)
+sa=0
+alarm[0]=2
 </string>
           </argument>
         </arguments>
@@ -104,23 +50,13 @@ alarm[1]=650
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>inst=instance_create(ax+lengthdir_x(i*12+10,i*32+d),ay+lengthdir_y(i*12,i*32+d),objCirclesDizzy)
-inst.ax=ax+lengthdir_x(i*12,i*32+d)
-inst.ay=ay+lengthdir_y(i*12,i*32+d)
-inst.hue=b
-inst.r=i*3+8
-a=1
-if(i&lt;=25)
-{
-i+=1
-alarm[0]=10
-}
+            <string>sa=1
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="3" enumb="0">
+    <event eventtype="3" enumb="2">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -138,19 +74,35 @@ alarm[0]=10
           <argument>
             <kind>1</kind>
             <string>
-b+=1
-if(a&gt;0)
+if (!surface_exists(sur)) 
 {
-a-=0.005
+sur = surface_create(room_width, room_height);
 }
-else
+surface_set_target(sur) 
+
+//if(a&gt;10)
+//{
+//draw_clear_alpha(c_black,0)
+//}
+//else
+//{
+draw_rectangle_colour(0,0,800,608,c_black,c_black,c_black,c_black,0)
+
+if (surface_exists(application_surface)) 
 {
-with(objCirclesDizzy)
-{
-instance_destroy()
+draw_set_blend_mode(bm_add)
+draw_surface_ext(application_surface,0,0,1,1,0,c_white,0.03)
+draw_set_blend_mode(bm_normal)
+
 }
-a=0
-}
+
+surface_reset_target()
+//}
+
+
+
+
+
 </string>
           </argument>
         </arguments>
@@ -173,7 +125,7 @@ a=0
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_alpha(1)
+            <string>draw_set_blend_mode(bm_normal)
 </string>
           </argument>
         </arguments>
@@ -196,7 +148,32 @@ a=0
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_alpha(1)
+            <string>surface_free(sur)
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="64">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>//draw_rectangle_colour(0,0,800,608,c_white,c_white,c_white,c_white,0)
+
+draw_surface_ext(sur,0,0,1,1,0,c_white,0.2)
 </string>
           </argument>
         </arguments>

@@ -583,8 +583,11 @@
       </sprites>
       <sprites name="Dizzy">
         <sprite>sprites\sprDizzyBackground</sprite>
-        <sprite>sprites\sprDizzySky</sprite>
         <sprite>sprites\sprResofaSpikeUpCenterDown</sprite>
+        <sprite>sprites\sprResofaSpikeUp</sprite>
+        <sprite>sprites\sprResofaSpikeLeft</sprite>
+        <sprite>sprites\sprResofaSpikeDown</sprite>
+        <sprite>sprites\sprResofaSpikeRight</sprite>
       </sprites>
     </sprites>
     <sprite>sprites\sprBus</sprite>
@@ -667,6 +670,7 @@
         <background>background\backgroundN</background>
         <background>background\backgroundP</background>
         <background>background\backgroundO</background>
+        <background>background\backgroundR</background>
       </backgrounds>
       <background>background\background59</background>
       <background>background\background83</background>
@@ -1526,6 +1530,7 @@
       <object>objects\objGravUpNo</object>
       <object>objects\objGravDownNo</object>
       <objects name="Dizzy">
+        <object>objects\objDizzySurface</object>
         <object>objects\objDizzySpikeUp</object>
         <object>objects\objDizzySky</object>
         <object>objects\objDizzyBackground</object>
