@@ -54,14 +54,27 @@
     <instance objName="objPlayerStart" x="352" y="288" name="inst_E4E4EB67" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="288" y="320" name="inst_B4C673C3" locked="0" code="" scaleX="5" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="objDizzySky" x="64" y="48" name="inst_2DE70302" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objDizzyBackground" x="144" y="128" name="inst_09E7094C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objDizzySpikeUp" x="432" y="320" name="inst_CD9218DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDizzyBackground" x="368" y="272" name="inst_09E7094C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDizzySpikeUp" x="608" y="256" name="inst_CD9218DC" locked="0" code="a=90&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objViewSpin" x="320" y="64" name="inst_8C317261" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objDrawCirclesDizzy" x="400" y="192" name="inst_78E25132" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objPlayMusic" x="544" y="208" name="inst_6E00979B" locked="0" code="BGM=musDizzy&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayMusic" x="496" y="208" name="inst_6E00979B" locked="0" code="BGM=musDizzy&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objDizzySpikeUp" x="448" y="336" name="inst_1F9755A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
     <instance objName="objGravUpNo" x="464" y="384" name="inst_9CA3ABE4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="544" y="256" name="inst_47670D92" locked="0" code="" scaleX="4.5" scaleY="7.5" colour="4294967295" rotation="0"/>
+    <instance objName="objResofaSpikeUp" x="416" y="288" name="inst_64F0B718" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSave" x="352" y="288" name="inst_300763DB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveBlocker" x="384" y="288" name="inst_937EF4DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveBlocker" x="320" y="288" name="inst_3E7AAB13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objResofaSpikeLeft" x="512" y="432" name="inst_DB087CF4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objResofaSpikeLeft" x="512" y="464" name="inst_0EEA0045" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objResofaSpikeLeft" x="512" y="400" name="inst_4954CC54" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objResofaSpikeRight" x="688" y="256" name="inst_0444787D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objResofaSpikeUp" x="544" y="224" name="inst_F04648ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objResofaSpikeUp" x="656" y="224" name="inst_B5E52D6D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objResofaSpikeDown" x="416" y="416" name="inst_AD5BBAD6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objResofaSpikeDown" x="288" y="416" name="inst_464C74F8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDizzySurface" x="256" y="560" name="inst_51CD1E70" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="btDizzy" x="336" y="288" w="16" h="16" xo="0" yo="0" id="10015981" name="inst_359DCC7E" depth="1920784" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

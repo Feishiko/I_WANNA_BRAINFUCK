@@ -1535,6 +1535,10 @@
       <objects name="Dizzy">
         <object>objects\objDizzySurface</object>
         <object>objects\objDizzySpikeUp</object>
+        <object>objects\objResofaSpikeUp</object>
+        <object>objects\objResofaSpikeLeft</object>
+        <object>objects\objResofaSpikeRight</object>
+        <object>objects\objResofaSpikeDown</object>
         <object>objects\objDizzySky</object>
         <object>objects\objDizzyBackground</object>
         <object>objects\objViewSpin</object>
