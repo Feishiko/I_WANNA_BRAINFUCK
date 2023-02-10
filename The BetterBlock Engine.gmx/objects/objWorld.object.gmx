@@ -353,7 +353,18 @@ if (global.debugVisuals)
 
 if (keyboard_check_pressed(vk_escape))
 {
+//OMGUY ADD THIS
+if (global.debugMode)
+    {
     game_end();
+    }
+    else
+    {
+    if(!instance_exists(oCloseGame))
+    {
+    instance_create(40,40,oCloseGame)
+    }
+    }
 }
 
 if (keyboard_check_pressed(vk_f2))

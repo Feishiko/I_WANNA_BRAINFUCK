@@ -152,6 +152,8 @@
     <sound>sound\sndDisappear</sound>
     <sound>sound\sndPrinting</sound>
     <sound>sound\sndIT</sound>
+    <sound>sound\sndByebye</sound>
+    <sound>sound\sndBadGame</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="world">
@@ -1553,6 +1555,8 @@
     <object>objects\oBaldSmall</object>
     <object>objects\oBaldBig</object>
     <object>objects\oDaodan</object>
+    <object>objects\oCloseGame</object>
+    <object>objects\oBadGameTeam</object>
   </objects>
   <rooms name="rooms">
     <rooms name="init">
