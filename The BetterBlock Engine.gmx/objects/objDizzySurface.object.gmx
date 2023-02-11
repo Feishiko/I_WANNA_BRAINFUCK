@@ -3,7 +3,7 @@
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>-98999</depth>
+  <depth>-989</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -28,12 +28,69 @@
             <string>sur=surface_create(800,608)
 surb=surface_create(800,608)
 
+surc=surface_create(800,608)
+sure=surface_create(800,608)
+alarm[0]=1
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="3" enumb="0">
+    <event eventtype="2" enumb="1">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>
+if (!surface_exists(surc)) 
+{
+surc = surface_create(room_width, room_height);
+}
+surface_set_target(surc) 
+
+//if(a&gt;10)
+//{
+draw_set_blend_mode(bm_normal)
+//draw_clear_alpha(c_black,0)
+//}
+//else
+//{
+//draw_surface_ext(sur,0,0,1,1,0,c_white,0.02)
+application_surface_draw_enable(1)
+draw_surface_ext(sur,0,0,1,1,0,c_white,1)
+application_surface_draw_enable(0)
+surface_reset_target()
+alarm[0]=1
+/*surface_set_target(surb) 
+draw_set_blend_mode(bm_add)
+draw_surface_ext(sur,0,0,1,1,0,c_white,0.01)
+draw_set_blend_mode(bm_normal)
+surface_reset_target()
+
+//}
+
+
+
+
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -55,16 +112,55 @@ if (!surface_exists(sur))
 {
 sur = surface_create(room_width, room_height);
 }
-if (!surface_exists(surb)) 
-{
-surb = surface_create(room_width, room_height);
-}
 surface_set_target(sur) 
 
 //if(a&gt;10)
 //{
 draw_set_blend_mode(bm_normal)
-draw_clear_alpha(c_black,0)
+//draw_clear_alpha(c_black,0)
+//}
+//else
+//{
+//draw_surface_ext(sur,0,0,1,1,0,c_white,0.02)
+application_surface_draw_enable(1)
+draw_surface_ext(surb,0,0,1,1,0,c_white,1)
+application_surface_draw_enable(0)
+surface_reset_target()
+alarm[1]=1
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="3" enumb="1">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>
+if (!surface_exists(surb)) 
+{
+surb = surface_create(room_width, room_height);
+}
+surface_set_target(surb) 
+
+//if(a&gt;10)
+//{
+draw_set_blend_mode(bm_normal)
+//draw_clear_alpha(c_black,0)
 //}
 //else
 //{
@@ -75,11 +171,6 @@ if (surface_exists(application_surface))
 draw_surface_ext(application_surface,0,0,1,1,0,c_white,1)
 }
 application_surface_draw_enable(0)
-surface_reset_target()
-surface_set_target(surb) 
-draw_set_blend_mode(bm_add)
-draw_surface_ext(sur,0,0,1,1,0,c_white,0.05)
-draw_set_blend_mode(bm_normal)
 surface_reset_target()
 //}
 
@@ -112,6 +203,8 @@ surface_reset_target()
             <string>draw_set_blend_mode(bm_normal)
 surface_free(sur)
 surface_free(surb)
+surface_free(surc)
+surface_free(sure)
 application_surface_draw_enable(1)
 </string>
           </argument>
@@ -136,6 +229,8 @@ application_surface_draw_enable(1)
           <argument>
             <kind>1</kind>
             <string>surface_free(sur)
+surface_free(sure)
+surface_free(surc)
 surface_free(surb)
 application_surface_draw_enable(1)
 </string>
@@ -143,7 +238,7 @@ application_surface_draw_enable(1)
         </arguments>
       </action>
     </event>
-    <event eventtype="8" enumb="64">
+    <event eventtype="8" enumb="74">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -161,19 +256,12 @@ application_surface_draw_enable(1)
           <argument>
             <kind>1</kind>
             <string>//draw_rectangle_colour(0,0,800,608,c_white,c_white,c_white,c_white,0)
-draw_rectangle_colour(0,0,800,608,c_black,c_black,c_black,c_black,0)
-application_surface_draw_enable(1)
-if (surface_exists(application_surface)) 
-{
-draw_surface_ext(application_surface,0,0,1,1,0,c_white,1)
-}
-application_surface_draw_enable(0)
-
 draw_surface_ext(surb,0,0,1,1,0,c_white,1)
-draw_set_blend_mode(bm_subtract)
-draw_surface_ext(sur,0,0,1,1,0,c_white,0.05)
-
-
+draw_surface_ext(sur,0,0,1,1,0,c_white,1)
+draw_surface_ext(surc,0,0,1,1,0,c_white,1)
+draw_surface_ext(surb,0,0,1,1,0,c_white,1)
+draw_surface_ext(sur,0,0,1,1,0,c_white,1)
+draw_surface_ext(surc,0,0,1,1,0,c_white,1)
 </string>
           </argument>
         </arguments>
