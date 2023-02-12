@@ -1548,6 +1548,7 @@
         <object>objects\objDrawCirclesDizzy</object>
         <object>objects\objGravUpDizzy</object>
         <object>objects\objGravDownDizzy</object>
+        <object>objects\objDizzySpins</object>
       </objects>
     </objects>
     <object>objects\oDrawing</object>
