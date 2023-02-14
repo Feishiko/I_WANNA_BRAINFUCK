@@ -141,6 +141,7 @@
         <sound>sound\musRoll</sound>
         <sound>sound\musCaveYeah</sound>
         <sound>sound\musDizzy</sound>
+        <sound>sound\musCastleS</sound>
       </sounds>
     </sounds>
     <sound>sound\sndBossHitRemastered</sound>
@@ -644,7 +645,9 @@
         <background>background\bgCaveUnderwater</background>
         <background>background\bgDizzy</background>
         <background>background\bgCave</background>
+        <background>background\bgCastleSmallBrick</background>
         <backgrounds name="BackTile">
+          <background>background\btCastleSmallBrick</background>
           <background>background\btSign</background>
           <background>background\btMetal</background>
           <background>background\btCamera</background>
@@ -1537,10 +1540,6 @@
       <objects name="Dizzy">
         <object>objects\objDizzySurface</object>
         <object>objects\objDizzySpikeUp</object>
-        <object>objects\objResofaSpikeUp</object>
-        <object>objects\objResofaSpikeLeft</object>
-        <object>objects\objResofaSpikeRight</object>
-        <object>objects\objResofaSpikeDown</object>
         <object>objects\objDizzySky</object>
         <object>objects\objDizzyBackground</object>
         <object>objects\objViewSpin</object>
@@ -1550,6 +1549,10 @@
         <object>objects\objGravDownDizzy</object>
         <object>objects\objDizzySpins</object>
       </objects>
+      <object>objects\objResofaSpikeUp</object>
+      <object>objects\objResofaSpikeLeft</object>
+      <object>objects\objResofaSpikeRight</object>
+      <object>objects\objResofaSpikeDown</object>
     </objects>
     <object>objects\oDrawing</object>
     <object>objects\oEN</object>
@@ -1742,6 +1745,9 @@
         </rooms>
         <rooms name="Dizzy">
           <room>rooms\rDizzyA</room>
+        </rooms>
+        <rooms name="Castle">
+          <room>rooms\rCastleA</room>
         </rooms>
       </rooms>
     </rooms>

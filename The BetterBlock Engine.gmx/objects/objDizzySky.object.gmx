@@ -50,7 +50,7 @@
             <kind>1</kind>
             <string>background_x[0]=view_xview[0]
 background_y[0]=view_yview[0]
-a+=1
+a+=0.1
 background_colour=make_colour_hsv(a,255,255)
 </string>
           </argument>
