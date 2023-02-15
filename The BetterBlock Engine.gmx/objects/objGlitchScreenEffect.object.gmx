@@ -28,6 +28,8 @@
             <string>image_alpha=0.04
 image_yscale=room_height/32
 image_xscale=room_width/32
+x=0
+y=0
 </string>
           </argument>
         </arguments>
