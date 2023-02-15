@@ -1562,6 +1562,7 @@
         <object>objects\objCastleSurface</object>
         <object>objects\objCastleRain</object>
         <object>objects\objGlitchArea</object>
+        <object>objects\objGlitchScreenEffect</object>
       </objects>
     </objects>
     <object>objects\oDrawing</object>
