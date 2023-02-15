@@ -3,12 +3,12 @@
   <caption></caption>
   <width>800</width>
   <height>608</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>16</vsnap>
+  <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
-  <colour>8283491</colour>
+  <colour>3024163</colour>
   <showcolour>-1</showcolour>
   <code></code>
   <enableViews>-1</enableViews>
@@ -31,7 +31,7 @@
     <yoffset>0</yoffset>
   </makerSettings>
   <backgrounds>
-    <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="0" name="backgroundS" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -41,14 +41,14 @@
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
   </backgrounds>
   <views>
-    <view visible="-1" objName="" xview="0" yview="0" wview="800" hview="608" xport="0" yport="0" wport="800" hport="608" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="-1" objName="&lt;undefined&gt;" xview="0" yview="0" wview="800" hview="608" xport="0" yport="0" wport="800" hport="608" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
     <instance objName="objPlayerStart" x="64" y="416" name="inst_2081CB73" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -74,6 +74,35 @@
     <instance objName="objBlock" x="704" y="256" name="inst_2129F0D3" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="672" y="96" name="inst_C50A27AE" locked="0" code="" scaleX="4" scaleY="5" colour="4294967295" rotation="0"/>
     <instance objName="objPlayMusic" x="96" y="288" name="inst_D38A15C5" locked="0" code="BGM=musCastleS&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCastleRain" x="160" y="128" name="inst_0CCFE8BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objGlitchArea" x="320" y="320" name="inst_ECC5C11E" locked="0" code="" scaleX="2" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="objResofaSpikeUp" x="384" y="288" name="inst_F7A4349D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objGlitchArea" x="480" y="96" name="inst_1569C8CA" locked="0" code="" scaleX="5" scaleY="7" colour="4294967295" rotation="0"/>
+    <instance objName="objGlitchArea" x="480" y="320" name="inst_AE40E0C6" locked="0" code="" scaleX="7" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="objResofaSpikeLeft" x="592" y="368" name="inst_E3628552" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objGlitchArea" x="448" y="96" name="inst_51B1F9E6" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="objResofaSpikeRight" x="624" y="368" name="inst_0FAE7988" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objResofaSpikeLeft" x="640" y="384" name="inst_42B2EDA5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objResofaSpikeLeft" x="640" y="352" name="inst_998C5746" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objResofaSpikeLeft" x="512" y="304" name="inst_6D2E257A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objResofaSpikeRight" x="544" y="304" name="inst_97F97510" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCastleSurface" x="96" y="128" name="inst_C12FAE37" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objResofaSpikeUp" x="448" y="544" name="inst_8F4B921C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objResofaSpikeUp" x="640" y="480" name="inst_8AAEAC65" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objResofaSpikeDown" x="672" y="416" name="inst_D394EB33" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objResofaSpikeUp" x="544" y="176" name="inst_81B2AE90" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objResofaSpikeDown" x="544" y="208" name="inst_36283E20" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objResofaSpikeDown" x="528" y="256" name="inst_26383DE2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objResofaSpikeUp" x="528" y="224" name="inst_FBF3E51D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objResofaSpikeDown" x="480" y="96" name="inst_CE78A41C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objResofaSpikeDown" x="608" y="96" name="inst_D9C8F75C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objResofaSpikeDown" x="640" y="96" name="inst_2A27392C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objResofaSpikeDown" x="544" y="96" name="inst_0931A40D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objResofaSpikeDown" x="352" y="32" name="inst_D689C8BD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objResofaSpikeDown" x="384" y="32" name="inst_7AFA92C7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objResofaSpikeDown" x="704" y="416" name="inst_36B26678" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objResofaSpikeUp" x="704" y="480" name="inst_042517BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objGlitchArea" x="704" y="416" name="inst_ABFE2AE3" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="btCastleSmallBrick" x="384" y="576" w="32" h="32" xo="64" yo="0" id="10017317" name="inst_8F0BF5BE" depth="2000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -341,6 +370,79 @@
     <tile bgName="bgCastleSmallBrick" x="224" y="544" w="32" h="32" xo="32" yo="32" id="10017275" name="inst_ECBD9177" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgCastleSmallBrick" x="224" y="576" w="32" h="32" xo="32" yo="32" id="10017276" name="inst_2A780946" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgCastleSmallBrick" x="224" y="448" w="32" h="32" xo="32" yo="32" id="10017277" name="inst_ED70AB90" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="320" y="416" w="32" h="32" xo="32" yo="0" id="10017508" name="inst_BD283FBF" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="352" y="416" w="32" h="32" xo="32" yo="0" id="10017509" name="inst_92C1E15C" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="384" y="320" w="32" h="32" xo="32" yo="0" id="10017510" name="inst_D2BBD1D7" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="416" y="288" w="32" h="32" xo="32" yo="0" id="10017511" name="inst_A79CDADA" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="448" y="288" w="32" h="32" xo="32" yo="0" id="10017512" name="inst_0F262038" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="448" y="576" w="32" h="32" xo="32" yo="0" id="10017513" name="inst_6CEBD33A" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="480" y="576" w="32" h="32" xo="32" yo="0" id="10017514" name="inst_7F0E4C43" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="384" y="544" w="32" h="32" xo="32" yo="0" id="10017515" name="inst_3798C155" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="640" y="512" w="32" h="32" xo="32" yo="0" id="10017516" name="inst_DE7DECA9" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="672" y="512" w="32" h="32" xo="32" yo="0" id="10017517" name="inst_16A3D3E7" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="704" y="512" w="32" h="32" xo="32" yo="0" id="10017518" name="inst_C57B4C51" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="736" y="512" w="32" h="32" xo="32" yo="0" id="10017519" name="inst_EAE10584" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="768" y="512" w="32" h="32" xo="32" yo="0" id="10017520" name="inst_E41E8B7C" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="672" y="352" w="32" h="32" xo="32" yo="0" id="10017521" name="inst_6C916DA8" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="672" y="288" w="32" h="32" xo="32" yo="0" id="10017522" name="inst_DBCC9854" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="320" y="416" w="32" h="32" xo="0" yo="0" id="10017523" name="inst_B349BE17" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="320" y="448" w="32" h="32" xo="0" yo="0" id="10017524" name="inst_DF6A9B0D" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="320" y="480" w="32" h="32" xo="0" yo="0" id="10017525" name="inst_AA31D69D" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="320" y="512" w="32" h="32" xo="0" yo="0" id="10017526" name="inst_7EA08AD1" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="320" y="544" w="32" h="32" xo="0" yo="0" id="10017527" name="inst_8976E9BF" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="320" y="576" w="32" h="32" xo="0" yo="0" id="10017528" name="inst_8CB624B0" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="384" y="384" w="32" h="32" xo="0" yo="0" id="10017529" name="inst_B3E712F9" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="384" y="352" w="32" h="32" xo="0" yo="0" id="10017530" name="inst_72940E86" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="384" y="320" w="32" h="32" xo="0" yo="0" id="10017531" name="inst_A44228A7" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="416" y="288" w="32" h="32" xo="0" yo="0" id="10017532" name="inst_1AD62932" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="448" y="576" w="32" h="32" xo="0" yo="0" id="10017533" name="inst_2E10B402" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="640" y="512" w="32" h="32" xo="0" yo="0" id="10017534" name="inst_C9DACD2B" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="640" y="544" w="32" h="32" xo="0" yo="0" id="10017535" name="inst_9A2BE192" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="640" y="576" w="32" h="32" xo="0" yo="0" id="10017536" name="inst_1C46601A" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="416" y="32" w="32" h="32" xo="0" yo="0" id="10017537" name="inst_C63B382E" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="448" y="64" w="32" h="32" xo="0" yo="0" id="10017538" name="inst_029BEE9D" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="352" y="0" w="32" h="32" xo="0" yo="0" id="10017539" name="inst_EF9D3CF9" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="672" y="96" w="32" h="32" xo="0" yo="0" id="10017540" name="inst_58AC8BB6" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="672" y="128" w="32" h="32" xo="0" yo="0" id="10017541" name="inst_7568AB29" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="672" y="160" w="32" h="32" xo="0" yo="0" id="10017542" name="inst_A61A999B" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="672" y="192" w="32" h="32" xo="0" yo="0" id="10017543" name="inst_ADE8D911" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="672" y="224" w="32" h="32" xo="0" yo="0" id="10017544" name="inst_4459FF10" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="704" y="256" w="32" h="32" xo="0" yo="0" id="10017545" name="inst_CBF7614E" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="672" y="288" w="32" h="32" xo="0" yo="0" id="10017546" name="inst_083F5774" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="704" y="320" w="32" h="32" xo="0" yo="0" id="10017547" name="inst_37DF983F" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="672" y="352" w="32" h="32" xo="0" yo="0" id="10017548" name="inst_6A586561" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="672" y="384" w="32" h="32" xo="0" yo="0" id="10017549" name="inst_C89F8FB8" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="384" y="544" w="32" h="32" xo="0" yo="32" id="10017550" name="inst_075D7A33" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="384" y="480" w="32" h="32" xo="0" yo="32" id="10017551" name="inst_B88E8CBF" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="416" y="448" w="32" h="32" xo="0" yo="32" id="10017552" name="inst_A3CBE6CE" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="448" y="448" w="32" h="32" xo="0" yo="32" id="10017553" name="inst_E1C4730C" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="672" y="384" w="32" h="32" xo="0" yo="32" id="10017554" name="inst_BD6CE471" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="704" y="384" w="32" h="32" xo="0" yo="32" id="10017555" name="inst_AFCB3583" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="736" y="384" w="32" h="32" xo="0" yo="32" id="10017556" name="inst_F70FCE5B" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="768" y="384" w="32" h="32" xo="0" yo="32" id="10017557" name="inst_CBC4D42D" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="672" y="288" w="32" h="32" xo="0" yo="32" id="10017558" name="inst_28D44D77" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="672" y="224" w="32" h="32" xo="0" yo="32" id="10017559" name="inst_07D66BB4" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="448" y="64" w="32" h="32" xo="0" yo="32" id="10017560" name="inst_42A3AB92" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="416" y="32" w="32" h="32" xo="0" yo="32" id="10017561" name="inst_B0A799FA" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="384" y="0" w="32" h="32" xo="0" yo="32" id="10017562" name="inst_73996209" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="352" y="0" w="32" h="32" xo="0" yo="32" id="10017563" name="inst_5CF90D26" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="480" y="64" w="32" h="32" xo="0" yo="32" id="10017564" name="inst_5A0E150D" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="512" y="64" w="32" h="32" xo="0" yo="32" id="10017565" name="inst_87ECDBB5" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="544" y="64" w="32" h="32" xo="0" yo="32" id="10017566" name="inst_D7C749C1" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="576" y="64" w="32" h="32" xo="0" yo="32" id="10017567" name="inst_F4528F4C" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="608" y="64" w="32" h="32" xo="0" yo="32" id="10017568" name="inst_EF1539ED" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="640" y="64" w="32" h="32" xo="0" yo="32" id="10017569" name="inst_B8FBA3D9" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="448" y="288" w="32" h="32" xo="32" yo="32" id="10017570" name="inst_BCC3F487" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="448" y="320" w="32" h="32" xo="32" yo="32" id="10017571" name="inst_6C8CC36B" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="448" y="352" w="32" h="32" xo="32" yo="32" id="10017572" name="inst_323983E8" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="448" y="384" w="32" h="32" xo="32" yo="32" id="10017573" name="inst_2CAB8499" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="448" y="416" w="32" h="32" xo="32" yo="32" id="10017574" name="inst_8332F9BC" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="448" y="448" w="32" h="32" xo="32" yo="32" id="10017575" name="inst_27B94188" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="384" y="480" w="32" h="32" xo="32" yo="32" id="10017576" name="inst_4559D81A" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="352" y="512" w="32" h="32" xo="32" yo="32" id="10017577" name="inst_612E1A61" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="384" y="544" w="32" h="32" xo="32" yo="32" id="10017578" name="inst_8F3F2DDD" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="352" y="576" w="32" h="32" xo="32" yo="32" id="10017579" name="inst_F991CBDE" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgCastleSmallBrick" x="480" y="576" w="32" h="32" xo="32" yo="32" id="10017580" name="inst_C3FD0EB5" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

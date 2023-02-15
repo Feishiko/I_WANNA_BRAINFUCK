@@ -132,20 +132,21 @@
     <instance objName="objBetterSign" x="416" y="672" name="inst_68378996" locked="0" code="Te=&quot;OMGUY&quot;&#xA;color=c_white" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWarp" x="448" y="608" name="inst_D861E8E4" locked="0" code="roomTo = rCreator;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBetterSign" x="672" y="672" name="inst_0842DBD9" locked="0" code="Te=&quot;Resofa&quot;&#xA;color=c_white&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objWarp" x="576" y="608" name="inst_11E31D18" locked="0" code="roomTo = rResofaAA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objWarp" x="672" y="608" name="inst_F16EDE2D" locked="0" code="roomTo = rSnake;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objWarp" x="768" y="608" name="inst_6FD9CFC0" locked="0" code="roomTo = rCxkIntro;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objWarp" x="608" y="544" name="inst_3A37193A" locked="0" code="roomTo=rStepA" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWarp" x="768" y="608" name="inst_11E31D18" locked="0" code="roomTo = rResofaAA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWarp" x="672" y="544" name="inst_F16EDE2D" locked="0" code="roomTo = rSnake;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWarp" x="768" y="544" name="inst_6FD9CFC0" locked="0" code="roomTo = rCxkIntro;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWarp" x="576" y="576" name="inst_3A37193A" locked="0" code="roomTo=rStepA" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWarp" x="384" y="544" name="inst_B7A609B9" locked="0" code="roomTo=rSaulFakeman" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objWarp" x="736" y="544" name="inst_4FF0D663" locked="0" code="roomTo=rWaterA&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWarp" x="704" y="608" name="inst_4FF0D663" locked="0" code="roomTo=rWaterA" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWarp" x="224" y="544" name="inst_53AC9630" locked="0" code="roomTo = rmMath1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objWarp" x="672" y="480" name="inst_2173DC61" locked="0" code="roomTo=rRollA&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWarp" x="832" y="576" name="inst_2173DC61" locked="0" code="roomTo=rRollA" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWarp" x="160" y="608" name="inst_1C998ABD" locked="0" code="roomTo = rmBadkid;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objWarp" x="512" y="480" name="inst_46FE79D3" locked="0" code="roomTo=rPokemonBoss" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWarp" x="928" y="576" name="inst_46FE79D3" locked="0" code="roomTo=rPokemonBoss" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWarp" x="448" y="544" name="inst_EE212A91" locked="0" code="roomTo=rTheGate&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objWarp" x="864" y="608" name="inst_58B77D8A" locked="0" code="roomTo=rCaveA&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWarp" x="864" y="576" name="inst_58B77D8A" locked="0" code="roomTo=rCaveA" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWarp" x="416" y="576" name="inst_3D7546CF" locked="0" code="roomTo=rCaveDila1&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objWarp" x="928" y="608" name="inst_0C81B072" locked="0" code="roomTo=rDizzyA&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWarp" x="640" y="608" name="inst_0C81B072" locked="0" code="roomTo=rDizzyA" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWarp" x="672" y="608" name="inst_3585492C" locked="0" code="r=rCastleA&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bAllTiles" x="0" y="704" w="32" h="32" xo="0" yo="96" id="10003900" name="inst_FDAC197D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

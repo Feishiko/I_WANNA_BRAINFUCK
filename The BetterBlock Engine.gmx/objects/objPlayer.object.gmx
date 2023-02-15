@@ -28,6 +28,7 @@
             <string>weird=0
 weird1=0
 weird2=0
+stuck=0
 asd=0
 alarm[0]=35
 alarm[1]=5
@@ -207,7 +208,7 @@ if (global.playerAnimationFix)
             var L = (scrButtonCheck(global.leftButton) || (global.directionalTapFix &amp;&amp; scrButtonCheckPressed(global.leftButton)));
             var R = (scrButtonCheck(global.rightButton) || (global.directionalTapFix &amp;&amp; scrButtonCheckPressed(global.rightButton)));
             
-            if ((L || R) &amp;&amp; !frozen)
+            if ((L || R) &amp;&amp; !frozen&amp;&amp;stuck=0)
             {
                 sprite_index = sprPlayerRunning;
                 image_speed = 1/2;
@@ -330,10 +331,15 @@ else
 
 
 //Resofa added this
+if(!place_meeting(x,y,objGlitchArea))
+{
+stuck=0
+gravity = 0.4 * global.grav
+}
 var h = 0;
 if(!instance_exists(objRollGimmick))
 {
-if (!frozen)    //don't move if frozen
+if (!frozen&amp;&amp;stuck=0)    //don't move if frozen
 {
     if (R)
         h = 1;
@@ -407,7 +413,7 @@ if (h != 0)  //player is moving
     {
         if (slipBlockTouching == noone) //not touching a slip block, move immediately at full speed
         {
-if(!instance_exists(objRollGimmick))
+if(!instance_exists(objRollGimmick)&amp;&amp;stuck=0)
 {
             hspeed = maxSpeed * h;
 }
@@ -417,7 +423,7 @@ if(!instance_exists(objRollGimmick))
             hspeed += (slipBlockTouching.slip) * h;
             
             if (abs(hspeed) &gt; maxSpeed)
-        if(!instance_exists(objRollGimmick))
+        if(!instance_exists(objRollGimmick)&amp;&amp;stuck=0)
 {
                 hspeed = maxSpeed * h;
 }
@@ -427,7 +433,7 @@ if(!instance_exists(objRollGimmick))
         image_speed = 0.5;
     }
 }
-else    //player is not moving
+else if(stuck=0)   //player is not moving
 {
     if (slipBlockTouching == noone) //not touching a slip block, stop immediately
         hspeed = 0;
@@ -720,6 +726,31 @@ scrKillPlayer()
         </arguments>
       </action>
     </event>
+    <event eventtype="4" ename="objGlitchArea">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>stuck=1
+gravity=0
+speed=9
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="4" ename="objBounceBallRoll">
       <action>
         <libid>1</libid>
@@ -930,6 +961,10 @@ else    //flipped
         djump = 1;
     }
 }
+if(stuck=1)
+{
+scrKillPlayer()
+}
 </string>
           </argument>
         </arguments>
@@ -958,6 +993,10 @@ PvSpd = (y - yprevious);
 with (other){
     event_user(0);
     event_user(1);
+}
+if(stuck=1)
+{
+scrKillPlayer()
 }
 </string>
           </argument>
@@ -1021,6 +1060,10 @@ if (!place_free(x,y+vspeed))
 }
 
 if (!place_free(x+hspeed,y+vspeed)) {hspeed = 0;}
+if(stuck=1)
+{
+scrKillPlayer()
+}
 </string>
           </argument>
         </arguments>

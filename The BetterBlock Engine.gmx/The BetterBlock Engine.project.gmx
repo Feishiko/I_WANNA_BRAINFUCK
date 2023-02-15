@@ -595,6 +595,9 @@
         <sprite>sprites\sprResofaSpikeDown</sprite>
         <sprite>sprites\sprResofaSpikeRight</sprite>
       </sprites>
+      <sprites name="Castle">
+        <sprite>sprites\sprGlitchArea</sprite>
+      </sprites>
     </sprites>
     <sprite>sprites\sprBus</sprite>
     <sprite>sprites\sprWarpGuo</sprite>
@@ -643,6 +646,7 @@
         <background>background\bgColor</background>
         <background>background\bgRoll</background>
         <background>background\bgCaveUnderwater</background>
+        <background>background\bgPokemonFight</background>
         <background>background\bgDizzy</background>
         <background>background\bgCave</background>
         <background>background\bgCastleSmallBrick</background>
@@ -658,7 +662,6 @@
           <background>background\btDizzyTree</background>
           <background>background\btDizzy</background>
         </backgrounds>
-        <background>background\bgPokemonFight</background>
       </backgrounds>
       <backgrounds name="Background">
         <background>background\backgroundA</background>
@@ -679,6 +682,7 @@
         <background>background\backgroundP</background>
         <background>background\backgroundO</background>
         <background>background\backgroundR</background>
+        <background>background\backgroundS</background>
       </backgrounds>
       <background>background\background59</background>
       <background>background\background83</background>
@@ -1549,10 +1553,16 @@
         <object>objects\objGravDownDizzy</object>
         <object>objects\objDizzySpins</object>
       </objects>
+      <object>objects\objResofaSpikes</object>
       <object>objects\objResofaSpikeUp</object>
       <object>objects\objResofaSpikeLeft</object>
       <object>objects\objResofaSpikeRight</object>
       <object>objects\objResofaSpikeDown</object>
+      <objects name="Castle">
+        <object>objects\objCastleSurface</object>
+        <object>objects\objCastleRain</object>
+        <object>objects\objGlitchArea</object>
+      </objects>
     </objects>
     <object>objects\oDrawing</object>
     <object>objects\oEN</object>
