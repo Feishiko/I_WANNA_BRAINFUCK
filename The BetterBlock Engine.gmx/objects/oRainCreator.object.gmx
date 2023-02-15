@@ -26,6 +26,9 @@
           <argument>
             <kind>1</kind>
             <string>alarm[0] = 500;
+repeat(80){
+instance_create(random_range(0, room_width + 320), random_range(0,608), oRain);
+}
 </string>
           </argument>
         </arguments>
