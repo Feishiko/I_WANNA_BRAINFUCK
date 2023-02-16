@@ -49,6 +49,8 @@
       </sounds>
       <sounds name="Feishiko">
         <sound>sound\sndEntering</sound>
+        <sound>sound\sndHurt</sound>
+        <sound>sound\sndLaser</sound>
       </sounds>
       <sounds name="Resofa">
         <sounds name="Cxk">
@@ -130,6 +132,7 @@
         <sound>sound\musUnderWater</sound>
         <sound>sound\sndRain</sound>
         <sound>sound\sndStorm</sound>
+        <sound>sound\musBadkid</sound>
       </sounds>
       <sounds name="Resofa">
         <sound>sound\musCxk</sound>
@@ -484,6 +487,7 @@
       <sprite>sprites\sBadkidChange</sprite>
       <sprite>sprites\sShadowBall</sprite>
       <sprite>sprites\sRect</sprite>
+      <sprite>sprites\sLasers</sprite>
     </sprites>
     <sprite>sprites\sprite88</sprite>
     <sprite>sprites\sprAchievementMB</sprite>
@@ -1395,6 +1399,9 @@
         <object>objects\oBadkidHP</object>
         <object>objects\oBadkidNoise</object>
         <object>objects\oCameraBadkid</object>
+        <object>objects\oShadowBall</object>
+        <object>objects\oLasers</object>
+        <object>objects\oLaserEmit</object>
       </objects>
     </objects>
     <objects name="Resofa">

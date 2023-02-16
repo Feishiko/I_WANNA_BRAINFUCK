@@ -25,16 +25,16 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>viewH = -1;
-viewW = -1;
-
-animation = false;
+            <string>dir = point_direction(x, y, objPlayer.x, objPlayer.y);
+tmpx = objPlayer.x;
+tmpy = objPlayer.y;
+alarm[0] = 30;
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="3" enumb="0">
+    <event eventtype="2" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -51,49 +51,33 @@ animation = false;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(instance_exists(oBadkid)) {
-    if(oBadkid.hp &lt;= 100) {
-        view_object[0] = oBadkid;
-        
-        if(oBadkid.sprite_index == sBadkidIdle) {
-            viewW = 200;
-            viewH = 152;
-            animation = true;
-        }
-        
-        if(view_hview[0] &lt;= viewH + 1) {
-            with(oBadkid) {
-                if(sprite_index != sBadkidChange) {
-                    image_index = 0;
-                    sprite_index = sBadkidChange;
-                    image_speed = 0.01;
-                }
-            }
-        }
-        
-        with(oBadkid) {
-            if(sprite_index == sBadkidChange) {
-                if(image_index &gt;= 3.9) {
-                    image_speed = 0;
-                    oCameraBadkid.viewW = 800;
-                    oCameraBadkid.viewH = 608;
-                    if(!instance_exists(oBadkidHP)) {
-                        instance_create(x, y, oBadkidHP);
-                    }
-                    
-                    if(!instance_exists(oBadkidNoise)) {
-                        instance_create(0, 0, oBadkidNoise);
-                    }
-                    oCameraBadkid.animation = false;
-                    global.badkid = true;
-                }
-            }
-        }
-        
-        view_hview[0] = lerp(view_hview[0], viewH, .1);
-        view_wview[0] = lerp(view_wview[0], viewW, .1);
-    }
-}
+            <string>var ins = instance_create(x, y, oLasers);
+ins.image_angle = dir;
+instance_destroy();
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>draw_line_colour(x, y, tmpx + lengthdir_x(800, dir), tmpy + lengthdir_y(800, dir), c_red, c_red);
 </string>
           </argument>
         </arguments>
