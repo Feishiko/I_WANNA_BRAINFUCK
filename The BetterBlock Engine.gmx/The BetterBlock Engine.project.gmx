@@ -1767,6 +1767,7 @@
         </rooms>
         <rooms name="Castle">
           <room>rooms\rCastleA</room>
+          <room>rooms\rCastleB</room>
         </rooms>
       </rooms>
     </rooms>
