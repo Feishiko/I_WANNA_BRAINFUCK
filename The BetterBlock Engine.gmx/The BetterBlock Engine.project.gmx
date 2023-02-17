@@ -600,6 +600,7 @@
         <sprite>sprites\sprResofaSpikeRight</sprite>
       </sprites>
       <sprites name="Castle">
+        <sprite>sprites\sprCasttlePlatform</sprite>
         <sprite>sprites\sprGlitchArea</sprite>
       </sprites>
     </sprites>
@@ -1571,6 +1572,7 @@
         <object>objects\objCastleRain</object>
         <object>objects\objGlitchArea</object>
         <object>objects\objGlitchScreenEffect</object>
+        <object>objects\objCastlePlatform</object>
       </objects>
     </objects>
     <object>objects\oDrawing</object>
