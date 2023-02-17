@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>alarm[0] = 500;
-repeat(80){
+repeat(40){
 instance_create(random_range(0, room_width + 320), random_range(0,608), oRain);
 }
 </string>
@@ -79,7 +79,7 @@ alarm[0] = 1000;
     audio_play_sound(sndRain, 1000, true);
 }
 
-repeat(16){
+repeat(8){
 instance_create(random_range(0, room_width + 320), -120, oRain);
 }
 </string>

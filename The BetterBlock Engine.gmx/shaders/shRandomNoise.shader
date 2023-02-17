@@ -34,7 +34,7 @@ float noise(vec2 _st){
 void main()
 {
     vec2 uv = v_vTexcoord;
-    vec3 noi = vec3(noise(uv + (u_time/10000.)));
+    vec3 noi = vec3(noise(uv + (u_time/1000.)));
     noi = smoothstep(0., threshold, noi);
     gl_FragColor = v_vColour * texture2D( gm_BaseTexture, v_vTexcoord ) * vec4(noi, 1.);
 }

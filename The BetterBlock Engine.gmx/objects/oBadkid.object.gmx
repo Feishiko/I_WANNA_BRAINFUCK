@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>image_speed = 0.25;
-hp = 110;
+hp = 120;
 //instance_create(x, y, oBadkidHP);
 //instance_create(0, 0, oBadkidNoise);
 //instance_create(0, 0, oRotated3d);
@@ -78,7 +78,35 @@ image_speed = 0;
             <kind>1</kind>
             <string>loseHP = lerp(loseHP, 0, 0.1);
 
-if(hp &lt;= 100) {
+if(hp &lt;= 0) {
+    audio_stop_all();
+    audio_play_sound(sndDeath, 100, false);
+    instance_create(room_width/2, 400, oWarpFadeIn);
+    with(oRainCreator) {
+        instance_destroy();
+    }
+    with(oStorms) {
+        instance_destroy();
+    }
+    with(oLasers) {
+        instance_destroy();
+    }
+    with(oLaserEmit) {
+        instance_destroy();
+    }
+    with(oBadkidHP) {
+        instance_destroy();
+    }
+    with(oBadkidNoise) {
+        instance_destroy();
+    }
+    with(oCameraBadkid) {
+        instance_destroy();
+    }
+    instance_destroy();
+}
+
+if(hp &lt;= 100 &amp;&amp; hp &gt; 0) {
     if(!changeMode) {
         changeMode = true;
     }
@@ -97,7 +125,7 @@ if(hp &lt;= 100) {
                 image_xscale = -1;
             }
         }
-        if(hp &gt;= 75) {
+        if(hp &gt;= 50) {
             //First State
             image_index = 2;
             if(shootTimer &gt;= 25) {
@@ -109,7 +137,7 @@ if(hp &lt;= 100) {
                 instance_create(x, y, oShadowBall);
                 shootTimer = 0;
             }
-        } else if(hp &gt;= 50) {
+        } else if(hp &gt;= 0) {
             if(shootTimer == 50 &amp;&amp; instance_exists(objPlayer)) {
                 instance_create(x, y, oLaserEmit);
             }
@@ -147,7 +175,7 @@ if(hp &lt;= 100) {
             <kind>1</kind>
             <string>if(!oCameraBadkid.animation) {
     if(loseHP &lt; 0.1){
-        hp -= 2;
+        hp -= 5;
         loseHP = 1;
         audio_play_sound(sndHurt, 100, false);
         with(other) {
