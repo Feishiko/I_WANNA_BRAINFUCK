@@ -32,13 +32,14 @@ image_speed = 0;
 bbox_tPrevious = bbox_top;
 bbox_bPrevious = bbox_bottom;
 
-b=0.02
+mode=1
+b=0.05
 ang=45
 angs=270
 a=0
-yyy=-96
+lll=-96
 xx=x
-yy=y+yyy
+yy=y+lll
 </string>
           </argument>
         </arguments>
@@ -62,9 +63,18 @@ yy=y+yyy
           <argument>
             <kind>1</kind>
             <string>a+=b
+if(mode=1)
+{
 angle=sin(a)*ang+angs
-x=xx+lengthdir_x(abs(yyy),angle)
-y=yy+lengthdir_y(abs(yyy),angle)
+x=xx+lengthdir_x(abs(lll),angle)
+y=yy+lengthdir_y(abs(lll),angle)
+}
+if(mode=2)
+{
+angle=a+angs
+x=xx+lengthdir_x(abs(lll),angle)
+y=yy+lengthdir_y(abs(lll),angle)
+}
 </string>
           </argument>
         </arguments>
