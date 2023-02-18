@@ -603,6 +603,7 @@
         <sprite>sprites\sprCasttlePlatform</sprite>
         <sprite>sprites\sprGlitchArea</sprite>
         <sprite>sprites\sprRopePoint</sprite>
+        <sprite>sprites\sprGlitchCenter</sprite>
       </sprites>
     </sprites>
     <sprite>sprites\sprBus</sprite>
@@ -1488,7 +1489,6 @@
       </objects>
       <objects name="Demo">
         <objects name="Version">
-          <object>objects\objBackgroundFollow</object>
           <object>objects\objVersionCard</object>
           <object>objects\objVBlockParent</object>
           <object>objects\objVTree</object>
@@ -1564,6 +1564,7 @@
         <object>objects\objDizzySpins</object>
       </objects>
       <object>objects\objResofaSpikes</object>
+      <object>objects\objBackgroundFollow</object>
       <object>objects\objResofaSpikeUp</object>
       <object>objects\objResofaSpikeLeft</object>
       <object>objects\objResofaSpikeRight</object>

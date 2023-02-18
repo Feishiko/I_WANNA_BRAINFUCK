@@ -98,7 +98,7 @@ y=yy+lengthdir_y(abs(len),angle)
           <argument>
             <kind>1</kind>
             <string>draw_sprite(sprRopePoint,0,xx,yy)
-draw_line_colour(xx,yy,x,y+8,make_colour_rgb(24,26,34),make_colour_rgb(24,26,34))
+draw_line_colour(xx,yy,x,y,make_colour_rgb(24,26,34),make_colour_rgb(24,26,34))
 draw_self()
 </string>
           </argument>

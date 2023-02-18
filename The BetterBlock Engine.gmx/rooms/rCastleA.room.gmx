@@ -3,8 +3,8 @@
   <caption></caption>
   <width>800</width>
   <height>608</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>16</vsnap>
+  <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
@@ -78,7 +78,6 @@
     <instance objName="objGlitchArea" x="320" y="320" name="inst_ECC5C11E" locked="0" code="" scaleX="2" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="objResofaSpikeUp" x="384" y="288" name="inst_F7A4349D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objGlitchArea" x="480" y="96" name="inst_1569C8CA" locked="0" code="" scaleX="5" scaleY="7" colour="4294967295" rotation="0"/>
-    <instance objName="objGlitchArea" x="480" y="320" name="inst_AE40E0C6" locked="0" code="" scaleX="7" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="objResofaSpikeLeft" x="592" y="368" name="inst_E3628552" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objResofaSpikeRight" x="624" y="368" name="inst_0FAE7988" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objResofaSpikeLeft" x="640" y="384" name="inst_42B2EDA5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -104,6 +103,8 @@
     <instance objName="objGlitchArea" x="704" y="416" name="inst_ABFE2AE3" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="objGlitchScreenEffect" x="160" y="240" name="inst_EFADCCCF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWarp" x="800" y="416" name="inst_766F1B81" locked="0" code="roomTo=rCastleB&#xA;" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="objGlitchArea" x="480" y="320" name="inst_201E275F" locked="0" code="" scaleX="6" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="objGlitchArea" x="672" y="320" name="inst_E1262ED7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="btCastleSmallBrick" x="384" y="576" w="32" h="32" xo="64" yo="0" id="10017317" name="inst_8F0BF5BE" depth="2000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

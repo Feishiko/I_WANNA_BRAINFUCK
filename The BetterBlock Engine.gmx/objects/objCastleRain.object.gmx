@@ -48,7 +48,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//instance_create(x, y, oStorms);
+            <string>instance_create(x, y, oStorms);
 alarm[0] = 1000;
 </string>
           </argument>

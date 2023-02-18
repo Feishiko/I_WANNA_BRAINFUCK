@@ -67,6 +67,13 @@ if (surface_exists(application_surface))
 draw_surface_ext(application_surface,a,0,1,1,0,make_colour_rgb(255,0,0),1+a/10)
 draw_surface_ext(application_surface,-a,0,1,1,0,make_colour_rgb(0,0,255),1+a/10)
 draw_surface_ext(application_surface,0,0,1,1,0,make_colour_rgb(0,255,0),1+a/10)
+
+if(a&gt;2)
+{
+draw_surface_ext(application_surface,a,0,1,1,0,make_colour_rgb(255,0,0),0.02+(a-2)/30)
+draw_surface_ext(application_surface,-a,0,1,1,0,make_colour_rgb(0,0,255),0.02+(a-2)/30)
+draw_surface_ext(application_surface,0,0,1,1,0,make_colour_rgb(0,255,0),0.02+(a-2)/30)
+}
 }
 draw_set_blend_mode(bm_normal)
 surface_reset_target()
