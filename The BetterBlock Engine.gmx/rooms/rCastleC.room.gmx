@@ -196,7 +196,7 @@
     <instance objName="objSaveBlocker" x="1248" y="512" name="inst_35BC43F2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objResofaSpikeRight" x="1248" y="544" name="inst_1596EE84" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objResofaSpikeRight" x="1280" y="576" name="inst_B59AC152" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objGlitchArea" x="768" y="320" name="inst_85F0F684" locked="0" code="" scaleX="1" scaleY="9.5" colour="4294967295" rotation="0"/>
+    <instance objName="objGlitchArea" x="736" y="304" name="inst_85F0F684" locked="0" code="" scaleX="1" scaleY="9.5" colour="4294967295" rotation="0"/>
     <instance objName="objGlitchArea" x="1152" y="512" name="inst_7A6336EF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCastlePlatform" x="192" y="368" name="inst_86B4CE0A" locked="0" code="len=-160&#xA;ang=30&#xA;b=0.03&#xA;angs=90&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objResofaSpikeDown" x="96" y="32" name="inst_5DDD8B77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
