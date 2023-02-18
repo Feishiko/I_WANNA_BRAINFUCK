@@ -602,6 +602,7 @@
       <sprites name="Castle">
         <sprite>sprites\sprCasttlePlatform</sprite>
         <sprite>sprites\sprGlitchArea</sprite>
+        <sprite>sprites\sprRopePoint</sprite>
       </sprites>
     </sprites>
     <sprite>sprites\sprBus</sprite>
@@ -1770,6 +1771,7 @@
         <rooms name="Castle">
           <room>rooms\rCastleA</room>
           <room>rooms\rCastleB</room>
+          <room>rooms\rCastleC</room>
         </rooms>
       </rooms>
     </rooms>

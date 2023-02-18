@@ -37,9 +37,9 @@ b=0.05
 ang=45
 angs=270
 a=0
-lll=-96
+len=-112
 xx=x
-yy=y+lll
+yy=y+len
 </string>
           </argument>
         </arguments>
@@ -66,14 +66,14 @@ yy=y+lll
 if(mode=1)
 {
 angle=sin(a)*ang+angs
-x=xx+lengthdir_x(abs(lll),angle)
-y=yy+lengthdir_y(abs(lll),angle)
+x=xx+lengthdir_x(abs(len),angle)
+y=yy+lengthdir_y(abs(len),angle)
 }
 if(mode=2)
 {
 angle=a+angs
-x=xx+lengthdir_x(abs(lll),angle)
-y=yy+lengthdir_y(abs(lll),angle)
+x=xx+lengthdir_x(abs(len),angle)
+y=yy+lengthdir_y(abs(len),angle)
 }
 </string>
           </argument>
@@ -97,8 +97,8 @@ y=yy+lengthdir_y(abs(lll),angle)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-draw_line_colour(xx,yy,x,y+8,make_colour_rgb(64,66,74),make_colour_rgb(64,66,74))
+            <string>draw_sprite(sprRopePoint,0,xx,yy)
+draw_line_colour(xx,yy,x,y+8,make_colour_rgb(24,26,34),make_colour_rgb(24,26,34))
 draw_self()
 </string>
           </argument>
