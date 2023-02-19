@@ -73,6 +73,8 @@
         <sound>sound\sndIScared</sound>
         <sound>sound\sndICE</sound>
         <sound>sound\sndICEWC</sound>
+        <sound>sound\sndLiftStart</sound>
+        <sound>sound\sndLiftBreak</sound>
       </sounds>
     </sounds>
     <sounds name="music">
@@ -145,6 +147,9 @@
         <sound>sound\musCaveYeah</sound>
         <sound>sound\musDizzy</sound>
         <sound>sound\musCastleS</sound>
+        <sound>sound\musFall</sound>
+        <sound>sound\musLift</sound>
+        <sound>sound\musGlitches</sound>
       </sounds>
     </sounds>
     <sound>sound\sndBossHitRemastered</sound>
@@ -516,7 +521,6 @@
       <sprite>sprites\sprSpinKid</sprite>
       <sprite>sprites\sprSpinCircle</sprite>
       <sprite>sprites\sprBounceBallRoll</sprite>
-      <sprite>sprites\sprite307</sprite>
       <sprite>sprites\sprBlockUnderGrass</sprite>
       <sprite>sprites\sprBlack</sprite>
       <sprite>sprites\sprBlackScreen</sprite>
@@ -605,6 +609,12 @@
         <sprite>sprites\sprRopePoint</sprite>
         <sprite>sprites\sprGlitchCenter</sprite>
       </sprites>
+      <sprites name="Lift">
+        <sprite>sprites\sprBlackLift</sprite>
+        <sprite>sprites\sprBlackWall</sprite>
+        <sprite>sprites\sprRopeLine</sprite>
+        <sprite>sprites\sprGlitchBackground</sprite>
+      </sprites>
     </sprites>
     <sprite>sprites\sprBus</sprite>
     <sprite>sprites\sprWarpGuo</sprite>
@@ -691,6 +701,9 @@
         <background>background\backgroundR</background>
         <background>background\backgroundS</background>
         <background>background\backgroundT</background>
+        <background>background\backgroundU</background>
+        <background>background\backgroundV</background>
+        <background>background\backgroundW</background>
       </backgrounds>
       <background>background\background59</background>
       <background>background\background83</background>
@@ -1576,6 +1589,13 @@
         <object>objects\objGlitchScreenEffect</object>
         <object>objects\objCastlePlatform</object>
       </objects>
+      <objects name="Lift">
+        <object>objects\objLift</object>
+        <object>objects\objLiftPlayer</object>
+        <object>objects\objBlackWall</object>
+        <object>objects\objRopeLineLift</object>
+        <object>objects\objGlitchBackground</object>
+      </objects>
     </objects>
     <object>objects\oDrawing</object>
     <object>objects\oEN</object>
@@ -1774,6 +1794,9 @@
           <room>rooms\rCastleB</room>
           <room>rooms\rCastleC</room>
         </rooms>
+      </rooms>
+      <rooms name="Other">
+        <room>rooms\rLift</room>
       </rooms>
     </rooms>
   </rooms>

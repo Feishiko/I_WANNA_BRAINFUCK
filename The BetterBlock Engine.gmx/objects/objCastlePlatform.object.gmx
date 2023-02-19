@@ -37,9 +37,9 @@ b=0.05
 ang=45
 angs=270
 a=0
-len=-112
+len=112
 xx=x
-yy=y+len
+yy=y
 </string>
           </argument>
         </arguments>

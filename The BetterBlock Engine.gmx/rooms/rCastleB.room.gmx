@@ -58,7 +58,7 @@
     <instance objName="objGlitchScreenEffect" x="64" y="416" name="inst_EFADCCCF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="0" y="512" name="inst_53B076FB" locked="0" code="" scaleX="8" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="0" y="384" name="inst_A6C2DDAC" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objCastlePlatform" x="384" y="512" name="inst_195AFA91" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCastlePlatform" x="384" y="400" name="inst_195AFA91" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="368" y="384" name="inst_FEE21B68" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objResofaSpikeLeft" x="336" y="384" name="inst_9B8DC900" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objResofaSpikeRight" x="400" y="384" name="inst_05F16817" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -98,7 +98,7 @@
     <instance objName="objResofaSpikeDown" x="416" y="256" name="inst_058F422C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objResofaSpikeDown" x="480" y="288" name="inst_0540DFE3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objGlitchArea" x="240" y="160" name="inst_C147EF05" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
-    <instance objName="objCastlePlatform" x="384" y="352" name="inst_5106668F" locked="0" code="a=90&#xA;len=-128" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCastlePlatform" x="384" y="240" name="inst_5106668F" locked="0" code="a=90&#xA;len=128&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objGlitchArea" x="400" y="384" name="inst_6C0E7AA1" locked="0" code="" scaleX="3.5" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="0" y="256" name="inst_2E9D7833" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="160" y="288" name="inst_B44AF3C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
