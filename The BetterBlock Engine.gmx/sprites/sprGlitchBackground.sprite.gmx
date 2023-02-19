@@ -33,5 +33,9 @@
     <frame index="10">images\sprGlitchBackground_10.png</frame>
     <frame index="11">images\sprGlitchBackground_11.png</frame>
     <frame index="12">images\sprGlitchBackground_12.png</frame>
+    <frame index="13">images\sprGlitchBackground_13.png</frame>
+    <frame index="14">images\sprGlitchBackground_14.png</frame>
+    <frame index="15">images\sprGlitchBackground_15.png</frame>
+    <frame index="16">images\sprGlitchBackground_16.png</frame>
   </frames>
 </sprite>

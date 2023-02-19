@@ -1595,6 +1595,7 @@
         <object>objects\objBlackWall</object>
         <object>objects\objRopeLineLift</object>
         <object>objects\objGlitchBackground</object>
+        <object>objects\objFallLiftBlack</object>
       </objects>
     </objects>
     <object>objects\oDrawing</object>
