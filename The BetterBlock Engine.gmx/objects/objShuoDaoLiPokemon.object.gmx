@@ -252,7 +252,7 @@ if(chose=4)
 objPokemonWriter.text="Foe SDDL used NUKE!"
 objPokemonWriter.alarm[2]=1
 audio_play_sound(sndNUKE,0,0)
-alarm[2]=500
+alarm[2]=300
 alarm[6]=50
 }
 </string>

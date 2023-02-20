@@ -29,7 +29,8 @@
 gravity=0.4
 gravity_direction=270
 vspeed=-6
-hspeed=random_range(-4,4)
+hspeed=random_range(-4,1)
+ok=0
 alarm[0]=20
 </string>
           </argument>
@@ -105,11 +106,13 @@ repeat(2)
 {
 if(image_xscale&gt;0.4)
 {
-instance_create(x,y,objExplode)
+
 ins=instance_create(x,y,objNukeS)
 ins.image_xscale=image_xscale*0.6
 ins.image_yscale=image_yscale*0.6
+ins.vspeed=-abs(vspeed*1.05)
 }
+instance_create(x,y,objExplode)
 }
 instance_destroy()
 }
