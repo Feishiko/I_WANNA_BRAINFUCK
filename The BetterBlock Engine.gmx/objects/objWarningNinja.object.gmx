@@ -52,7 +52,7 @@ alarm[0]=40
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>ko=instance_create(x+lengthdir_x(240,image_angle),y+lengthdir_y(240,image_angle),objNinjaDaoLi)
+            <string>ko=instance_create(x-lengthdir_x(240,image_angle),y-lengthdir_y(240,image_angle),objNinjaDaoLi)
 ko.direction=image_angle
 ko.image_angle=image_angle+180
 instance_destroy()

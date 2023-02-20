@@ -30,6 +30,7 @@ gravity=0.4
 gravity_direction=270
 vspeed=-6
 hspeed=random_range(-4,4)
+alarm[0]=20
 </string>
           </argument>
         </arguments>
