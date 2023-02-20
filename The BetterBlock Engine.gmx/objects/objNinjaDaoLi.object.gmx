@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>image_alpha=0
 audio_play_sound(sndHeai,0,0)
+speed=15
 </string>
           </argument>
         </arguments>

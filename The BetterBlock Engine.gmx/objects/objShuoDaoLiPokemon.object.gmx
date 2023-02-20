@@ -42,6 +42,30 @@ chose=1
         </arguments>
       </action>
     </event>
+    <event eventtype="2" enumb="6">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>p=instance_create(x,y,objNukeS)
+p.hspeed=-5
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="2" enumb="5">
       <action>
         <libid>1</libid>
@@ -228,6 +252,8 @@ if(chose=4)
 objPokemonWriter.text="Foe SDDL used NUKE!"
 objPokemonWriter.alarm[2]=1
 audio_play_sound(sndNUKE,0,0)
+alarm[2]=500
+alarm[6]=50
 }
 </string>
           </argument>

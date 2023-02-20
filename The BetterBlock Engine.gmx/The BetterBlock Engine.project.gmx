@@ -612,6 +612,7 @@
       <sprites name="Lift">
         <sprite>sprites\sprBlackLift</sprite>
         <sprite>sprites\sprBlackWall</sprite>
+        <sprite>sprites\sprBlackWallCente</sprite>
         <sprite>sprites\sprRopeLine</sprite>
         <sprite>sprites\sprGlitchBackground</sprite>
       </sprites>
@@ -1548,6 +1549,7 @@
         <object>objects\objHeai</object>
         <object>objects\objWarningNinja</object>
         <object>objects\objShifang</object>
+        <object>objects\objNukeS</object>
       </objects>
       <object>objects\objNiuQuBGM</object>
       <objects name="Cave">
