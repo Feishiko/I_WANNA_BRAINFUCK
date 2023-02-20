@@ -110,7 +110,6 @@ if(image_xscale&gt;0.4)
 ins=instance_create(x,y,objNukeS)
 ins.image_xscale=image_xscale*0.6
 ins.image_yscale=image_yscale*0.6
-ins.vspeed=-abs(vspeed*1.05)
 }
 instance_create(x,y,objExplode)
 }
