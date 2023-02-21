@@ -42,6 +42,29 @@ chose=1
         </arguments>
       </action>
     </event>
+    <event eventtype="2" enumb="7">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>instance_create(x,y,objICE)
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="2" enumb="6">
       <action>
         <libid>1</libid>
@@ -245,14 +268,16 @@ if(chose=3)
 {
 objPokemonWriter.text="Foe SDDL used ICE!"
 objPokemonWriter.alarm[2]=1
-alarm[2]=50
+alarm[2]=100
+alarm[7]=37.5
+audio_play_sound(sndICEWC,0,0)
 }
 if(chose=4)
 {
 objPokemonWriter.text="Foe SDDL used NUKE!"
 objPokemonWriter.alarm[2]=1
 audio_play_sound(sndNUKE,0,0)
-alarm[2]=300
+alarm[2]=100
 alarm[6]=50
 }
 </string>
@@ -282,8 +307,11 @@ alarm[6]=50
 if(ninja=0)
 {
 l+=(0-l)/40
+if(curHP&gt;0)
+{
 x=random_range(-l,l)+xstart
 y=random_range(-l,l)+ystart
+}
 if(image_alpha&lt;1)
 {
 image_alpha+=0.1

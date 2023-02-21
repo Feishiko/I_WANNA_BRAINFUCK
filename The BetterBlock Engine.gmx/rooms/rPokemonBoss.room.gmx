@@ -61,6 +61,12 @@
     <instance objName="objSpikeUp" x="544" y="256" name="inst_1F854649" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="576" y="272" name="inst_0DFD34F7" locked="0" code="" scaleX="1.03225803375244" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="objPokemonWriter" x="16" y="464" name="inst_DF9407EA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeUp" x="608" y="272" name="inst_6908B413" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeUp" x="640" y="272" name="inst_4959E26C" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeUp" x="672" y="272" name="inst_BE0B2066" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeUp" x="704" y="272" name="inst_60EEDF19" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeUp" x="736" y="272" name="inst_92F0FB1D" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="objSpikeUp" x="768" y="272" name="inst_AD13DEEE" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="btPokemonGrassBig" x="-144" y="272" w="600" h="300" xo="0" yo="0" id="10013054" name="inst_CB74218B" depth="2200000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

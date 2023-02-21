@@ -587,6 +587,8 @@
         <sprite>sprites\sprRenzhededaoli</sprite>
         <sprite>sprites\sprHeai</sprite>
         <sprite>sprites\sprNinjaCloud</sprite>
+        <sprite>sprites\sprIceSSS</sprite>
+        <sprite>sprites\sprIceBet</sprite>
       </sprites>
       <sprites name="Cave">
         <sprite>sprites\sprWhiteWave</sprite>
@@ -1550,6 +1552,8 @@
         <object>objects\objWarningNinja</object>
         <object>objects\objShifang</object>
         <object>objects\objNukeS</object>
+        <object>objects\objICE</object>
+        <object>objects\objIceMove</object>
       </objects>
       <object>objects\objNiuQuBGM</object>
       <objects name="Cave">
