@@ -1544,6 +1544,7 @@
       <objects name="PokemonReosfa's">
         <object>objects\objPokemonWriter</object>
         <object>objects\OMGTVIntro</object>
+        <object>objects\objOMGTVWoc</object>
         <object>objects\objShuoDaoLiPokemon</object>
         <object>objects\objPokeball</object>
         <object>objects\objDaoLiSound</object>
@@ -1554,6 +1555,7 @@
         <object>objects\objNukeS</object>
         <object>objects\objICE</object>
         <object>objects\objIceMove</object>
+        <object>objects\objHaoGe</object>
       </objects>
       <object>objects\objNiuQuBGM</object>
       <objects name="Cave">
