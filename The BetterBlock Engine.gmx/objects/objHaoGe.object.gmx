@@ -30,6 +30,7 @@ image_speed=0
 maxHP=20
 curHP=maxHP
 breathe=0
+y+=40
 </string>
           </argument>
         </arguments>
@@ -60,7 +61,7 @@ else
 {
 image_alpha=1
 }
-breathe+=0.01
+breathe+=0.05
 image_yscale=sin(breathe)/30+1
 </string>
           </argument>
