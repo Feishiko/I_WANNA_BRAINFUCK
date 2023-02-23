@@ -75,6 +75,9 @@
         <sound>sound\sndICEWC</sound>
         <sound>sound\sndLiftStart</sound>
         <sound>sound\sndLiftBreak</sound>
+        <sound>sound\sndTMGuyizhaochaManYiLeBa</sound>
+        <sound>sound\sndHaoer</sound>
+        <sound>sound\sndChuai</sound>
       </sounds>
     </sounds>
     <sounds name="music">
