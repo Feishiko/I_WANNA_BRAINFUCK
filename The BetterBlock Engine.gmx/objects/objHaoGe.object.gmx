@@ -31,6 +31,9 @@ maxHP=20
 curHP=maxHP
 breathe=0
 y+=40
+d=0
+e=0
+audio_play_sound(sndTMGuyizhaochaManYiLeBa,0,0)
 </string>
           </argument>
         </arguments>
@@ -61,8 +64,99 @@ else
 {
 image_alpha=1
 }
+if(curHP&lt;=0)
+{
+image_index=1
+image_angle+=(190-image_angle)/50
+audio_play_sound(sndHaoer,0,0)
+}
+else
+{
+
 breathe+=0.05
 image_yscale=sin(breathe)/30+1
+image_angle=sin(e)*d;
+e+=0.6;
+alarm[10]=70
+}
+if(d&gt;0)
+{
+d-=0.9;
+}
+else
+{
+d=0;
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="objBullet">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if(curHP&gt;0)
+{
+with(other)
+{
+instance_destroy()
+}
+curHP-=1
+audio_play_sound(sndChuai,0,0)
+d=random_range(20,45)
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>draw_set_font(fontUIResofa)
+draw_set_valign(fa_top)
+draw_set_halign(fa_left)
+draw_set_colour(c_black)
+draw_text(16,16,"Watmelon")
+draw_set_valign(fa_top)
+draw_set_halign(fa_right)
+draw_set_colour(c_black)
+draw_text(416,16,"Lv6")
+draw_set_colour(c_white)
+draw_rectangle(16,96,416,112,0)
+draw_set_colour(c_green)
+draw_rectangle(16,96,16+400*curHP/maxHP,112,0)
+draw_set_colour(c_black)
+draw_rectangle(16,96,416,112,1)
+draw_self()
 </string>
           </argument>
         </arguments>

@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>image_alpha=0
 image_speed=0.25
-maxHP=20
+maxHP=10
 curHP=maxHP
 died=0
 t=0
