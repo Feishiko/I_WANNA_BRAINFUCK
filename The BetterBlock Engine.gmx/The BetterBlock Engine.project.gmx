@@ -166,6 +166,7 @@
     <sound>sound\sndIT</sound>
     <sound>sound\sndByebye</sound>
     <sound>sound\sndBadGame</sound>
+    <sound>sound\sndClearDude</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="world">
@@ -775,6 +776,7 @@
     <background>background\bgDraw4</background>
     <background>background\bgCaveHole</background>
     <background>background\bgLine</background>
+    <background>background\bgStage1Clear</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\pthD</path>
