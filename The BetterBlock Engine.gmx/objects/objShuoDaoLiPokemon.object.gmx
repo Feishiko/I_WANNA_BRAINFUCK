@@ -278,7 +278,7 @@ alarm[1]=50
 }
 else
 {
-chose=choose(2,3,4,3,4)
+chose=choose(2,3,4,2,3,4,3,4)
 }
 if(chose=2)
 {

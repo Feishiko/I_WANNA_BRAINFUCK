@@ -78,6 +78,10 @@
         <sound>sound\sndTMGuyizhaochaManYiLeBa</sound>
         <sound>sound\sndHaoer</sound>
         <sound>sound\sndChuai</sound>
+        <sound>sound\sndGUA</sound>
+        <sound>sound\sndTAKETHIS</sound>
+        <sound>sound\sndSHENGGua</sound>
+        <sound>sound\sndELEPHANT</sound>
       </sounds>
     </sounds>
     <sounds name="music">
@@ -593,6 +597,8 @@
         <sprite>sprites\sprNinjaCloud</sprite>
         <sprite>sprites\sprIceSSS</sprite>
         <sprite>sprites\sprIceBet</sprite>
+        <sprite>sprites\sprWaterMelon</sprite>
+        <sprite>sprites\sprWaterMelonPiece</sprite>
       </sprites>
       <sprites name="Cave">
         <sprite>sprites\sprWhiteWave</sprite>
@@ -1561,6 +1567,8 @@
         <object>objects\objICE</object>
         <object>objects\objIceMove</object>
         <object>objects\objHaoGe</object>
+        <object>objects\objGua</object>
+        <object>objects\objWaterMelonPiece</object>
       </objects>
       <object>objects\objNiuQuBGM</object>
       <objects name="Cave">

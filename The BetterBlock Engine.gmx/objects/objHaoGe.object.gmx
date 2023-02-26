@@ -33,7 +33,110 @@ breathe=0
 y+=40
 d=0
 e=0
+//chose=choose(2,3)
+chose=2
 audio_play_sound(sndTMGuyizhaochaManYiLeBa,0,0)
+alarm[0]=104
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="3">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>
+instance_create(x,y-100,objGua)
+alarm[3]=30
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="2">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>alarm[0]=80
+alarm[3]=0
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>
+//chose=choose(2,3,4,2,3,4,3,4)
+
+if(chose=2)
+{
+objPokemonWriter.text="Foe Watmelon used MELON RUSH!"
+objPokemonWriter.alarm[2]=1
+audio_play_sound(sndSHENGGua,0,0)
+
+alarm[3]=60
+alarm[2]=600
+}
+if(chose=3)
+{
+objPokemonWriter.text="Foe Watmelon used MELON BOMB!"
+objPokemonWriter.alarm[2]=1
+alarm[2]=100
+alarm[7]=37.5
+audio_play_sound(sndTAKETHIS,0,0)
+}
+if(chose=4)
+{
+objPokemonWriter.text="Foe Watmelon used ELEPHANT!"
+objPokemonWriter.alarm[2]=1
+audio_play_sound(sndELEPHANT,0,0)
+alarm[2]=100
+alarm[6]=50
+}
 </string>
           </argument>
         </arguments>
@@ -67,7 +170,7 @@ image_alpha=1
 if(curHP&lt;=0)
 {
 image_index=1
-image_angle+=(190-image_angle)/50
+image_angle+=(100-image_angle)/50
 audio_play_sound(sndHaoer,0,0)
 }
 else
@@ -149,7 +252,7 @@ draw_text(16,16,"Watmelon")
 draw_set_valign(fa_top)
 draw_set_halign(fa_right)
 draw_set_colour(c_black)
-draw_text(416,16,"Lv6")
+draw_text(416,16,"Lv-17")
 draw_set_colour(c_white)
 draw_rectangle(16,96,416,112,0)
 draw_set_colour(c_green)
