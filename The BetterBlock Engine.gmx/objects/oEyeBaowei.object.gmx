@@ -57,7 +57,8 @@ t = 0
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(s=5)
+            <string>window_set_position(x-400+600,y-304+300)
+if(s=5)
 {
 room_goto(rSaulFakeman3)
 }
