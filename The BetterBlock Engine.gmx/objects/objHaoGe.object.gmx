@@ -61,7 +61,7 @@ alarm[0]=104
             <kind>1</kind>
             <string>
 instance_create(x,y-100,objGua)
-alarm[3]=random_range(5,30)
+alarm[3]=sin(e/3)*19+20
 
 </string>
           </argument>
