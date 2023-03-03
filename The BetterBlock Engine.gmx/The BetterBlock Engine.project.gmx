@@ -467,6 +467,8 @@
         <sprite>sprites\sASDF</sprite>
         <sprite>sprites\sWaterCurse</sprite>
         <sprite>sprites\sWaterCurse2</sprite>
+        <sprite>sprites\sprTheRat</sprite>
+        <sprite>sprites\sprTheLuo</sprite>
         <sprite>sprites\sXZLEvent</sprite>
         <sprite>sprites\sWaterBlock</sprite>
         <sprite>sprites\sXZL</sprite>
