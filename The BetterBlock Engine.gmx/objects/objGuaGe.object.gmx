@@ -126,7 +126,7 @@ audio_play_sound(sndEzzze,0,0)
 {
 image_angle=random(360)
 speed=15
-direction=225
+direction=200
 }
 </string>
           </argument>
