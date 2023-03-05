@@ -38,6 +38,57 @@ e=0
 chose=2
 audio_play_sound(sndTMGuyizhaochaManYiLeBa,0,0)
 alarm[0]=104
+tt=0
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="1" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>repeat(irandom_range(10,20))
+{
+instance_create(x,y,objShifang)
+}
+instance_create(x,y-80,objGuaGe)
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="5">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>instance_destroy()
 </string>
           </argument>
         </arguments>
@@ -201,6 +252,13 @@ image_alpha=1
 }
 if(curHP&lt;=0)
 {
+if(tt=0)
+{
+objPokemonWriter.text="Foe Watmelon fainted!"
+objPokemonWriter.alarm[2]=1
+alarm[5]=100
+tt=1
+}
 image_index=1
 image_angle+=(100-image_angle)/50
 audio_play_sound(sndHaoer,0,0)
@@ -221,6 +279,38 @@ d-=0.9;
 else
 {
 d=0;
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="objWaterMelonPiece">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if(curHP&gt;0&amp;&amp;other.back=1)
+{
+with(other)
+{
+instance_destroy()
+}
+curHP-=1
+audio_play_sound(sndChuai,0,0)
+d=random_range(20,45)
 }
 </string>
           </argument>

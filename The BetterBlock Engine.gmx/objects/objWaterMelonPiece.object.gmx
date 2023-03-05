@@ -27,7 +27,9 @@
             <kind>1</kind>
             <string>image_xscale=random_range(0.5,0.7)
 image_yscale=image_xscale
-t=random_range(-0.2,0.2)
+t=random_range(-0.3,0.3)
+back=0
+able=choose(1,2,3,4)
 </string>
           </argument>
         </arguments>
@@ -51,7 +53,49 @@ t=random_range(-0.2,0.2)
           <argument>
             <kind>1</kind>
             <string>image_angle=direction-90
+
+if(able=1)
+{
+image_blend=make_colour_rgb(random(360),random(360),random(360))
+}
+if(!back=1)
+{
 direction+=t
+}
+else if(instance_exists(objHaoGe))
+{
+direction=point_direction(x,y,objHaoGe.x,objHaoGe.y)
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="objBullet">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if(able=1)
+{
+with(other)
+{
+instance_destroy()
+}
+back=1
+}
 </string>
           </argument>
         </arguments>

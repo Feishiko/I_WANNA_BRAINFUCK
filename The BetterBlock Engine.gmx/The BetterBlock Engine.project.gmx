@@ -82,6 +82,7 @@
         <sound>sound\sndTAKETHIS</sound>
         <sound>sound\sndSHENGGua</sound>
         <sound>sound\sndELEPHANT</sound>
+        <sound>sound\sndGuaguaguagua</sound>
       </sounds>
     </sounds>
     <sounds name="music">
@@ -601,6 +602,7 @@
         <sprite>sprites\sprIceBet</sprite>
         <sprite>sprites\sprWaterMelon</sprite>
         <sprite>sprites\sprWaterMelonPiece</sprite>
+        <sprite>sprites\sprHuaQiang</sprite>
       </sprites>
       <sprites name="Cave">
         <sprite>sprites\sprWhiteWave</sprite>
@@ -1571,6 +1573,7 @@
         <object>objects\objHaoGe</object>
         <object>objects\objGua</object>
         <object>objects\objWaterMelonPiece</object>
+        <object>objects\objGuaGe</object>
       </objects>
       <object>objects\objNiuQuBGM</object>
       <objects name="Cave">
