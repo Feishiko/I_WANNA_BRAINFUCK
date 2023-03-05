@@ -242,7 +242,13 @@ alarm[6]=50
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(image_alpha&lt;1)
+            <string>if(!instance_exists(objPlayer))
+{
+alarm[3]=0
+alarm[4]=0
+}
+
+if(image_alpha&lt;1)
 {
 image_alpha+=0.1
 }
@@ -259,6 +265,8 @@ objPokemonWriter.alarm[2]=1
 alarm[5]=100
 tt=1
 }
+alarm[3]=0
+alarm[4]=0
 image_index=1
 image_angle+=(100-image_angle)/50
 audio_play_sound(sndHaoer,0,0)

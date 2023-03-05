@@ -83,6 +83,9 @@
         <sound>sound\sndSHENGGua</sound>
         <sound>sound\sndELEPHANT</sound>
         <sound>sound\sndGuaguaguagua</sound>
+        <sound>sound\sndWocaohuaqiang</sound>
+        <sound>sound\sndYouyige</sound>
+        <sound>sound\sndEzzze</sound>
       </sounds>
     </sounds>
     <sounds name="music">
@@ -1575,6 +1578,8 @@
         <object>objects\objGua</object>
         <object>objects\objWaterMelonPiece</object>
         <object>objects\objGuaGe</object>
+        <object>objects\objHuaqiang</object>
+        <object>objects\objShakeeee</object>
       </objects>
       <object>objects\objNiuQuBGM</object>
       <objects name="Cave">
