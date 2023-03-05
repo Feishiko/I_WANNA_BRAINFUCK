@@ -51,26 +51,8 @@ alarm[0] = 180;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/*
-draw_set_font(fDefault30);
-draw_set_color(c_dkgray);
-draw_set_valign(fa_top);
-draw_set_halign(fa_center);
-draw_text(400, 204, "The BetterBlock Engine");
-draw_set_font(fDefault18);
-draw_text(400, 520, "Made by RandomFangamer");
-draw_set_color(c_white);
-*/
+            <string>toggle = true;
 
-//NEW WARNINGS HERE
-draw_set_font(fontWarning);
-draw_set_color(c_white);
-draw_set_halign(fa_center);
-draw_set_valign(fa_center);
-draw_set_alpha(alpha/100);
-draw_text(room_width/2, room_height/2, "Warning: Not for humans");
-draw_set_halign(fa_left);
-draw_set_valign(fa_top);
 </string>
           </argument>
         </arguments>
@@ -131,12 +113,26 @@ if (scrButtonCheckPressed(global.menuAcceptButton)){
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(enda=1)
-{
-image_angle+=19
-speed=12
-direction=225
-}
+            <string>/*
+draw_set_font(fDefault30);
+draw_set_color(c_dkgray);
+draw_set_valign(fa_top);
+draw_set_halign(fa_center);
+draw_text(400, 204, "The BetterBlock Engine");
+draw_set_font(fDefault18);
+draw_text(400, 520, "Made by RandomFangamer");
+draw_set_color(c_white);
+*/
+
+//NEW WARNINGS HERE
+draw_set_font(fontWarning);
+draw_set_color(c_white);
+draw_set_halign(fa_center);
+draw_set_valign(fa_center);
+draw_set_alpha(alpha/100);
+draw_text(room_width/2, room_height/2, "Warning: Not for humans");
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);
 </string>
           </argument>
         </arguments>
