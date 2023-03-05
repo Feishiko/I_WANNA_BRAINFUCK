@@ -28,7 +28,7 @@
             <string>image_alpha=0
 image_speed=0
 varr=irandom_range(8,16)
-maxHP=20
+maxHP=15
 curHP=maxHP
 breathe=0
 y+=40
@@ -202,13 +202,13 @@ objPokemonWriter.alarm[2]=1
 audio_play_sound(sndSHENGGua,0,0)
 
 alarm[3]=60
-alarm[2]=600
+alarm[2]=250
 }
 if(chose=3)
 {
 objPokemonWriter.text="Foe Watmelon used MELON RUSH!"
 objPokemonWriter.alarm[2]=1
-alarm[2]=300
+alarm[2]=250
 alarm[4]=40
 audio_play_sound(sndTAKETHIS,0,0)
 }
