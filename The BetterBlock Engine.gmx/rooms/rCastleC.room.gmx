@@ -69,7 +69,7 @@
     <instance objName="objResofaSpikeDown" x="192" y="320" name="inst_251152B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCastlePlatform" x="752" y="256" name="inst_75BC436C" locked="0" code="mode=1&#xA;b=0.04&#xA;angs=225&#xA;ang=90" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBackgroundFollow" x="208" y="144" name="inst_D9897A9C" locked="0" code="i=0&#xA;xx=2" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBackgroundFollow" x="176" y="144" name="inst_5811D061" locked="0" code="i=1&#xA;xx=0.9&#xA;xspd=-2&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBackgroundFollow" x="176" y="144" name="inst_5811D061" locked="0" code="i=1&#xA;xx=0.9&#xA;xspd=-2" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="160" y="224" name="inst_CF196FC7" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="64" y="224" name="inst_BD93C405" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="32" y="128" name="inst_9951A077" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -256,7 +256,7 @@
     <instance objName="objResofaSpikeLeft" x="1024" y="80" name="inst_CC79957E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objResofaSpikeLeft" x="960" y="80" name="inst_B920FE07" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objGlitchArea" x="960" y="0" name="inst_48B24144" locked="0" code="" scaleX="6.70967721939087" scaleY="3.09677410125732" colour="4294967295" rotation="0"/>
-    <instance objName="objCastlePlatform" x="864" y="96" name="inst_8EB0F5E9" locked="0" code="len=32&#xA;mode=2&#xA;b=1&#xA;angs=270" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCastlePlatform" x="864" y="96" name="inst_8EB0F5E9" locked="0" code="len=64&#xA;mode=2&#xA;b=1&#xA;angs=270&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objResofaSpikeUp" x="1312" y="192" name="inst_55F1AEBC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objResofaSpikeUp" x="1344" y="192" name="inst_859960E1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objResofaSpikeDown" x="1312" y="128" name="inst_9E25EE25" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -282,6 +282,7 @@
     <instance objName="objGlitchArea" x="1408" y="112" name="inst_15FF128E" locked="0" code="" scaleX="1" scaleY="3.5" colour="4294967295" rotation="0"/>
     <instance objName="objGlitchArea" x="1472" y="224" name="inst_C6BBCD36" locked="0" code="" scaleX="1" scaleY="7" colour="4294967295" rotation="0"/>
     <instance objName="objGlitchArea" x="1472" y="112" name="inst_67B43DAA" locked="0" code="" scaleX="1" scaleY="2.5" colour="4294967295" rotation="0"/>
+    <instance objName="objWarp" x="1600" y="416" name="inst_6F18A641" locked="0" code="roomTo=rCastleD&#xA;" scaleX="0.5" scaleY="2" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="btCastleSmallBrick" x="928" y="384" w="32" h="32" xo="64" yo="0" id="10018405" name="inst_064546B3" depth="2000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

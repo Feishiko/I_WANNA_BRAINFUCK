@@ -1826,6 +1826,7 @@
           <room>rooms\rCastleA</room>
           <room>rooms\rCastleB</room>
           <room>rooms\rCastleC</room>
+          <room>rooms\rCastleD</room>
         </rooms>
       </rooms>
       <rooms name="Other">
