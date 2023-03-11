@@ -288,6 +288,7 @@
     <instance objName="objSpikeUp" x="435" y="404" name="inst_E3681BF8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlayerStart" x="653" y="363" name="inst_954BA861" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlayMusic" x="16" y="-38" name="inst_3C920C23" locked="0" code="bgm=musRandomMedley&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objTitleCard" x="261" y="-227" name="inst_DF9C279C" locked="0" code="image_index=2&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
