@@ -282,7 +282,7 @@
     <instance objName="objSpikeUp" x="706" y="459" name="inst_7ACD078E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="669" y="477" name="inst_BB061B6D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="642" y="492" name="inst_66F6587A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objWarp" x="748" y="508" name="inst_0689680F" locked="0" code="roomTo=rKirby1&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWarp" x="748" y="508" name="inst_0689680F" locked="0" code="roomTo=rCreator&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objJumpRefresher" x="209" y="161" name="inst_F7AE1EF0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWhite" x="425" y="383" name="inst_6BD2C4EF" locked="0" code="depth=9999999&#xA;" scaleX="0.349999994039536" scaleY="0.324074059724808" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="435" y="404" name="inst_E3681BF8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

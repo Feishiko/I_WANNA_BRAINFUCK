@@ -37,7 +37,7 @@ toY = -100;
 
 timer = 0;
 
-alarm[0] = 120;
+alarm[0] = 200;
 </string>
           </argument>
         </arguments>
@@ -123,12 +123,12 @@ if(saying){
     image_angle = 0;
 }
 
-if(timer == 600) {
+if(timer == 700) {
     DialogCreate(256, 288, "这个地方这么/colR/sha1混乱/sha0/colW是我们弄得/slp4 /nnn0我们摆了！/end");
     saying = true;
 }
 
-if(timer == 1400) {
+if(timer == 1600) {
     DialogCreate(256, 288, "你不会从这个/nnn0/colR大家伙/colW手中/colR/sha1活/sha0/colW下来的/end");
     saying = true;
 }

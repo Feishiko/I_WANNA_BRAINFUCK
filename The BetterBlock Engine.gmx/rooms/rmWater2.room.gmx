@@ -52,7 +52,6 @@
   </views>
   <instances>
     <instance objName="oWaterStage" x="32" y="32" name="inst_98D25D8B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objDontShow" x="64" y="64" name="inst_9D98D27F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlayMusic" x="32" y="544" name="inst_1E9AAB22" locked="0" code="BGM = musUnderWater;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlayerStart" x="480" y="352" name="inst_5E636FA7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBlockBlock" x="480" y="384" name="inst_530C951F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

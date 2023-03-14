@@ -35,7 +35,7 @@ localY = y;
 toX = -100;
 toY = -100;
 
-alarm[0] = 120;
+alarm[0] = 200;
 
 timer = 0;
 </string>
@@ -123,12 +123,12 @@ if(saying){
     image_angle = 0;
 }
 
-if(timer == 160) {
+if(timer == 250) {
     DialogCreate(256, 288, "没想到真的有人能爬上来/slp4 /nnn0/slp0而且还是一个/colR/sha1KID/sha0/end");
     saying = true;
 }
 
-if(timer == 1060) {
+if(timer == 1260) {
     DialogCreate(256, 288, "现在我们要去做/nnn0/colR杀海哥/colW了/slp2 /nnn0/slp0哈哈/end");
     saying = true;
 }
