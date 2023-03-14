@@ -51,6 +51,8 @@
         <sound>sound\sndEntering</sound>
         <sound>sound\sndHurt</sound>
         <sound>sound\sndLaser</sound>
+        <sound>sound\sndAppear</sound>
+        <sound>sound\sndDialog</sound>
       </sounds>
       <sounds name="Resofa">
         <sounds name="Cxk">
@@ -507,6 +509,8 @@
       <sprite>sprites\sShadowBall</sprite>
       <sprite>sprites\sRect</sprite>
       <sprite>sprites\sLasers</sprite>
+      <sprite>sprites\sXwan</sprite>
+      <sprite>sprites\sHiger</sprite>
     </sprites>
     <sprite>sprites\sprite88</sprite>
     <sprite>sprites\sprAchievementMB</sprite>
@@ -791,6 +795,7 @@
     <background>background\bgCaveHole</background>
     <background>background\bgLine</background>
     <background>background\bgStage1Clear</background>
+    <background>background\bgFB</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\pthD</path>
@@ -845,6 +850,7 @@
     </scripts>
     <scripts name="Feishiko">
       <script>scripts\FadeInto.gml</script>
+      <script>scripts\DialogCreate.gml</script>
     </scripts>
     <scripts name="Resofa">
       <script>scripts\scrPlayMusicAvoidance.gml</script>
@@ -880,6 +886,7 @@
       <font>fonts\fontButton</font>
       <font>fonts\fontAscii</font>
       <font>fonts\fontShowing</font>
+      <font>fonts\fontDialog</font>
     </fonts>
     <fonts name="Resofa">
       <font>fonts\fontUIResofa</font>
@@ -1441,6 +1448,14 @@
         <object>objects\oLasers</object>
         <object>objects\oLaserEmit</object>
       </objects>
+      <objects name="FinalBoss">
+        <object>objects\oFBEntering</object>
+        <object>objects\oHiger</object>
+        <object>objects\oXwan</object>
+        <object>objects\oFinalBossIntro</object>
+        <object>objects\oText</object>
+        <object>objects\oDialog</object>
+      </objects>
     </objects>
     <objects name="Resofa">
       <objects name="Cxk">
@@ -1776,6 +1791,7 @@
         <room>rooms\rmWater3</room>
       </rooms>
       <room>rooms\rmBadkid</room>
+      <room>rooms\rmFinalBoss</room>
     </rooms>
     <rooms name="BKZN">
       <room>rooms\rTrigger</room>

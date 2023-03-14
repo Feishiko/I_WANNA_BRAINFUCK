@@ -54,8 +54,8 @@
     <instance objName="objBlock" x="0" y="512" name="inst_A8290F86" locked="0" code="" scaleX="25" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="0" y="0" name="inst_CFC4AB06" locked="0" code="" scaleX="25" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="objPlayerStart" x="0" y="480" name="inst_AC87C01D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objWarp" x="384" y="352" name="inst_4990461F" locked="0" code="" scaleX="1" scaleY="1.03225803375244" colour="4294967295" rotation="0"/>
-    <instance objName="oSignJimmyMcgill" x="320" y="480" name="inst_730CBA32" locked="0" code="Max=0&#xA;texts[0]=&quot;Final Boss&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWarp" x="384" y="352" name="inst_4990461F" locked="0" code="roomTo = rmFinalBoss;&#xA;" scaleX="1" scaleY="1.03225803375244" colour="4294967295" rotation="0"/>
+    <instance objName="oSignJimmyMcgill" x="320" y="480" name="inst_730CBA32" locked="0" code="Max=0&#xA;texts[0]=&quot;Final Boss&quot;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBadGameTeam" x="368" y="336" name="inst_FBED1E81" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSave" x="384" y="480" name="inst_F0E9C8BE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>

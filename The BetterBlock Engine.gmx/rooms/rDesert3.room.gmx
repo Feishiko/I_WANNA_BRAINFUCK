@@ -164,7 +164,7 @@
     <instance objName="oFloatingSpikeFreeze" x="496" y="176" name="inst_A7A9B518" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oFloatingSpikeFreeze" x="496" y="176" name="inst_720A6346" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oWaterBlock" x="480" y="192" name="inst_80691A33" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oStorm" x="416" y="96" name="inst_6C5B608A" locked="0" code="" scaleX="0.479999989271164" scaleY="0.529999971389771" colour="4294967295" rotation="0"/>
+    <instance objName="oStorm" x="416" y="96" name="inst_6C5B608A" locked="0" code="" scaleX="0.479999989271164" scaleY="0.52999997138977" colour="4294967295" rotation="0"/>
     <instance objName="objPlayerStart" x="768" y="464" name="inst_B683E18D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="800" y="464" name="inst_E08590EF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlayerKiller" x="432" y="592" name="inst_0AAECEF0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
