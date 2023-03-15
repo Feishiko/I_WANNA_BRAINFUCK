@@ -88,6 +88,7 @@
         <sound>sound\sndWocaohuaqiang</sound>
         <sound>sound\sndYouyige</sound>
         <sound>sound\sndEzzze</sound>
+        <sound>sound\snd114514</sound>
       </sounds>
     </sounds>
     <sounds name="music">
@@ -1579,6 +1580,7 @@
         <object>objects\objPokemonWriter</object>
         <object>objects\OMGTVIntro</object>
         <object>objects\objOMGTVWoc</object>
+        <object>objects\objOMGTVD</object>
         <object>objects\objShuoDaoLiPokemon</object>
         <object>objects\objPokeball</object>
         <object>objects\objDaoLiSound</object>
@@ -1595,6 +1597,7 @@
         <object>objects\objGuaGe</object>
         <object>objects\objHuaqiang</object>
         <object>objects\objShakeeee</object>
+        <object>objects\objGuaFinal</object>
       </objects>
       <object>objects\objNiuQuBGM</object>
       <objects name="Cave">
