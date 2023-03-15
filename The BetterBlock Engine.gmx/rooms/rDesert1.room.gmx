@@ -157,7 +157,7 @@
     <instance objName="oSeaGrass" x="64" y="96" name="inst_723D01C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSave" x="256" y="160" name="inst_3D3A3C75" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWarp" x="800" y="32" name="inst_81FFC11A" locked="0" code="warpX=0+17&#xA;warpY=544+23&#xA;&#xA;roomTo=rDesertCenter&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objPlayMusic" x="128" y="-32" name="inst_E849250F" locked="0" code="BGM=musBoss2Ocean&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayMusic" x="128" y="-32" name="inst_E849250F" locked="0" code="BGM=musWarmDesert&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBetterSign" x="544" y="512" name="inst_92823454" locked="0" code="Te = &quot;Warning#They will #eat a worm&quot;;&#xA;color=c_white" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oSeaGrass" x="272" y="288" name="inst_807BBF89" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSave" x="736" y="32" name="inst_097F8154" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

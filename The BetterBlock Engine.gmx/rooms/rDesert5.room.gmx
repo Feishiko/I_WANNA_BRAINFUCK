@@ -144,7 +144,7 @@
     <instance objName="oBlockUnder" x="464" y="32" name="inst_D697F0A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBlockUnder" x="464" y="0" name="inst_86EB2EA2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="640" y="368" name="inst_04A089A0" locked="0" code="" scaleX="5" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objPlayMusic" x="-48" y="16" name="inst_D90B9CF3" locked="0" code="BGM=musDesertBruh&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayMusic" x="-48" y="16" name="inst_D90B9CF3" locked="0" code="BGM=musDesertBruh" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSaveBlocker" x="64" y="96" name="inst_80B406F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="640" y="176" name="inst_E1062A21" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="672" y="176" name="inst_EEF1C867" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

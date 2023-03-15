@@ -178,6 +178,7 @@
     <sound>sound\sndByebye</sound>
     <sound>sound\sndBadGame</sound>
     <sound>sound\sndClearDude</sound>
+    <sound>sound\musWarmDesert</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="world">
