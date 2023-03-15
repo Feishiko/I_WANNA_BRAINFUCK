@@ -8,6 +8,63 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
+    <event eventtype="0" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>name[0] = "I wanna Freezemind";
+name[1] = "I_WANT_";
+name[2] = "I wanna fuck Lucario up the ass";
+name[3] = "I wanna Walk Out In The Morning Dew";
+name[4] = "The Farewell Medley";
+name[5] = "I Wanna Maker";
+name[6] = "I wanna kill the 3sweepor";
+name[7] = "I wanna kill the 2sweepor";
+name[8] = "泰拉瑞亚：美味又易燃";
+name[9] = "I wanna be the Creator";
+name[10] = "I Wanna Psychedelic";
+name[11] = "i wanna grass";
+name[12] = "Feishiko Needle";
+name[13] = "iwpo";
+name[14] = "Not Another Magic Tower Game";
+name[15] = "Crimson Needle 3";
+name[16] = "Crimson Needle 2";
+name[17] = "BONK";
+name[18] = "i wanna kill the higer67";
+name[19] = "Square Circle Rectangle And Triangle";
+name[20] = "I wanna fuck the cat";
+name[21] = "BKZN renne";
+name[22] = "i wanna pull down the tower";
+name[23] = "I Wanna Go For A Safari";
+name[24] = "i wanna fa duliu 4 -BrainFucker-";
+name[25] = "i wanna rush the colour";
+name[26] = "魔理沙とアリスのクッキーKiss";
+name[27] = "i wanna DADADADADADADADADA";
+name[28] = "i wanna suck the water";
+name[29] = "It's so hot! Help! I think the house price can be saved by heating the cover";
+name[30] = "Angry Video Game Nerd I&amp;II Deluxe";
+name[31] = "WantFeast22";
+name[32] = "i wanna BrainFuckfuckfuck";
+name[33] = "坏了";
+name[34] = "eratohoLIG ver0.9汉化";
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
@@ -30,6 +87,16 @@
 }
 if(keyboard_check_pressed(vk_pagedown)){
     room_goto_next();
+}
+
+if(instance_exists(oRandomTitle)) {
+    if(global.roomCaptionDef == "I wanna Brainfuck") {
+        global.roomCaptionDef = name[irandom(array_length_1d(oFeishikoCont.name) - 1)];
+    }
+}else {
+    if(global.roomCaptionDef != "I wanna Brainfuck") {
+        global.roomCaptionDef = "I wanna Brainfuck";
+    }
 }
 </string>
           </argument>

@@ -9,6 +9,11 @@ instance_destroy()
 }
 if (instance_exists(objPlayer) && (!global.noDeath && !global.debugNoDeath))
 {
+if(instance_exists(oRandomTitle)) {
+    global.roomCaptionDef = oFeishikoCont.name[irandom(array_length_1d(oFeishikoCont.name) - 1)];
+}else {
+    global.roomCaptionDef = "I wanna Brainfuck";
+}
     if (global.gameStarted) //normal death
     {
         global.deathSound = audio_play_sound(sndDeath,0,false);

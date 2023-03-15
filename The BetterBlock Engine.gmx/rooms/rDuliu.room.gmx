@@ -244,6 +244,7 @@
     <instance objName="oCancerSpikeDown" x="432" y="448" name="inst_BB29CEC2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oCancerSpikeDown" x="416" y="480" name="inst_708CE5DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oCancerSpikeDown" x="464" y="448" name="inst_1815D29B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oRandomTitle" x="208" y="80" name="inst_5BD3DA64" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

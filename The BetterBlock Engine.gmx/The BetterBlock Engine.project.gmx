@@ -1458,6 +1458,7 @@
         <object>objects\oText</object>
         <object>objects\oDialog</object>
       </objects>
+      <object>objects\oRandomTitle</object>
     </objects>
     <objects name="Resofa">
       <objects name="Cxk">
