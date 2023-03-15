@@ -132,13 +132,7 @@ audio_stop_sound(snd114514)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>ins=instance_create(x,y,objPokeball)
-ins.hspeed=-2
-ins.vspeed=-2
-ins.obj=objHaoGe
-objPokemonWriter.text="OMG TV sent out Watmelon!"
-objPokemonWriter.alarm[2]=1
-</string>
+            <string></string>
           </argument>
         </arguments>
       </action>
@@ -167,7 +161,7 @@ objPokemonWriter.text="OMG TV:
 牛逼
 "
 objPokemonWriter.alarm[2]=1
-alarm[2]=120
+alarm[2]=90
 }
 else if(d=1)
 {
@@ -175,7 +169,7 @@ objPokemonWriter.text="OMG TV:
 …………………………
 "
 objPokemonWriter.alarm[2]=1
-alarm[1]=150
+alarm[0]=120
 }
 else if(d=2)
 {
@@ -183,7 +177,7 @@ objPokemonWriter.text="OMG TV:
 草完了没开godmode
 "
 objPokemonWriter.alarm[2]=1
-alarm[1]=80
+alarm[0]=120
 }
 else if(d=3)
 {
