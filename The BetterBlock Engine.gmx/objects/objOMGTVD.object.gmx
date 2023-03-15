@@ -175,7 +175,6 @@ objPokemonWriter.text="OMG TV:
 …………………………
 "
 objPokemonWriter.alarm[2]=1
-image_index=1
 alarm[1]=150
 }
 else if(d=2)
