@@ -55,7 +55,7 @@ texts[0]="???:
 别担心，我是好人，不会杀你的，作者忘记换贴图了而已"
 texts[1]="the kid:
 完了那我是狼"
-audio_play_sound(sndSaulGuitar,0,false)
+audio_play_sound(sndDisappear,0,false)
 </string>
           </argument>
         </arguments>

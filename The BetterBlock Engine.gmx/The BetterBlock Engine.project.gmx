@@ -1430,6 +1430,8 @@
       <object>objects\oTeleBall</object>
       <object>objects\oAscii</object>
       <object>objects\oFeishikoCont</object>
+      <object>objects\oNullTitle</object>
+      <object>objects\oFastChangeTitle</object>
       <object>objects\oMathCover</object>
       <object>objects\oTurnWhite</object>
       <object>objects\oBlockMiniWhite</object>

@@ -138,6 +138,7 @@
     <instance objName="oInvisSilent" x="704" y="352" name="inst_EB7453E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oInvisSilent" x="704" y="320" name="inst_A42C71EC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="-32" y="256" name="inst_052F53BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oNullTitle" x="96" y="160" name="inst_330C374A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bAllTiles" x="0" y="224" w="32" h="32" xo="32" yo="96" id="10012168" name="inst_1BFA8B6B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

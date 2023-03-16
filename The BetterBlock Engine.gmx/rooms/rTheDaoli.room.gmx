@@ -69,6 +69,7 @@
     <instance objName="oGreenBugged" x="0" y="0" name="inst_B90448CF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBlock" x="-32" y="0" name="inst_16846629" locked="0" code="" scaleX="1" scaleY="19" colour="4294967295" rotation="0"/>
     <instance objName="objRoomChanger" x="800" y="0" name="inst_9C854279" locked="0" code="roomTo=rTheGate&#xA;" scaleX="1" scaleY="19" colour="4294967295" rotation="0"/>
+    <instance objName="oNullTitle" x="-96" y="288" name="inst_9B07E0A0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
