@@ -55,6 +55,7 @@
         <sound>sound\sndDialog</sound>
         <sound>sound\sndDA</sound>
         <sound>sound\sndGiratinaCry</sound>
+        <sound>sound\sndGiratinaCry2</sound>
       </sounds>
       <sounds name="Resofa">
         <sounds name="Cxk">
@@ -1469,6 +1470,8 @@
         <object>objects\oGiratina</object>
         <object>objects\oDA</object>
         <object>objects\oBlackMist</object>
+        <object>objects\oIsaac</object>
+        <object>objects\oStartFB</object>
       </objects>
       <object>objects\oRandomTitle</object>
     </objects>

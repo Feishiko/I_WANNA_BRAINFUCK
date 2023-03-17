@@ -31,6 +31,8 @@ shaking = false;
 alpha = 0;
 dir = fa_left;
 toY = y + 6;
+ox = x;
+oy = y;
 </string>
           </argument>
         </arguments>
@@ -55,8 +57,8 @@ toY = y + 6;
             <kind>1</kind>
             <string>alpha += 0.1;
 if(shaking) {
-    x += cos(current_time/100)/3;
-    y += sin(current_time/100)/3;
+    x =  ox + cos(current_time/100)*2;
+    y = oy + sin(current_time/100)*2;
 }else {
     y = lerp(y, toY, .2);
 }

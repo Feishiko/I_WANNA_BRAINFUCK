@@ -26,12 +26,14 @@
           <argument>
             <kind>1</kind>
             <string>// if have played the animation, delete this instance
-
-alpha = 1;
-playing = false;
-alarm[0] = 90;
-audio_stop_all();
-
+if(global.fb) {
+    instance_destroy();
+} else {
+    alpha = 1;
+    playing = false;
+    alarm[0] = 90;
+    audio_stop_all();
+}
 </string>
           </argument>
         </arguments>

@@ -14,6 +14,7 @@ global.savePlayerY = 0;
 global.grav = 1;
 global.saveGrav = 1;
 global.badkid = false;// fsk add this
+global.fb = false;
 
 for (var i = global.secretItemTotal-1; i >= 0; i--)
 {

@@ -62,6 +62,7 @@ ds_map_add(saveMap,"savePlayerX",global.savePlayerX);
 ds_map_add(saveMap,"savePlayerY",global.savePlayerY);
 ds_map_add(saveMap,"saveGrav",global.saveGrav);
 ds_map_add(saveMap,"badkid",global.badkid);//fsk add this
+ds_map_add(saveMap,"fb",global.fb);
 
 for (var i = 0; i < global.secretItemTotal; i++)
 {

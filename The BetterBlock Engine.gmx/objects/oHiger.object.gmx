@@ -41,6 +41,10 @@ returnY = toY;
 alarm[0] = 200;
 
 timer = 0;
+
+if(global.fb) {
+    instance_destroy();
+}
 </string>
           </argument>
         </arguments>
@@ -121,7 +125,7 @@ if(floating){
     y = lerp(y, toY, .1);
 }
 if(saying){
-    image_angle += sin(current_time/300);
+    image_angle = sin(current_time/300)*10;
 }else {
     image_angle = 0;
 }

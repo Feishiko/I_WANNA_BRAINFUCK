@@ -35,15 +35,64 @@ uTime = shader_get_uniform(shFBTrans, "u_time");
 uTex = shader_get_sampler_index(shFBTrans, "u_tex");
 
 alpha = 1;
+loseHP = 0;
+
+winPosX = window_get_x();
+winPosY = window_get_y();
 
 image_xscale = 6;
 image_yscale = 6;
+
+xScale = image_xscale;
+yScale = image_yscale;
+
+yell = false;
+
+attackTimer = 0;
+createCounter = false;
+
+null = false;
+
+hp = 100;
+
+if(global.fb) {
+    instance_create(0, 0, oStartFB);
+    cover = false;
+    alpha = 0;
+    introAnimation = false;
+}
+
+toX = x;
+toY = y;
 
 //0 is idle
 //1 is pre-attack
 //2 is normal-attack
 //3 is speical-attack
 //4 is hurt
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>image_index = 2;
 </string>
           </argument>
         </arguments>
@@ -67,16 +116,23 @@ image_yscale = 6;
           <argument>
             <kind>1</kind>
             <string>alpha = lerp(alpha, cover, .02);
+loseHP = lerp(loseHP, 0, .1);
+image_xscale = lerp(image_xscale, xScale, .01);
+image_yscale = lerp(image_yscale, yScale, .01);
+
+window_set_position(winPosX + cos(current_time/200)*((100 - hp)/10), winPosY + sin(current_time/200)*((100 - hp)/10));
 
 if(introAnimation) {
     speed = .25;
     direction = 270;
-    if(y &gt;= 250) {
+    if(y &gt;= 240) {
         speed = 0;
         cover = false;
         if(alpha &lt;= 0.05) {
             audio_stop_all()
             audio_play_sound(sndGiratinaCry, 100, false);
+            image_index = 1;
+            alarm[0] = 20;
             oBlackMist.ed = true;
             introAnimation = false;
         }
@@ -84,14 +140,121 @@ if(introAnimation) {
 }
 
 //ATTACK!
-if(!introAnimation &amp;&amp; !audio_is_playing(sndGiratinaCry)) {
+if(!introAnimation &amp;&amp; !audio_is_playing(sndGiratinaCry) &amp;&amp; instance_exists(objPlayer)) {
+    global.fb = true;
 
-if(!audio_is_playing(musGiratina)) {
-    audio_play_sound(musGiratina, 2000, true);
-}
-
-
+    if(hp &gt;= 80 &amp;&amp; hp &lt;= 100) {
     
+        toX = x;
+        toY = y;
+    
+        attackTimer++;
+        
+        if(attackTimer &gt;= 40) {
+            var placeHolder = irandom(2);
+            var ins = instance_create(choose(-80, room_width + 80), 320 + placeHolder * 64, oIsaac);
+            ins.direction = !(objPlayer.x &gt; ins.x)*180;
+            ins.image_xscale = !(objPlayer.x &gt; ins.x)*-2 + 1;
+            attackTimer = 0;
+        }
+        
+        if(loseHP &lt;= 0.05) {
+            image_index = 0;
+        } else {
+            image_index = 4;
+        }
+        
+        image_angle = sin(current_time/1000)*10;
+        
+        if(!audio_is_playing(musGiratina)) {
+            audio_play_sound(musGiratina, 2000, true);
+        }
+    
+    }
+    
+    if(hp &gt;= 60 &amp;&amp; hp &lt; 80) {
+    
+        if(!yell) {
+            audio_play_sound(sndGiratinaCry2, 100, false);
+            yell = true;
+        }
+    
+        image_angle = 0;
+    
+        x = lerp(x, toX, .1);
+        y = lerp(y, toY, .1);
+        
+        if(image_xscale &gt;= 4.2) {
+            cover = true;
+            null = true;
+            image_speed = 1;
+            xScale = 4;
+            yScale = 4;
+        }else {
+            image_speed = 0;
+            attackTimer++;
+            if(attackTimer &lt;= 100 - (80 - hp)*3){
+                image_index = 0;
+            } else if(attackTimer &gt; 100 - (80 - hp)*3 &amp;&amp; attackTimer &lt;= 100 - (80 - hp)*3 + 15) {
+                image_index = 1;
+            } else if(attackTimer &gt; 100 - (80 - hp)*3 + 15 &amp;&amp; attackTimer &lt;= 100 - (80 - hp)*3 + 30) {
+                image_index = 2;
+                if(!createCounter) {
+                    audio_play_sound(sndDA, 100, false);
+                    audio_play_sound(sndHurt, 100, false);
+                    hp -= 1;
+                    loseHP = 1;
+                    var inss = instance_create(x, y, oDA);;
+                        inss.direction = point_direction(inss.x, inss.y, objPlayer.x, objPlayer.y);
+                    for(var dir = 0; dir &lt;= 360; dir += 60) {
+                        var ins = instance_create(x, y, oDA);;
+                        ins.direction = dir;
+                    }
+                    createCounter = true;
+                }
+            } else {
+                toX = irandom(room_width);
+                toY = irandom(room_height);
+                createCounter = false;
+                attackTimer = 0;
+            }
+            
+            cover = false;
+        }
+        
+        
+    }
+    
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="objBullet">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if(loseHP &lt;= 0.05 &amp;&amp; alpha &lt;= 0.05 &amp;&amp; !null) {
+    with(other) {
+        instance_destroy();
+    }
+    audio_play_sound(sndHurt, 100, false);
+    hp -= 0.5;
+    loseHP = 1;
 }
 </string>
           </argument>
@@ -122,6 +285,10 @@ shader_set_uniform_f(uTime, current_time/1000);
 texture_set_stage(uTex, sprite_get_texture(sTexture, -1));
 draw_sprite_ext(sprite_index, -1, x, y, image_xscale, image_yscale, image_angle, c_white, alpha);
 shader_reset();
+
+shader_set(shLoseHP);
+draw_sprite_ext(sprite_index, -1, x, y, image_xscale, image_yscale, image_angle, c_white, loseHP);
+shader_reset()
 </string>
           </argument>
         </arguments>

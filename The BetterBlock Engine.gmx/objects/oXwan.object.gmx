@@ -41,6 +41,11 @@ returnY = toY;
 timer = 0;
 
 alarm[0] = 200;
+
+if(global.fb) {
+    instance_create(room_width/2, 240, oGiratina);
+    instance_destroy();
+}
 </string>
           </argument>
         </arguments>
@@ -121,7 +126,7 @@ if(floating){
 }
 
 if(saying){
-    image_angle += sin(current_time/300);
+    image_angle = sin(current_time/300)*10;
 }else {
     image_angle = 0;
 }
