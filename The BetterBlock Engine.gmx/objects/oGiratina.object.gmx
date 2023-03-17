@@ -200,6 +200,7 @@ if(!introAnimation &amp;&amp; !audio_is_playing(sndGiratinaCry) &amp;&amp; insta
             } else if(attackTimer &gt; 100 - (80 - hp)*3 + 15 &amp;&amp; attackTimer &lt;= 100 - (80 - hp)*3 + 30) {
                 image_index = 2;
                 if(!createCounter) {
+                    //audio_play_sound(sndGiratinaCry2, 100, false);
                     audio_play_sound(sndDA, 100, false);
                     audio_play_sound(sndHurt, 100, false);
                     hp -= 1;
