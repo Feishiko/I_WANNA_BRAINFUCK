@@ -35,6 +35,9 @@ localY = y;
 toX = room_width + 100;
 toY = -100;
 
+returnX = toX;
+returnY = toY;
+
 timer = 0;
 
 alarm[0] = 200;
@@ -131,6 +134,28 @@ if(timer == 700) {
 if(timer == 1600) {
     DialogCreate(256, 288, "你不会从这个/nnn0/colR大家伙/colW手中/colR/sha1活/sha0/colW下来的/end");
     saying = true;
+}
+
+if(timer == 2000) {
+    audio_play_sound(musComing, 2000, false);
+    audio_play_sound(sndAppear, 100, false);
+    instance_create(room_width/2, -150, oGiratina);
+    instance_create(0, 0, oBlackMist);
+    with(oText) {
+        instance_destroy();
+    }
+}
+
+if(timer &gt;= 2000) {
+    x = lerp(x, returnX, .1);
+    y = lerp(y, returnY, .1);
+    with(oHiger) {
+        x = lerp(x, returnX, .1);
+        y = lerp(y, returnY, .1);
+    }
+    if(audio_is_playing(musChatting)) {
+        audio_stop_sound(musChatting);
+    }
 }
 </string>
           </argument>

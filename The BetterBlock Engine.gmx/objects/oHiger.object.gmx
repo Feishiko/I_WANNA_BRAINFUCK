@@ -35,6 +35,9 @@ localY = y;
 toX = -100;
 toY = -100;
 
+returnX = toX;
+returnY = toY;
+
 alarm[0] = 200;
 
 timer = 0;

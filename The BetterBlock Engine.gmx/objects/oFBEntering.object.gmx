@@ -55,6 +55,7 @@ audio_stop_all();
           <argument>
             <kind>1</kind>
             <string>playing = true;
+audio_play_sound(musChatting, 1000, false);
 </string>
           </argument>
         </arguments>

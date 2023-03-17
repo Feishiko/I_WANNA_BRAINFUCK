@@ -53,6 +53,8 @@
         <sound>sound\sndLaser</sound>
         <sound>sound\sndAppear</sound>
         <sound>sound\sndDialog</sound>
+        <sound>sound\sndDA</sound>
+        <sound>sound\sndGiratinaCry</sound>
       </sounds>
       <sounds name="Resofa">
         <sounds name="Cxk">
@@ -149,6 +151,9 @@
         <sound>sound\sndRain</sound>
         <sound>sound\sndStorm</sound>
         <sound>sound\musBadkid</sound>
+        <sound>sound\musComing</sound>
+        <sound>sound\musChatting</sound>
+        <sound>sound\musGiratina</sound>
       </sounds>
       <sounds name="Resofa">
         <sound>sound\musCxk</sound>
@@ -513,6 +518,7 @@
       <sprite>sprites\sLasers</sprite>
       <sprite>sprites\sXwan</sprite>
       <sprite>sprites\sHiger</sprite>
+      <sprite>sprites\sGiratina</sprite>
     </sprites>
     <sprite>sprites\sprite88</sprite>
     <sprite>sprites\sprAchievementMB</sprite>
@@ -876,6 +882,7 @@
     <shader type="GLSLES">shaders\shLoseHP.shader</shader>
     <shader type="GLSLES">shaders\shRandomNoise.shader</shader>
     <shader type="GLSLES">shaders\shRotated3d.shader</shader>
+    <shader type="GLSLES">shaders\shFBTrans.shader</shader>
   </shaders>
   <fonts name="fonts">
     <font>fonts\fDefault30</font>
@@ -1459,6 +1466,9 @@
         <object>objects\oFinalBossIntro</object>
         <object>objects\oText</object>
         <object>objects\oDialog</object>
+        <object>objects\oGiratina</object>
+        <object>objects\oDA</object>
+        <object>objects\oBlackMist</object>
       </objects>
       <object>objects\oRandomTitle</object>
     </objects>
