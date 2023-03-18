@@ -49,13 +49,14 @@ yScale = image_yscale;
 yell[0] = false;
 yell[1] = false;
 yell[2] = false;
+yell[3] = false;
 
 attackTimer = 0;
 createCounter = false;
 
 null = false;
 
-hp = 100;//100
+hp = 40;//100
 
 if(global.fb) {
     instance_create(0, 0, oStartFB);
@@ -64,6 +65,7 @@ if(global.fb) {
     introAnimation = false;
     instance_create(0, 0, oBlackMist);
     oBlackMist.ed = true;
+    audio_play_sound(sndGiratinaCry2, 100, false);
 }
 
 toX = x;
@@ -211,7 +213,7 @@ if(!introAnimation &amp;&amp; !audio_is_playing(sndGiratinaCry) &amp;&amp; insta
                     hp -= 1;
                     loseHP = 1;
                     var inss = instance_create(x, y, oDA);;
-                        inss.direction = point_direction(inss.x, inss.y, objPlayer.x, objPlayer.y);
+                    inss.direction = point_direction(inss.x, inss.y, objPlayer.x, objPlayer.y);
                     for(var dir = 0; dir &lt;= 360; dir += 60) {
                         var ins = instance_create(x, y, oDA);;
                         ins.direction = dir;
@@ -280,6 +282,50 @@ if(!introAnimation &amp;&amp; !audio_is_playing(sndGiratinaCry) &amp;&amp; insta
         
     }
     
+    if(hp &gt;= 20 &amp;&amp; hp &lt; 40) {
+        if(!yell[2]) {
+            audio_play_sound(sndGiratinaCry2, 100, false);
+            yell[2] = true;
+            oBlackMist.ed = true;
+        }
+        
+        x = lerp(x, toX, .1);
+        y = lerp(y, toY, .1);
+        
+        image_index = 0;
+        
+        if(image_xscale &gt;= 3.2) {
+            cover = true;
+            null = false;
+            image_speed = 1;
+            xScale = 3;
+            yScale = 3;
+        } else {
+            image_speed = 0;
+            cover = false;
+            attackTimer++;
+            x += random_range(-4, 4);
+            y += random_range(-4, 4);
+            if(attackTimer &gt;= 35) {
+                attackTimer = 0;
+                toX = objPlayer.x;
+                toY = objPlayer.y;
+                audio_play_sound(sndDragonClaw, 100, false);
+                instance_create(x, y, oDragonClaw);
+            }
+        }
+        
+    }
+    
+    if(hp &lt; 20 &amp;&amp; hp &gt; 0) {
+    
+        if(!yell[3]) {
+            audio_play_sound(sndGiratinaCry2, 100, false);
+            yell[3] = true;
+        }
+        
+    }
+    
 }
 </string>
           </argument>
@@ -333,7 +379,8 @@ if(!introAnimation &amp;&amp; !audio_is_playing(sndGiratinaCry) &amp;&amp; insta
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_self();
+            <string>
+draw_sprite_ext(sprite_index, -1, x, y, image_xscale, image_yscale, image_angle, c_white, 1 - null*0.5);
 
 shader_set(shFBTrans);
 shader_set_uniform_f(uTime, current_time/1000);

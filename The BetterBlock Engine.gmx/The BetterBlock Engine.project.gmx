@@ -56,6 +56,7 @@
         <sound>sound\sndDA</sound>
         <sound>sound\sndGiratinaCry</sound>
         <sound>sound\sndGiratinaCry2</sound>
+        <sound>sound\sndDragonClaw</sound>
       </sounds>
       <sounds name="Resofa">
         <sounds name="Cxk">
@@ -520,6 +521,7 @@
       <sprite>sprites\sXwan</sprite>
       <sprite>sprites\sHiger</sprite>
       <sprite>sprites\sGiratina</sprite>
+      <sprite>sprites\sDragonClaw</sprite>
     </sprites>
     <sprite>sprites\sprite88</sprite>
     <sprite>sprites\sprAchievementMB</sprite>
@@ -1473,6 +1475,7 @@
         <object>objects\oIsaac</object>
         <object>objects\oStartFB</object>
         <object>objects\oNotes</object>
+        <object>objects\oDragonClaw</object>
       </objects>
       <object>objects\oRandomTitle</object>
     </objects>
