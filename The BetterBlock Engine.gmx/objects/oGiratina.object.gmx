@@ -46,20 +46,24 @@ image_yscale = 6;
 xScale = image_xscale;
 yScale = image_yscale;
 
-yell = false;
+yell[0] = false;
+yell[1] = false;
+yell[2] = false;
 
 attackTimer = 0;
 createCounter = false;
 
 null = false;
 
-hp = 100;
+hp = 100;//100
 
 if(global.fb) {
     instance_create(0, 0, oStartFB);
     cover = false;
     alpha = 0;
     introAnimation = false;
+    instance_create(0, 0, oBlackMist);
+    oBlackMist.ed = true;
 }
 
 toX = x;
@@ -174,9 +178,9 @@ if(!introAnimation &amp;&amp; !audio_is_playing(sndGiratinaCry) &amp;&amp; insta
     
     if(hp &gt;= 60 &amp;&amp; hp &lt; 80) {
     
-        if(!yell) {
+        if(!yell[0]) {
             audio_play_sound(sndGiratinaCry2, 100, false);
-            yell = true;
+            yell[0] = true;
         }
     
         image_angle = 0;
@@ -184,12 +188,12 @@ if(!introAnimation &amp;&amp; !audio_is_playing(sndGiratinaCry) &amp;&amp; insta
         x = lerp(x, toX, .1);
         y = lerp(y, toY, .1);
         
-        if(image_xscale &gt;= 4.2) {
+        if(image_xscale &gt;= 5.2) {
             cover = true;
             null = true;
             image_speed = 1;
-            xScale = 4;
-            yScale = 4;
+            xScale = 5;
+            yScale = 5;
         }else {
             image_speed = 0;
             attackTimer++;
@@ -200,8 +204,9 @@ if(!introAnimation &amp;&amp; !audio_is_playing(sndGiratinaCry) &amp;&amp; insta
             } else if(attackTimer &gt; 100 - (80 - hp)*3 + 15 &amp;&amp; attackTimer &lt;= 100 - (80 - hp)*3 + 30) {
                 image_index = 2;
                 if(!createCounter) {
-                    //audio_play_sound(sndGiratinaCry2, 100, false);
-                    audio_play_sound(sndDA, 100, false);
+                    audio_play_sound(sndGiratinaCry2, 100, false);
+                    //audio_play_sound(sndDA, 100, false);
+                    audio_play_sound(sndAAAA, 101, false);
                     audio_play_sound(sndHurt, 100, false);
                     hp -= 1;
                     loseHP = 1;
@@ -223,6 +228,55 @@ if(!introAnimation &amp;&amp; !audio_is_playing(sndGiratinaCry) &amp;&amp; insta
             cover = false;
         }
         
+        
+    }
+    
+    if(hp &gt;= 40 &amp;&amp; hp &lt; 60) {
+        if(!yell[1]) {
+            audio_play_sound(sndGiratinaCry2, 100, false);
+            yell[1] = true;
+            oBlackMist.ed = false;
+        }
+        
+        x = lerp(x, toX, .1);
+        y = lerp(y, toY, .1);
+        
+        if(image_xscale &gt;= 4.2) {
+            cover = true;
+            null = true;
+            image_speed = 1;
+            xScale = 4;
+            yScale = 4;
+        } else { 
+            cover = false;
+            image_speed = 0;
+            attackTimer++;
+            var base = 75 - (60 - hp)*3;
+            if(attackTimer &lt;= base) {
+                image_index = 0;
+            } else if(attackTimer &gt; base &amp;&amp; attackTimer &lt;= base + 15) {
+                image_index = 1;
+            } else if(attackTimer &gt; base + 15 &amp;&amp; attackTimer &lt;= base + 30) {
+                image_index = 2;
+                if(!createCounter) {
+                    audio_play_sound(sndGiratinaCry2, 100, false);
+                    audio_play_sound(sndHurt, 100, false);
+                    hp -= 1;
+                    loseHP = 1;
+                    for(var dir = 0; dir &lt;= 360; dir += 120) {
+                        var ins = instance_create(x + lengthdir_x(60, dir), y + lengthdir_y(60, dir), oNotes);;
+                        ins.direction = dir;
+                        ins.image_angle = dir;
+                    }
+                    createCounter = true;
+                }
+            } else {
+                    toX = objPlayer.x;
+                    toY = objPlayer.y;
+                    createCounter = false;
+                    attackTimer = 0;
+                }
+        }
         
     }
     

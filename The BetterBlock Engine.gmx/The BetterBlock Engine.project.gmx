@@ -1472,6 +1472,7 @@
         <object>objects\oBlackMist</object>
         <object>objects\oIsaac</object>
         <object>objects\oStartFB</object>
+        <object>objects\oNotes</object>
       </objects>
       <object>objects\oRandomTitle</object>
     </objects>
