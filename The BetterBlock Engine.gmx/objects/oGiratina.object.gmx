@@ -300,12 +300,6 @@ if(!introAnimation &amp;&amp; !audio_is_playing(sndGiratinaCry) &amp;&amp; insta
         x = lerp(x, toX, .1);
         y = lerp(y, toY, .1);
         
-        if(loseHP &lt;= 0.05) {
-            image_index = 0;
-        } else {
-            image_index = 4;
-        }
-        
         if(image_xscale &gt;= 3.2) {
             cover = true;
             null = false;
@@ -313,6 +307,11 @@ if(!introAnimation &amp;&amp; !audio_is_playing(sndGiratinaCry) &amp;&amp; insta
             xScale = 3;
             yScale = 3;
         } else {
+            if(loseHP &lt;= 0.05) {
+                image_index = 0;
+            } else {
+                image_index = 4;
+            }
             image_speed = 0;
             cover = false;
             attackTimer++;
