@@ -3,7 +3,7 @@
   <spriteName>sGiratina</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>-8</depth>
+  <depth>1</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -31,6 +31,9 @@ introAnimation = true;
 
 cover = true;
 
+ed = false;
+r = 0;
+
 uTime = shader_get_uniform(shFBTrans, "u_time");
 uTex = shader_get_sampler_index(shFBTrans, "u_tex");
 
@@ -53,10 +56,11 @@ yell[3] = false;
 
 attackTimer = 0;
 createCounter = false;
+rollTimes = 0;
 
 null = false;
 
-hp = 40;//100
+hp = 100;//100
 
 if(global.fb) {
     instance_create(0, 0, oStartFB);
@@ -125,8 +129,12 @@ toY = y;
 loseHP = lerp(loseHP, 0, .1);
 image_xscale = lerp(image_xscale, xScale, .01);
 image_yscale = lerp(image_yscale, yScale, .01);
-
-window_set_position(winPosX + cos(current_time/200)*((100 - hp)/10), winPosY + sin(current_time/200)*((100 - hp)/10));
+r = lerp(r, ed*800, .005);
+if(hp &gt; 0) {
+    window_set_position(winPosX + cos(current_time/200)*((100 - hp)/10), winPosY + sin(current_time/200)*((100 - hp)/10));
+} else {
+    window_set_position(winPosX, winPosY);
+}   
 
 if(introAnimation) {
     speed = .25;
@@ -199,11 +207,11 @@ if(!introAnimation &amp;&amp; !audio_is_playing(sndGiratinaCry) &amp;&amp; insta
         }else {
             image_speed = 0;
             attackTimer++;
-            if(attackTimer &lt;= 100 - (80 - hp)*3){
+            if(attackTimer &lt;= 110 - (80 - hp)*3){
                 image_index = 0;
-            } else if(attackTimer &gt; 100 - (80 - hp)*3 &amp;&amp; attackTimer &lt;= 100 - (80 - hp)*3 + 15) {
+            } else if(attackTimer &gt; 110 - (80 - hp)*3 &amp;&amp; attackTimer &lt;= 110 - (80 - hp)*3 + 15) {
                 image_index = 1;
-            } else if(attackTimer &gt; 100 - (80 - hp)*3 + 15 &amp;&amp; attackTimer &lt;= 100 - (80 - hp)*3 + 30) {
+            } else if(attackTimer &gt; 110 - (80 - hp)*3 + 15 &amp;&amp; attackTimer &lt;= 110 - (80 - hp)*3 + 30) {
                 image_index = 2;
                 if(!createCounter) {
                     audio_play_sound(sndGiratinaCry2, 100, false);
@@ -253,7 +261,7 @@ if(!introAnimation &amp;&amp; !audio_is_playing(sndGiratinaCry) &amp;&amp; insta
             cover = false;
             image_speed = 0;
             attackTimer++;
-            var base = 75 - (60 - hp)*3;
+            var base = 85 - (60 - hp)*3;
             if(attackTimer &lt;= base) {
                 image_index = 0;
             } else if(attackTimer &gt; base &amp;&amp; attackTimer &lt;= base + 15) {
@@ -292,7 +300,11 @@ if(!introAnimation &amp;&amp; !audio_is_playing(sndGiratinaCry) &amp;&amp; insta
         x = lerp(x, toX, .1);
         y = lerp(y, toY, .1);
         
-        image_index = 0;
+        if(loseHP &lt;= 0.05) {
+            image_index = 0;
+        } else {
+            image_index = 4;
+        }
         
         if(image_xscale &gt;= 3.2) {
             cover = true;
@@ -306,7 +318,7 @@ if(!introAnimation &amp;&amp; !audio_is_playing(sndGiratinaCry) &amp;&amp; insta
             attackTimer++;
             x += random_range(-4, 4);
             y += random_range(-4, 4);
-            if(attackTimer &gt;= 35) {
+            if(attackTimer &gt;= 37) {
                 attackTimer = 0;
                 toX = objPlayer.x;
                 toY = objPlayer.y;
@@ -324,6 +336,64 @@ if(!introAnimation &amp;&amp; !audio_is_playing(sndGiratinaCry) &amp;&amp; insta
             yell[3] = true;
         }
         
+        image_angle = sin(current_time/1000)*10;
+        
+        x = lerp(x, room_width/2, .1);
+        y = lerp(y, 240, .1);
+        
+        if(image_xscale &lt;= 5.8) {
+            cover = true;
+            xScale = 6;
+            yScale = 6;
+            image_speed = 1;
+        } else {
+            if(loseHP &lt;= 0.05) {
+                image_index = 0;
+            } else {
+                image_index = 4;
+            }
+            image_speed = 0;
+            cover = false;
+            attackTimer++;
+            if(hp &lt;= 10) {
+                for(var j = 0; j &lt;= 160; j += 40) {
+                    if(attackTimer == j) {
+                        ins = instance_create(x, y, oDA);
+                        ins.direction = point_direction(x, y, objPlayer.x, objPlayer.y);
+                        audio_play_sound(sndAAAA, 100, false);
+                        audio_play_sound(sndGiratinaCry2, 101, false);
+                    }
+                }
+            }
+            for(var i = 0; i &lt;= 90; i += 5) {
+                if(attackTimer == 60 + i) {
+                    instance_create(x, y, oLaserEmit);
+                }
+            }
+            if(attackTimer &gt;= 160) {
+                attackTimer = 0;
+            }
+        }
+        
+    }
+    
+    if(hp &lt; 0) {
+        attackTimer++;
+        
+        if(audio_is_playing(musGiratina)) {
+            audio_stop_sound(musGiratina);
+        }
+        
+        if(attackTimer &gt;= 30 &amp;&amp; rollTimes &lt;= 8) {
+            image_angle = random_range(-45, 45);
+            audio_play_sound(sndGiratinaCry2, 100, false);
+            attackTimer = 0;
+            rollTimes++;
+        }
+        
+        if(rollTimes &gt; 8) {
+            ed = true;
+        }
     }
     
 }
@@ -349,7 +419,7 @@ if(!introAnimation &amp;&amp; !audio_is_playing(sndGiratinaCry) &amp;&amp; insta
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(loseHP &lt;= 0.05 &amp;&amp; alpha &lt;= 0.05 &amp;&amp; !null) {
+            <string>if(loseHP &lt;= 0.05 &amp;&amp; alpha &lt;= 0.25 &amp;&amp; !null) {
     with(other) {
         instance_destroy();
     }
@@ -357,6 +427,29 @@ if(!introAnimation &amp;&amp; !audio_is_playing(sndGiratinaCry) &amp;&amp; insta
     hp -= 0.5;
     loseHP = 1;
 }
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="64">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>draw_circle_colour(x, y, r, c_black, c_black, false);
 </string>
           </argument>
         </arguments>
