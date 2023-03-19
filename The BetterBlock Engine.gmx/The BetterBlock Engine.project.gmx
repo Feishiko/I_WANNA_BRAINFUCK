@@ -473,6 +473,7 @@
       <sprites name="water part eh">
         <sprite>sprites\sSpring2</sprite>
         <sprite>sprites\sSaul</sprite>
+        <sprite>sprites\sSaul3</sprite>
         <sprite>sprites\sSaul2</sprite>
         <sprite>sprites\sIlive</sprite>
         <sprite>sprites\sDZshark</sprite>
@@ -1442,6 +1443,7 @@
       <object>objects\oFeishikoCont</object>
       <object>objects\oNullTitle</object>
       <object>objects\oFastChangeTitle</object>
+      <object>objects\oFastChangeTitle2</object>
       <object>objects\oMathCover</object>
       <object>objects\oTurnWhite</object>
       <object>objects\oBlockMiniWhite</object>

@@ -194,7 +194,7 @@
     <instance objName="objSaveWeird" x="432" y="336" name="inst_FAA6BC7E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeCreatorUp" x="224" y="448" name="inst_9A7FC5F2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBetterSign" x="384" y="256" name="inst_7D5DF552" locked="0" code="Te=&quot;Oh#New#Buff!&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oRandomTitle" x="-96" y="80" name="inst_DFFC18C6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oFastChangeTitle2" x="848" y="80" name="inst_1B3B503D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bgText1" x="656" y="176" w="128" h="64" xo="0" yo="0" id="10004322" name="inst_28F28A2C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

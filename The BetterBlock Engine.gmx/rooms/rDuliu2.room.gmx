@@ -261,7 +261,7 @@
     <instance objName="objBlock" x="224" y="480" name="inst_38CF39DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oShake" x="0" y="0" name="inst_3E062AE6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oAnotherTrg" x="800" y="160" name="inst_22ED6D6C" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
-    <instance objName="oRandomTitle" x="192" y="80" name="inst_C92DC4D8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oFastChangeTitle2" x="192" y="80" name="inst_0038E014" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
