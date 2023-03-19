@@ -667,6 +667,10 @@
     <sprite>sprites\sBald2</sprite>
     <sprite>sprites\sDaodan</sprite>
     <sprite>sprites\sprite378</sprite>
+    <sprite>sprites\sprPlayerJump_SUS</sprite>
+    <sprite>sprites\sprPlayerRunning_SUS</sprite>
+    <sprite>sprites\sprPlayerFall_SUS</sprite>
+    <sprite>sprites\sprPlayerIdle_SUS</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bAllTiles</background>
@@ -1687,6 +1691,7 @@
     <object>objects\oDaodan</object>
     <object>objects\oCloseGame</object>
     <object>objects\oBadGameTeam</object>
+    <object>objects\oSUSplayer</object>
   </objects>
   <rooms name="rooms">
     <rooms name="init">

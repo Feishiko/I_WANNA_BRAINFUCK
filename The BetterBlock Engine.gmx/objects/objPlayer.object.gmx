@@ -189,7 +189,8 @@ alarm[0]=35
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if ((x &lt; 0 || x &gt; room_width || y &lt; 0 || y &gt; room_height) &amp;&amp; global.edgeDeath&amp;&amp;!instance_exists(oScreenWarp))  //check if player has left the room
+            <string>//OMGUY ADD THE SUS
+if ((x &lt; 0 || x &gt; room_width || y &lt; 0 || y &gt; room_height) &amp;&amp; global.edgeDeath&amp;&amp;!instance_exists(oScreenWarp))  //check if player has left the room
     scrKillPlayer();
 
 //update player sprite
@@ -210,12 +211,23 @@ if (global.playerAnimationFix)
             
             if ((L || R) &amp;&amp; !frozen&amp;&amp;stuck=0)
             {
+                        if(!instance_exists(oSUSplayer))
+    {
                 sprite_index = sprPlayerRunning;
+                }
+                else
+                {
+                sprite_index = sprPlayerRunning_SUS
+                }
                 image_speed = 1/2;
             }
             else
             {
+                                    if(!instance_exists(oSUSplayer))
+    {
                 sprite_index = sprPlayerIdle;
+                }
+                else{sprite_index = sprPlayerIdle_SUS}
                 image_speed = 1/5;
             }
         }
@@ -223,12 +235,23 @@ if (global.playerAnimationFix)
         { 
             if ((vspeed * global.grav) &lt; 0)
             {
+                                    if(!instance_exists(oSUSplayer))
+    {
                 sprite_index = sprPlayerJump;
+                }
+                else
+                {sprite_index = sprPlayerJump_SUS
+                }
                 image_speed = 1/2;
             }
             else
             {
+                                    if(!instance_exists(oSUSplayer))
+    {
                 sprite_index = sprPlayerFall;
+                }
+                else
+                {sprite_index = sprPlayerFall_SUS}
                 image_speed = 1/2;
             }
         }
@@ -323,7 +346,8 @@ direct=point_direction(xprevious,yprevious,x,y)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//check left/right button presses
+            <string>//omguy aDD The sus
+//check left/right button presses
 //OMGUY add This
 if(!instance_exists(oKirbyFeet))
 {
@@ -452,8 +476,12 @@ if(!instance_exists(objRollGimmick)&amp;&amp;stuck=0)
                 hspeed = maxSpeed * h;
 }
         }
-        
+            if(!instance_exists(oSUSplayer))
+    {
         sprite_index = sprPlayerRunning;
+        }
+        else
+        {sprite_index = sprPlayerRunning_SUS}
         image_speed = 0.5;
     }
 }
@@ -478,16 +506,33 @@ else if(stuck=0)   //player is not moving
                 hspeed = 0;
         }
     }
-  
+  if(!instance_exists(oSUSplayer))
+  {
     sprite_index = sprPlayerIdle;
+    }
+    else
+    {sprite_index = sprPlayerIdle_SUS}
     image_speed = 0.2;
 }
 
 
 if (!onPlatform)    //check if standing on a platform
 {
-    if((vspeed * global.grav) &lt; -0.05) {sprite_index = sprPlayerJump;}
-    else if((vspeed * global.grav) &gt; 0.05) {sprite_index = sprPlayerFall;}
+    if((vspeed * global.grav) &lt; -0.05) {
+    if(!instance_exists(oSUSplayer))
+    {
+    sprite_index = sprPlayerJump;
+    }
+    else{sprite_index = sprPlayerJump_SUS;}
+    }
+    else if((vspeed * global.grav) &gt; 0.05) {
+      if(!instance_exists(oSUSplayer))
+  {
+    sprite_index = sprPlayerFall;
+    }
+    else
+    {sprite_index = sprPlayerFall_SUS}
+    }
 }
 else
 {
@@ -545,7 +590,14 @@ if (onVineL || onVineR)
             
             vspeed = -9 * global.grav;
             audio_play_sound(sndWallJump,0,false);
+                  if(!instance_exists(oSUSplayer))
+  {
             sprite_index = sprPlayerJump;
+            }
+            else
+            {
+             sprite_index = sprPlayerJump_SUS
+            }
         }
         else    //moving off vine
         {
@@ -553,8 +605,14 @@ if (onVineL || onVineR)
                 hspeed = -3;
             else
                 hspeed = 3;
-            
+                              if(!instance_exists(oSUSplayer))
+  {
             sprite_index = sprPlayerFall;
+            }
+            else
+            {
+            sprite_index = sprPlayerFall_SUS
+            }
         }
     }
 }
