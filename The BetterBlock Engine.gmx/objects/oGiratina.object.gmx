@@ -360,7 +360,7 @@ if(!introAnimation &amp;&amp; !audio_is_playing(sndGiratinaCry) &amp;&amp; insta
                         ins = instance_create(x, y, oDA);
                         ins.direction = point_direction(x, y, objPlayer.x, objPlayer.y);
                         audio_play_sound(sndAAAA, 100, false);
-                        audio_play_sound(sndGiratinaCry2, 101, false);
+                        //audio_play_sound(sndGiratinaCry2, 101, false);
                     }
                 }
             }
