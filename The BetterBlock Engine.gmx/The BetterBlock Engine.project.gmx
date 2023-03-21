@@ -57,6 +57,7 @@
         <sound>sound\sndGiratinaCry</sound>
         <sound>sound\sndGiratinaCry2</sound>
         <sound>sound\sndDragonClaw</sound>
+        <sound>sound\sndBONK</sound>
       </sounds>
       <sounds name="Resofa">
         <sounds name="Cxk">

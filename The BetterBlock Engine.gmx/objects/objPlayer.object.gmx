@@ -1084,6 +1084,11 @@ if(stuck=1)
 {
 scrKillPlayer()
 }
+
+//Feishiko ADD THIS
+if(collision_point(x, y - 20, other, 1, 1)) {
+    audio_play_sound(sndBONK, 10, false);
+}
 </string>
           </argument>
         </arguments>
@@ -1150,6 +1155,12 @@ if(stuck=1)
 {
 scrKillPlayer()
 }
+
+//Feishiko ADD THIS
+if(collision_point(x, y - 20, other, 1, 1)) {
+    audio_play_sound(sndBONK, 10, false);
+}
+
 </string>
           </argument>
         </arguments>
