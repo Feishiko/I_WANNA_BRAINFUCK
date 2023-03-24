@@ -163,6 +163,7 @@
     <instance objName="objGlitchArea" x="576" y="352" name="inst_7455A8D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objResofaSpikeLeft" x="288" y="400" name="inst_F175A9C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objResofaSpikeRight" x="320" y="400" name="inst_6537514F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oNullTitle" x="16" y="432" name="inst_40BCE457" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="btCastleSmallBrick" x="64" y="416" w="32" h="32" xo="96" yo="0" id="10017676" name="inst_D9EFB5BA" depth="2100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

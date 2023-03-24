@@ -49,7 +49,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>audio_play_sound(sndDisappear,0,false)
+            <string>audio_play_sound(sndSaulGuitar,0,false)
 </string>
           </argument>
         </arguments>
