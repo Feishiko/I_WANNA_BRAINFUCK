@@ -157,6 +157,7 @@
         <sound>sound\musComing</sound>
         <sound>sound\musChatting</sound>
         <sound>sound\musGiratina</sound>
+        <sound>sound\musED</sound>
       </sounds>
       <sounds name="Resofa">
         <sound>sound\musCxk</sound>
@@ -524,6 +525,7 @@
       <sprite>sprites\sHiger</sprite>
       <sprite>sprites\sGiratina</sprite>
       <sprite>sprites\sDragonClaw</sprite>
+      <sprite>sprites\sED</sprite>
     </sprites>
     <sprite>sprites\sprite88</sprite>
     <sprite>sprites\sprAchievementMB</sprite>
@@ -1485,6 +1487,7 @@
         <object>objects\oDragonClaw</object>
       </objects>
       <object>objects\oRandomTitle</object>
+      <object>objects\oED</object>
     </objects>
     <objects name="Resofa">
       <objects name="Cxk">
@@ -1813,6 +1816,7 @@
       <room>rooms\rmAscii1</room>
       <room>rooms\rmAscii2</room>
       <room>rooms\rTemplate</room>
+      <room>rooms\rmED</room>
       <rooms name="MathStage">
         <room>rooms\rmMath1</room>
         <room>rooms\rmMath2</room>

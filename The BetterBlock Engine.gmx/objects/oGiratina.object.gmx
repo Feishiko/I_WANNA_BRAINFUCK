@@ -130,6 +130,9 @@ loseHP = lerp(loseHP, 0, .1);
 image_xscale = lerp(image_xscale, xScale, .01);
 image_yscale = lerp(image_yscale, yScale, .01);
 r = lerp(r, ed*800, .005);
+if(r &gt;= 700) {
+    room_goto(rmED);
+}
 if(hp &gt; 0) {
     window_set_position(winPosX + cos(current_time/200)*((100 - hp)/10), winPosY + sin(current_time/200)*((100 - hp)/10));
 } else {

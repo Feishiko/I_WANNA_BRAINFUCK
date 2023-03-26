@@ -1085,7 +1085,7 @@ if(stuck=1)
 scrKillPlayer()
 }
 //Feishiko ADD THIS
-if(collision_point(x, y - 14, other, 1, 1)) {
+if(collision_point(x, y - 14*global.grav, other, 1, 1)) {
     audio_play_sound(sndBONK, 10, false);
 }
 </string>
@@ -1155,7 +1155,7 @@ if(stuck=1)
 scrKillPlayer()
 }
 //Feishiko ADD THIS
-if(collision_point(x, y - 14, other, 1, 1)) {
+if(collision_point(x, y - 14*global.grav, other, 1, 1)) {
     audio_play_sound(sndBONK, 10, false);
 }
 </string>

@@ -123,7 +123,7 @@ xd=0
 yc=608
 yd=608
 ins=instance_create(400-16,304-16,objWarp)
-ins.roomTo=rmIntro
+ins.roomTo=rDizzyA
 }
 </string>
           </argument>

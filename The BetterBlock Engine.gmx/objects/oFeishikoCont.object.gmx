@@ -159,12 +159,14 @@ alarm[0]=2
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(keyboard_check_pressed(vk_pageup)){
+            <string>/*
+if(keyboard_check_pressed(vk_pageup)){
     room_goto_previous();
 }
 if(keyboard_check_pressed(vk_pagedown)){
     room_goto_next();
 }
+*/
 if(instance_exists(oNullTitle))
 {
 global.roomCaptionDef = "ERROR:Unable to find the Room ID"

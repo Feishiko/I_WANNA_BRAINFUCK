@@ -81,7 +81,8 @@ image_speed = 0;
 if(hp &lt;= 0) {
     audio_stop_all();
     audio_play_sound(sndDeath, 100, false);
-    instance_create(room_width/2, 400, oWarpFadeIn);
+    var warp = instance_create(room_width/2, 400, oWarpFadeIn);
+    warp.roomTo = rLift;
     with(oRainCreator) {
         instance_destroy();
     }
