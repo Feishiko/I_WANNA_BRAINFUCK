@@ -3,8 +3,8 @@
   <caption></caption>
   <width>800</width>
   <height>1824</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>16</vsnap>
+  <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
@@ -215,6 +215,15 @@
     <instance objName="objGlitchArea" x="448" y="1216" name="inst_D6B8BE56" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objGlitchArea" x="320" y="1408" name="inst_5FF1AAFC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objGlitchArea" x="512" y="1312" name="inst_82791789" locked="0" code="" scaleX="4" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="objBetterSign" x="288" y="1024" name="inst_87CBCCE5" locked="0" code="Te = &quot;I don't wanna finish it any more&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWarp" x="384" y="80" name="inst_95760AF9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCastlePlatform" x="400" y="832" name="inst_EEFBD6C6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSave" x="384" y="1024" name="inst_1B7D2B17" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveBlocker" x="352" y="1024" name="inst_E5559F4C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSaveBlocker" x="416" y="1024" name="inst_90C56900" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCastlePlatform" x="400" y="672" name="inst_B33D3E37" locked="0" code="a=45&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCastlePlatform" x="400" y="512" name="inst_E720D224" locked="0" code="a=90&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objGlitchArea" x="384" y="112" name="inst_FDA65651" locked="0" code="" scaleX="1" scaleY="11" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="btCastleSmallBrick" x="32" y="1632" w="32" h="32" xo="64" yo="0" id="10019233" name="inst_1C895986" depth="2000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
