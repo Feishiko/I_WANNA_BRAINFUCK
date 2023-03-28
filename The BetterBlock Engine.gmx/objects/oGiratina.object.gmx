@@ -379,7 +379,7 @@ if(!introAnimation &amp;&amp; !audio_is_playing(sndGiratinaCry) &amp;&amp; insta
         
     }
     
-    if(hp &lt; 0) {
+    if(hp &lt;= 0) {
         attackTimer++;
         
         if(audio_is_playing(musGiratina)) {

@@ -173,7 +173,7 @@ for(var i = 0; i &lt;= 24; i++) {
 
 draw_text(room_width/2, room_height/2 + 260 + timer + 25*600, "TEST
 TETE");  
-draw_text(room_width/2, room_height/2 + 260 + timer + 26*600, "MADE FOR FASF2023");    
+draw_text(room_width/2, room_height/2 + 260 + timer + 26*600, "USING BETTERBLOCK ENGINE &amp; GAMEMAKER:STUDIO");    
 texture_set_repeat(true);
 shader_set(shCover);
 draw_text(room_width/2, room_height/2 + 260 + timer + 27*600, "THANKS FOR YOUR PLAYING!"); 
