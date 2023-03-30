@@ -119,7 +119,7 @@ a=2
 else
 {
 instance_create(x-lengthdir_x(125,direction),y-lengthdir_y(125,direction),objCxkFreeTail)
-speed+=0.3
+speed+=0.15
 friction=0
 }
 </string>
