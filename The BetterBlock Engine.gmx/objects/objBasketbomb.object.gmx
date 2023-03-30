@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>objPlayerKiller</parentName>
+  <parentName>self</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -62,11 +62,11 @@ if(c&lt;20)
 instance_create(x,y,objExplode);
 instance_destroy();
 audio_play_sound(sndJi,0,false);
-for(i=0;i&lt;8;i++)
+for(i=0;i&lt;4;i++)
 {
 inste=instance_create(x,y,objCxkBullet);
-inste.direction=360/8*i
-inste.speed=8
+inste.direction=360/4*i
+inste.speed=4
 }
 }
 if(!place_free(x,y+abs(vspeed)+gravity))
