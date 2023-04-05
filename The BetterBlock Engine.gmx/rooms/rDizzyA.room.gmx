@@ -277,7 +277,7 @@
     <instance objName="objMovingPlatform" x="112" y="816" name="inst_4150D870" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objMovingPlatform" x="112" y="1024" name="inst_43427178" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objGravUpNo" x="1200" y="784" name="inst_AFE5A6FC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objWarp" x="1520" y="32" name="inst_6C8C7829" locked="0" code="roomTo = rResofaAA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objWarp" x="1392" y="32" name="inst_6C8C7829" locked="0" code="roomTo = rResofaAA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="btDizzy" x="336" y="288" w="16" h="16" xo="0" yo="0" id="10015981" name="inst_359DCC7E" depth="1920784" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
